@@ -1,0 +1,26 @@
+{
+  "name": "留学Hub选校数据库",
+  "version": "0.4.0",
+  "generated_at": "2026-05-26",
+  "school_count": 59,
+  "program_count": 6072,
+  "regions": [
+    "中国澳门",
+    "中国香港",
+    "新加坡",
+    "新西兰",
+    "澳大利亚",
+    "英国"
+  ],
+  "education_levels": [
+    "postgraduate",
+    "undergraduate"
+  ],
+  "storage": "split-by-school",
+  "indexes": [
+    "programs_index",
+    "program_lookup",
+    "program_filter_indexes",
+    "programs_by_school"
+  ]
+}

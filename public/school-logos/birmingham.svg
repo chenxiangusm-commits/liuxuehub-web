@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="University of Birmingham mark">
+  <rect width="96" height="96" rx="18" fill="#FFFFFF"/>
+  <circle cx="48" cy="48" r="32" fill="#0A4D8F"/>
+  <path d="M32 68V35h21c8 0 13 4 13 10 0 5-3 8-8 10 6 1 10 5 10 11 0 7-6 12-15 12H32Z" fill="#FFFFFF"/>
+  <path d="M42 46h11M42 61h14" stroke="#0A4D8F" stroke-width="6" stroke-linecap="round"/>
+</svg>

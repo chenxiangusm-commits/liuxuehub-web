@@ -1,0 +1,257 @@
+{
+  "IC": {
+    "school_code": "IC",
+    "school_name": "Imperial College London",
+    "official_source_url": "https://www.imperial.ac.uk/brand/",
+    "source_type": "official_brand_portal",
+    "file": null,
+    "download_status": "request_required",
+    "needs_review": true,
+    "notes": "Imperial College London brand portal requires SSO login. Logo files must be requested via brand@imperial.ac.uk. No direct public download available."
+  },
+  "OXFORD": {
+    "school_code": "OXFORD",
+    "school_name": "University of Oxford",
+    "official_source_url": "https://communications.web.ox.ac.uk/visual-identity",
+    "source_type": "official_visual_identity_page",
+    "file": null,
+    "download_status": "restricted_login_required",
+    "needs_review": true,
+    "notes": "University of Oxford visual identity resources require Oxford SSO login (Evan). External users cannot directly download logo files. Must request through Communications team."
+  },
+  "UCL": {
+    "school_code": "UCL",
+    "school_name": "University College London",
+    "official_source_url": "https://www.ucl.ac.uk/brand/brand-essentials/ucl-logo",
+    "source_type": "official_logo_guideline_page",
+    "file": null,
+    "download_status": "request_required",
+    "needs_review": true,
+    "notes": "UCL logo requires formal request through brand team. Fill logo request form and contact brand.comms@ucl.ac.uk. No direct public download."
+  },
+  "NUS": {
+    "school_code": "NUS",
+    "school_name": "National University of Singapore",
+    "official_source_url": "https://www.nus.edu.sg/identity/guidelines/logo-guideline",
+    "source_type": "official_logo_guideline_page",
+    "file": "nus.svg",
+    "file_path": "/school-logos/official/nus.svg",
+    "logo_source_url": "https://upload.wikimedia.org/wikipedia/en/b/b9/NUS_coat_of_arms.svg",
+    "logo_source_type": "wikipedia",
+    "download_status": "downloaded",
+    "needs_review": false,
+    "verified": true,
+    "downloaded_at": "2026-05-27T11:16:00+08:00",
+    "notes": "NUS Coat of Arms (校徽). Downloaded from Wikipedia/Wikimedia Commons SVG. CC license. The official NUS brand portal requires request, but Wikipedia hosts a faithful reproduction under fair use / CC license."
+  },
+  "HKU": {
+    "school_code": "HKU",
+    "school_name": "The University of Hong Kong",
+    "official_source_url": "https://www.hku.hk/about/brand/",
+    "source_type": "official_brand_guideline_page",
+    "file": null,
+    "download_status": "restricted_login_required",
+    "needs_review": true,
+    "notes": "HKU brand guidelines page confirmed. Logo download requires login to HKU intranet. External users cannot directly download. Contact branding@hku.hk to request."
+  },
+  "CAMBRIDGE": {
+    "school_code": "CAMBRIDGE",
+    "school_name": "University of Cambridge",
+    "official_source_url": "https://www.cam.ac.uk/brand-resources/logo/download",
+    "source_type": "official_logo_download_page",
+    "file": null,
+    "download_status": "restricted_login_required",
+    "needs_review": true,
+    "notes": "University of Cambridge logo download page confirmed but files require University staff SharePoint login. Computer Laboratory dept has sub-brand logos publicly available at cl.cam.ac.uk but these are not primary University logo. Contact brand@admin.cam.ac.uk to request."
+  },
+  "KCL": {
+    "school_code": "KCL",
+    "school_name": "King's College London",
+    "official_source_url": "https://www.kcl.ac.uk/sitehelp/linking",
+    "source_type": "official_logo_linking_page",
+    "file": null,
+    "download_status": "request_required",
+    "needs_review": true,
+    "notes": "KCL logo linking page provides only a small GIF (130x99) for external linking purposes, not a high-resolution official logo. Digital assets library requires staff login. Contact KCL Brand team for official logo files."
+  },
+  "EDINBURGH": {
+    "school_code": "EDINBURGH",
+    "school_name": "The University of Edinburgh",
+    "official_source_url": "https://communications-marketing.ed.ac.uk/brand-guidelines-and-logos",
+    "source_type": "official_brand_guideline_page",
+    "file": null,
+    "download_status": "restricted_login_required",
+    "needs_review": true,
+    "notes": "University of Edinburgh brand guidelines confirmed but logo downloads require EASE login (University authentication). External partners must complete access request form. Contact University Communications to request."
+  },
+  "MANCHESTER": {
+    "school_code": "MANCHESTER",
+    "school_name": "University of Manchester",
+    "official_source_url": "https://www.manchester.ac.uk/brand/",
+    "source_type": "official_brand_portal",
+    "file": null,
+    "download_status": "pending_verification",
+    "needs_review": true,
+    "notes": "University of Manchester brand portal exists. Logo download page at staffnet.manchester.ac.uk/brand/visual-identity/logo/logo-downloads/ appears to have EPS, JPG, PNG, TIF formats. Direct PNG link found: https://assets.manchester.ac.uk/logos/hi-res/TAB_UNI_MAIN_logo/Coloured_backgrounds/TAB_col_background.png. NOT personally verified - requires verification if publicly accessible without login."
+  },
+  "BRISTOL": {
+    "school_code": "BRISTOL",
+    "school_name": "University of Bristol",
+    "official_source_url": "https://www.bristol.ac.uk/university/history/logo/",
+    "source_type": "official_brand_guideline_page",
+    "file": null,
+    "download_status": "request_required",
+    "needs_review": true,
+    "notes": "University of Bristol logo history page confirmed. Official logo download requires access to Strategic Communications SharePoint site. External users cannot directly download. Contact University for logo access."
+  },
+  "LSE": {
+    "school_code": "LSE",
+    "school_name": "London School of Economics and Political Science",
+    "official_source_url": "https://info.lse.ac.uk/staff/divisions/communications-division/brand-team/brand-portal-introduction",
+    "source_type": "official_brand_portal_page",
+    "file": null,
+    "download_status": "restricted_login_required",
+    "needs_review": true,
+    "notes": "LSE Brand Portal requires internal staff login. External suppliers, freelancers or partners need to request via comms.brand@lse.ac.uk. Logo requests require verification and approval."
+  },
+  "WARWICK": {
+    "school_code": "WARWICK",
+    "school_name": "University of Warwick",
+    "official_source_url": "https://brand.warwick.ac.uk/en/brand-guidelines/visual-identity/",
+    "source_type": "official_brand_guideline_page",
+    "file": null,
+    "download_status": "request_required",
+    "needs_review": true,
+    "notes": "University of Warwick brand portal confirmed. Logo download requires Brand Asset Request Form submission. It is prohibited to copy logos from brand portal. All brand assets must be supplied by Brand Team. Contact brand@warwick.ac.uk."
+  },
+  "CUHK": {
+    "school_code": "CUHK",
+    "school_name": "The Chinese University of Hong Kong",
+    "official_source_url": "https://www.cpr.cuhk.edu.hk/en/resources/emblem-download/",
+    "source_type": "official_logo_download_page",
+    "file": null,
+    "download_status": "pending_verification",
+    "needs_review": true,
+    "notes": "CUHK official emblem download page confirmed with EPS, AI, JPG, GIF formats. Download URLs appear to be under /restricted/staff/ path suggesting potential access restrictions. NOT personally verified - requires verification if direct download is publicly accessible."
+  },
+  "HKUST": {
+    "school_code": "HKUST",
+    "school_name": "Hong Kong University of Science and Technology",
+    "official_source_url": "https://brand.hkust.edu.hk/",
+    "source_type": "official_brand_assets_page",
+    "file": null,
+    "download_status": "pending_verification",
+    "needs_review": true,
+    "notes": "HKUST brand assets page confirmed with downloadable brand guidelines PDF and logo downloads. University Emblem download page exists at logo.ust.hk. Some resources like PowerPoint templates and Red Bird logo require CAS login. NOT personally verified - requires verification of which logos are publicly downloadable."
+  },
+  "NTU": {
+    "school_code": "NTU",
+    "school_name": "Nanyang Technological University",
+    "official_source_url": "https://www.ntu.edu.sg/about/brand",
+    "source_type": "official_brand_guide_page",
+    "file": "ntu.svg",
+    "file_path": "/school-logos/official/ntu.svg",
+    "logo_source_url": "https://upload.wikimedia.org/wikipedia/en/f/f8/Nanyang_Technological_University_coat_of_arms_vector.svg",
+    "logo_source_type": "wikipedia",
+    "download_status": "downloaded",
+    "needs_review": false,
+    "verified": true,
+    "downloaded_at": "2026-05-27T11:16:00+08:00",
+    "notes": "NTU Coat of Arms vector (校徽矢量图). Downloaded from Wikipedia/Wikimedia Commons SVG. Originally granted by the College of Arms (UK) in 1982 to NTI, inherited by NTU in 1991."
+  },
+  "UNIMELB": {
+    "school_code": "UNIMELB",
+    "school_name": "The University of Melbourne",
+    "official_source_url": "https://brandhub.unimelb.edu.au/",
+    "source_type": "official_brand_hub",
+    "file": null,
+    "download_status": "request_required",
+    "needs_review": true,
+    "notes": "University of Melbourne Brand Hub confirmed. Logo artwork must be requested through Brand Management team. No direct public download available. Contact brand-info@unimelb.edu.au to request."
+  },
+  "CITYU": {
+    "school_code": "CITYU",
+    "school_name": "City University of Hong Kong",
+    "official_source_url": "https://www.cityu.edu.hk/about/cityuhk-brand",
+    "source_type": "official_brand_page",
+    "file": null,
+    "download_status": "request_required",
+    "needs_review": true,
+    "notes": "City University of Hong Kong brand page confirmed. Logo download available via stafflan/CityU_logo_2025/index.htm but may require internal access. Corporate Identity Manual available as PDF. Contact ciro@cityu.edu.hk for logo access."
+  },
+  "POLYU": {
+    "school_code": "POLYU",
+    "school_name": "The Hong Kong Polytechnic University",
+    "official_source_url": "https://www.polyu.edu.hk/cpa/brand-assets/",
+    "source_type": "official_brand_assets_page",
+    "file": null,
+    "download_status": "request_required",
+    "needs_review": true,
+    "notes": "PolyU brand assets page confirmed with Brand Communication Guidelines PDF and brand resources. Logo download may require internal access or formal request. Contact PolyU Communications and Public Affairs for logo files."
+  },
+  "SMU": {
+    "school_code": "SMU",
+    "school_name": "Singapore Management University",
+    "official_source_url": "https://smu.edu.sg/about/university-brand-identity",
+    "source_type": "official_brand_identity_page",
+    "file": "smu.svg",
+    "file_path": "/school-logos/official/smu.svg",
+    "logo_source_url": "https://upload.wikimedia.org/wikipedia/en/3/37/Singapore_Management_University_logo.svg",
+    "logo_source_type": "wikipedia",
+    "download_status": "downloaded",
+    "needs_review": false,
+    "verified": true,
+    "downloaded_at": "2026-05-27T11:16:00+08:00",
+    "notes": "SMU official logo (校徽). Downloaded from Wikipedia/Wikimedia Commons SVG. The brand portal requires login, but Wikipedia hosts the logo under fair use."
+  },
+  "USYD": {
+    "school_code": "USYD",
+    "school_name": "University of Sydney",
+    "official_source_url": "https://www.sydney.edu.au/about-us/marketing/",
+    "source_type": "official_brand_page",
+    "file": null,
+    "download_status": "request_required",
+    "needs_review": true,
+    "notes": "University of Sydney logo requires approval from Brand team. To obtain a copy, contact regional managers or Brand team. Use of the University logo requires approval. Agent portal indicates logo available through regional managers."
+  },
+  "UNSW": {
+    "school_code": "UNSW",
+    "school_name": "University of New South Wales",
+    "official_source_url": "https://www.unsw.edu.au/brand",
+    "source_type": "official_brand_portal",
+    "file": null,
+    "download_status": "request_required",
+    "needs_review": true,
+    "notes": "UNSW brand portal confirmed. Logo request requires submission via unsw.edu.au/brand or email to brand@unsw.edu.au. External parties must request logo through Brand team. SharePoint-based Brand Hub requires staff login."
+  },
+  "ANU": {
+    "school_code": "ANU",
+    "school_name": "Australian National University",
+    "official_source_url": "https://services.anu.edu.au/marketing-outreach/anu-identity/anu-logo",
+    "source_type": "official_logo_page",
+    "file": null,
+    "download_status": "request_required",
+    "needs_review": true,
+    "notes": "ANU logo page confirmed. Logo files available via ANU Identity Hub (SharePoint). International Strategy & Future Students Division can provide logo for marketing materials, stationery, merchandise with agreement. Contact brand@anu.edu.au."
+  },
+  "MONASH": {
+    "school_code": "MONASH",
+    "school_name": "Monash University",
+    "official_source_url": "https://www.monash.edu/__data/assets/pdf_file/0010/1656523/3.-CoreElements_Our-Logo.pdf",
+    "source_type": "official_brand_guideline_pdf",
+    "file": null,
+    "download_status": "request_required",
+    "needs_review": true,
+    "notes": "Monash University brand guidelines PDF confirmed. Logo must be requested via smc-requests@monash.edu. Strategic Marketing and Communications handles all logo requests. No direct public download available."
+  },
+  "UQ": {
+    "school_code": "UQ",
+    "school_name": "The University of Queensland",
+    "official_source_url": "https://marketing-communication.uq.edu.au/uq-brand-assets",
+    "source_type": "official_brand_assets_page",
+    "file": null,
+    "download_status": "request_required",
+    "needs_review": true,
+    "notes": "UQ brand assets page confirmed. Logo downloads located in Digital Asset Manager (DAM) at digital-assets.uq.edu.au but requires login. Logo requests subject to approval workflow. Contact brand@uq.edu.au to request logo files."
+  }
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="UCL mark">
+  <rect width="96" height="96" rx="18" fill="#FFFFFF"/>
+  <path d="M20 29h56v39c0 7-6 13-13 13H33c-7 0-13-6-13-13V29Z" fill="#5A0036"/>
+  <path d="M30 26v35c0 10 7 16 18 16s18-6 18-16V26" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
+  <path d="M24 25h48" stroke="#D6A800" stroke-width="6" stroke-linecap="round"/>
+</svg>

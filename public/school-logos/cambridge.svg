@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="University of Cambridge mark">
+  <rect width="96" height="96" rx="18" fill="#FFFFFF"/>
+  <path d="M24 18h48v44c0 11-10 20-24 26-14-6-24-15-24-26V18Z" fill="#A3C1AD"/>
+  <path d="M24 18h24v70M48 18h24" stroke="#D71920" stroke-width="7"/>
+  <path d="M34 34h28M34 48h28M34 62h28" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+</svg>

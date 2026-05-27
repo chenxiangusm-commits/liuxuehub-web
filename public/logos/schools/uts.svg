@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="University of Technology Sydney mark">
+  <rect width="96" height="96" rx="18" fill="#FFFFFF"/>
+  <rect x="20" y="24" width="56" height="48" rx="8" fill="#111827"/>
+  <path d="M31 35v18c0 9 6 15 17 15s17-6 17-15V35" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+  <path d="M31 30h34" stroke="#E31B23" stroke-width="6" stroke-linecap="round"/>
+</svg>

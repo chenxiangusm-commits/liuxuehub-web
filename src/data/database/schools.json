@@ -1,0 +1,1689 @@
+[
+  {
+    "school_code": "IC",
+    "school_name": "帝国理工学院",
+    "school_name_en": "Imperial College London",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 2,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 55,
+      "total": 55
+    },
+    "total_programs": 55,
+    "last_updated": "2026-05-24",
+    "data_source": [
+      "https://www.imperial.ac.uk/study/courses/",
+      "https://www.imperial.ac.uk/study/apply/english-language/",
+      "https://www.imperial.ac.uk/business-school/programmes/",
+      "https://www.imperial.ac.uk/engineering/departments/electrical-engineering/study/postgraduate/"
+    ],
+    "source_file": "schools_postgraduate/imperial_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/imperial_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "OXFORD",
+    "school_name": "牛津大学",
+    "school_name_en": "University of Oxford",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 4,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 60,
+      "total": 60
+    },
+    "total_programs": 60,
+    "last_updated": "2026-05-24",
+    "data_source": [
+      "https://www.ox.ac.uk/admissions/graduate/courses"
+    ],
+    "source_file": "schools_postgraduate/oxford_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/oxford_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "CAMBRIDGE",
+    "school_name": "剑桥大学",
+    "school_name_en": "University of Cambridge",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 6,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 78,
+      "total": 78
+    },
+    "total_programs": 78,
+    "last_updated": "2026-05-24",
+    "data_source": [
+      "https://www.postgraduate.study.cam.ac.uk/courses"
+    ],
+    "source_file": "schools_postgraduate/cambridge_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/cambridge_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "NUS",
+    "school_name": "新加坡国立大学",
+    "school_name_en": "National University of Singapore",
+    "region_cn": "新加坡",
+    "region_en": "Singapore",
+    "qs_ranking_2026": 8,
+    "education_levels": [
+      "postgraduate",
+      "undergraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 56,
+      "postgraduate": 106,
+      "total": 162
+    },
+    "total_programs": 162,
+    "last_updated": "2026-05-22",
+    "data_source": "https://www.nus.edu.sg/oam/undergraduate-programmes (NUS????????), https://www.nus.edu.sg/oam/docs/default-source/nus-publications/intlprospectus.pdf (NUS AY2026/2027????????), https://www.nus.edu.sg/registrar/docs/default-source/administrative-policies-procedures/ugtuitioncurrent.pdf (NUS??AY2026/2027?????), https://www.topuniversities.com/universities/national-university-singapore-nus (QS World University Rankings 2026)",
+    "source_file": "schools_postgraduate/nus_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/nus_postgraduate_data.json",
+      "schools_undergraduate/nus_undergraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "UCL",
+    "school_name": "伦敦大学学院",
+    "school_name_en": "University College London",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 9,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 83,
+      "total": 83
+    },
+    "total_programs": 83,
+    "last_updated": "2026-05-24",
+    "data_source": [
+      "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees",
+      "https://www.ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2026-2027/postgraduate-taught-fees-2026-2027"
+    ],
+    "source_file": "schools_postgraduate/ucl_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/ucl_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "HKU",
+    "school_name": "香港大学",
+    "school_name_en": "The University of Hong Kong",
+    "region_cn": "中国香港",
+    "region_en": "Hong Kong SAR",
+    "qs_ranking_2026": 11,
+    "education_levels": [
+      "postgraduate",
+      "undergraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 123,
+      "postgraduate": 155,
+      "total": 278
+    },
+    "total_programs": 278,
+    "last_updated": "2026-05-21",
+    "data_source": [
+      "https://admissions.hku.hk/zh-hans/programmes/undergraduate-programmes",
+      "https://admissions.hku.hk/zh-hans/apply/mainland",
+      "https://admissions.hku.hk/zh-hans/fees-and-scholarships/fees"
+    ],
+    "source_file": "HKU_Taught_Postgraduate_Database.json",
+    "source_files": [
+      "HKU_Taught_Postgraduate_Database.json",
+      "schools_undergraduate/hku_undergraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "NTU",
+    "school_name": "南洋理工大学",
+    "school_name_en": "Nanyang Technological University",
+    "region_cn": "新加坡",
+    "region_en": "Singapore",
+    "qs_ranking_2026": 15,
+    "education_levels": [
+      "postgraduate",
+      "undergraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 42,
+      "postgraduate": 55,
+      "total": 97
+    },
+    "total_programs": 97,
+    "last_updated": "2026-05-22",
+    "data_source": "https://www.ntu.edu.sg/education/degree-programmes (官方本科课程完整列表), https://www.ntu.edu.sg/admissions/undergraduate/financial-matters/tuition-fees/accepted-programme-offer-in-2026 (2026入学国际学生学费官方标准), https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/international/app_chinese.pdf (NTU官方中国高考生入学指南PDF), https://www.sohu.com/a/943886310_121124324 (2026中国高考生入学简章全文), https://www.libertify.com/universities/ntu-singapore-undergraduate-programmes-guide/ (本科课程详细说明)",
+    "source_file": "schools_postgraduate/ntu_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/ntu_postgraduate_data.json",
+      "schools_undergraduate/ntu_undergraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "UNIMELB",
+    "school_name": "墨尔本大学",
+    "school_name_en": "University of Melbourne",
+    "region_cn": "澳大利亚",
+    "region_en": "Australia",
+    "qs_ranking_2026": 19,
+    "education_levels": [
+      "postgraduate",
+      "undergraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 9,
+      "postgraduate": 114,
+      "total": 123
+    },
+    "total_programs": 123,
+    "last_updated": "2026-05-23",
+    "data_source": [
+      "https://search.studyaustralia.gov.au/ - Study Australia政府官方课程平台（312门课程分32页抓取）",
+      "https://collegedunia.com/australia/university/609-university-of-melbourne-melbourne/programs - Collegedunia第三方交叉验证",
+      "https://study.unimelb.edu.au/find/courses/ - UniMelb官方课程搜索",
+      "https://study.unimelb.edu.au/study-with-us/graduate-courses - UniMelb研究生课程页面"
+    ],
+    "source_file": "schools_postgraduate/unimelb_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/unimelb_postgraduate_data.json",
+      "schools_undergraduate/unimelb_undergraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "UNSW",
+    "school_name": "新南威尔士大学",
+    "school_name_en": "UNSW Sydney",
+    "region_cn": "澳大利亚",
+    "region_en": "Australia",
+    "qs_ranking_2026": 20,
+    "education_levels": [
+      "postgraduate",
+      "undergraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 81,
+      "postgraduate": 78,
+      "total": 159
+    },
+    "total_programs": 159,
+    "last_updated": "2026-05-23",
+    "data_source": "UNSW International Tuition Fees 2026; UNSW English Language Requirements 2026; UniEnrol; Collegedunia; StudyAustralia; Official UNSW Degree Finder & Faculty Pages",
+    "source_file": "schools_postgraduate/unsw_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/unsw_postgraduate_data.json",
+      "schools_undergraduate/unsw_undergraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "USYD",
+    "school_name": "悉尼大学",
+    "school_name_en": "University of Sydney",
+    "region_cn": "澳大利亚",
+    "region_en": "Australia",
+    "qs_ranking_2026": 25,
+    "education_levels": [
+      "postgraduate",
+      "undergraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 57,
+      "postgraduate": 90,
+      "total": 147
+    },
+    "total_programs": 147,
+    "last_updated": "2026-05-23",
+    "data_source": [
+      "https://www.sydney.edu.au/courses/search.html (USYD官方课程搜索)",
+      "https://www.sydney.edu.au/study/fees-and-loans/international-student-tuition-fees.html (USYD国际学生学费)",
+      "https://www.sydney.edu.au/study/applying/how-to-apply/international-students/english-language-requirements.html (USYD英语要求)",
+      "https://articles.unienrol.com/university-of-sydney-fees-courses/ (UniEnrol课程与费用交叉验证)",
+      "https://collegedunia.com/australia/university/620-the-university-of-sydney-sydney/programs (Collegedunia交叉验证)",
+      "各大院系官网课程页面"
+    ],
+    "source_file": "schools_postgraduate/usyd_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/usyd_postgraduate_data.json",
+      "schools_undergraduate/usyd_undergraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "KCL",
+    "school_name": "伦敦国王学院",
+    "school_name_en": "King's College London",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 31,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 87,
+      "total": 87
+    },
+    "total_programs": 87,
+    "last_updated": "2026-05-24",
+    "data_source": [
+      "https://www.kcl.ac.uk/study/postgraduate-taught",
+      "https://www.kcl.ac.uk/study/postgraduate-taught/postgraduate-taught-courses-a-z",
+      "https://www.kcl.ac.uk/study-legacy/postgraduate/apply/entry-requirements/international"
+    ],
+    "source_file": "schools_postgraduate/kcl_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/kcl_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "ANU",
+    "school_name": "澳大利亚国立大学",
+    "school_name_en": "Australian National University",
+    "region_cn": "澳大利亚",
+    "region_en": "Australia",
+    "qs_ranking_2026": 32,
+    "education_levels": [
+      "postgraduate",
+      "undergraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 47,
+      "postgraduate": 61,
+      "total": 108
+    },
+    "total_programs": 108,
+    "last_updated": "2026-05-23",
+    "data_source": [
+      "https://programsandcourses.anu.edu.au/ - ANU Programs & Courses（官方课程数据库）",
+      "https://study.anu.edu.au/ - ANU Study（国际学生页面）",
+      "https://search.studyaustralia.gov.au/ - Study Australia（政府官方辅助验证）",
+      "https://collegedunia.com/australia/university/597-australian-national-university-canberra/programs - 第三方交叉验证"
+    ],
+    "source_file": "schools_postgraduate/anu_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/anu_postgraduate_data.json",
+      "schools_undergraduate/anu_undergraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "EDINBURGH",
+    "school_name": "爱丁堡大学",
+    "school_name_en": "University of Edinburgh",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 34,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 89,
+      "total": 89
+    },
+    "total_programs": 89,
+    "last_updated": "2026-05-24",
+    "data_source": [
+      "https://study.ed.ac.uk/programmes",
+      "https://www.ed.ac.uk/studying/international/postgraduate-entry/asia/china",
+      "https://www.ed.ac.uk/english-language-requirements"
+    ],
+    "source_file": "schools_postgraduate/edinburgh_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/edinburgh_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "MANCHESTER",
+    "school_name": "曼彻斯特大学",
+    "school_name_en": "University of Manchester",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 35,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 88,
+      "total": 88
+    },
+    "total_programs": 88,
+    "last_updated": "2026-05-24",
+    "data_source": [
+      "https://www.manchester.ac.uk/study/masters/courses/list/",
+      "学校官网课程页或公开课程数据交叉核验，详情以学校官网为准"
+    ],
+    "source_file": "schools_postgraduate/manchester_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/manchester_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "MONASH",
+    "school_name": "蒙纳士大学",
+    "school_name_en": "Monash University",
+    "region_cn": "澳大利亚",
+    "region_en": "Australia",
+    "qs_ranking_2026": 36,
+    "education_levels": [
+      "postgraduate",
+      "undergraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 95,
+      "postgraduate": 88,
+      "total": 183
+    },
+    "total_programs": 183,
+    "last_updated": "2026-05-23",
+    "data_source": "Monash University官网、UniEnrol、Collegedunia、StudyAustralia、CRICOS",
+    "source_file": "schools_postgraduate/monash_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/monash_postgraduate_data.json",
+      "schools_undergraduate/monash_undergraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "UQ",
+    "school_name": "昆士兰大学",
+    "school_name_en": "The University of Queensland",
+    "region_cn": "澳大利亚",
+    "region_en": "Australia",
+    "qs_ranking_2026": 42,
+    "education_levels": [
+      "postgraduate",
+      "undergraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 131,
+      "postgraduate": 81,
+      "total": 212
+    },
+    "total_programs": 212,
+    "last_updated": "2026-05-22",
+    "data_source": "UQ官网study.uq.edu.au课程搜索页面、Study Australia课程数据库、Uni Enrol 2026国际学生学费、IELTS Material英语要求汇总、UQ英语语言要求政策页面",
+    "source_file": "schools_postgraduate/uq_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/uq_postgraduate_data.json",
+      "schools_undergraduate/uq_undergraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "CUHK",
+    "school_name": "香港中文大学",
+    "school_name_en": "The Chinese University of Hong Kong",
+    "region_cn": "中国香港",
+    "region_en": "Hong Kong SAR",
+    "qs_ranking_2026": 47,
+    "education_levels": [
+      "postgraduate",
+      "undergraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 86,
+      "postgraduate": 115,
+      "total": 201
+    },
+    "total_programs": 201,
+    "last_updated": "2026-05-21",
+    "data_source": [
+      "https://admission.cuhk.edu.hk/sc/programmes/list/",
+      "https://admission.cuhk.edu.hk/sc/application/mainland-gaokao/",
+      "https://admission.cuhk.edu.hk/sc/application/mainland-gaokao/list/",
+      "https://admission.cuhk.edu.hk/sc/application/mainland-gaokao/regulation/",
+      "https://admission.cuhk.edu.hk/sc/fees-financing-your-studies/fees/"
+    ],
+    "source_file": "CUHK_Taught_Postgraduate_Database.json",
+    "source_files": [
+      "CUHK_Taught_Postgraduate_Database.json",
+      "schools_undergraduate/cuhk_undergraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "HKUST",
+    "school_name": "香港科技大学",
+    "school_name_en": "The Hong Kong University of Science and Technology",
+    "region_cn": "中国香港",
+    "region_en": "Hong Kong SAR",
+    "qs_ranking_2026": 47,
+    "education_levels": [
+      "postgraduate",
+      "undergraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 49,
+      "postgraduate": 46,
+      "total": 95
+    },
+    "total_programs": 95,
+    "last_updated": "2026-05-21",
+    "data_source": [
+      "https://join.hkust.edu.hk/zh-hans/our-programs",
+      "https://join.hkust.edu.hk/our-programs",
+      "https://join.hkust.edu.hk/zh-hans/admissions/gaokao",
+      "https://join.hkust.edu.hk/zh-hans/fees-and-scholarships"
+    ],
+    "source_file": "HKUST_Taught_Postgraduate_Database.json",
+    "source_files": [
+      "HKUST_Taught_Postgraduate_Database.json",
+      "schools_undergraduate/hkust_undergraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "BRISTOL",
+    "school_name": "布里斯托大学",
+    "school_name_en": "University of Bristol",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 51,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 118,
+      "total": 118
+    },
+    "total_programs": 118,
+    "last_updated": "2026-05-24",
+    "data_source": [
+      "https://www.bristol.ac.uk/study/postgraduate/taught/msc-computer-science-conversion/",
+      "https://www.bristol.ac.uk/study/postgraduate/taught/msc-finance-and-investment/",
+      "https://www.bristol.ac.uk/study/postgraduate/taught/msc-management/",
+      "https://www.bristol.ac.uk/study/postgraduate/taught/msc-data-science/",
+      "https://www.bristol.ac.uk/study/postgraduate/taught/llm-law---general-legal-studies/"
+    ],
+    "source_file": "schools_postgraduate/bristol_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/bristol_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "LSE",
+    "school_name": "伦敦政治经济学院",
+    "school_name_en": "London School of Economics and Political Science",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 56,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 51,
+      "total": 51
+    },
+    "total_programs": 51,
+    "last_updated": "2026-05-24",
+    "data_source": [
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-urbanisation-and-development",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-gender",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-econometrics-and-mathematical-economics",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-international-migration-and-public-policy",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-sociology",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-financial-mathematics",
+      "https://www.lse.ac.uk/study-at-lse/Graduate/Prospective-students/Entry-requirements/English-language-requirements",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-global-health-policy",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-data-science",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-development-management-applied-development-economics",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-finance-and-private-equity",
+      "https://www.lse.ac.uk/study-at-lse/graduate/llm",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-political-science-political-science-and-political-economy",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-finance-full-time",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-anthropology-and-development",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-inequalities-and-social-science",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-accounting-organisations-and-institutions",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-political-theory",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-health-and-international-development",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-finance-and-economics",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-economic-history",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-international-relations",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-applied-social-data-science",
+      "https://www.lse.ac.uk/study-at-lse/graduate/master-of-public-administration",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-operations-research-and-analytics",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-accounting-and-finance",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-human-rights",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-statistics",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-media-and-communications",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-accounting-and-data-analytics",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-social-anthropology",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-international-relations-research",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-international-social-and-public-policy",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-international-political-economy",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-economy-and-society",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-international-political-economy-research",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-management-and-strategy",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-environmental-economics-and-climate-change",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-behavioural-science",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-european-and-international-politics-and-policy",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-economics-two-year-programme",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-real-estate-economics-and-finance",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-management-information-systems-and-digital-innovation",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-development-studies",
+      "https://www.lse.ac.uk/study-at-lse/graduate/masters-in-management",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-law-and-finance",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-marketing",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-economics",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-finance-and-risk",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-financial-history",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-china-in-comparative-perspective",
+      "https://www.lse.ac.uk/study-at-lse/graduate/msc-human-resources-and-organisations"
+    ],
+    "source_file": "schools_postgraduate/lse_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/lse_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "PolyU",
+    "school_name": "香港理工大学",
+    "school_name_en": "The Hong Kong Polytechnic University",
+    "region_cn": "中国香港",
+    "region_en": "Hong Kong SAR",
+    "qs_ranking_2026": 57,
+    "education_levels": [
+      "postgraduate",
+      "undergraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 46,
+      "postgraduate": 94,
+      "total": 140
+    },
+    "total_programs": 140,
+    "last_updated": "2026-05-21",
+    "data_source": [
+      "https://www.polyu.edu.hk/study/ug/admissions/jee/entrance-requirements-summary",
+      "https://www.polyu.edu.hk/study/ug/programmes/find-your-programmes",
+      "https://www.polyu.edu.hk/study/ug/fees-and-scholarships/fees",
+      "https://www.eic.org.cn/news/detail/97ce10bff88d4485b661314f6b770088"
+    ],
+    "source_file": "polyu_data.json",
+    "source_files": [
+      "polyu_data.json",
+      "schools_undergraduate/polyu_undergraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "CityU",
+    "school_name": "香港城市大学",
+    "school_name_en": "City University of Hong Kong",
+    "region_cn": "中国香港",
+    "region_en": "Hong Kong SAR",
+    "qs_ranking_2026": 62,
+    "education_levels": [
+      "postgraduate",
+      "undergraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 55,
+      "postgraduate": 59,
+      "total": 114
+    },
+    "total_programs": 114,
+    "last_updated": "2026-05-21",
+    "data_source": [
+      "https://www.studyinhongkong.edu.hk/programme-list/list/en/city-university-of-hong-kong.html",
+      "https://www.cityu.edu.hk/admo/programmes",
+      "https://www.sohu.com/a/1009960405_159175"
+    ],
+    "source_file": "cityu_data.json",
+    "source_files": [
+      "cityu_data.json",
+      "schools_undergraduate/cityu_undergraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "AUCKLAND",
+    "school_name": "奥克兰大学",
+    "school_name_en": "University of Auckland",
+    "region_cn": "新西兰",
+    "region_en": "New Zealand",
+    "qs_ranking_2026": 65,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 97,
+      "total": 97
+    },
+    "total_programs": 97,
+    "last_updated": "2026-05-24",
+    "data_source": [
+      "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option.html",
+      "https://www.auckland.ac.nz/en/study/fees-and-money-matters/tuition-fees/international-student-fees/postgraduate-international-fees.html",
+      "https://www.auckland.ac.nz/en/study/applications-and-admissions/entry-requirements/postgraduate-entry-requirements/postgraduate-english-language-requirements.html"
+    ],
+    "source_file": "schools_postgraduate/auckland_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/auckland_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "WARWICK",
+    "school_name": "华威大学",
+    "school_name_en": "University of Warwick",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 74,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 112,
+      "total": 112
+    },
+    "total_programs": 112,
+    "last_updated": "2026-05-24",
+    "data_source": [
+      "https://warwick.ac.uk/study/postgraduate/courses/",
+      "https://www.wbs.ac.uk/courses/masters/",
+      "https://warwick.ac.uk/fac/sci/wmg/"
+    ],
+    "source_file": "schools_postgraduate/warwick_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/warwick_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "BIRMINGHAM",
+    "school_name": "伯明翰大学",
+    "school_name_en": "University of Birmingham",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 76,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 92,
+      "total": 92
+    },
+    "total_programs": 92,
+    "last_updated": "2026-05-24",
+    "data_source": [
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/computer-science-and-data-science-courses/computer-science-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/computer-science-and-data-science-courses/data-science-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/business-and-management-courses/mba",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/accounting-and-finance-courses/financial-management-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/business-and-management-courses/management-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/accounting-and-finance-courses/accounting-and-finance-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/accounting-and-finance-courses/financial-economics-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/computer-science-and-data-science-courses/advanced-computer-science-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/computer-science-and-data-science-courses/cyber-security-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/computer-science-and-data-science-courses/artificial-intelligence-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/computer-science-and-data-science-courses/artificial-intelligence-machine-learning-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/computer-science-and-data-science-courses/human-computer-interaction-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/marketing-courses/marketing-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/marketing-courses/strategic-marketing-and-consulting-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/mathematics-courses/financial-data-science-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/business-and-management-courses/public-management-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/business-and-management-courses/public-administration-mpa",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/law-courses/commercial-law-llm",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/law-courses/general-law-llm",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/law-courses/commercial-banking-and-finance-law-llm",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/law-courses/criminal-law-and-criminal-justice-llm",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/law-courses/environmental-social-and-governance-law-and-policy-llm",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/law-courses/energy-and-environmental-law-online-llm",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/mathematics-courses/financial-engineering-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/mathematics-courses/mathematical-finance-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/mathematics-courses/applied-mathematics-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/mathematics-courses/statistical-data-science-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/engineering-management-courses/advanced-engineering-management-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/engineering-management-courses/advanced-engineering-management-artificial-intelligence-ai-automation",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/engineering-management-courses/advanced-engineering-management-construction-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/engineering-management-courses/advanced-engineering-management-operations-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/engineering-management-courses/advanced-engineering-management-project-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/engineering-management-courses/advanced-engineering-management-systems-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/civil-engineering-courses/civil-engineering-management-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/engineering-management-courses/industrial-project-management-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/social-policy-and-social-work-courses/social-policy-ma",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/social-policy-and-social-work-courses/sociology-ma",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/social-policy-and-social-work-courses/global-criminology-and-criminal-justice-ma",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/social-policy-and-social-work-courses/social-work-ma",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/social-policy-and-social-work-courses/mapgdip-global-public-policy",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/politics-development-and-international-relations-courses/politics-ma",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/politics-development-and-international-relations-courses/international-relations-ma",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/politics-development-and-international-relations-courses/international-political-economy-ma",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/politics-development-and-international-relations-courses/international-security-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/politics-development-and-international-relations-courses/global-conflict-and-cooperation-ma",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/politics-development-and-international-relations-courses/international-development-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/psychology-courses/psychology-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/psychology-courses/psychology-conversion-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/psychology-courses/cognitive-neuroimaging-and-data-science-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/psychology-courses/developmental-science-and-neurodiversity-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/psychology-courses/mental-health-youth-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/english-language-and-linguistics-courses/applied-linguistics-ma",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/english-language-and-linguistics-courses/applied-linguistics-with-tesol-ma",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/english-language-and-linguistics-courses/teaching-english-to-speakers-of-other-languages-tesol-ma",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/english-language-and-linguistics-courses/digital-media-and-communications-ma",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/english-language-and-linguistics-courses/digital-media-and-creative-industries-ma",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/english-language-and-linguistics-courses/language-culture-and-communication-ma",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/history-and-heritage-courses/history-global-history-ma",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/history-and-heritage-courses/history-medieval-and-early-modern-history-ma",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/history-and-heritage-courses/history-modern-and-contemporary-history-ma",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/history-and-heritage-courses/international-heritage-management-ma",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/film-studies-courses/film-and-television-industries-and-cultures-ma",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/film-studies-courses/film-and-television-research-and-production-ma",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/music-courses/music-with-performance-performance-pathway-ma",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/music-courses/music-composition-pathway-ma",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/music-courses/music-musicology-and-sound-studies-pathway-ma",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/sport-and-exercise-sciences-courses/high-performance-sport-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/sport-and-exercise-sciences-courses/sport-data-science-and-ai-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/sport-and-exercise-sciences-courses/clinical-exercise-physiology-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/sport-and-exercise-sciences-courses/sport-business-management-and-leadership-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/biosciences-courses/microbiology-and-infection-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/biosciences-courses/molecular-biotechnology-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/biosciences-courses/toxicology-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/chemical-engineering-courses/advanced-chemical-engineering-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/mechanical-engineering-courses/advanced-mechanical-engineering-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/mechanical-engineering-courses/robotics-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/nuclear-and-energy-courses/physics-technology-nuclear-reactors-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/nuclear-and-energy-courses/nuclear-decommissioning-waste-management-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/nuclear-and-energy-courses/global-energy-technologies-systems-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/geography-earth-and-environmental-sciences-courses/air-pollution-management-and-control-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/geography-earth-and-environmental-sciences-courses/environmental-health-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/philosophy-courses/philosophy-mental-health-and-psychology-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/teacher-education-courses/education-ma",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/business-and-management-courses/economics-ai-and-data-science-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/politics-development-and-international-relations-courses/ai-and-government-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/nuclear-and-energy-courses/sustainable-energy-engineering-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/geography-earth-and-environmental-sciences-courses/applied-meteorology-and-climatology-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/physics-and-astronomy-courses/applications-data-science-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/electronic-electrical-and-systems-engineering-courses/electronic-computer-engineering-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/electronic-electrical-and-systems-engineering-courses/electrical-power-systems-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/food-safety-courses/food-safety-hygiene-management-msc",
+      "https://www.birmingham.ac.uk/study/postgraduate/subjects/politics-development-and-international-relations-courses/conflict-security-and-development-msc"
+    ],
+    "source_file": "schools_postgraduate/birmingham_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/birmingham_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "UWA",
+    "school_name": "西澳大学",
+    "school_name_en": "The University of Western Australia",
+    "region_cn": "澳大利亚",
+    "region_en": "Australia",
+    "qs_ranking_2026": 77,
+    "education_levels": [
+      "postgraduate",
+      "undergraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 123,
+      "postgraduate": 71,
+      "total": 194
+    },
+    "total_programs": 194,
+    "last_updated": "2026-05-22",
+    "data_source": "UWA Handbook 2026 (handbooks.uwa.edu.au/postgraduate) / UniEnrol 2026 (articles.unienrol.com) / IDP / Collegedunia / UWA Official Course Pages (uwa.edu.au/study/courses/) / UWA English Language Requirements / UWA Chinese Official (universityofwesternaustralia.cn)",
+    "source_file": "schools_postgraduate/uwa_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/uwa_postgraduate_data.json",
+      "schools_undergraduate/uwa_undergraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "GLASGOW",
+    "school_name": "格拉斯哥大学",
+    "school_name_en": "University of Glasgow",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 79,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 92,
+      "total": 92
+    },
+    "total_programs": 92,
+    "last_updated": "2026-05-24",
+    "data_source": [
+      "https://www.gla.ac.uk/postgraduate/taught/"
+    ],
+    "source_file": "schools_postgraduate/glasgow_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/glasgow_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "ADELAIDE",
+    "school_name": "阿德莱德大学",
+    "school_name_en": "Adelaide University",
+    "region_cn": "澳大利亚",
+    "region_en": "Australia",
+    "qs_ranking_2026": 82,
+    "education_levels": [
+      "postgraduate",
+      "undergraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 255,
+      "postgraduate": 112,
+      "total": 367
+    },
+    "total_programs": 367,
+    "last_updated": "2026-05-22",
+    "data_source": "Adelaide University ????international course pages?postgraduate coursework pages?tuition fees and English requirements pages",
+    "source_file": "schools_postgraduate/adelaide_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/adelaide_postgraduate_data.json",
+      "schools_undergraduate/adelaide_undergraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "LEEDS",
+    "school_name": "利兹大学",
+    "school_name_en": "University of Leeds",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 86,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 91,
+      "total": 91
+    },
+    "total_programs": 91,
+    "last_updated": "2026-05-24",
+    "data_source": [
+      "https://courses.leeds.ac.uk/",
+      "https://www.leeds.ac.uk/"
+    ],
+    "source_file": "schools_postgraduate/leeds_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/leeds_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "SOUTHAMPTON",
+    "school_name": "南安普顿大学",
+    "school_name_en": "University of Southampton",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 87,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 158,
+      "total": 158
+    },
+    "total_programs": 158,
+    "last_updated": "2026-05-24",
+    "data_source": [
+      "https://www.southampton.ac.uk/courses/postgraduate/taught"
+    ],
+    "source_file": "schools_postgraduate/southampton_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/southampton_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "SHEFFIELD",
+    "school_name": "谢菲尔德大学",
+    "school_name_en": "University of Sheffield",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 92,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 120,
+      "total": 120
+    },
+    "total_programs": 120,
+    "last_updated": "2026-05-24",
+    "data_source": [
+      "https://www.sheffield.ac.uk/postgraduate/taught/courses/2026"
+    ],
+    "source_file": "schools_postgraduate/sheffield_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/sheffield_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "DURHAM",
+    "school_name": "杜伦大学",
+    "school_name_en": "Durham University",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 94,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 97,
+      "total": 97
+    },
+    "total_programs": 97,
+    "last_updated": "2026-05-24",
+    "data_source": [
+      "https://apps.dur.ac.uk/faculty.handbook/2025/PG"
+    ],
+    "source_file": "schools_postgraduate/durham_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/durham_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "UTS",
+    "school_name": "悉尼科技大学",
+    "school_name_en": "University of Technology Sydney",
+    "region_cn": "澳大利亚",
+    "region_en": "Australia",
+    "qs_ranking_2026": 96,
+    "education_levels": [
+      "postgraduate",
+      "undergraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 207,
+      "postgraduate": 88,
+      "total": 295
+    },
+    "total_programs": 295,
+    "last_updated": "2026-05-23",
+    "data_source": [
+      "https://www.uts.edu.au/study/international/essential-information/english-language-requirements",
+      "https://collegedunia.com/australia/university/621-university-of-technology-sydney-sydney/programs",
+      "https://postgradaustralia.com.au/institutions/university-of-technology-sydney-uts/courses",
+      "https://www.uts.edu.au/for-students/postgraduate",
+      "https://www.uts.edu.au/about (faculty pages)"
+    ],
+    "source_file": "schools_postgraduate/uts_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/uts_postgraduate_data.json",
+      "schools_undergraduate/uts_undergraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "NOTTINGHAM",
+    "school_name": "诺丁汉大学",
+    "school_name_en": "University of Nottingham",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 97,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 115,
+      "total": 115
+    },
+    "total_programs": 115,
+    "last_updated": "2026-05-24",
+    "data_source": [
+      "https://www.nottingham.ac.uk/pgstudy/courses/courses.aspx?level=taught&year=2026"
+    ],
+    "source_file": "schools_postgraduate/nottingham_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/nottingham_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "QMUL",
+    "school_name": "伦敦大学玛丽皇后学院",
+    "school_name_en": "Queen Mary University of London",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 110,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 196,
+      "total": 196
+    },
+    "total_programs": 196,
+    "last_updated": "2026-05-26",
+    "data_source": "QMUL official website (subject pages under qmul.ac.uk/study/)",
+    "source_file": "schools_postgraduate/qmul_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/qmul_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "STANDREWS",
+    "school_name": "圣安德鲁斯大学",
+    "school_name_en": "University of St Andrews",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 113,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 97,
+      "total": 97
+    },
+    "total_programs": 97,
+    "last_updated": "2026-05-26",
+    "data_source": "University of St Andrews official taught postgraduate course pages (subject pages), 2026-05-26",
+    "source_file": "schools_postgraduate/standrews_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/standrews_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "RMIT",
+    "school_name": "皇家墨尔本理工大学",
+    "school_name_en": "RMIT University",
+    "region_cn": "澳大利亚",
+    "region_en": "Australia",
+    "qs_ranking_2026": 125,
+    "education_levels": [
+      "postgraduate",
+      "undergraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 80,
+      "postgraduate": 59,
+      "total": 139
+    },
+    "total_programs": 139,
+    "last_updated": "2026-05-23",
+    "data_source": "RMIT English Requirements page; Collegedunia; PostgradAustralia; RMIT official search page",
+    "source_file": "schools_postgraduate/rmit_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/rmit_postgraduate_data.json",
+      "schools_undergraduate/rmit_undergraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "MACQUARIE",
+    "school_name": "麦考瑞大学",
+    "school_name_en": "Macquarie University",
+    "region_cn": "澳大利亚",
+    "region_en": "Australia",
+    "qs_ranking_2026": 138,
+    "education_levels": [
+      "undergraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 54,
+      "postgraduate": 0,
+      "total": 54
+    },
+    "total_programs": 54,
+    "last_updated": "2026-05-23",
+    "data_source": [
+      "https://collegedunia.com/australia/university/619-macquarie-university-sydney/programs",
+      "https://articles.unienrol.com/macquarie-university-fees-courses/",
+      "https://search.studyaustralia.gov.au/provider/macquarie-university",
+      "https://m.myoffer.cn/article/14859.html (高考要求)",
+      "https://www.sohu.com/a/935017527_122314304 (高考要求)",
+      "MQ 官方课程页受 Cloudflare 保护，部分数据以第三方交叉验证为准"
+    ],
+    "source_file": "schools_undergraduate/macquarie_undergraduate_data.json",
+    "source_files": [
+      "schools_undergraduate/macquarie_undergraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "OTAGO",
+    "school_name": "奥塔哥大学",
+    "school_name_en": "University of Otago",
+    "region_cn": "新西兰",
+    "region_en": "New Zealand",
+    "qs_ranking_2026": 197,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 66,
+      "total": 66
+    },
+    "total_programs": 66,
+    "last_updated": "2026-05-24",
+    "data_source": [
+      "https://www.otago.ac.nz/postgraduate-study/coursework-masters",
+      "https://www.otago.ac.nz/study/fees/international-tuition-fees",
+      "https://www.otago.ac.nz/international/future-students/entrance-requirements/international-entrance-requirements"
+    ],
+    "source_file": "schools_postgraduate/otago_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/otago_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "MASSEY",
+    "school_name": "梅西大学",
+    "school_name_en": "Massey University",
+    "region_cn": "新西兰",
+    "region_en": "New Zealand",
+    "qs_ranking_2026": 230,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 47,
+      "total": 47
+    },
+    "total_programs": 47,
+    "last_updated": "2026-05-25",
+    "data_source": [
+      "https://www.massey.ac.nz/study/all-qualifications-and-degrees/",
+      "https://www.massey.ac.nz/study/entry-requirements-to-study-at-massey/entry-requirements-for-international-students/"
+    ],
+    "source_file": "schools_postgraduate/massey_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/massey_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "VUW",
+    "school_name": "惠灵顿维多利亚大学",
+    "school_name_en": "Victoria University of Wellington",
+    "region_cn": "新西兰",
+    "region_en": "New Zealand",
+    "qs_ranking_2026": 244,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 72,
+      "total": 72
+    },
+    "total_programs": 72,
+    "last_updated": "2026-05-24",
+    "data_source": [
+      "https://www.wgtn.ac.nz",
+      "公开课程数据交叉核验"
+    ],
+    "source_file": "schools_postgraduate/vuw_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/vuw_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "UM",
+    "school_name": "澳门大学",
+    "school_name_en": "University of Macau",
+    "region_cn": "中国澳门",
+    "region_en": "Macao SAR",
+    "qs_ranking_2026": 254,
+    "education_levels": [
+      "postgraduate",
+      "undergraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 32,
+      "postgraduate": 54,
+      "total": 86
+    },
+    "total_programs": 86,
+    "last_updated": "2026-05-21",
+    "data_source": "澳门大学研究生院官网 (grs.um.edu.mo) 及各学院官方页面",
+    "source_file": "schools/um_data.json",
+    "source_files": [
+      "schools/um_data.json",
+      "schools_undergraduate/um_undergraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "CANTERBURY",
+    "school_name": "坎特伯雷大学",
+    "school_name_en": "University of Canterbury",
+    "region_cn": "新西兰",
+    "region_en": "New Zealand",
+    "qs_ranking_2026": 261,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 72,
+      "total": 72
+    },
+    "total_programs": 72,
+    "last_updated": "2026-05-24",
+    "data_source": [
+      "https://www.canterbury.ac.nz/study/getting-started/about-our-qualifications/masters-degrees/",
+      "https://collegedunia.com/new-zealand/university/760-university-of-canterbury-christchurch/programs",
+      "https://www.canterbury.ac.nz/study/getting-started/admission-and-enrolment/enrolment-topics/english-language-proficiency/english-language-requirements"
+    ],
+    "source_file": "schools_postgraduate/canterbury_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/canterbury_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "WAIKATO",
+    "school_name": "怀卡托大学",
+    "school_name_en": "University of Waikato",
+    "region_cn": "新西兰",
+    "region_en": "New Zealand",
+    "qs_ranking_2026": 281,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 40,
+      "total": 40
+    },
+    "total_programs": 40,
+    "last_updated": "2026-05-25",
+    "data_source": "怀卡托大学官网(waikato.ac.nz)、StudyNewZealand Directory公开课程数据交叉核验",
+    "source_file": "schools_postgraduate/waikato_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/waikato_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "HKBU",
+    "school_name": "香港浸会大学",
+    "school_name_en": "Hong Kong Baptist University",
+    "region_cn": "中国香港",
+    "region_en": "Hong Kong SAR",
+    "qs_ranking_2026": 350,
+    "education_levels": [
+      "postgraduate",
+      "undergraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 22,
+      "postgraduate": 47,
+      "total": 69
+    },
+    "total_programs": 69,
+    "last_updated": "2026-05-21",
+    "data_source": [
+      "https://admissions.hkbu.edu.hk/admissions/mainland-jee (内地高考生招生首页)",
+      "https://handbook.ar.hkbu.edu.hk/2025-2026/academic-programmes/undergraduate-programmes (本科生手册课程列表)",
+      "https://www.jupas.edu.hk/en/programmes-offered/hkbu/ (JUPAS课程列表)"
+    ],
+    "source_file": "hkbu_data.json",
+    "source_files": [
+      "hkbu_data.json",
+      "schools_undergraduate/hkbu_undergraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "LINCOLN",
+    "school_name": "林肯大学",
+    "school_name_en": "Lincoln University",
+    "region_cn": "新西兰",
+    "region_en": "New Zealand",
+    "qs_ranking_2026": 407,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 19,
+      "total": 19
+    },
+    "total_programs": 19,
+    "last_updated": "2026-05-25",
+    "data_source": "林肯大学官网(lincoln.ac.nz)及StudyNewZealand公开课程数据交叉核验，官网全站Cloudflare防护，数据来自多源交叉验证",
+    "source_file": "schools_postgraduate/lincoln_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/lincoln_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "AUT",
+    "school_name": "奥克兰理工大学",
+    "school_name_en": "Auckland University of Technology",
+    "region_cn": "新西兰",
+    "region_en": "New Zealand",
+    "qs_ranking_2026": 410,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 29,
+      "total": 29
+    },
+    "total_programs": 29,
+    "last_updated": "2026-05-25",
+    "data_source": "AUT官网及公开课程数据交叉核验",
+    "source_file": "schools_postgraduate/aut_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/aut_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "HSUHK",
+    "school_name": "香港恒生大学",
+    "school_name_en": "The Hang Seng University of Hong Kong",
+    "region_cn": "中国香港",
+    "region_en": "Hong Kong SAR",
+    "qs_ranking_2026": 514,
+    "education_levels": [
+      "postgraduate",
+      "undergraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 26,
+      "postgraduate": 22,
+      "total": 48
+    },
+    "total_programs": 48,
+    "last_updated": "2026-05-21",
+    "data_source": "香港恒生大学官网 (hsu.edu.hk / gs.hsu.edu.hk)",
+    "source_file": "hsuhk_data.json",
+    "source_files": [
+      "hsuhk_data.json",
+      "schools_undergraduate/hsuhk_undergraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "SMU",
+    "school_name": "新加坡管理大学",
+    "school_name_en": "Singapore Management University",
+    "region_cn": "新加坡",
+    "region_en": "Singapore",
+    "qs_ranking_2026": 585,
+    "education_levels": [
+      "postgraduate",
+      "undergraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 10,
+      "postgraduate": 20,
+      "total": 30
+    },
+    "total_programs": 30,
+    "last_updated": "2026-05-22",
+    "data_source": "https://admissions.smu.edu.sg/ (SMU??????), https://admissions.smu.edu.sg/financial-matters/tuition-fees-grant (SMU??AY2026/2027????), https://www.topuniversities.com/universities/singapore-management-university (QS World University Rankings 2026)",
+    "source_file": "schools_postgraduate/smu_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/smu_postgraduate_data.json",
+      "schools_undergraduate/smu_undergraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "LingnanU",
+    "school_name": "香港岭南大学",
+    "school_name_en": "Lingnan University",
+    "region_cn": "中国香港",
+    "region_en": "Hong Kong SAR",
+    "qs_ranking_2026": 601,
+    "education_levels": [
+      "postgraduate",
+      "undergraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 33,
+      "postgraduate": 37,
+      "total": 70
+    },
+    "total_programs": 70,
+    "last_updated": "2026-05-21",
+    "data_source": "岭南大学官网 (ln.edu.hk)",
+    "source_file": "lingnan_data.json",
+    "source_files": [
+      "lingnan_data.json",
+      "schools_undergraduate/lingnanu_undergraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "CHC",
+    "school_name": "香港珠海学院",
+    "school_name_en": "Chu Hai College of Higher Education",
+    "region_cn": "中国香港",
+    "region_en": "Hong Kong SAR",
+    "qs_ranking_2026": null,
+    "education_levels": [
+      "postgraduate",
+      "undergraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 13,
+      "postgraduate": 19,
+      "total": 32
+    },
+    "total_programs": 32,
+    "last_updated": "2026-05-21",
+    "data_source": "香港珠海学院官网 (chuhai.edu.hk)",
+    "source_file": "chc_data.json",
+    "source_files": [
+      "chc_data.json",
+      "schools_undergraduate/chc_undergraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "CMU",
+    "school_name": "澳门城市大学",
+    "school_name_en": "City University of Macau",
+    "region_cn": "中国澳门",
+    "region_en": "Macao SAR",
+    "qs_ranking_2026": "未上榜",
+    "education_levels": [
+      "postgraduate",
+      "undergraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 12,
+      "postgraduate": 18,
+      "total": 30
+    },
+    "total_programs": 30,
+    "last_updated": "2026-05-22",
+    "data_source": "澳门城市大学研究生院官网及各学院官方页面",
+    "source_file": "schools/cityu_macau_data.json",
+    "source_files": [
+      "schools/cityu_macau_data.json",
+      "schools_undergraduate/cmu_undergraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "HKMU",
+    "school_name": "香港都会大学",
+    "school_name_en": "Hong Kong Metropolitan University",
+    "region_cn": "中国香港",
+    "region_en": "Hong Kong SAR",
+    "qs_ranking_2026": null,
+    "education_levels": [
+      "postgraduate",
+      "undergraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 41,
+      "postgraduate": 42,
+      "total": 83
+    },
+    "total_programs": 83,
+    "last_updated": "2026-05-21",
+    "data_source": "HKMU官网 (hkmu.edu.hk)",
+    "source_file": "hkmu_data.json",
+    "source_files": [
+      "hkmu_data.json",
+      "schools_undergraduate/hkmu_undergraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "HKSYU",
+    "school_name": "香港树仁大学",
+    "school_name_en": "Hong Kong Shue Yan University",
+    "region_cn": "中国香港",
+    "region_en": "Hong Kong SAR",
+    "qs_ranking_2026": null,
+    "education_levels": [
+      "postgraduate",
+      "undergraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 20,
+      "postgraduate": 10,
+      "total": 30
+    },
+    "total_programs": 30,
+    "last_updated": "2026-05-21",
+    "data_source": "香港树仁大学官网 (hksyu.edu)",
+    "source_file": "hksyu_data.json",
+    "source_files": [
+      "hksyu_data.json",
+      "schools_undergraduate/hksyu_undergraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "MPU",
+    "school_name": "澳门理工大学",
+    "school_name_en": "Macao Polytechnic University",
+    "region_cn": "中国澳门",
+    "region_en": "Macao SAR",
+    "qs_ranking_2026": "1001-1200",
+    "education_levels": [
+      "postgraduate",
+      "undergraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 18,
+      "postgraduate": 11,
+      "total": 29
+    },
+    "total_programs": 29,
+    "last_updated": "2026-05-22",
+    "data_source": "澳门理工大学内地招生官网 (mpu.edu.mo/admission_mainland) 及各课程页面",
+    "source_file": "schools/mpu_data.json",
+    "source_files": [
+      "schools/mpu_data.json",
+      "schools_undergraduate/mpu_undergraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "UTM",
+    "school_name": "澳门旅游大学",
+    "school_name_en": "Macao University of Tourism",
+    "region_cn": "中国澳门",
+    "region_en": "Macao SAR",
+    "qs_ranking_2026": "未上榜（软科酒店与旅游管理51-75）",
+    "education_levels": [
+      "postgraduate",
+      "undergraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 8,
+      "postgraduate": 13,
+      "total": 21
+    },
+    "total_programs": 21,
+    "last_updated": "2026-05-22",
+    "data_source": "澳门旅游大学研究生院官网 (utm.edu.mo/admission) 及各课程官方页面",
+    "source_file": "schools/utm_data.json",
+    "source_files": [
+      "schools/utm_data.json",
+      "schools_undergraduate/utm_undergraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "MUST",
+    "school_name": "澳门科技大学",
+    "school_name_en": "Macau University of Science and Technology",
+    "region_cn": "中国澳门",
+    "region_en": "Macao SAR",
+    "qs_ranking_2026": "451-460",
+    "education_levels": [
+      "postgraduate",
+      "undergraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 24,
+      "postgraduate": 44,
+      "total": 68
+    },
+    "total_programs": 68,
+    "last_updated": "2026-05-21",
+    "data_source": "澳门科技大学研究生院官网 (sgs.must.edu.mo) 及各学院官方页面",
+    "source_file": "schools/must_data.json",
+    "source_files": [
+      "schools/must_data.json",
+      "schools_undergraduate/must_undergraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "EdUHK",
+    "school_name": "香港教育大学",
+    "school_name_en": "The Education University of Hong Kong",
+    "region_cn": "中国香港",
+    "region_en": "Hong Kong SAR",
+    "qs_ranking_2026": null,
+    "education_levels": [
+      "postgraduate",
+      "undergraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 25,
+      "postgraduate": 49,
+      "total": 74
+    },
+    "total_programs": 74,
+    "last_updated": "2026-05-21",
+    "data_source": "EdUHK官网 (eduhk.hk)",
+    "source_file": "eduhk_data.json",
+    "source_files": [
+      "eduhk_data.json",
+      "schools_undergraduate/eduhk_undergraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "TWC",
+    "school_name": "香港东华学院",
+    "school_name_en": "Tung Wah College",
+    "region_cn": "中国香港",
+    "region_en": "Hong Kong SAR",
+    "qs_ranking_2026": "未上榜",
+    "education_levels": [
+      "postgraduate",
+      "undergraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 7,
+      "postgraduate": 6,
+      "total": 13
+    },
+    "total_programs": 13,
+    "last_updated": "2026-05-21",
+    "data_source": "香港东华学院官网 (twc.edu.hk) 及教育信息平台",
+    "source_file": "twc_data.json",
+    "source_files": [
+      "twc_data.json",
+      "schools_undergraduate/twc_undergraduate_data.json"
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+<svg width="400" height="180" viewBox="0 0 400 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="University of Oxford">
+  <!-- 背景透明 -->
+  
+  <!-- 校徽圆形徽章 -->
+  <g transform="translate(80, 90)">
+    <!-- 外圈圆环 -->
+    <circle cx="0" cy="0" r="55" fill="none" stroke="#002147" stroke-width="3"/>
+    
+    <!-- 外圈文字 -->
+    <text x="0" y="-45" text-anchor="middle" font-family="Times New Roman, serif" font-size="8" font-weight="bold" fill="#002147">UNIVERSITY</text>
+    <text x="0" y="52" text-anchor="middle" font-family="Times New Roman, serif" font-size="8" font-weight="bold" fill="#002147">OXFORD</text>
+    
+    <!-- 装饰点 -->
+    <circle cx="-45" cy="-15" r="2" fill="#002147"/>
+    <circle cx="0" cy="-48" r="2" fill="#002147"/>
+    <circle cx="45" cy="-15" r="2" fill="#002147"/>
+    <circle cx="45" cy="15" r="2" fill="#002147"/>
+    <circle cx="0" cy="48" r="2" fill="#002147"/>
+    <circle cx="-45" cy="15" r="2" fill="#002147"/>
+    
+    <!-- 上部皇冠 -->
+    <path d="M-20 0 L-18 -8 L-14 -4 L-10 -8 L-6 -2 L-2 -8 L2 -2 L6 -8 L10 -4 L14 -8 L18 0" fill="#002147" stroke="#002147" stroke-width="1"/>
+    <path d="M-18 -2 L-18 -10 L-12 -6 L-12 -12 L-6 -6 L-6 -12 L0 -8 L6 -12 L6 -6 L12 -12 L12 -6 L18 -10 L18 -2" fill="#C8A951"/>
+    
+    <!-- 中间书本 -->
+    <rect x="-22" y="8" width="44" height="20" fill="white" stroke="#002147" stroke-width="2" rx="1"/>
+    <path d="M0 8 L0 28" stroke="#002147" stroke-width="2"/>
+    
+    <!-- 书本文字 -->
+    <text x="-11" y="18" font-family="Times New Roman, serif" font-size="5" fill="#002147">DOMI</text>
+    <text x="-11" y="24" font-family="Times New Roman, serif" font-size="5" fill="#002147">NUS</text>
+    <text x="-11" y="30" font-family="Times New Roman, serif" font-size="5" fill="#002147">ILLV</text>
+    <text x="4" y="18" font-family="Times New Roman, serif" font-size="5" fill="#002147">MINA</text>
+    <text x="4" y="24" font-family="Times New Roman, serif" font-size="5" fill="#002147">TIO</text>
+    <text x="4" y="30" font-family="Times New Roman, serif" font-size="5" fill="#002147">MEA</text>
+    
+    <!-- 下部皇冠 -->
+    <path d="M-12 32 L-10 40 L-6 36 L-2 40 L2 34 L6 40 L10 36 L12 40 L14 32" fill="#002147" stroke="#002147" stroke-width="1"/>
+    <path d="M-10 34 L-10 42 L-6 38 L-6 44 L-2 38 L-2 44 L2 40 L6 44 L6 38 L10 44 L10 38 L12 42 L12 34" fill="#C8A951"/>
+    
+    <!-- 底部装饰 -->
+    <path d="M-25 48 Q0 65 25 48" fill="none" stroke="#002147" stroke-width="2"/>
+    <path d="M-15 55 L15 55" stroke="#002147" stroke-width="2"/>
+    <ellipse cx="0" cy="58" rx="8" ry="4" fill="#002147"/>
+    <path d="M-8 62 L0 70 L8 62" fill="none" stroke="#002147" stroke-width="2"/>
+  </g>
+  
+  <!-- 右侧英文名称 -->
+  <text x="220" y="65" font-family="Times New Roman, serif" font-size="14" font-weight="bold" fill="#002147" letter-spacing="4">UNIVERSITY OF</text>
+  <text x="200" y="105" font-family="Times New Roman, serif" font-size="36" font-weight="bold" fill="#002147" letter-spacing="2">OXFORD</text>
+</svg>

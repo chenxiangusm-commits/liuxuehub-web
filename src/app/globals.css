@@ -1,0 +1,276 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #2563EB;
+  --color-primary-dark: #1D4ED8;
+  --color-primary-light: #3B82F6;
+  --color-accent: #DC2626;
+  --color-background: #F8FAFC;
+  --color-card: #FFFFFF;
+  --color-border: #E2E8F0;
+  --color-text-primary: #1E293B;
+  --color-text-secondary: #64748B;
+  --color-text-muted: #94A3B8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+}
+
+@layer components {
+  /* 基础按钮 */
+  .btn-primary {
+    @apply bg-blue-600 hover:bg-blue-700 text-white px-4 py-2.5 rounded-2xl font-medium transition-all duration-200 hover:shadow-xl hover:shadow-blue-500/20;
+  }
+  
+  .btn-secondary {
+    @apply bg-white hover:bg-gray-50 text-gray-700 border border-gray-200 px-4 py-2.5 rounded-2xl font-medium transition-all duration-200 hover:shadow-md;
+  }
+  
+  .btn-ghost {
+    @apply bg-transparent hover:bg-gray-100 text-gray-600 px-4 py-2.5 rounded-2xl font-medium transition-all duration-200;
+  }
+  
+  /* 输入框 */
+  .input-field {
+    @apply w-full px-4 py-2.5 border border-gray-200 rounded-2xl bg-white text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200;
+  }
+  
+  /* 筛选按钮 */
+  .filter-btn {
+    @apply inline-flex items-center justify-center px-3 py-1.5 text-sm font-medium rounded-xl border border-gray-200 bg-white text-gray-600 hover:border-blue-300 hover:text-blue-600 transition-all duration-200 whitespace-nowrap;
+  }
+  
+  .filter-btn-active {
+    @apply bg-blue-50 border-blue-300 text-blue-600;
+  }
+  
+  /* 搜索按钮 */
+  .search-btn {
+    @apply flex items-center justify-center px-5 py-2.5 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-2xl transition-all duration-200;
+  }
+  
+  /* 搜索输入框 */
+  .search-input {
+    @apply h-11 px-4 border border-gray-200 rounded-2xl bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200;
+  }
+  
+  /* 分页 */
+  .pagination-btn {
+    @apply inline-flex items-center justify-center min-w-[36px] h-9 px-3 text-sm font-medium rounded-xl border border-gray-200 bg-white text-gray-600 hover:bg-gray-50 hover:border-gray-300 transition-all duration-200;
+  }
+  
+  .pagination-btn-active {
+    @apply bg-blue-600 border-blue-600 text-white hover:bg-blue-700;
+  }
+  
+  .pagination-btn-disabled {
+    @apply opacity-40 cursor-not-allowed hover:bg-transparent;
+  }
+  
+  /* Logo 占位符 */
+  .logo-placeholder {
+    @apply w-16 h-16 bg-gray-50 border border-gray-200 rounded-2xl flex items-center justify-center;
+  }
+  
+  .logo-placeholder span {
+    @apply text-blue-600 font-bold text-lg uppercase;
+  }
+
+  .school-card-new {
+    @apply flex items-center gap-4 rounded-2xl border border-gray-100 bg-white p-5 shadow-sm transition-all duration-200 hover:-translate-y-1 hover:border-blue-100 hover:shadow-lg;
+  }
+
+  .card-logo {
+    @apply flex h-16 w-16 flex-shrink-0 items-center justify-center overflow-hidden rounded-2xl border border-gray-100 bg-white p-2 shadow-sm;
+  }
+
+  .card-logo-image {
+    @apply h-full w-full object-contain;
+  }
+
+  .card-logo-placeholder {
+    @apply flex h-full w-full items-center justify-center rounded-xl bg-blue-50;
+  }
+
+  .card-logo-initials {
+    @apply max-w-full break-words text-center text-sm font-bold leading-tight text-blue-600;
+  }
+
+  .card-info {
+    @apply min-w-0 flex-1;
+  }
+
+  .card-name-cn {
+    @apply truncate text-lg font-bold text-gray-900;
+  }
+
+  .card-name-en {
+    @apply mt-1 truncate text-sm text-gray-500;
+  }
+
+  .card-region {
+    @apply mt-2 text-sm text-gray-500;
+  }
+
+  .card-ranking {
+    @apply ml-auto flex flex-shrink-0 items-center gap-3;
+  }
+
+  .ranking-indicator {
+    @apply flex min-w-14 flex-col items-center justify-center rounded-xl bg-slate-50 px-3 py-2 text-center;
+  }
+
+  .ranking-indicator-number {
+    @apply text-xl font-black leading-none text-red-600;
+  }
+
+  .ranking-indicator-number.no-rank {
+    @apply text-sm text-gray-400;
+  }
+
+  .ranking-indicator-label {
+    @apply mt-1 whitespace-nowrap text-[11px] font-medium text-gray-500;
+  }
+
+  .ranking-divider {
+    @apply hidden h-10 w-px bg-gray-100 sm:block;
+  }
+  
+  /* 表格 */
+  .table-header {
+    @apply bg-gray-50 text-gray-700 font-semibold text-sm;
+  }
+  
+  .table-cell {
+    @apply px-4 py-3 text-sm text-gray-700 border-b border-gray-100;
+  }
+  
+  /* 统计数字 */
+  .stat-number {
+    @apply text-2xl font-bold;
+  }
+  
+  .stat-number-blue {
+    @apply text-blue-600;
+  }
+  
+  .stat-number-red {
+    @apply text-red-500;
+  }
+  
+  /* 卡片 hover 效果 - 统一阴影和上浮 */
+  .card-hoverable {
+    @apply transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-xl hover:shadow-gray-200/70;
+  }
+}
+
+/* 页面容器 */
+.page-container {
+  @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/* 面包屑 */
+.breadcrumb a {
+  @apply text-blue-600 hover:text-blue-800 transition-colors;
+}
+
+/* 返回院校库按钮 */
+.back-to-schools-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 20px;
+  background: white;
+  border: 1px solid #E2E8F0;
+  border-radius: 16px;
+  color: #2563EB;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  white-space: nowrap;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.back-to-schools-btn:hover {
+  background: #EFF6FF;
+  border-color: #93C5FD;
+  color: #1D4ED8;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.15);
+}
+
+.back-to-schools-btn svg {
+  flex-shrink: 0;
+}
+
+/* 自定义滚动条 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* 响应式表格容器 */
+.table-container {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* 移动端优化 */
+@media (max-width: 640px) {
+  .hide-mobile {
+    display: none;
+  }
+}
+
+/* 防止横向溢出 */
+body {
+  overflow-x: hidden;
+}
+
+/* 图片响应式 */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 链接样式 */
+a {
+  color: #2563EB;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1D4ED8;
+}
+
+/* 选择文本颜色 */
+::selection {
+  background-color: #DBEAFE;
+  color: #1E293B;
+}
