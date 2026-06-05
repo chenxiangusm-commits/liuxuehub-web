@@ -12,7 +12,12 @@
 
 // Official logo map: schools that have real logos downloaded
 const OFFICIAL_LOGOS: Record<string, string> = {
-  HKU: "/school-logos/official/hku.jpg",
+  IC: "/school-logos/official/ic.svg",
+  UCL: "/school-logos/official/ucl.svg",
+  OXFORD: "/school-logos/official/oxford-clean.svg",
+  CAMBRIDGE: "/school-logos/official/cambridge-clean.svg",
+  KCL: "/school-logos/official/kcl-clean.svg",
+  HKU: "/school-logos/official/hku-clean.png",
   CUHK: "/school-logos/official/cuhk.svg",
   HKUST: "/school-logos/official/hkust.svg",
   POLYU: "/school-logos/official/polyu.png",
@@ -36,6 +41,11 @@ const OFFICIAL_LOGOS: Record<string, string> = {
   CMU: "/school-logos/official/cmu.png",
   "CityU-MO": "/school-logos/official/cmu.png",
   "CITYU-MO": "/school-logos/official/cmu.png",
+  UNIMELB: "/school-logos/official/unimelb.png",
+  UNSW: "/school-logos/official/unsw.png",
+  USYD: "/school-logos/official/usyd.svg",
+  UQ: "/school-logos/official/uq.svg",
+  ANU: "/school-logos/official/anu-clean.svg",
 };
 
 const SCHOOL_MARKS: Record<string, string> = {

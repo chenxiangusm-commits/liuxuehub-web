@@ -20,8 +20,8 @@ export async function generateMetadata({ params }: PageProps) {
   }
 
   return {
-    title: `${program.major_cn || program.major_en} - 留学Hub`,
-    description: `查看 ${program.school_name} ${program.major_cn || program.major_en} 的详细信息`,
+    title: `${program.major_cn || program.major_en} 申请条件｜${program.school_name || "学校"}｜留学Hub`,
+    description: `查看${program.school_name || ""}${program.major_cn || program.major_en}的国际生学费、语言要求、申请时间线和AI申请参考。`,
   };
 }
 

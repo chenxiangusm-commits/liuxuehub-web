@@ -24,19 +24,19 @@ export default function AboutPage() {
         </p>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           <div className="text-center p-4 bg-white/10 rounded-xl">
-            <div className="text-3xl font-bold mb-2">1000+</div>
+            <div className="text-3xl font-bold mb-2">100+</div>
             <div className="text-blue-200 text-sm">全球院校</div>
           </div>
           <div className="text-center p-4 bg-white/10 rounded-xl">
-            <div className="text-3xl font-bold mb-2">30000+</div>
+            <div className="text-3xl font-bold mb-2">3000+</div>
             <div className="text-blue-200 text-sm">专业项目</div>
           </div>
           <div className="text-center p-4 bg-white/10 rounded-xl">
-            <div className="text-3xl font-bold mb-2">100000+</div>
+            <div className="text-3xl font-bold mb-2">10000+</div>
             <div className="text-blue-200 text-sm">AI分析次数</div>
           </div>
           <div className="text-center p-4 bg-white/10 rounded-xl">
-            <div className="text-3xl font-bold mb-2">50000+</div>
+            <div className="text-3xl font-bold mb-2">5000+</div>
             <div className="text-blue-200 text-sm">模拟面试训练</div>
           </div>
         </div>

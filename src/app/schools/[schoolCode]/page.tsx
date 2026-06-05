@@ -5,7 +5,7 @@ import { getAllSchools, getSchoolByCode, getProgramsBySchoolCode } from "@/lib/d
 import { getSchoolChineseName } from "@/lib/school-names";
 import { getSchoolMarkPath } from "@/lib/schoolLogos";
 import { getSchoolTags } from "@/lib/schoolTags";
-import { formatIntake, formatLanguageRequirement } from "@/lib/displayFormat";
+import { formatLanguageRequirement } from "@/lib/displayFormat";
 import SchoolDetailClient from "./SchoolDetailClient";
 import Container from "@/components/ui/Container";
 import Card from "@/components/ui/Card";
@@ -569,6 +569,34 @@ function getApplicationDifficulty(ranking: number | undefined): { level: string;
   return { level: "相对友好", stars: "⭐⭐☆☆☆" };
 }
 
+function getSuggestedBackground(ranking?: number, schoolCode?: string) {
+  const code = (schoolCode || "").toUpperCase();
+  const priorityCodes = new Set([
+    "IC", "OXFORD", "CAMBRIDGE", "UCL", "LSE",
+    "HKU", "CUHK", "HKUST",
+    "NUS", "NTU",
+    "UNIMELB", "MELBOURNE", "UNSW", "USYD", "SYDNEY", "ANU", "MONASH", "UQ", "UWA", "ADELAIDE",
+  ]);
+
+  const isPriority = priorityCodes.has(code) || (!!ranking && ranking > 0 && ranking <= 100);
+
+  if (isPriority) {
+    return [
+      { label: "C9", value: "80–85+" },
+      { label: "985/211", value: "82–87+" },
+      { label: "双非", value: "87–90+" },
+      { label: "海本", value: "GPA 3.3–3.7+" },
+    ];
+  }
+
+  return [
+    { label: "985/211", value: "78–83+" },
+    { label: "双非", value: "83–87+" },
+    { label: "相关背景", value: "更有优势" },
+    { label: "海本", value: "GPA 3.0–3.4+" },
+  ];
+}
+
 export async function generateMetadata({ params }: PageProps) {
   const { schoolCode } = await params;
   const school = await getSchoolByCode(schoolCode);
@@ -582,8 +610,8 @@ export async function generateMetadata({ params }: PageProps) {
   const chineseName = getSchoolChineseName(school.school_code);
 
   return {
-    title: `${chineseName} - 留学Hub`,
-    description: `查看 ${chineseName} 的详细招生信息，包括专业设置、学费、申请要求等。`,
+    title: `${chineseName} 硕士/本科申请条件｜留学Hub`,
+    description: `查看${chineseName}的院校排名、专业设置、国际生学费、语言要求和申请参考。`,
   };
 }
 
@@ -611,15 +639,6 @@ export default async function SchoolDetailPage({ params }: PageProps) {
     .filter(f => f && f !== "待确认");
   const feeRangeInfo = formatSchoolFee(fees);
 
-  // 统计入学季
-  const intakeCounts: Record<string, number> = {};
-  schoolPrograms.forEach(p => {
-    if (p.intake) {
-      intakeCounts[p.intake] = (intakeCounts[p.intake] || 0) + 1;
-    }
-  });
-  const mainIntake = Object.entries(intakeCounts)
-    .sort((a, b) => b[1] - a[1])[0]?.[0] || "";
 
   // 计算申请难度
   const difficulty = getApplicationDifficulty(school.qs_ranking_2026);
@@ -629,6 +648,7 @@ export default async function SchoolDetailPage({ params }: PageProps) {
   const languageRequirement = sampleProgram 
     ? formatLanguageRequirement(sampleProgram.ielts, sampleProgram.toefl)
     : "官网暂未明确，请以官网为准";
+  const suggestedBackground = getSuggestedBackground(school.qs_ranking_2026, school.school_code);
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -708,10 +728,8 @@ export default async function SchoolDetailPage({ params }: PageProps) {
               </div>
             </div>
 
-            {/* 右侧：国际学生学费、项目数量、主要入学季 */}
             <div className="lg:col-span-7">
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                {/* 国际学生学费 */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-100">
                   <div className="text-xs text-gray-500 mb-1">国际生学费</div>
                   <div className="text-base font-bold text-blue-600">
@@ -723,21 +741,13 @@ export default async function SchoolDetailPage({ params }: PageProps) {
                     </div>
                   )}
                 </div>
-                {/* 项目数量 */}
                 <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-100">
                   <div className="text-xs text-gray-500 mb-1">项目数量</div>
                   <div className="text-2xl font-bold text-blue-600">
                     {programCount}
                   </div>
                   <div className="text-xs text-gray-500 mt-1">
-                    本科{schoolPrograms.filter(p => p.education_level === 'undergraduate').length} / 硕士{schoolPrograms.filter(p => p.education_level === 'postgraduate').length}
-                  </div>
-                </div>
-                {/* 主要入学季 */}
-                <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-100">
-                  <div className="text-xs text-gray-500 mb-1">主要入学季</div>
-                  <div className="text-base font-bold text-blue-600">
-                    {mainIntake ? formatIntake(mainIntake) : "官网暂未明确"}
+                    本科{schoolPrograms.filter(p => p.education_level === "undergraduate").length} / 硕士{schoolPrograms.filter(p => p.education_level === "postgraduate").length}
                   </div>
                 </div>
               </div>
@@ -803,6 +813,31 @@ export default async function SchoolDetailPage({ params }: PageProps) {
                 基于历史项目数据推测，仅供参考
               </div>
             </div>
+          </div>
+          <div className="mt-4 rounded-xl border border-blue-100 bg-blue-50/60 p-4">
+            <div className="mb-3 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+              <div>
+                <div className="text-sm font-semibold text-gray-900">中国学生参考画像</div>
+                <p className="text-xs text-gray-500">适合快速判断申请门槛，具体专业会有差异。</p>
+              </div>
+              <Link
+                href={`/ai/study-plan?school=${encodeURIComponent(chineseName)}&region=${encodeURIComponent(fixRegion(school.region_cn) || '')}`}
+                className="inline-flex items-center justify-center rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-blue-700"
+              >
+                生成我的选校规划
+              </Link>
+            </div>
+            <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
+              {suggestedBackground.map(item => (
+                <div key={item.label} className="rounded-lg bg-white px-3 py-2">
+                  <div className="text-xs text-gray-500">{item.label}</div>
+                  <div className="text-sm font-semibold text-gray-900">{item.value}</div>
+                </div>
+              ))}
+            </div>
+            <p className="mt-3 text-xs leading-relaxed text-gray-500">
+              基于历史项目数据与申请经验推测，仅供参考，最终以学校官网和实际审核为准。
+            </p>
           </div>
         </Card>
 

@@ -3,7 +3,7 @@
 import { useState, useMemo, useEffect } from "react";
 import Link from "next/link";
 import { getFavorites, toggleFavorite as toggleStoredFavorite } from "@/lib/storage";
-import { formatCollegeDisplayName, formatFee, formatIntake, formatLanguageRequirement, formatDeadline } from "@/lib/displayFormat";
+import { formatCollegeDisplayName, formatFee, formatLanguageRequirement, formatDeadline } from "@/lib/displayFormat";
 import type { Program } from "@/types";
 import Card from "@/components/ui/Card";
 
@@ -56,35 +56,12 @@ function getColleges(programs: Program[]): string[] {
   return Array.from(colleges).filter(Boolean);
 }
 
-// 获取学制列表
-function getDurations(programs: Program[]): string[] {
-  const durations = new Set<string>();
-  programs.forEach(p => {
-    if (p.duration) {
-      durations.add(p.duration);
-    }
-  });
-  return Array.from(durations).filter(Boolean);
-}
-
-// 获取入学季列表
-function getIntakes(programs: Program[]): string[] {
-  const intakes = new Set<string>();
-  programs.forEach(p => {
-    if (p.intake) {
-      intakes.add(p.intake);
-    }
-  });
-  return Array.from(intakes).filter(Boolean);
-}
 
 export default function SchoolDetailClient({ programs, schoolName, region }: SchoolDetailClientProps) {
   const [searchKeyword, setSearchKeyword] = useState("");
   const [selectedLevel, setSelectedLevel] = useState<string>("postgraduate");
   const [selectedDirection, setSelectedDirection] = useState<string>("");
   const [selectedCollege, setSelectedCollege] = useState<string>("");
-  const [selectedDuration, setSelectedDuration] = useState<string>("");
-  const [selectedIntake, setSelectedIntake] = useState<string>("");
   const [favorites, setFavorites] = useState<string[]>([]);
   const [displayCount, setDisplayCount] = useState(20);
   const [showMoreFilters, setShowMoreFilters] = useState(false);
@@ -98,9 +75,43 @@ export default function SchoolDetailClient({ programs, schoolName, region }: Sch
     setFavorites(getFavorites());
   };
 
-  const colleges = getColleges(programs);
-  const durations = getDurations(programs);
-  const intakes = getIntakes(programs);
+  const programsForCollegeOptions = useMemo(() => {
+    return programs.filter(program => {
+      if (selectedLevel && program.education_level !== selectedLevel) {
+        return false;
+      }
+
+      if (selectedDirection) {
+        const majorAll = `${program.major_cn || ''} ${program.major_en || ''} ${program.college || ''}`.toLowerCase();
+        const direction = MAJOR_DIRECTIONS.find(d => d.label === selectedDirection);
+        if (direction) {
+          const hasMatch = direction.keywords.some(kw => majorAll.includes(kw.toLowerCase()));
+          if (!hasMatch) return false;
+        }
+      }
+
+      if (searchKeyword) {
+        const keyword = searchKeyword.toLowerCase();
+        const matchCn = program.major_cn?.toLowerCase().includes(keyword);
+        const matchEn = program.major_en?.toLowerCase().includes(keyword);
+        if (!matchCn && !matchEn) return false;
+      }
+
+      return true;
+    });
+  }, [programs, selectedLevel, selectedDirection, searchKeyword]);
+
+  const colleges = useMemo(
+    () => getColleges(programsForCollegeOptions),
+    [programsForCollegeOptions]
+  );
+
+  useEffect(() => {
+    if (selectedCollege && !colleges.includes(selectedCollege)) {
+      setSelectedCollege("");
+      setDisplayCount(20);
+    }
+  }, [selectedCollege, colleges]);
 
   const filteredPrograms = useMemo(() => {
     return programs.filter(program => {
@@ -119,12 +130,6 @@ export default function SchoolDetailClient({ programs, schoolName, region }: Sch
         const collegeName = formatCollegeDisplayName(program.college || '');
         if (collegeName !== selectedCollege) return false;
       }
-      if (selectedDuration && program.duration !== selectedDuration) {
-        return false;
-      }
-      if (selectedIntake && program.intake !== selectedIntake) {
-        return false;
-      }
       if (searchKeyword) {
         const keyword = searchKeyword.toLowerCase();
         const matchCn = program.major_cn?.toLowerCase().includes(keyword);
@@ -133,13 +138,14 @@ export default function SchoolDetailClient({ programs, schoolName, region }: Sch
       }
       return true;
     });
-  }, [programs, searchKeyword, selectedLevel, selectedDirection, selectedCollege, selectedDuration, selectedIntake]);
+  }, [programs, searchKeyword, selectedLevel, selectedDirection, selectedCollege]);
 
   const undergradCount = programs.filter(p => p.education_level === "undergraduate").length;
   const postgradCount = programs.filter(p => p.education_level === "postgraduate").length;
 
   const handleLevelChange = (level: string) => {
     setSelectedLevel(level);
+    setSelectedCollege("");
     setDisplayCount(20);
   };
 
@@ -150,8 +156,6 @@ export default function SchoolDetailClient({ programs, schoolName, region }: Sch
 
   const resetFilters = () => {
     setSelectedCollege("");
-    setSelectedDuration("");
-    setSelectedIntake("");
     setDisplayCount(20);
   };
 
@@ -217,8 +221,7 @@ export default function SchoolDetailClient({ programs, schoolName, region }: Sch
               </div>
               
               {/* 信息行 */}
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-4 pt-3 border-t border-gray-100">
-                {/* 国际生学费 */}
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-4 pt-3 border-t border-gray-100">
                 <div className="flex items-start gap-1.5">
                   <span className="text-gray-400 text-sm">💰</span>
                   <div className="text-sm text-gray-600">
@@ -228,20 +231,13 @@ export default function SchoolDetailClient({ programs, schoolName, region }: Sch
                     )}
                   </div>
                 </div>
-                {/* 入学时间 */}
-                <div className="flex items-start gap-1.5">
-                  <span className="text-gray-400 text-sm">📅</span>
-                  <span className="text-sm text-gray-600">{formatIntake(program.intake || '')}</span>
-                </div>
-                {/* 语言要求 */}
                 <div className="flex items-start gap-1.5">
                   <span className="text-gray-400 text-sm">🌐</span>
                   <span className="text-sm text-gray-600">{formatLanguageRequirement(program.ielts, program.toefl)}</span>
                 </div>
-                {/* 申请截止 */}
                 <div className="flex items-start gap-1.5">
                   <span className="text-gray-400 text-sm">⏰</span>
-                  <span className="text-sm text-gray-600">{formatDeadline(program.deadline || '')}</span>
+                  <span className="text-sm text-gray-600">{formatDeadline(program.deadline || "")}</span>
                 </div>
               </div>
               
@@ -382,111 +378,42 @@ export default function SchoolDetailClient({ programs, schoolName, region }: Sch
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
-                展开更多筛选
+                展开学院筛选
               </>
             )}
           </button>
-          
-          {showMoreFilters && (
+
+          {showMoreFilters && colleges.length > 0 && (
             <div className="mt-4 pt-4 border-t border-gray-100 space-y-4">
-              {/* 学院筛选 */}
-              {colleges.length > 0 && (
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">学院</label>
-                  <div className="flex flex-wrap gap-2">
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">学院</label>
+                <div className="flex flex-wrap gap-2">
+                  <button
+                    onClick={() => { setSelectedCollege(""); setDisplayCount(20); }}
+                    className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
+                      selectedCollege === ""
+                        ? "bg-blue-600 text-white"
+                        : "bg-gray-100 text-gray-600 hover:bg-gray-200"
+                    }`}
+                  >
+                    全部
+                  </button>
+                  {colleges.map(college => (
                     <button
-                      onClick={() => { setSelectedCollege(""); setDisplayCount(20); }}
+                      key={college}
+                      onClick={() => { setSelectedCollege(college); setDisplayCount(20); }}
                       className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
-                        selectedCollege === ""
+                        selectedCollege === college
                           ? "bg-blue-600 text-white"
                           : "bg-gray-100 text-gray-600 hover:bg-gray-200"
                       }`}
                     >
-                      全部
+                      {college}
                     </button>
-                    {colleges.map(college => (
-                      <button
-                        key={college}
-                        onClick={() => { setSelectedCollege(college); setDisplayCount(20); }}
-                        className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
-                          selectedCollege === college
-                            ? "bg-blue-600 text-white"
-                            : "bg-gray-100 text-gray-600 hover:bg-gray-200"
-                        }`}
-                      >
-                        {college}
-                      </button>
-                    ))}
-                  </div>
+                  ))}
                 </div>
-              )}
-              
-              {/* 学制筛选 */}
-              {durations.length > 0 && (
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">学制</label>
-                  <div className="flex flex-wrap gap-2">
-                    <button
-                      onClick={() => { setSelectedDuration(""); setDisplayCount(20); }}
-                      className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
-                        selectedDuration === ""
-                          ? "bg-blue-600 text-white"
-                          : "bg-gray-100 text-gray-600 hover:bg-gray-200"
-                      }`}
-                    >
-                      全部
-                    </button>
-                    {durations.map(duration => (
-                      <button
-                        key={duration}
-                        onClick={() => { setSelectedDuration(duration); setDisplayCount(20); }}
-                        className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
-                          selectedDuration === duration
-                            ? "bg-blue-600 text-white"
-                            : "bg-gray-100 text-gray-600 hover:bg-gray-200"
-                        }`}
-                      >
-                        {duration}
-                      </button>
-                    ))}
-                  </div>
-                </div>
-              )}
-              
-              {/* 入学季筛选 */}
-              {intakes.length > 0 && (
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">入学季</label>
-                  <div className="flex flex-wrap gap-2">
-                    <button
-                      onClick={() => { setSelectedIntake(""); setDisplayCount(20); }}
-                      className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
-                        selectedIntake === ""
-                          ? "bg-blue-600 text-white"
-                          : "bg-gray-100 text-gray-600 hover:bg-gray-200"
-                      }`}
-                    >
-                      全部
-                    </button>
-                    {intakes.map(intake => (
-                      <button
-                        key={intake}
-                        onClick={() => { setSelectedIntake(intake); setDisplayCount(20); }}
-                        className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
-                          selectedIntake === intake
-                            ? "bg-blue-600 text-white"
-                            : "bg-gray-100 text-gray-600 hover:bg-gray-200"
-                        }`}
-                      >
-                        {formatIntake(intake)}
-                      </button>
-                    ))}
-                  </div>
-                </div>
-              )}
-              
-              {/* 重置筛选 */}
-              {(selectedCollege || selectedDuration || selectedIntake) && (
+              </div>
+              {selectedCollege && (
                 <button
                   onClick={resetFilters}
                   className="text-sm text-gray-500 hover:text-gray-700"
