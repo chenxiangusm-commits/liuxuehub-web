@@ -95,7 +95,7 @@
     },
     "total_programs": 162,
     "last_updated": "2026-05-22",
-    "data_source": "https://www.nus.edu.sg/oam/undergraduate-programmes (NUS????????), https://www.nus.edu.sg/oam/docs/default-source/nus-publications/intlprospectus.pdf (NUS AY2026/2027????????), https://www.nus.edu.sg/registrar/docs/default-source/administrative-policies-procedures/ugtuitioncurrent.pdf (NUS??AY2026/2027?????), https://www.topuniversities.com/universities/national-university-singapore-nus (QS World University Rankings 2026)",
+    "data_source": "新加坡国立大学官网 (nus.edu.sg)、各学院官方页面、公开课程平台交叉验证；2026-05-22 经过严格复核，移除LLM专业方向（合并为1个），修正19个URL?NUS Nursing????????????Master of Community Health, MSc Critical Care Nursing, MSc Infection Prevention and Control, Master of Nursing?",
     "source_file": "schools_postgraduate/nus_postgraduate_data.json",
     "source_files": [
       "schools_postgraduate/nus_postgraduate_data.json",
@@ -175,7 +175,7 @@
     },
     "total_programs": 97,
     "last_updated": "2026-05-22",
-    "data_source": "https://www.ntu.edu.sg/education/degree-programmes (官方本科课程完整列表), https://www.ntu.edu.sg/admissions/undergraduate/financial-matters/tuition-fees/accepted-programme-offer-in-2026 (2026入学国际学生学费官方标准), https://www.ntu.edu.sg/docs/default-source/undergraduate-admissions/international/app_chinese.pdf (NTU官方中国高考生入学指南PDF), https://www.sohu.com/a/943886310_121124324 (2026中国高考生入学简章全文), https://www.libertify.com/universities/ntu-singapore-undergraduate-programmes-guide/ (本科课程详细说明)",
+    "data_source": "南洋理工大学官网 (ntu.edu.sg)、各学院官方页面、公开课程平台交叉验证。2026-05-22 经过严格复核：删除非学位/错误学院/伪造项目，新增缺失项目，修正URL和学院归属。",
     "source_file": "schools_postgraduate/ntu_postgraduate_data.json",
     "source_files": [
       "schools_postgraduate/ntu_postgraduate_data.json",
@@ -1128,6 +1128,57 @@
     ]
   },
   {
+    "school_code": "BATH",
+    "school_name": "巴斯大学",
+    "school_name_en": "University of Bath",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 132,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 80,
+      "total": 80
+    },
+    "total_programs": 80,
+    "last_updated": "2026-06-01",
+    "data_source": [
+      "bath.ac.uk course listing page (courses/postgraduate-2026/taught-postgraduate-courses/)",
+      "bath.ac.uk faculty tuition fee pages (4 faculty pages, 2026/27)",
+      "bath.ac.uk English language requirements page",
+      "Individual course detail pages (sample: ~10 pages verified)"
+    ],
+    "source_file": "schools_postgraduate/bath_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/bath_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "NEWCASTLE",
+    "school_name": "纽卡斯尔大学",
+    "school_name_en": "Newcastle University",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 137,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 163,
+      "total": 163
+    },
+    "total_programs": 163,
+    "last_updated": "2026-06-02",
+    "data_source": "ncl.ac.uk 官方课程页面+collegedunia费用交叉验证",
+    "source_file": "schools_postgraduate/newcastle_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/newcastle_postgraduate_data.json"
+    ]
+  },
+  {
     "school_code": "MACQUARIE",
     "school_name": "麦考瑞大学",
     "school_name_en": "Macquarie University",
@@ -1135,14 +1186,15 @@
     "region_en": "Australia",
     "qs_ranking_2026": 138,
     "education_levels": [
+      "postgraduate",
       "undergraduate"
     ],
     "program_counts": {
       "undergraduate": 54,
-      "postgraduate": 0,
-      "total": 54
+      "postgraduate": 67,
+      "total": 121
     },
-    "total_programs": 54,
+    "total_programs": 121,
     "last_updated": "2026-05-23",
     "data_source": [
       "https://collegedunia.com/australia/university/619-macquarie-university-sydney/programs",
@@ -1152,9 +1204,194 @@
       "https://www.sohu.com/a/935017527_122314304 (高考要求)",
       "MQ 官方课程页受 Cloudflare 保护，部分数据以第三方交叉验证为准"
     ],
-    "source_file": "schools_undergraduate/macquarie_undergraduate_data.json",
+    "source_file": "schools_postgraduate/macquarie_postgraduate_data.json",
     "source_files": [
+      "schools_postgraduate/macquarie_postgraduate_data.json",
       "schools_undergraduate/macquarie_undergraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "LIVERPOOL",
+    "school_name": "利物浦大学",
+    "school_name_en": "University of Liverpool",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 147,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 189,
+      "total": 189
+    },
+    "total_programs": 189,
+    "last_updated": "2026-06-02",
+    "data_source": "liverpool.ac.uk 官方课程列表页及课程详情页交叉验证",
+    "source_file": "schools_postgraduate/liverpool_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/liverpool_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "EXETER",
+    "school_name": "埃克塞特大学",
+    "school_name_en": "University of Exeter",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 155,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 170,
+      "total": 170
+    },
+    "total_programs": 170,
+    "last_updated": "2026-06-02",
+    "data_source": "exeter.ac.uk 官方课程目录页 + 课程详情页费用/语言要求采样 + exeter.ac.uk 英语语言要求 Profile 页面",
+    "source_file": "schools_postgraduate/exeter_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/exeter_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "LANCASTER",
+    "school_name": "兰卡斯特大学",
+    "school_name_en": "Lancaster University",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 157,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 112,
+      "total": 112
+    },
+    "total_programs": 112,
+    "last_updated": "2026-06-02",
+    "data_source": "lancaster.ac.uk 官方课程列表 + UCAS交叉验证 + 课程详情页费用采样 + 语言要求通用页面",
+    "source_file": "schools_postgraduate/lancaster_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/lancaster_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "YORK",
+    "school_name": "约克大学",
+    "school_name_en": "University of York",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 169,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 212,
+      "total": 212
+    },
+    "total_programs": 212,
+    "last_updated": null,
+    "data_source": null,
+    "source_file": "schools_postgraduate/york_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/york_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "CARDIFF",
+    "school_name": "卡迪夫大学",
+    "school_name_en": "Cardiff University",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 181,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 151,
+      "total": 151
+    },
+    "total_programs": 151,
+    "last_updated": null,
+    "data_source": null,
+    "source_file": "schools_postgraduate/cardiff_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/cardiff_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "CURTIN",
+    "school_name": "科廷大学",
+    "school_name_en": "Curtin University",
+    "region_cn": "澳大利亚",
+    "region_en": "Australia",
+    "qs_ranking_2026": 183,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 68,
+      "total": 68
+    },
+    "total_programs": 68,
+    "last_updated": null,
+    "data_source": null,
+    "source_file": "schools_postgraduate/curtin_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/curtin_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "WOLLONGONG",
+    "school_name": "伍伦贡大学",
+    "school_name_en": "University of Wollongong",
+    "region_cn": "澳大利亚",
+    "region_en": "Australia",
+    "qs_ranking_2026": 184,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 104,
+      "total": 104
+    },
+    "total_programs": 104,
+    "last_updated": null,
+    "data_source": null,
+    "source_file": "schools_postgraduate/wollongong_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/wollongong_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "READING",
+    "school_name": "雷丁大学",
+    "school_name_en": "University of Reading",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 194,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 94,
+      "total": 94
+    },
+    "total_programs": 94,
+    "last_updated": null,
+    "data_source": null,
+    "source_file": "schools_postgraduate/reading_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/reading_postgraduate_data.json"
     ]
   },
   {
@@ -1182,6 +1419,75 @@
     "source_file": "schools_postgraduate/otago_postgraduate_data.json",
     "source_files": [
       "schools_postgraduate/otago_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "QUB",
+    "school_name": "贝尔法斯特女王大学",
+    "school_name_en": "Queen's University Belfast",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 199,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 116,
+      "total": 116
+    },
+    "total_programs": 116,
+    "last_updated": null,
+    "data_source": null,
+    "source_file": "schools_postgraduate/qub_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/qub_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "DEAKIN",
+    "school_name": "迪肯大学",
+    "school_name_en": "Deakin University",
+    "region_cn": "澳大利亚",
+    "region_en": "Australia",
+    "qs_ranking_2026": 207,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 49,
+      "total": 49
+    },
+    "total_programs": 49,
+    "last_updated": null,
+    "data_source": null,
+    "source_file": "schools_postgraduate/deakin_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/deakin_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "LOUGHBOROUGH",
+    "school_name": "拉夫堡大学",
+    "school_name_en": "Loughborough University",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 225,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 114,
+      "total": 114
+    },
+    "total_programs": 114,
+    "last_updated": null,
+    "data_source": null,
+    "source_file": "schools_postgraduate/loughborough_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/loughborough_postgraduate_data.json"
     ]
   },
   {
@@ -1237,6 +1543,29 @@
     ]
   },
   {
+    "school_code": "STRATHCLYDE",
+    "school_name": "斯特拉斯克莱德大学",
+    "school_name_en": "University of Strathclyde",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 251,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 155,
+      "total": 155
+    },
+    "total_programs": 155,
+    "last_updated": null,
+    "data_source": null,
+    "source_file": "schools_postgraduate/strathclyde_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/strathclyde_postgraduate_data.json"
+    ]
+  },
+  {
     "school_code": "UM",
     "school_name": "澳门大学",
     "school_name_en": "University of Macau",
@@ -1289,6 +1618,102 @@
     ]
   },
   {
+    "school_code": "ABERDEEN",
+    "school_name": "阿伯丁大学",
+    "school_name_en": "University of Aberdeen",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 262,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 152,
+      "total": 152
+    },
+    "total_programs": 152,
+    "last_updated": "2026-06-04",
+    "data_source": [
+      "abdn.ac.uk postgraduate taught degree programmes (limit=All)",
+      "abdn.ac.uk 课程详情页（采样验证）",
+      "多源交叉核验"
+    ],
+    "source_file": "schools_postgraduate/aberdeen_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/aberdeen_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "SURREY",
+    "school_name": "萨里大学",
+    "school_name_en": "University of Surrey",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 262,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 92,
+      "total": 92
+    },
+    "total_programs": 92,
+    "last_updated": null,
+    "data_source": null,
+    "source_file": "schools_postgraduate/surrey_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/surrey_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "GRIFFITH",
+    "school_name": "格里菲斯大学",
+    "school_name_en": "Griffith University",
+    "region_cn": "澳大利亚",
+    "region_en": "Australia",
+    "qs_ranking_2026": 268,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 64,
+      "total": 64
+    },
+    "total_programs": 64,
+    "last_updated": null,
+    "data_source": null,
+    "source_file": "schools_postgraduate/griffith_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/griffith_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "SUSSEX",
+    "school_name": "萨塞克斯大学",
+    "school_name_en": "University of Sussex",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 278,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 130,
+      "total": 130
+    },
+    "total_programs": 130,
+    "last_updated": null,
+    "data_source": null,
+    "source_file": "schools_postgraduate/sussex_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/sussex_postgraduate_data.json"
+    ]
+  },
+  {
     "school_code": "WAIKATO",
     "school_name": "怀卡托大学",
     "school_name_en": "University of Waikato",
@@ -1309,6 +1734,52 @@
     "source_file": "schools_postgraduate/waikato_postgraduate_data.json",
     "source_files": [
       "schools_postgraduate/waikato_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "HERIOTWATT",
+    "school_name": "赫瑞瓦特大学",
+    "school_name_en": "Heriot-Watt University",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 287,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 89,
+      "total": 89
+    },
+    "total_programs": 89,
+    "last_updated": null,
+    "data_source": null,
+    "source_file": "schools_postgraduate/heriotwatt_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/heriotwatt_postgraduate_data.json"
+    ]
+  },
+  {
+    "school_code": "SWANSEA",
+    "school_name": "斯旺西大学",
+    "school_name_en": "Swansea University",
+    "region_cn": "英国",
+    "region_en": "United Kingdom",
+    "qs_ranking_2026": 292,
+    "education_levels": [
+      "postgraduate"
+    ],
+    "program_counts": {
+      "undergraduate": 0,
+      "postgraduate": 126,
+      "total": 126
+    },
+    "total_programs": 126,
+    "last_updated": null,
+    "data_source": null,
+    "source_file": "schools_postgraduate/swansea_postgraduate_data.json",
+    "source_files": [
+      "schools_postgraduate/swansea_postgraduate_data.json"
     ]
   },
   {
@@ -1429,7 +1900,7 @@
     },
     "total_programs": 30,
     "last_updated": "2026-05-22",
-    "data_source": "https://admissions.smu.edu.sg/ (SMU??????), https://admissions.smu.edu.sg/financial-matters/tuition-fees-grant (SMU??AY2026/2027????), https://www.topuniversities.com/universities/singapore-management-university (QS World University Rankings 2026)",
+    "data_source": "新加坡管理大学官网 (masters.smu.edu.sg)、各学院官网、LLM-guide、公开课程平台交叉验证",
     "source_file": "schools_postgraduate/smu_postgraduate_data.json",
     "source_files": [
       "schools_postgraduate/smu_postgraduate_data.json",

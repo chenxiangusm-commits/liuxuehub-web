@@ -1,9 +1,9 @@
 {
   "name": "留学Hub选校数据库",
   "version": "0.4.0",
-  "generated_at": "2026-05-26",
-  "school_count": 59,
-  "program_count": 6072,
+  "generated_at": "2026-06-09",
+  "school_count": 79,
+  "program_count": 8569,
   "regions": [
     "中国澳门",
     "中国香港",

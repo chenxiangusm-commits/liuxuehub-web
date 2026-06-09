@@ -635,7 +635,7 @@ export default async function SchoolDetailPage({ params }: PageProps) {
 
   // 提取学费信息
   const fees = schoolPrograms
-    .map(p => p.fee)
+    .map(p => p.fee == null ? "" : String(p.fee))
     .filter(f => f && f !== "待确认");
   const feeRangeInfo = formatSchoolFee(fees);
 
