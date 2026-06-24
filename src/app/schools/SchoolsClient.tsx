@@ -6,13 +6,12 @@ import { useRouter } from "next/navigation";
 import { useApp } from "@/context/AppContext";
 import { filterSchools, sortSchoolsByRanking } from "@/lib/filters";
 import { getRegionDisplayCn, getSchoolNameCn, getSchoolNameEn } from "@/lib/schoolDisplay";
-import { getSchoolMarkPath } from "@/lib/schoolLogos";
+import { getSchoolLogo, getSchoolLogoAlt } from "@/lib/schoolLogos";
 import { getFavorites, toggleFavorite } from "@/lib/storage";
 import { getSchoolTags } from "@/lib/schoolTags";
 import type { School } from "@/types";
 import Container from "@/components/ui/Container";
 import Card from "@/components/ui/Card";
-import Badge from "@/components/ui/Badge";
 import SectionTitle from "@/components/ui/SectionTitle";
 
 interface SchoolsClientProps {
@@ -89,24 +88,6 @@ function getProgramCountLabel(educationLevel: "all" | "undergraduate" | "postgra
   return "专业数量";
 }
 
-function getQsBadge(school: School) {
-  const ranking = school.qs_ranking_2026;
-
-  if (typeof ranking !== "number" || ranking <= 0) {
-    return {
-      label: "QS暂无",
-      className: "bg-gray-100 text-gray-500 border-gray-200",
-    };
-  }
-
-  return {
-    label: `QS #${ranking}`,
-    className: ranking <= 100
-      ? "bg-red-50 text-red-600 border-red-100"
-      : "bg-slate-100 text-slate-600 border-slate-200",
-  };
-}
-
 function SchoolListCard({
   school,
   educationLevel,
@@ -119,14 +100,14 @@ function SchoolListCard({
   onToggleFavorite: (schoolCode: string) => void;
 }) {
   const router = useRouter();
-  const [logoSrc, setLogoSrc] = useState(getSchoolMarkPath(school.school_code) || DEFAULT_LOGO);
+  const [logoSrc, setLogoSrc] = useState(getSchoolLogo(school.school_code));
   const href = `/schools/${school.school_code}`;
-  const qsBadge = getQsBadge(school);
   const schoolTags = getSchoolTags(school.school_code).slice(0, 2);
   const programCount = getProgramCount(school, educationLevel);
+  const qsRanking = school.qs_ranking_2026;
 
   useEffect(() => {
-    setLogoSrc(getSchoolMarkPath(school.school_code) || DEFAULT_LOGO);
+    setLogoSrc(getSchoolLogo(school.school_code));
   }, [school.school_code]);
 
   const handleFavoriteClick = (event: MouseEvent<HTMLButtonElement>) => {
@@ -152,40 +133,45 @@ function SchoolListCard({
           router.push(href);
         }
       }}
-      className="group relative flex min-h-[214px] cursor-pointer flex-col rounded-2xl border border-gray-100 bg-white p-4 shadow-sm outline-none transition-all duration-200 hover:-translate-y-0.5 hover:border-blue-200 hover:shadow-lg focus-visible:ring-2 focus-visible:ring-blue-500"
+      className="group relative flex min-h-[236px] cursor-pointer flex-col overflow-hidden rounded-[22px] border border-slate-200 bg-white p-5 shadow-sm outline-none transition-all duration-200 hover:-translate-y-1 hover:border-blue-200 hover:shadow-xl hover:shadow-blue-100/70 focus-visible:ring-2 focus-visible:ring-blue-500"
     >
+      <div className="pointer-events-none absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-blue-600 via-sky-400 to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
+
       <div className="flex items-start gap-4 pr-12">
-        <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-xl border border-gray-200 bg-white p-2 shadow-sm">
+        <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl border border-slate-200 bg-white p-2 shadow-sm ring-4 ring-slate-50">
           <Image
             src={logoSrc}
-            alt={`${getSchoolNameCn(school)} logo`}
+            alt={getSchoolLogoAlt(getSchoolNameCn(school))}
             width={64}
             height={64}
+            loading="eager"
             className="h-full w-full object-contain"
             onError={() => setLogoSrc(DEFAULT_LOGO)}
           />
         </div>
 
         <div className="min-w-0 flex-1">
-          <div className="mb-2 flex flex-wrap items-center gap-2">
-            <span className={`inline-flex items-center rounded-full border px-2.5 py-1 text-xs font-semibold ${qsBadge.className}`}>
-              {qsBadge.label}
-            </span>
-          </div>
-          <h3 className="mb-1 truncate text-lg font-semibold text-gray-950 transition-colors group-hover:text-blue-700">
+          <h3 className="mb-1 truncate text-xl font-black tracking-tight text-slate-950 transition-colors group-hover:text-blue-700">
             {getSchoolNameCn(school)}
           </h3>
-          <p className="line-clamp-1 text-sm text-gray-500" title={getSchoolNameEn(school)}>
+          <p className="line-clamp-1 text-sm font-medium text-slate-500" title={getSchoolNameEn(school)}>
             {getSchoolNameEn(school)}
           </p>
         </div>
+      </div>
+
+      <div className="absolute right-5 top-5 flex min-h-14 min-w-16 flex-col items-center justify-center rounded-2xl border border-red-100 bg-red-50 px-3 py-2 text-red-600">
+        <span className="text-[10px] font-black uppercase leading-none tracking-wide">QS</span>
+        <span className="mt-1 text-xl font-black leading-none">
+          {typeof qsRanking === "number" && qsRanking > 0 ? qsRanking : "--"}
+        </span>
       </div>
 
       <button
         type="button"
         aria-label={isFavorite ? "取消收藏" : "收藏学校"}
         onClick={handleFavoriteClick}
-        className={`absolute right-4 top-4 rounded-full border p-2 transition-colors ${
+        className={`absolute right-5 top-[88px] rounded-full border p-2 transition-colors ${
           isFavorite
             ? "border-red-100 bg-red-50 text-red-500 hover:bg-red-100"
             : "border-gray-100 bg-white text-gray-400 hover:border-red-100 hover:bg-red-50 hover:text-red-500"
@@ -196,26 +182,32 @@ function SchoolListCard({
         </svg>
       </button>
 
-      <div className="mt-4 flex flex-wrap gap-2">
-        <Badge variant="primary">{getRegionDisplayCn(school)}</Badge>
-        {school.education_levels?.includes("undergraduate") && <Badge>本科</Badge>}
-        {school.education_levels?.includes("postgraduate") && <Badge variant="success">硕士</Badge>}
+      <div className="mt-5 flex flex-wrap gap-2">
+        <span className="inline-flex items-center rounded-full bg-slate-100 px-3 py-1 text-xs font-bold text-slate-600">
+          {getRegionDisplayCn(school)}
+        </span>
+        {school.education_levels?.includes("undergraduate") && (
+          <span className="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-bold text-blue-700">本科</span>
+        )}
+        {school.education_levels?.includes("postgraduate") && (
+          <span className="inline-flex items-center rounded-full bg-emerald-50 px-3 py-1 text-xs font-bold text-emerald-700">硕士</span>
+        )}
         {schoolTags.map(tag => (
-          <span key={tag} className="inline-flex items-center rounded-full border border-blue-100 bg-blue-50 px-2.5 py-1 text-xs font-medium text-blue-600">
+          <span key={tag} className="inline-flex items-center rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-semibold text-slate-500">
             {tag}
           </span>
         ))}
       </div>
 
-      <div className="mt-auto flex flex-col gap-3 pt-4 sm:flex-row sm:items-end sm:justify-between">
+      <div className="mt-auto flex flex-col gap-3 border-t border-slate-100 pt-4 sm:flex-row sm:items-end sm:justify-between">
         <div>
-          <p className="text-xs text-gray-400">{getProgramCountLabel(educationLevel)}</p>
-          <p className="text-xl font-semibold text-gray-900">{programCount}</p>
+          <p className="text-xs font-semibold text-slate-400">{getProgramCountLabel(educationLevel)}</p>
+          <p className="mt-1 text-2xl font-black text-slate-950">{programCount}</p>
         </div>
         <button
           type="button"
           onClick={handleViewClick}
-          className="inline-flex w-full items-center justify-center rounded-xl bg-blue-600 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-blue-700 sm:w-auto"
+          className="inline-flex w-full items-center justify-center rounded-2xl bg-blue-600 px-5 py-3 text-sm font-black text-white shadow-lg shadow-blue-600/20 transition-colors hover:bg-blue-700 sm:w-auto"
         >
           查看学校
           <svg className="ml-1.5 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -314,6 +306,7 @@ export default function SchoolsClient({ schools }: SchoolsClientProps) {
 
   return (
     <Container className="py-8">
+      <h1 className="sr-only">院校库</h1>
       <SectionTitle
         title="院校库"
         subtitle="按地区、申请阶段和 QS 排名筛选学校，快速找到适合自己的留学目标。"

@@ -7,6 +7,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { EssayInput, EssayOutput } from '@/lib/ai/essay-generator';
 import { withApiProtection } from '@/lib/api-helpers';
 
+export const dynamic = 'force-dynamic';
+
 const DEEPSEEK_BASE_URL = 'https://api.deepseek.com';
 const DEEPSEEK_MODEL = 'deepseek-chat';
 

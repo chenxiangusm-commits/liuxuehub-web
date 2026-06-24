@@ -697,7 +697,7 @@ export default function SchoolMatchClient() {
 
             <div className="mt-4 p-3 bg-yellow-50 rounded-lg border border-yellow-200">
               <p className="text-xs text-yellow-700">
-                <strong>提示：</strong>选校结果仅供参考，最终录取结果取决于多种因素。建议结合自身情况合理规划。
+                <strong>提示：</strong>基于历史数据与AI分析，仅供参考。最终录取结果取决于多种因素，建议结合自身情况合理规划。
               </p>
             </div>
           </div>

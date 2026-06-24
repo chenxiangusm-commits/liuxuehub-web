@@ -23,6 +23,8 @@ import {
 } from '@/lib/ai/writing-strategy';
 import { withApiProtection } from '@/lib/api-helpers';
 
+export const dynamic = 'force-dynamic';
+
 const USE_MOCK = process.env.AI_RESUME_USE_MOCK === 'true';
 const MODEL_PROVIDER = process.env.AI_MODEL_PROVIDER || 'qwen';
 

@@ -5,7 +5,7 @@ import Link from "next/link";
 import Card from "@/components/ui/Card";
 import Container from "@/components/ui/Container";
 import Badge from "@/components/ui/Badge";
-import { getSchoolMarkPath } from "@/lib/schoolLogos";
+import { getSchoolLogo, getSchoolLogoAlt } from "@/lib/schoolLogos";
 import type { School } from "@/types";
 
 interface HomeClientProps {
@@ -70,7 +70,7 @@ export default function HomeClient({ schools }: HomeClientProps) {
         <Container>
           <div className="mb-8 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
             <div>
-              <Badge variant="primary">AI留学规划书</Badge>
+              <Badge variant="primary">AI留学方案</Badge>
               <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 md:text-4xl">
                 从学生背景到可沟通的申请方案
               </h2>
@@ -79,7 +79,7 @@ export default function HomeClient({ schools }: HomeClientProps) {
               </p>
             </div>
             <Link href="/ai/study-plan" className="rounded-2xl bg-blue-600 px-6 py-3 text-sm font-bold text-white shadow-lg shadow-blue-600/20 transition hover:bg-blue-700">
-              立即生成规划书
+              查看AI方案工具
             </Link>
           </div>
 
@@ -165,7 +165,7 @@ export default function HomeClient({ schools }: HomeClientProps) {
                 <Card className="h-full p-5 shadow-sm" hoverable>
                   <div className="flex items-center gap-4">
                     <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl border border-slate-100 bg-white shadow-sm">
-                      <Image src={getSchoolMarkPath(school.school_code)} alt={cnName(school)} width={52} height={52} className="max-h-12 max-w-12 object-contain" />
+                      <Image src={getSchoolLogo(school.school_code)} alt={getSchoolLogoAlt(cnName(school))} width={52} height={52} className="max-h-12 max-w-12 object-contain" />
                     </div>
                     <div className="min-w-0 flex-1">
                       <div className="flex items-center gap-2">
@@ -214,14 +214,14 @@ export default function HomeClient({ schools }: HomeClientProps) {
       <section className="px-4 py-14 sm:px-6 sm:py-16">
         <div className="mx-auto max-w-6xl rounded-[28px] bg-gradient-to-br from-blue-600 to-indigo-700 px-6 py-10 text-center text-white shadow-2xl shadow-blue-600/20 sm:px-10">
           <h2 className="text-3xl font-black tracking-tight md:text-4xl">
-            开始为学生生成第一份AI留学规划书
+            开始生成第一份AI留学方案
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-base leading-7 text-blue-50">
             用一份结构化方案，把学生背景、选校梯度、申请风险和下一步行动讲清楚。
           </p>
           <div className="mt-7 flex flex-col justify-center gap-3 sm:flex-row">
             <Link href="/ai/study-plan" className="rounded-2xl bg-white px-7 py-4 text-sm font-black text-blue-700 transition hover:bg-blue-50">
-              立即生成规划书
+              进入AI方案工具
             </Link>
             <Link href="/schools" className="rounded-2xl border border-white/25 bg-white/10 px-7 py-4 text-sm font-black text-white transition hover:bg-white/15">
               浏览院校库

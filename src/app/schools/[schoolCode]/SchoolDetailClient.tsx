@@ -63,7 +63,7 @@ export default function SchoolDetailClient({ programs, schoolName, region }: Sch
   const [selectedDirection, setSelectedDirection] = useState<string>("");
   const [selectedCollege, setSelectedCollege] = useState<string>("");
   const [favorites, setFavorites] = useState<string[]>([]);
-  const [displayCount, setDisplayCount] = useState(20);
+  const [displayCount, setDisplayCount] = useState(12);
   const [showMoreFilters, setShowMoreFilters] = useState(false);
 
   useEffect(() => {
@@ -109,7 +109,7 @@ export default function SchoolDetailClient({ programs, schoolName, region }: Sch
   useEffect(() => {
     if (selectedCollege && !colleges.includes(selectedCollege)) {
       setSelectedCollege("");
-      setDisplayCount(20);
+      setDisplayCount(12);
     }
   }, [selectedCollege, colleges]);
 
@@ -146,17 +146,17 @@ export default function SchoolDetailClient({ programs, schoolName, region }: Sch
   const handleLevelChange = (level: string) => {
     setSelectedLevel(level);
     setSelectedCollege("");
-    setDisplayCount(20);
+    setDisplayCount(12);
   };
 
   const handleDirectionChange = (direction: string) => {
     setSelectedDirection(direction);
-    setDisplayCount(20);
+    setDisplayCount(12);
   };
 
   const resetFilters = () => {
     setSelectedCollege("");
-    setDisplayCount(20);
+    setDisplayCount(12);
   };
 
   const renderProgramCards = () => {
@@ -263,7 +263,7 @@ export default function SchoolDetailClient({ programs, schoolName, region }: Sch
         {filteredPrograms.length > displayCount && (
           <div className="mt-4 text-center">
             <button
-              onClick={() => setDisplayCount(prev => prev + 20)}
+              onClick={() => setDisplayCount(prev => prev + 12)}
               className="inline-flex items-center px-5 py-2.5 bg-white border border-gray-200 text-gray-700 rounded-xl text-sm font-medium hover:bg-gray-50 hover:border-gray-300 transition-colors"
             >
               查看更多专业
@@ -324,7 +324,7 @@ export default function SchoolDetailClient({ programs, schoolName, region }: Sch
             value={searchKeyword}
             onChange={(e) => {
               setSearchKeyword(e.target.value);
-              setDisplayCount(20);
+              setDisplayCount(12);
             }}
             className="w-full px-4 py-2.5 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
@@ -389,7 +389,7 @@ export default function SchoolDetailClient({ programs, schoolName, region }: Sch
                 <label className="block text-sm font-medium text-gray-700 mb-2">学院</label>
                 <div className="flex flex-wrap gap-2">
                   <button
-                    onClick={() => { setSelectedCollege(""); setDisplayCount(20); }}
+                    onClick={() => { setSelectedCollege(""); setDisplayCount(12); }}
                     className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
                       selectedCollege === ""
                         ? "bg-blue-600 text-white"
@@ -401,7 +401,7 @@ export default function SchoolDetailClient({ programs, schoolName, region }: Sch
                   {colleges.map(college => (
                     <button
                       key={college}
-                      onClick={() => { setSelectedCollege(college); setDisplayCount(20); }}
+                      onClick={() => { setSelectedCollege(college); setDisplayCount(12); }}
                       className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
                         selectedCollege === college
                           ? "bg-blue-600 text-white"

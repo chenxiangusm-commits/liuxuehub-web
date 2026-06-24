@@ -43,7 +43,7 @@ export default async function HomePage() {
                 href="/ai/study-plan"
                 className="inline-flex items-center justify-center rounded-2xl bg-white px-7 py-4 text-base font-bold text-blue-700 shadow-xl shadow-blue-950/20 transition hover:-translate-y-0.5 hover:bg-blue-50"
               >
-                立即生成AI留学规划书
+                免费生成留学方案
               </Link>
               <Link
                 href="/schools"
@@ -85,7 +85,7 @@ export default async function HomePage() {
                 <div className="mb-5 flex items-center justify-between">
                   <div>
                     <p className="text-sm font-semibold text-blue-600">顾问方案生成器</p>
-                    <h2 className="text-xl font-black">AI留学规划书预览</h2>
+                    <h2 className="text-xl font-black">AI留学方案预览</h2>
                   </div>
                   <span className="rounded-full bg-emerald-50 px-3 py-1 text-xs font-bold text-emerald-700">
                     Beta可体验

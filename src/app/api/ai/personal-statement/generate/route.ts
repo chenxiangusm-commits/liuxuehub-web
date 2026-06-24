@@ -7,6 +7,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { generatePersonalStatement, PersonalStatementInput } from '@/lib/ai/personal-statement-generator';
 import { withApiProtection } from '@/lib/api-helpers';
 
+export const dynamic = 'force-dynamic';
+
 export async function POST(request: NextRequest) {
   return withApiProtection(request, async () => {
     const body = await request.json() as PersonalStatementInput;

@@ -7,6 +7,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { generateRecommendationLetter, RecommendationLetterInput } from '@/lib/ai/recommendation-letter-generator';
 import { withApiProtection } from '@/lib/api-helpers';
 
+export const dynamic = 'force-dynamic';
+
 const USE_MOCK = process.env.AI_RESUME_USE_MOCK === 'true';
 
 export async function POST(request: NextRequest) {

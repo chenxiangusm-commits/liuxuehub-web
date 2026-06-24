@@ -7,6 +7,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { generateMotivationLetter, MotivationLetterInput } from '@/lib/ai/motivation-letter-generator';
 import { withApiProtection } from '@/lib/api-helpers';
 
+export const dynamic = 'force-dynamic';
+
 export async function POST(request: NextRequest) {
   return withApiProtection(request, async () => {
     const body = await request.json() as MotivationLetterInput;

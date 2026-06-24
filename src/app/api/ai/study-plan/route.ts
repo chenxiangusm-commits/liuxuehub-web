@@ -1,7 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getClientIp, withApiProtection } from "@/lib/api-helpers";
 import { generateWithModel } from "@/lib/ai/model-provider";
-import type { StudyPlanResult } from "@/lib/ai/studyPlanMock";
+import { normalizeStudyPlanTimeline, type StudyPlanResult } from "@/lib/ai/studyPlanMock";
+
+export const dynamic = "force-dynamic";
 
 const MAX_FIELD_LENGTH = 1200;
 const MAX_TOTAL_INPUT_LENGTH = 5000;
@@ -153,8 +155,17 @@ function sanitizeInput(input: StudyPlanRequest): Required<StudyPlanRequest> {
 }
 
 function buildUserPrompt(input: Required<StudyPlanRequest>) {
+  const today = new Date().toLocaleDateString("zh-CN", {
+    timeZone: "Asia/Shanghai",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+
   return [
     "请基于以下学生背景，生成稳定 JSON：",
+    `当前日期：${today}`,
+    "申请时间线必须从当前日期之后开始规划，禁止输出已经过去的年份或月份。",
     `申请阶段：${input.degreeLevel}`,
     `目标地区：${input.targetRegions.join("、")}`,
     `目标专业方向：${input.targetMajor}`,
@@ -233,13 +244,15 @@ function normalizeStudyPlanResult(raw: unknown): StudyPlanResult | null {
       opportunities: asStringArray(source.swot?.opportunities),
       threats: asStringArray(source.swot?.threats),
     },
-    timeline: Array.isArray(source.timeline)
-      ? source.timeline.slice(0, 8).map((item) => ({
+    timeline: normalizeStudyPlanTimeline(
+      Array.isArray(source.timeline)
+        ? source.timeline.slice(0, 8).map((item) => ({
           stage: String(item.stage || "申请规划"),
           time: String(item.time || "建议补充确认"),
           tasks: asStringArray(item.tasks),
         }))
-      : [],
+        : []
+    ),
     actionPlan: Array.isArray(source.actionPlan)
       ? source.actionPlan.slice(0, 8).map((item) => ({
           priority: item.priority === "高" || item.priority === "中" || item.priority === "低" ? item.priority : "中",

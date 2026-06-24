@@ -5,7 +5,7 @@ import Link from "next/link";
 import Card from "@/components/ui/Card";
 import Container from "@/components/ui/Container";
 import Badge from "@/components/ui/Badge";
-import { StudyPlanResult, studyPlanMockResult } from "@/lib/ai/studyPlanMock";
+import { normalizeStudyPlanTimeline, StudyPlanResult, studyPlanMockResult } from "@/lib/ai/studyPlanMock";
 
 function ListBlock({ title, items }: { title: string; items: string[] }) {
   return (
@@ -26,11 +26,19 @@ export default function StudyPlanResultPage() {
   useEffect(() => {
     try {
       const stored = localStorage.getItem("studyPlanResult");
-      if (stored) setResult(JSON.parse(stored) as StudyPlanResult);
+      if (stored) {
+        const parsed = JSON.parse(stored) as StudyPlanResult;
+        setResult({
+          ...parsed,
+          timeline: normalizeStudyPlanTimeline(parsed.timeline),
+        });
+      }
     } catch {
       setResult(studyPlanMockResult);
     }
   }, []);
+
+  const timeline = normalizeStudyPlanTimeline(result.timeline);
 
   return (
     <main className="min-h-screen bg-[#F8FAFC]">
@@ -43,7 +51,7 @@ export default function StudyPlanResultPage() {
                 AI留学规划书结果
               </h1>
               <p className="mt-4 max-w-2xl text-base leading-7 text-gray-600">
-                以下内容为AI生成的顾问沟通参考，最终方案请结合学生真实材料和学校官网审核。
+                基于历史数据与AI分析，仅供参考。最终方案请结合学生真实材料和学校官网审核。
               </p>
             </div>
             <Link href="/ai/study-plan" className="rounded-xl bg-blue-600 px-6 py-3 text-sm font-bold text-white hover:bg-blue-700">
@@ -112,7 +120,7 @@ export default function StudyPlanResultPage() {
           <Card className="p-6 shadow-sm">
             <h2 className="text-2xl font-black text-gray-950">申请时间线</h2>
             <div className="mt-5 space-y-3">
-              {result.timeline.map((item) => (
+              {timeline.map((item) => (
                 <div key={`${item.time}-${item.stage}`} className="rounded-2xl bg-slate-50 p-4">
                   <div className="flex justify-between gap-3">
                     <strong>{item.stage}</strong>

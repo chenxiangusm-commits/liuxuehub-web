@@ -231,7 +231,7 @@ export default function AIPage() {
           <div>
             <h3 className="font-semibold text-orange-800 mb-1">Beta 说明</h3>
             <p className="text-orange-700 text-sm">
-              当前为 AI 留学申请材料生成 Beta，内容供申请材料准备参考，提交前请自行核对真实性。
+              当前为 AI 留学申请材料生成 Beta，基于历史数据与AI分析，仅供参考。提交前请自行核对真实性。
             </p>
           </div>
         </div>

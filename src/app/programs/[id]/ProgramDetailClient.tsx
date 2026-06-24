@@ -5,7 +5,7 @@ import Image from "next/image";
 import { Program } from "@/types";
 import { addFavorite, removeFavorite, isFavorite } from "@/lib/storage";
 import { getSchoolTags } from "@/lib/schoolTags";
-import { getSchoolMarkPath } from "@/lib/schoolLogos";
+import { getSchoolLogo, getSchoolLogoAlt } from "@/lib/schoolLogos";
 import { useState, useEffect } from "react";
 import { 
   formatFee, 
@@ -307,8 +307,8 @@ export default function ProgramDetailClient({ program }: ProgramDetailClientProp
               <Link href={`/schools/${program.school_code}`} className="flex-shrink-0">
                 <div className="w-14 h-14 bg-gray-100 rounded-xl flex items-center justify-center overflow-hidden">
                   <Image
-                    src={getSchoolMarkPath(program.school_code)}
-                    alt={program.school_name || ''}
+                    src={getSchoolLogo(program.school_code)}
+                    alt={getSchoolLogoAlt(program.school_name)}
                     width={56}
                     height={56}
                     className="w-full h-full object-contain p-1.5"

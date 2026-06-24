@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { getAllSchools, getSchoolByCode, getProgramsBySchoolCode } from "@/lib/data.server";
 import { getSchoolChineseName } from "@/lib/school-names";
-import { getSchoolMarkPath } from "@/lib/schoolLogos";
+import { getSchoolLogo, getSchoolLogoAlt } from "@/lib/schoolLogos";
 import { getSchoolTags } from "@/lib/schoolTags";
 import { formatLanguageRequirement } from "@/lib/displayFormat";
 import SchoolDetailClient from "./SchoolDetailClient";
@@ -628,7 +628,7 @@ export default async function SchoolDetailPage({ params }: PageProps) {
   }
 
   const chineseName = getSchoolChineseName(school.school_code);
-  const logoPath = getSchoolMarkPath(school.school_code);
+  const logoPath = getSchoolLogo(school.school_code);
 
   const schoolPrograms = programs;
   const programCount = schoolPrograms.length;
@@ -684,7 +684,7 @@ export default async function SchoolDetailPage({ params }: PageProps) {
                   {logoPath ? (
                     <Image
                       src={logoPath}
-                      alt={`${chineseName} logo`}
+                      alt={getSchoolLogoAlt(chineseName)}
                       width={64}
                       height={64}
                       className="h-full w-full object-contain"

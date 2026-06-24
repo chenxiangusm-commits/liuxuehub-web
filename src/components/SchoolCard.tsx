@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { getSchoolMarkPath } from "@/lib/schoolLogos";
+import { getSchoolLogo, getSchoolLogoAlt } from "@/lib/schoolLogos";
 import { getRegionDisplayCn, getSchoolNameCn, getSchoolNameEn } from "@/lib/schoolDisplay";
 import type { School } from "@/types";
 
@@ -19,7 +19,7 @@ export default function SchoolCard({ school, educationLevel }: SchoolCardProps) 
       ? counts?.postgraduate || 0
       : counts?.total || school.total_programs || 0;
 
-  const logoPath = getSchoolMarkPath(school.school_code);
+  const logoPath = getSchoolLogo(school.school_code);
   const cnName = getSchoolNameCn(school);
   const enName = getSchoolNameEn(school);
   const region = getRegionDisplayCn(school);
@@ -29,7 +29,7 @@ export default function SchoolCard({ school, educationLevel }: SchoolCardProps) 
       <div className="card-logo">
         <Image
           src={logoPath}
-          alt={cnName}
+          alt={getSchoolLogoAlt(cnName)}
           width={64}
           height={64}
           className="card-logo-image"

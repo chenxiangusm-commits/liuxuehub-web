@@ -9,6 +9,7 @@ import {
   StudyPlanForm,
   StudyPlanResult,
   StudyPlanStage,
+  normalizeStudyPlanTimeline,
   studyPlanMockResult,
 } from "@/lib/ai/studyPlanMock";
 
@@ -117,6 +118,7 @@ function ResultView({ result }: { result: StudyPlanResult }) {
   const [betaMessage, setBetaMessage] = useState("");
   const [leadSubmitted, setLeadSubmitted] = useState(false);
   const [leadForm, setLeadForm] = useState({ name: "", contact: "", note: "" });
+  const timeline = normalizeStudyPlanTimeline(result.timeline);
   const strategies = [
     ["冲刺", result.schoolStrategy.reach, "border-red-100 bg-red-50/50"],
     ["匹配", result.schoolStrategy.match, "border-blue-100 bg-blue-50/50"],
@@ -178,7 +180,7 @@ function ResultView({ result }: { result: StudyPlanResult }) {
       <Card className="p-6 shadow-sm">
         <h2 className="text-2xl font-black text-slate-950">申请时间线</h2>
         <div className="mt-5 space-y-4">
-          {result.timeline.map((item) => (
+          {timeline.map((item) => (
             <div key={`${item.time}-${item.stage}`} className="rounded-2xl border border-slate-100 bg-white p-5">
               <div className="flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between">
                 <h3 className="font-bold text-slate-950">{item.stage}</h3>
@@ -344,8 +346,12 @@ export default function StudyPlanPage() {
       if (!response.ok || !data.success) {
         throw new Error(data.error || "生成失败，请稍后重试。");
       }
-      setResult(data.data as StudyPlanResult);
-      localStorage.setItem("studyPlanResult", JSON.stringify(data.data));
+      const nextResult = {
+        ...(data.data as StudyPlanResult),
+        timeline: normalizeStudyPlanTimeline((data.data as StudyPlanResult).timeline),
+      };
+      setResult(nextResult);
+      localStorage.setItem("studyPlanResult", JSON.stringify(nextResult));
     } catch (err) {
       trackBetaMetric("generate_failure");
       setError(err instanceof Error ? err.message : "AI服务暂时不可用，已展示样例结果。");

@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { searchProgramIndex } from "@/lib/data.server";
 
+export const dynamic = "force-dynamic";
+
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
   const keyword = searchParams.get("keyword")?.trim() || "";

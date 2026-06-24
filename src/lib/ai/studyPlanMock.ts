@@ -63,6 +63,87 @@ export interface StudyPlanResult {
   disclaimer: string;
 }
 
+function addMonths(date: Date, months: number) {
+  const next = new Date(date);
+  next.setMonth(next.getMonth() + months);
+  return next;
+}
+
+function formatMonth(date: Date) {
+  return `${date.getFullYear()}年${date.getMonth() + 1}月`;
+}
+
+function formatMonthRange(startOffset: number, endOffset: number, baseDate = new Date()) {
+  const start = addMonths(baseDate, startOffset);
+  const end = addMonths(baseDate, endOffset);
+  return `${formatMonth(start)}-${end.getMonth() + 1}月`;
+}
+
+export function createDynamicStudyPlanTimeline(baseDate = new Date()): StudyPlanResult["timeline"] {
+  return [
+    {
+      stage: "语言提升",
+      time: formatMonthRange(0, 1, baseDate),
+      tasks: ["报名雅思/托福/PTE考试", "集中备考并确认目标分数", "若未达标，预留二刷时间"],
+    },
+    {
+      stage: "文书准备",
+      time: formatMonthRange(1, 2, baseDate),
+      tasks: ["完成个人陈述初稿", "整理简历与项目经历", "联系推荐人并确认推荐信节奏"],
+    },
+    {
+      stage: "申请递交",
+      time: formatMonthRange(3, 5, baseDate),
+      tasks: ["优先递交冲刺和匹配项目", "同步递交稳妥项目", "持续跟进官网截止日期"],
+    },
+    {
+      stage: "后续跟进",
+      time: `${formatMonth(addMonths(baseDate, 6))}-${formatMonth(addMonths(baseDate, 8))}`,
+      tasks: ["等待录取结果", "准备面试或补充材料", "比较offer并规划签证与住宿"],
+    },
+  ];
+}
+
+function monthIndex(year: number, month: number) {
+  return year * 12 + month;
+}
+
+function getLatestExplicitMonth(time: string) {
+  const matches = Array.from(time.matchAll(/(\d{4})年(\d{1,2})月(?:\s*[-–—至到]\s*(?:(\d{4})年)?(\d{1,2})月)?/g));
+  if (!matches.length) return null;
+
+  return matches.reduce<number | null>((latest, match) => {
+    const startYear = Number(match[1]);
+    const startMonth = Number(match[2]);
+    const endYear = match[3] ? Number(match[3]) : startYear;
+    const endMonth = match[4] ? Number(match[4]) : startMonth;
+    const current = monthIndex(endYear, endMonth);
+    return latest === null || current > latest ? current : latest;
+  }, null);
+}
+
+function isExpiredTime(time: string, baseDate: Date) {
+  const latestMonth = getLatestExplicitMonth(time);
+  if (latestMonth === null) return false;
+  return latestMonth < monthIndex(baseDate.getFullYear(), baseDate.getMonth() + 1);
+}
+
+export function normalizeStudyPlanTimeline(
+  timeline: StudyPlanResult["timeline"] | undefined,
+  baseDate = new Date()
+): StudyPlanResult["timeline"] {
+  if (!timeline?.length) return createDynamicStudyPlanTimeline(baseDate);
+
+  const hasExpiredStage = timeline.some((item) => isExpiredTime(String(item.time || ""), baseDate));
+  if (hasExpiredStage) return createDynamicStudyPlanTimeline(baseDate);
+
+  return timeline.map((item) => ({
+    stage: item.stage || "申请规划",
+    time: item.time || "以当前申请季为准",
+    tasks: item.tasks?.length ? item.tasks : ["建议补充确认"],
+  }));
+}
+
 export const defaultStudyPlanForm: StudyPlanForm = {
   stage: "postgraduate",
   regions: ["英国"],
@@ -125,12 +206,7 @@ export const studyPlanMockResult: StudyPlanResult = {
     opportunities: ["英国和香港项目选择丰富", "部分学校滚动录取适合早递交"],
     threats: ["热门专业竞争激烈", "截止日期和名额变化需要持续关注"],
   },
-  timeline: [
-    { stage: "定校与补材料", time: "2026年3月", tasks: ["确认目标地区", "梳理项目清单", "规划语言考试"] },
-    { stage: "背景提升", time: "2026年5月", tasks: ["补充实习或科研", "完成项目经历包装"] },
-    { stage: "文书准备", time: "2026年8月", tasks: ["完成CV", "准备PS和推荐信"] },
-    { stage: "递交申请", time: "2026年9月", tasks: ["优先递交冲刺和匹配项目", "跟进官网截止日期"] },
-  ],
+  timeline: createDynamicStudyPlanTimeline(),
   actionPlan: [
     { priority: "高", action: "提升语言成绩", reason: "语言是筛选和奖学金评估的重要基础。" },
     { priority: "中", action: "补充相关实践", reason: "增强专业匹配度和文书可信度。" },
