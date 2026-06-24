@@ -168,6 +168,50 @@ function isEvaluationUsable(evaluation: InterviewEvaluation) {
   );
 }
 
+function buildFallbackEvaluation(
+  input: NonNullable<ReturnType<typeof validateInput>["data"]>,
+): InterviewEvaluation {
+  const answerLength = input.studentAnswer.length;
+  const hasSpecificExample =
+    /\b(project|internship|research|competition|leadership|team|data|finance|analysis|experience|case)\b/i.test(
+      input.studentAnswer,
+    );
+  const hasClearMotivation =
+    /\b(because|therefore|so that|goal|career|future|interested|passion|want to|plan to)\b/i.test(
+      input.studentAnswer,
+    );
+
+  const relevanceScore = hasClearMotivation ? 78 : 68;
+  const logicScore = hasSpecificExample ? 76 : 66;
+  const fluencyScore = answerLength > 220 ? 76 : 68;
+  const confidenceScore = answerLength > 160 && hasSpecificExample ? 74 : 65;
+  const overallScore = Math.round((relevanceScore + logicScore + fluencyScore + confidenceScore) / 4);
+
+  return {
+    overallScore,
+    fluencyScore,
+    logicScore,
+    relevanceScore,
+    confidenceScore,
+    strengths: [
+      "回答能够回应面试问题，并表达了继续学习该方向的基本动机。",
+      hasClearMotivation
+        ? "回答中已经出现目标、兴趣或职业规划相关表达。"
+        : "回答语气较自然，适合作为第一版口语草稿继续打磨。",
+    ],
+    weaknesses: [
+      hasSpecificExample
+        ? "具体经历还可以进一步量化，例如说明项目规模、个人职责和结果。"
+        : "缺少具体经历支撑，建议加入一个课程、项目、实习或研究案例。",
+      "结尾需要更明确地回到目标学校和目标专业，形成更强的申请匹配度。",
+    ],
+    improvedAnswer: `I want to study ${input.targetProgram} at ${input.targetSchool} because it matches both my academic interests and my long-term career plan. Through my previous study and project experience, I have become increasingly interested in how analytical thinking can be used to solve real problems in this field. I hope to build stronger professional knowledge, improve my ability to work with international peers, and learn from the practical resources offered by the programme. In the future, I want to apply what I learn to create measurable value in my chosen industry. This is why I believe ${input.targetSchool} is a strong fit for my next stage of development.`,
+    followUpQuestion: `Can you describe one specific project, course, or internship experience that shows you are ready for ${input.targetProgram}?`,
+    finalAdvice:
+      "建议下一轮回答使用“三段式”：先给结论，再讲一个具体经历，最后回到目标学校、专业和职业规划。每次练习控制在 90-120 秒，会更像真实面试。",
+  };
+}
+
 export async function POST(request: NextRequest) {
   return withApiProtection(request, async () => {
     try {
@@ -188,25 +232,29 @@ export async function POST(request: NextRequest) {
       });
 
       if (!result.success) {
-        const isMissingKey = result.error?.toLowerCase().includes("api key");
-        return NextResponse.json(
-          {
-            success: false,
-            error: isMissingKey
-              ? "AI 面试官暂未配置模型服务，请联系管理员。"
-              : result.error || "AI 面试官暂时不可用，请稍后重试。",
+        console.warn("Interview model unavailable, using fallback evaluation:", result.error);
+        return NextResponse.json({
+          success: true,
+          data: buildFallbackEvaluation(validation.data),
+          meta: {
+            mode: "fallback",
+            reason: "model_unavailable",
           },
-          { status: isMissingKey ? 503 : 502 },
-        );
+        });
       }
 
       const evaluation = normalizeEvaluation(result.data);
 
       if (!isEvaluationUsable(evaluation)) {
-        return NextResponse.json(
-          { success: false, error: "AI 返回内容不完整，请重新提交一次。" },
-          { status: 502 },
-        );
+        console.warn("Interview model returned incomplete content, using fallback evaluation.");
+        return NextResponse.json({
+          success: true,
+          data: buildFallbackEvaluation(validation.data),
+          meta: {
+            mode: "fallback",
+            reason: "incomplete_model_response",
+          },
+        });
       }
 
       return NextResponse.json({ success: true, data: evaluation });
