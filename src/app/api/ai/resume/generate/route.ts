@@ -82,14 +82,7 @@ export async function POST(request: NextRequest) {
       selectedProgramContext,
     };
 
-    if (USE_MOCK) {
-      const documentOutput = generateDocumentOutput(input);
-      
-      return NextResponse.json({
-        success: true,
-        data: documentOutput,
-      });
-    }
+    if (USE_MOCK) return NextResponse.json({success:false,error:'当前为演示配置，请先启用真实生成服务。'},{status:503});
 
     const provider = MODEL_PROVIDER as 'qwen' | 'deepseek' | 'doubao' | 'kimi' | 'openai' | 'claude';
     const result = await generateWithModel({
@@ -100,14 +93,9 @@ export async function POST(request: NextRequest) {
       responseFormat: 'json',
     });
 
-    if (!result.success) {
-      const fallbackOutput = generateDocumentOutput(input);
-      return NextResponse.json({
-        success: true,
-        data: fallbackOutput,
-        warning: '使用默认生成结果，AI服务暂时不可用',
-      }, { status: 200 });
-    }
+    if (!result.success) return NextResponse.json({success:false,error:'简历生成暂时失败，你填写的资料仍保留，请稍后重试。'},{status:502});
+    const draftText=(result.data as {cv?:string})?.cv;
+    if(typeof draftText!=='string'||!draftText.trim())return NextResponse.json({success:false,error:'未收到完整简历，请稍后重试。'},{status:502});
 
     const strategy = generateWritingStrategy(input);
     
@@ -120,7 +108,7 @@ export async function POST(request: NextRequest) {
         title: selectedProgramContext 
           ? `CV - ${selectedProgramContext.majorEn}` 
           : 'Curriculum Vitae',
-        finalDraft: (result.data as { cv?: string })?.cv || generateMockCV(input, selectedProgramContext),
+        finalDraft: draftText,
         sections: [],
         wordCount: 0,
         tone: 'Professional',
@@ -129,41 +117,18 @@ export async function POST(request: NextRequest) {
       review: {
         reviewId: `review-${Date.now()}`,
         draftId: '',
-        admissionsOfficerPerspective: [
-          {
-            category: 'Overall Impression',
-            comment: 'Well-structured CV with strong academic background',
-            rating: 8,
-            explanation: 'The CV presents the applicant in a professional manner'
-          },
-          {
-            category: 'Relevance',
-            comment: 'Good alignment with target program',
-            rating: 7,
-            explanation: 'Experiences are relevant to the field of study'
-          }
-        ],
-        strengths: [
-          { strength: 'Clear structure', impact: 'high', evidence: 'Well-organized sections' },
-          { strength: 'Academic achievements', impact: 'medium', evidence: 'Good GPA and coursework' }
-        ],
-        areasForImprovement: [
-          {
-            suggestion: 'Add more quantifiable achievements',
-            priority: 'high',
-            rationale: 'Numbers make achievements more credible',
-            example: '"Increased efficiency by 20%"'
-          }
-        ],
+        admissionsOfficerPerspective: [],
+        strengths: [],
+        areasForImprovement: [{suggestion:'核对日期、成绩、职责和成果；只保留可证明的经历。',priority:'high',rationale:'生成稿需要由申请人逐项确认。',example:''}],
         complianceCheck: [],
         optimizedVersion: (result.data as { cv?: string })?.cv || '',
-        overallRating: 8,
-        confidenceScore: 85
+        overallRating: 0,
+        confidenceScore: 0
       },
       complianceStatement: {
         declarations: COMPLIANCE_DECLARATIONS,
         disclaimers: COMPLIANCE_DISCLAIMERS,
-        verificationRequired: false
+        verificationRequired: true
       },
       membershipCta: {
         title: '解锁完整功能',

@@ -10,21 +10,21 @@
     "qs_ranking_2026": "451-460",
     "college": "酒店与旅游管理学院",
     "major_cn": "国际旅游管理硕士",
-    "major_en": "MSc in International Tourism Management",
+    "major_en": "Master of International Tourism Management",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 237,000（约RMB 211,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "无需提交（中文授课）",
-    "toefl": "无需提交（中文授课）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$120,000；澳门居民 MOP67,500。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "授课语言：中文/英文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位，GPA≥75；中文/英文混合授课，无需提交英语成绩；往届与应届均可报读。",
-    "official_url": "https://www.must.edu.mo/fhtm/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。专业不限",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "旅游研究方法",
       "国际旅游经济与政策",
@@ -47,7 +47,75 @@
       "旅游教育与研究"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-msc-in-hotel-management",
@@ -60,21 +128,21 @@
     "qs_ranking_2026": "451-460",
     "college": "酒店与旅游管理学院",
     "major_cn": "酒店管理硕士",
-    "major_en": "MSc in Hotel Management",
+    "major_en": "Master of Hotel Management",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 237,000（约RMB 211,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "无需提交（中文授课）",
-    "toefl": "无需提交（中文授课）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$120,000；澳门居民 MOP67,500。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "授课语言：中文/英文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位，GPA≥75；中文授课为主，无需提交英语成绩；往届与应届均可报读。",
-    "official_url": "https://www.must.edu.mo/fhtm/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。专业不限",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "酒店运营管理",
       "酒店财务管理",
@@ -97,7 +165,75 @@
       "酒店教育与培训"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-master-of-business-administration-mba",
@@ -110,21 +246,21 @@
     "qs_ranking_2026": "451-460",
     "college": "商学院",
     "major_cn": "工商管理硕士",
-    "major_en": "Master of Business Administration (MBA)",
+    "major_en": "Master of Business Administration",
     "degree": "MBA",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 258,000（约RMB 230,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "无需提交（中文+英文授课）",
-    "toefl": "无需提交（中文+英文授课）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$130,000；澳门居民 MOP73,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "授课语言：中文/英文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位，GPA≥75；须提交工作证明信；中文/英文混合授课，无需提交英语成绩。",
-    "official_url": "https://www.must.edu.mo/msb/programmes/mba",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。专业不限，须具2年或以上工作经验",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "管理经济学",
       "组织行为学",
@@ -147,7 +283,75 @@
       "商业分析师"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-master-of-public-administration-mpa",
@@ -160,21 +364,21 @@
     "qs_ranking_2026": "451-460",
     "college": "商学院",
     "major_cn": "公共行政管理硕士",
-    "major_en": "Master of Public Administration (MPA)",
+    "major_en": "Master of Public Administration",
     "degree": "MPA",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 258,000（约RMB 230,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "无需提交（中文授课）",
-    "toefl": "无需提交（中文授课）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$130,000；澳门居民 MOP73,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "授课语言：中文/英文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位，GPA≥75；中文授课，无需提交英语成绩；往届与应届均可报读。",
-    "official_url": "https://www.must.edu.mo/msb/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。专业不限 。",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "公共管理理论",
       "公共政策分析",
@@ -197,7 +401,75 @@
       "公共事务咨询顾问"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-executive-master-of-business-administration-emba",
@@ -210,21 +482,21 @@
     "qs_ranking_2026": "451-460",
     "college": "商学院",
     "major_cn": "高级管理人员工商管理硕士",
-    "major_en": "Executive Master of Business Administration (EMBA)",
+    "major_en": "Executive Master of Business Administration",
     "degree": "EMBA",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 422,000（约RMB 376,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "无需提交（中文授课为主）",
-    "toefl": "无需提交（中文授课为主）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$220,000；澳门居民 MOP160,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "授课语言：中文/英文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位；5年以上管理经验；须提交工作证明信；中文授课为主。",
-    "official_url": "https://www.must.edu.mo/msb/programmes/emba",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。专业不限，须具5年或以上管理类工作经验",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "高级管理经济学",
       "领导力与组织变革",
@@ -247,7 +519,75 @@
       "创业企业创始人"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-master-of-management",
@@ -260,21 +600,21 @@
     "qs_ranking_2026": "451-460",
     "college": "商学院",
     "major_cn": "管理硕士",
-    "major_en": "Master of Management",
+    "major_en": "Master of Management Studies",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 252,000（约RMB 224,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "6.0（或CET-6≥430）",
-    "toefl": "80（或CET-4≥450）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$127,500；澳门居民 MOP73,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "授课语言：中文/英文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位，GPA≥75；须提交英语能力证明（CET-4≥450/CET-6≥430/IELTS 6.0/TOEFL 80）。",
-    "official_url": "https://www.must.edu.mo/msb/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。专业不限 。",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "管理理论与实务",
       "组织行为与人力资源管理",
@@ -297,7 +637,75 @@
       "创业企业创始人"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-msc-in-finance",
@@ -310,21 +718,21 @@
     "qs_ranking_2026": "451-460",
     "college": "商学院",
     "major_cn": "金融硕士",
-    "major_en": "MSc in Finance",
+    "major_en": "Master of Science in Finance",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 252,000（约RMB 224,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "6.0（或CET-6≥430）",
-    "toefl": "80（或CET-4≥450）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$127,500；澳门居民 MOP73,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "授课语言：中文/英文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位，GPA≥80；须提交英语能力证明（CET-4≥450/CET-6≥430/IELTS 6.0/TOEFL 80）；金融或相关专业背景优先。",
-    "official_url": "https://www.must.edu.mo/msb/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。专业不限。",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "高级财务管理",
       "投资分析与组合管理",
@@ -347,7 +755,75 @@
       "企业财务总监"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-msc-in-accounting",
@@ -360,21 +836,21 @@
     "qs_ranking_2026": "451-460",
     "college": "商学院",
     "major_cn": "会计硕士",
-    "major_en": "MSc in Accounting",
+    "major_en": "Master of Science in Accounting",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 252,000（约RMB 224,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "6.0（或CET-6≥430）",
-    "toefl": "80（或CET-4≥450）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$127,500；澳门居民 MOP73,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "授课语言：中文/英文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位，GPA≥75；须提交英语能力证明（CET-4≥450/CET-6≥430/IELTS 6.0/TOEFL 80）；会计或相关专业背景优先。",
-    "official_url": "https://www.must.edu.mo/msb/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。修读会计、财务管理或相关专业 。",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "高级财务会计",
       "审计理论与实务",
@@ -397,7 +873,75 @@
       "会计师事务所高级经理"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-msc-in-nonprofit-and-social-organization-management",
@@ -410,21 +954,21 @@
     "qs_ranking_2026": "451-460",
     "college": "商学院",
     "major_cn": "公益与社会组织管理硕士",
-    "major_en": "MSc in Nonprofit and Social Organization Management",
+    "major_en": "Master of Charity and Social Organization Management",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 227,000（约RMB 202,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "6.0（或CET-6≥430）",
-    "toefl": "80（或CET-4≥450）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$120,000；澳门居民 MOP67,500。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "授课语言：中文/英文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位，GPA≥75；须提交英语能力证明（CET-4≥450/CET-6≥430/IELTS 6.0/TOEFL 80）。",
-    "official_url": "https://www.must.edu.mo/msb/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。专业不限 。",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "非营利组织管理",
       "公益项目管理",
@@ -447,7 +991,75 @@
       "政府社会福利部门职员"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-msc-in-business-analytics",
@@ -460,21 +1072,21 @@
     "qs_ranking_2026": "451-460",
     "college": "商学院",
     "major_cn": "商业分析学硕士",
-    "major_en": "MSc in Business Analytics",
+    "major_en": "Master of Science in Business Analytics",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 227,000（约RMB 202,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "6.0（或CET-6≥430）",
-    "toefl": "80（或CET-4≥450）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$120,000；澳门居民 MOP67,500。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "授课语言：中文/英文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位，GPA≥75；须提交英语能力证明（CET-4≥450/CET-6≥430/IELTS 6.0/TOEFL 80）；具备基础统计和计算机能力。",
-    "official_url": "https://www.must.edu.mo/msb/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。专业不限 。",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "商业数据分析",
       "机器学习与商业应用",
@@ -497,7 +1109,75 @@
       "管理咨询顾问"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-msc-in-applied-economics",
@@ -510,21 +1190,21 @@
     "qs_ranking_2026": "451-460",
     "college": "商学院",
     "major_cn": "应用经济学硕士",
-    "major_en": "MSc in Applied Economics",
+    "major_en": "Master of Applied Economics",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 227,000（约RMB 202,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "6.0（或CET-6≥430）",
-    "toefl": "80（或CET-4≥450）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$120,000；澳门居民 MOP67,500。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "授课语言：中文/英文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位，GPA≥75；须提交英语能力证明（CET-4≥450/CET-6≥430/IELTS 6.0/TOEFL 80）。",
-    "official_url": "https://www.must.edu.mo/msb/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。专业不限 。",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "高级微观经济学",
       "高级宏观经济学",
@@ -547,7 +1227,75 @@
       "政府经济部门职员"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-msc-in-supply-chain-management",
@@ -564,15 +1312,15 @@
     "degree": "MSc",
     "duration": "2年",
     "intake": "9月",
-    "fee": "MOP 227,000（约RMB 202,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "6.0（或CET-6≥430）",
-    "toefl": "80（或CET-4≥450）",
+    "fee": "2026/27旧名称收费表：非澳门居民首年HK$120,000，澳门居民首年MOP67,500。2027/28及当前“智能供应链管理”名称收费待确认；不能作为全课程费用。",
+    "deadline": "当前招生目录列“智能供应链管理学硕士”；旧库本名称的2027/28招生及更名关系待核实。",
+    "ielts": "当前项目身份及语言要求待确认",
+    "toefl": "当前项目身份及语言要求待确认",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "当前目录名称与旧库不一致，须先确认更名关系；不能据相近名称套用现行语言要求。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位，GPA≥75；须提交英语能力证明（CET-4≥450/CET-6≥430/IELTS 6.0/TOEFL 80）。",
+    "req_detail": "旧库课程名称与现行目录不同，须先核实项目对应关系；历史分数不作为当前招生条件。",
     "official_url": "https://www.must.edu.mo/msb/programmes",
     "study_mode": "全日制",
     "curriculum": [
@@ -597,7 +1345,89 @@
       "供应链咨询顾问"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "unconfirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "b51b3a9295af43e37fe7",
+          "url": "https://msb.must.edu.mo/page/id-3564.html?locale=zh_MO",
+          "label": "商学院当前智能供应链课程"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027/28待确认",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "unconfirmed"
+        },
+        "fee": {
+          "cycle": "2027/28待确认",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "unconfirmed"
+        },
+        "language": {
+          "cycle": "2027/28待确认",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "unconfirmed"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-msc-in-financial-technology-fintech",
@@ -610,21 +1440,21 @@
     "qs_ranking_2026": "451-460",
     "college": "商学院",
     "major_cn": "金融科技硕士",
-    "major_en": "MSc in Financial Technology (FinTech)",
+    "major_en": "Master of Science in Financial Technology",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 227,000（约RMB 202,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "6.0（或CET-6≥430）",
-    "toefl": "80（或CET-4≥450）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$127,500；澳门居民 MOP73,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "授课语言：中文/英文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位，GPA≥75；须提交英语能力证明（CET-4≥450/CET-6≥430/IELTS 6.0/TOEFL 80）；金融、计算机或相关专业背景优先。",
-    "official_url": "https://www.must.edu.mo/msb/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。专业不限，修读金融或者资讯技术相关专业考生优先考虑。",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "金融科技基础",
       "区块链技术与应用",
@@ -647,7 +1477,75 @@
       "金融科技咨询顾问"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-ma-in-communication",
@@ -660,21 +1558,21 @@
     "qs_ranking_2026": "451-460",
     "college": "人文艺术学院",
     "major_cn": "传播学硕士",
-    "major_en": "MA in Communication",
+    "major_en": "Master of Arts in Communication",
     "degree": "MA",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 258,000（约RMB 230,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "无需提交（中文授课）",
-    "toefl": "无需提交（中文授课）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$135,000；澳门居民 MOP67,500。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "授课语言：中文/英文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位，GPA≥75；中文授课，无需提交英语成绩；往届与应届均可报读。",
-    "official_url": "https://www.must.edu.mo/fa/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。专业不限",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "传播理论",
       "研究方法",
@@ -697,7 +1595,75 @@
       "传媒研究与策划"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-master-of-design",
@@ -712,19 +1678,19 @@
     "major_cn": "设计学硕士",
     "major_en": "Master of Design",
     "degree": "MDes",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 258,000（约RMB 230,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "无需提交（中文授课）",
-    "toefl": "无需提交（中文授课）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$135,000；澳门居民 MOP73,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "授课语言：中文/英文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位，GPA≥75；须提交PDF作品集（≤10MB）；中文授课；往届与应届均可报读。",
-    "official_url": "https://www.must.edu.mo/fa/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。修读艺术设计相关专业(色盲、色弱者不可报读)",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "设计理论与方法",
       "视觉传达设计",
@@ -747,7 +1713,75 @@
       "文化创意产业管理者"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-master-of-film-management",
@@ -760,21 +1794,21 @@
     "qs_ranking_2026": "451-460",
     "college": "人文艺术学院",
     "major_cn": "电影管理硕士",
-    "major_en": "Master of Film Management",
+    "major_en": "Master of Management in Film Industry",
     "degree": "MA",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 258,000（约RMB 230,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "无需提交（中文授课）",
-    "toefl": "无需提交（中文授课）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$140,000；澳门居民 MOP73,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "授课语言：中文/英文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位，GPA≥75；中文授课；往届与应届均可报读；影视相关专业背景优先。",
-    "official_url": "https://www.must.edu.mo/fa/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。专业不限",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "电影产业概论",
       "电影制片管理",
@@ -797,7 +1831,75 @@
       "文化传媒公司管理"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-master-of-film-production",
@@ -812,19 +1914,19 @@
     "major_cn": "电影制作硕士",
     "major_en": "Master of Film Production",
     "degree": "MFA",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 288,000（约RMB 256,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "无需提交（中文授课）",
-    "toefl": "无需提交（中文授课）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$147,500；澳门居民 MOP80,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "授课语言：中文/英文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位，GPA≥75；须提交作品集；中文授课；往届与应届均可报读；影视相关专业背景优先。",
-    "official_url": "https://www.must.edu.mo/fa/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。专业不限",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "电影导演基础",
       "编剧创作",
@@ -847,7 +1949,75 @@
       "影视广告导演"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-ma-in-fine-arts",
@@ -860,21 +2030,21 @@
     "qs_ranking_2026": "451-460",
     "college": "人文艺术学院",
     "major_cn": "美术学硕士",
-    "major_en": "MA in Fine Arts",
+    "major_en": "Master of Fine Arts",
     "degree": "MA",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 247,000（约RMB 220,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "无需提交（中文授课）",
-    "toefl": "无需提交（中文授课）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$135,000；澳门居民 MOP67,500。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "授课语言：中文/英文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位，GPA≥75；须提交PDF作品集（≤10MB）；中文授课；往届与应届均可报读；美术或设计相关专业背景优先。",
-    "official_url": "https://www.must.edu.mo/fa/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。绘画创作实践与理论 修读艺术学或相关专业 (色盲、色弱者不可报读) 美术史研究 修读艺术学或人文社会相关专业",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "美术史研究方法",
       "当代艺术理论",
@@ -897,7 +2067,75 @@
       "文化机构艺术总监"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-master-of-architecture",
@@ -912,19 +2150,19 @@
     "major_cn": "建筑学硕士",
     "major_en": "Master of Architecture",
     "degree": "MArch",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 237,000（约RMB 211,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "无需提交（中文授课）",
-    "toefl": "无需提交（中文授课）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$120,000；澳门居民 MOP67,500。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "授课语言：中文/英文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位，GPA≥75；须提交PDF作品集（≤10MB）；建筑学或相关专业背景；往届与应届均可报读。",
-    "official_url": "https://www.must.edu.mo/fa/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。修读建筑学，或相关专业",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "建筑理论与批评",
       "建筑遗产保护",
@@ -947,7 +2185,75 @@
       "房地产开发顾问"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-ma-in-interactive-media-arts",
@@ -960,21 +2266,21 @@
     "qs_ranking_2026": "451-460",
     "college": "人文艺术学院",
     "major_cn": "互动媒体艺术硕士",
-    "major_en": "MA in Interactive Media Arts",
+    "major_en": "Master of Fine Arts in Interactive Media",
     "degree": "MA",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 247,000（约RMB 220,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "无需提交（中文授课）",
-    "toefl": "无需提交（中文授课）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$135,000；澳门居民 MOP67,500。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "授课语言：中文/英文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位，GPA≥75；须提交PDF作品集（≤10MB）；中文授课；往届与应届均可报读。",
-    "official_url": "https://www.must.edu.mo/fa/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。专业不限，修读资讯科技、艺术设计学或相关专业者优先考虑 (色盲、色弱者不可报读)",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "游戏设计理论",
       "游戏引擎与开发",
@@ -997,7 +2303,75 @@
       "游戏运营经理"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-master-of-innovative-music",
@@ -1012,19 +2386,19 @@
     "major_cn": "创新音乐硕士",
     "major_en": "Master of Innovative Music",
     "degree": "MA",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 258,000（约RMB 230,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "无需提交（中文授课）",
-    "toefl": "无需提交（中文授课）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$135,000；澳门居民 MOP80,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "授课语言：中文/英文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位；须提交音乐成果+简历；面试；往届与应届均可报读；音乐相关专业背景优先。",
-    "official_url": "https://www.must.edu.mo/fa/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。申请人须具音乐学学士学位或更高学历资格 ; 或具音乐相关学科学士学位或更高学历资格并提供音乐考级证书 ; 申请人须提交一份履历简介及一段音乐成果视频 。 报读音乐教育与创新专业，具有教师资格证者优先考虑。",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "音乐教育与创新方法",
       "音乐传播与商务",
@@ -1047,7 +2421,75 @@
       "AI音乐产品经理"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-master-of-law-llm",
@@ -1060,21 +2502,21 @@
     "qs_ranking_2026": "451-460",
     "college": "法学院",
     "major_cn": "法学硕士",
-    "major_en": "Master of Law (LLM)",
+    "major_en": "Master of Laws",
     "degree": "LLM",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 237,000（约RMB 211,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "无需提交（中文授课）",
-    "toefl": "无需提交（中文授课）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$130,000；澳门居民 MOP73,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "授课语言：中文/英文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位（法学背景优先）；须参加笔试及面试；中文授课。",
-    "official_url": "https://www.must.edu.mo/fl/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。具有法学学士学位",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "法理学专题",
       "比较宪法",
@@ -1097,7 +2539,75 @@
       "法律咨询顾问"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-juris-master-jm",
@@ -1110,21 +2620,21 @@
     "qs_ranking_2026": "451-460",
     "college": "法学院",
     "major_cn": "法律硕士",
-    "major_en": "Juris Master (JM)",
+    "major_en": "Juris Master",
     "degree": "JM",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 237,000（约RMB 211,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "无需提交（中文授课）",
-    "toefl": "无需提交（中文授课）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$130,000；澳门居民 MOP73,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "授课语言：中文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位（不限专业）；须参加笔试及面试；中文授课。",
-    "official_url": "https://www.must.edu.mo/fl/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。具有非法学学士学位",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文授课",
     "curriculum": [
       "法理学",
       "民法总论",
@@ -1147,7 +2657,75 @@
       "法律教育工作者"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-msc-in-criminal-justice",
@@ -1160,21 +2738,21 @@
     "qs_ranking_2026": "451-460",
     "college": "法学院",
     "major_cn": "刑事司法硕士",
-    "major_en": "MSc in Criminal Justice",
+    "major_en": "Master of Laws in Criminal Justice",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 237,000（约RMB 211,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "无需提交（中文授课）",
-    "toefl": "无需提交（中文授课）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$120,000；澳门居民 MOP73,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "授课语言：中文/英文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位（法学或相关学科背景优先）；须参加笔试及面试；中文授课。",
-    "official_url": "https://www.must.edu.mo/fl/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。具有学士学位",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "刑事司法制度",
       "比较刑法",
@@ -1197,7 +2775,75 @@
       "刑事司法研究"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-master-of-international-arbitration",
@@ -1212,19 +2858,19 @@
     "major_cn": "国际仲裁硕士",
     "major_en": "Master of International Arbitration",
     "degree": "LLM",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 237,000（约RMB 211,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "无需提交（中文授课）",
-    "toefl": "无需提交（中文授课）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$120,000；澳门居民 MOP73,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "授课语言：中文/英文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位（法学背景优先）；须参加笔试及面试；中文授课。",
-    "official_url": "https://www.must.edu.mo/fl/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。具有大学本科学历",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "国际商事仲裁",
       "投资条约仲裁",
@@ -1247,7 +2893,75 @@
       "法院/仲裁委工作人员"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-master-of-financial-crime-and-regulation",
@@ -1262,19 +2976,19 @@
     "major_cn": "金融犯罪与监管硕士",
     "major_en": "Master of Financial Crime and Regulation",
     "degree": "LLM",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 237,000（约RMB 211,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "无需提交（中文授课）",
-    "toefl": "无需提交（中文授课）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$120,000；澳门居民 MOP73,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "授课语言：中文/英文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位（法学或金融相关背景优先）；须参加笔试及面试；中文授课。",
-    "official_url": "https://www.must.edu.mo/fl/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。具有法学、经济学及管理学专业的本科毕业生；具有其他专业本科毕业生并具有法律、金融从业经验或资格之人士。",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "金融犯罪概论",
       "反洗钱与反恐融资法律",
@@ -1297,7 +3011,75 @@
       "金融机构法务顾问"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-llm-in-international-economic-and-commercial-law",
@@ -1310,21 +3092,21 @@
     "qs_ranking_2026": "451-460",
     "college": "法学院",
     "major_cn": "国际经济与商法硕士",
-    "major_en": "LLM in International Economic and Commercial Law",
+    "major_en": "Master of International Economic and Commercial Law",
     "degree": "LLM",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 237,000（约RMB 211,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "无需提交（中文授课）",
-    "toefl": "无需提交（中文授课）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$120,000；澳门居民 MOP73,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "授课语言：中文/英文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位（法学背景优先）；须参加笔试及面试；中文授课。",
-    "official_url": "https://www.must.edu.mo/fl/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。具有法学学士学位、管理专业学士及相关专业学士学位",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "国际商法",
       "国际经济法",
@@ -1347,7 +3129,75 @@
       "涉外法律咨询师"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-ma-in-teaching-chinese-as-a-foreign-language-tcfl",
@@ -1360,21 +3210,21 @@
     "qs_ranking_2026": "451-460",
     "college": "国际学院",
     "major_cn": "国际汉语教育硕士",
-    "major_en": "MA in Teaching Chinese as a Foreign Language (TCFL)",
+    "major_en": "Master of Teaching Chinese as a Foreign Language",
     "degree": "MA",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 237,000（约RMB 211,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "无需提交（中文+英文授课）",
-    "toefl": "无需提交（中文+英文授课）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$120,000；澳门居民 MOP67,500。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "可提交 IELTS；现行通用材料清单不设分数下限",
+    "toefl": "可提交 TOEFL；现行通用材料清单不设分数下限",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "须提交英语能力证明，可接受 CET、TEM、IELTS、TOEFL 等成绩，或全英授课证明。现行材料清单明确不设分数限制、择优遴选；IELTS／TOEFL 须为两年内成绩。 授课语言：中文/英文。 母语为汉语者另须普通话二级乙等或同等水平；非汉语母语者须HSK六级或同等证明。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位；中文+英文混合授课，在澳门本地为双语环境；往届与应届均可报读。",
-    "official_url": "https://www.must.edu.mo/uic/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。母语为汉语者须具备汉语普通话二级乙等或以上等级证书或同等语言水平; 母语为非汉语者需提交新汉语水平测试HSK六级证书或同等语言能力证明 须提交英语能力证明",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "汉语语言学",
       "第二语言习得理论",
@@ -1397,7 +3247,74 @@
       "教育科技产品经理"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行要求（2026-10-22核对）",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-ma-in-foreign-language-studies",
@@ -1410,21 +3327,21 @@
     "qs_ranking_2026": "451-460",
     "college": "国际学院",
     "major_cn": "外国语硕士",
-    "major_en": "MA in Foreign Language Studies",
+    "major_en": "Master of Arts in Foreign Language Studies",
     "degree": "MA",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 237,000（约RMB 211,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "6.0（或CET-6≥430）",
-    "toefl": "80（或CET-4≥450）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$120,000；澳门居民 MOP67,500。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "可提交 IELTS；现行通用材料清单不设分数下限",
+    "toefl": "可提交 TOEFL；现行通用材料清单不设分数下限",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "按报读方向提供英语／西班牙语／葡萄牙语能力证明；非汉语母语者另须HSK四级或以上或同等证明。英语证明依现行研究生院清单，可为CET、TEM、IELTS、TOEFL或全英授课证明，不设统一分数限制，择优遴选；IELTS／TOEFL两年内有效。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位；须提交英语能力证明（CET-4≥450/CET-6≥430/IELTS 6.0/TOEFL 80）；英语、西班牙语或葡萄牙语方向。",
-    "official_url": "https://www.must.edu.mo/uic/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。修读英语、西班牙语、葡萄牙语或相关专业；或具相关语言能力证明； 英语/西班牙语/葡萄牙语能力证明； * 母语为非汉语者需提交新汉语水平测试四级或以上证书或同等语言能力证明。",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；英文/西班牙文/葡文/中文授课",
     "curriculum": [
       "应用语言学",
       "第二语言习得",
@@ -1447,7 +3364,74 @@
       "国际组织职员"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行要求（2026-10-22核对）",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-master-of-education",
@@ -1462,19 +3446,19 @@
     "major_cn": "教育硕士",
     "major_en": "Master of Education",
     "degree": "MEd",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 237,000（约RMB 211,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "6.0（或CET-6≥430）",
-    "toefl": "80（或CET-4≥450）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$125,000；澳门居民 MOP73,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "可提交 IELTS；现行通用材料清单不设分数下限",
+    "toefl": "可提交 TOEFL；现行通用材料清单不设分数下限",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "须提交英语能力证明，可接受 CET、TEM、IELTS、TOEFL 等成绩，或全英授课证明。现行材料清单明确不设分数限制、择优遴选；IELTS／TOEFL 须为两年内成绩。 授课语言：中文/英文。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位；须提交英语能力证明（CET-4≥450/CET-6≥430/IELTS 6.0/TOEFL 80）；教育相关背景优先。",
-    "official_url": "https://www.must.edu.mo/uic/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。1. 专业不限，具有学士学位/本科学历； 2. 须提交英语能力证明 。",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "教育哲学与理论",
       "教育心理学",
@@ -1497,7 +3481,74 @@
       "教师培训师"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行要求（2026-10-22核对）",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-msc-in-information-technology",
@@ -1509,22 +3560,22 @@
     "region_en": "Macao SAR",
     "qs_ranking_2026": "451-460",
     "college": "创新工程学院",
-    "major_cn": "理学硕士（资讯科技）",
-    "major_en": "MSc in Information Technology",
+    "major_cn": "理学硕士 (资讯科技)",
+    "major_en": "Master of Science (Information Technology)",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 237,000（约RMB 211,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "6.0（或CET-6≥430）",
-    "toefl": "80（或CET-4≥450）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$120,000；澳门居民 MOP73,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "可提交 IELTS；现行通用材料清单不设分数下限",
+    "toefl": "可提交 TOEFL；现行通用材料清单不设分数下限",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "须提交英语能力证明，可接受 CET、TEM、IELTS、TOEFL 等成绩，或全英授课证明。现行材料清单明确不设分数限制、择优遴选；IELTS／TOEFL 须为两年内成绩。 授课语言：中文/英文。 澳科大创新工程学院毕业生如CGPA≥2.7，可豁免英语能力证明。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位，GPA≥80；须提交英语能力证明（CET-4≥450/CET-6≥430/IELTS 6.0/TOEFL 80）；计算机、通信或相关专业背景。",
-    "official_url": "https://www.must.edu.mo/fie/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。修读资讯科技或相关专业(色盲者不可报读) 须提交英语能力证明",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "高级计算机网络",
       "软件工程与方法",
@@ -1547,7 +3598,74 @@
       "系统架构师"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行要求（2026-10-22核对）",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-msc-in-applied-mathematics-and-data-science",
@@ -1560,21 +3678,21 @@
     "qs_ranking_2026": "451-460",
     "college": "创新工程学院",
     "major_cn": "应用数学与数据科学硕士",
-    "major_en": "MSc in Applied Mathematics and Data Science",
+    "major_en": "Master of Science in Applied Mathematics and Data Science",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 237,000（约RMB 211,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "6.0（或CET-6≥430）",
-    "toefl": "80（或CET-4≥450）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$120,000；澳门居民 MOP73,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "可提交 IELTS；现行通用材料清单不设分数下限",
+    "toefl": "可提交 TOEFL；现行通用材料清单不设分数下限",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "须提交英语能力证明，可接受 CET、TEM、IELTS、TOEFL 等成绩，或全英授课证明。现行材料清单明确不设分数限制、择优遴选；IELTS／TOEFL 须为两年内成绩。 授课语言：中文/英文。 澳科大创新工程学院毕业生如CGPA≥2.7，可豁免英语能力证明。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位，GPA≥80；须提交英语能力证明（CET-4≥450/CET-6≥430/IELTS 6.0/TOEFL 80）；数学、统计或理工科背景。",
-    "official_url": "https://www.must.edu.mo/fie/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。修读数学、物理、计算机、工程、统计、经济、生物和医学或相关专业 须提交英语能力证明",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "应用数学方法",
       "统计推断",
@@ -1597,7 +3715,74 @@
       "人工智能研究员"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行要求（2026-10-22核对）",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-msc-in-intelligent-technology",
@@ -1610,21 +3795,21 @@
     "qs_ranking_2026": "451-460",
     "college": "创新工程学院",
     "major_cn": "智能技术硕士",
-    "major_en": "MSc in Intelligent Technology",
+    "major_en": "Master of Science in Intelligent Technology",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 237,000（约RMB 211,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "6.0（或CET-6≥430）",
-    "toefl": "80（或CET-4≥450）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$120,000；澳门居民 MOP73,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "可提交 IELTS；现行通用材料清单不设分数下限",
+    "toefl": "可提交 TOEFL；现行通用材料清单不设分数下限",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "须提交英语能力证明，可接受 CET、TEM、IELTS、TOEFL 等成绩，或全英授课证明。现行材料清单明确不设分数限制、择优遴选；IELTS／TOEFL 须为两年内成绩。 授课语言：中文/英文。 澳科大创新工程学院毕业生如CGPA≥2.7，可豁免英语能力证明。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位，GPA≥80；须提交英语能力证明（CET-4≥450/CET-6≥430/IELTS 6.0/TOEFL 80）；计算机、电子或自动化等理工科背景。",
-    "official_url": "https://www.must.edu.mo/fie/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。具有计算机科学与技术、数学、统计学、资讯科学、管理科学与工程、机械工程、控制科学与工程、环境科学、土木工程、电气工程、物理学、力学、材料科学、航空航天、化学及相近学科各类专业的学士学位获得者。 须提交英语能力证明",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "智能系统设计与开发",
       "机器人技术",
@@ -1647,7 +3832,74 @@
       "自动化工程师"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行要求（2026-10-22核对）",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-msc-in-environmental-science-and-management",
@@ -1660,21 +3912,21 @@
     "qs_ranking_2026": "451-460",
     "college": "创新工程学院",
     "major_cn": "环境科学与管理硕士",
-    "major_en": "MSc in Environmental Science and Management",
+    "major_en": "Master of Environmental Science and Management",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 237,000（约RMB 211,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "6.0（或CET-6≥430）",
-    "toefl": "80（或CET-4≥450）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$120,000；澳门居民 MOP73,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "可提交 IELTS；现行通用材料清单不设分数下限",
+    "toefl": "可提交 TOEFL；现行通用材料清单不设分数下限",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "须提交英语能力证明，可接受 CET、TEM、IELTS、TOEFL 等成绩，或全英授课证明。现行材料清单明确不设分数限制、择优遴选；IELTS／TOEFL 须为两年内成绩。 授课语言：中文/英文。 澳科大创新工程学院毕业生如CGPA≥2.7，可豁免英语能力证明。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位，GPA≥75；须提交英语能力证明（CET-4≥450/CET-6≥430/IELTS 6.0/TOEFL 80）；环境、化学、生物或相关理工科背景。",
-    "official_url": "https://www.must.edu.mo/fie/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。修读环境科学、环境管理、环境工程、生态学、能源与环境、化学工程、地球科学、海洋科学等相关专业学士学位获得者。 须提交英语能力证明",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "环境科学前沿",
       "环境监测与评估",
@@ -1697,7 +3949,74 @@
       "环境技术研发工程师"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行要求（2026-10-22核对）",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-msc-in-materials-science-and-engineering",
@@ -1710,21 +4029,21 @@
     "qs_ranking_2026": "451-460",
     "college": "创新工程学院",
     "major_cn": "材料科学与工程硕士",
-    "major_en": "MSc in Materials Science and Engineering",
+    "major_en": "Master of Science in Materials Science and Engineering",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 237,000（约RMB 211,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "6.0（或CET-6≥430）",
-    "toefl": "80（或CET-4≥450）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$120,000；澳门居民 MOP73,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "可提交 IELTS；现行通用材料清单不设分数下限",
+    "toefl": "可提交 TOEFL；现行通用材料清单不设分数下限",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "须提交英语能力证明，可接受 CET、TEM、IELTS、TOEFL 等成绩，或全英授课证明。现行材料清单明确不设分数限制、择优遴选；IELTS／TOEFL 须为两年内成绩。 授课语言：中文/英文。 澳科大创新工程学院毕业生如CGPA≥2.7，可豁免英语能力证明。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位，GPA≥80；须提交英语能力证明（CET-4≥450/CET-6≥430/IELTS 6.0/TOEFL 80）；材料、化学、物理或相关理工科背景。",
-    "official_url": "https://www.must.edu.mo/fie/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。修读材料学、化学、物理学、生物学、环境科学、医学或相关专业； 须提交英语能力证明",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "材料科学基础",
       "材料表征与分析",
@@ -1747,7 +4066,74 @@
       "材料企业技术顾问"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行要求（2026-10-22核对）",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-master-of-chinese-medicine",
@@ -1760,21 +4146,21 @@
     "qs_ranking_2026": "451-460",
     "college": "中医药学院",
     "major_cn": "中医学硕士",
-    "major_en": "Master of Chinese Medicine",
+    "major_en": "Master of Traditional Chinese Medicine",
     "degree": "MMed",
-    "duration": "2.5年",
-    "intake": "9月",
-    "fee": "MOP 237,000（约RMB 211,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "无需提交（中文授课）",
-    "toefl": "无需提交（中文授课）",
+    "duration": "正常2.5年，最长4年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$120,000；澳门居民 MOP73,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。 正常2.5年课程的学费按两年分四期缴交。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "授课语言：中文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "中医学/中西医结合学士学位；须提交1000字中文研究计划；须提前联系意向导师；面试。",
-    "official_url": "https://www.must.edu.mo/fc/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。修读中、西医学专业 (色盲、色弱者不可报读)",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文授课",
     "curriculum": [
       "中医经典理论研究",
       "中医内科学",
@@ -1797,7 +4183,75 @@
       "中医药国际传播专员"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-msc-in-chinese-materia-medica",
@@ -1810,21 +4264,21 @@
     "qs_ranking_2026": "451-460",
     "college": "中医药学院",
     "major_cn": "中药学硕士",
-    "major_en": "MSc in Chinese Materia Medica",
+    "major_en": "Master of Pharmacology in Traditional Chinese Medicine",
     "degree": "MSc",
-    "duration": "2.5年",
-    "intake": "9月",
-    "fee": "MOP 237,000（约RMB 211,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "无需提交（中文授课）",
-    "toefl": "无需提交（中文授课）",
+    "duration": "正常2.5年，最长4年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$120,000；澳门居民 MOP73,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。 正常2.5年课程的学费按两年分四期缴交。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "授课语言：中文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "中药学或相关专业学士学位；须提交1000字中文研究计划；须提前联系意向导师；面试。",
-    "official_url": "https://www.must.edu.mo/fc/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。修读中、西药学或相关专业 (色盲、色弱者不可报读)",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文授课",
     "curriculum": [
       "中药化学",
       "中药药理学",
@@ -1847,7 +4301,75 @@
       "中药标准化研究员"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-msc-in-integrated-traditional-chinese-and-western-clinical-medicine",
@@ -1860,21 +4382,21 @@
     "qs_ranking_2026": "451-460",
     "college": "中医药学院",
     "major_cn": "中西医结合临床医学硕士",
-    "major_en": "MSc in Integrated Traditional Chinese and Western Clinical Medicine",
+    "major_en": "Master of Integrated Traditional Chinese and Western Clinical Medicine",
     "degree": "MSc",
-    "duration": "2.5年",
-    "intake": "9月",
-    "fee": "MOP 237,000（约RMB 211,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "无需提交（中文授课）",
-    "toefl": "无需提交（中文授课）",
+    "duration": "正常2.5年，最长4年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$120,000；澳门居民 MOP73,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。 正常2.5年课程的学费按两年分四期缴交。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "授课语言：中文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "中医学/中西医结合/临床医学学士学位；须提交1000字中文研究计划；须提前联系意向导师；面试。",
-    "official_url": "https://www.must.edu.mo/fc/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。修读中、西医学专业 (色盲、色弱者不可报读)",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文授课",
     "curriculum": [
       "中西医结合理论",
       "中西医临床诊断方法比较",
@@ -1897,7 +4419,75 @@
       "国际医疗合作项目专员"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-master-of-public-health-mph",
@@ -1910,21 +4500,21 @@
     "qs_ranking_2026": "451-460",
     "college": "医学院",
     "major_cn": "公共卫生学硕士",
-    "major_en": "Master of Public Health (MPH)",
+    "major_en": "Master of Public Health",
     "degree": "MPH",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 237,000（约RMB 211,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "6.0（或CET-6≥430）",
-    "toefl": "80（或CET-4≥450）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$120,000；澳门居民 MOP73,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "可提交 IELTS；现行通用材料清单不设分数下限",
+    "toefl": "可提交 TOEFL；现行通用材料清单不设分数下限",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "须提交英语能力证明，可接受 CET、TEM、IELTS、TOEFL 等成绩，或全英授课证明。现行材料清单明确不设分数限制、择优遴选；IELTS／TOEFL 须为两年内成绩。 授课语言：中文/英文。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位（医学、公共卫生、护理或相关背景优先）；须提交英语能力证明（CET-4≥450/CET-6≥430/IELTS 6.0/TOEFL 80）。",
-    "official_url": "https://www.must.edu.mo/fmd/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。须具有公共卫生或其他健康相关学科的学士学位； 须提交英语能力证明 。",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "流行病学",
       "生物统计学",
@@ -1947,7 +4537,74 @@
       "国际卫生组织项目官员"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行要求（2026-10-22核对）",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-master-of-nursing",
@@ -1962,19 +4619,19 @@
     "major_cn": "护理学硕士",
     "major_en": "Master of Nursing",
     "degree": "MN",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 237,000（约RMB 211,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "无需提交（中文授课）",
-    "toefl": "无需提交（中文授课）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$120,000；澳门居民 MOP73,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "授课语言：中文/英文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "护理学学士学位；持有护士执照/执业资格优先；中文授课。",
-    "official_url": "https://www.must.edu.mo/fmd/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。修读护理学专业",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "高级护理理论",
       "护理研究方法",
@@ -1997,7 +4654,75 @@
       "医院质量与安全管理"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-msc-in-pharmaceutical-sciences",
@@ -2010,21 +4735,21 @@
     "qs_ranking_2026": "451-460",
     "college": "医学院",
     "major_cn": "药学硕士",
-    "major_en": "MSc in Pharmaceutical Sciences",
+    "major_en": "Master of Pharmacy",
     "degree": "MSc",
-    "duration": "2.5年",
-    "intake": "9月",
-    "fee": "MOP 237,000（约RMB 211,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "6.0（或CET-6≥430）",
-    "toefl": "80（或CET-4≥450）",
+    "duration": "正常2.5年，最长4年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$120,000；澳门居民 MOP73,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。 正常2.5年课程的学费按两年分四期缴交。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "可提交 IELTS；现行通用材料清单不设分数下限",
+    "toefl": "可提交 TOEFL；现行通用材料清单不设分数下限",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "须提交英语能力证明，可接受 CET、TEM、IELTS、TOEFL 等成绩，或全英授课证明。现行材料清单明确不设分数限制、择优遴选；IELTS／TOEFL 须为两年内成绩。 授课语言：英文。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "药学或相关专业学士学位；须提交1000字英文研究计划；须提交英语能力证明（CET-4≥450/CET-6≥430/IELTS 6.0/TOEFL 80）；须提前联系意向导师；面试。",
-    "official_url": "https://www.must.edu.mo/fmd/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。修读药学、医学、护理、生命科学、化学、材料等相关专业； 须提交英语能力证明 。",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；英文授课",
     "curriculum": [
       "药物化学",
       "药剂学",
@@ -2047,7 +4772,74 @@
       "医药监管机构职员"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行要求（2026-10-22核对）",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-msc-in-food-and-nutritional-sciences",
@@ -2060,21 +4852,21 @@
     "qs_ranking_2026": "451-460",
     "college": "医学院",
     "major_cn": "食品与营养科学硕士",
-    "major_en": "MSc in Food and Nutritional Sciences",
+    "major_en": "Master of Food and Nutritional Sciences",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 237,000（约RMB 211,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "6.0（或CET-6≥430）",
-    "toefl": "80（或CET-4≥450）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$120,000；澳门居民 MOP73,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "可提交 IELTS；现行通用材料清单不设分数下限",
+    "toefl": "可提交 TOEFL；现行通用材料清单不设分数下限",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "须提交英语能力证明，可接受 CET、TEM、IELTS、TOEFL 等成绩，或全英授课证明。现行材料清单明确不设分数限制、择优遴选；IELTS／TOEFL 须为两年内成绩。 授课语言：英文。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位（食品科学、营养学、化学、生物或相关背景优先）；须提交英文研究计划；须提交英语能力证明（CET-4≥450/CET-6≥430/IELTS 6.0/TOEFL 80）；须提前联系意向导师。",
-    "official_url": "https://www.must.edu.mo/fmd/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。具有食品科学、营养学、化学、生物学、药学、中药学等相关专业学士学位； 须提交英语能力证明 。",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；英文授课",
     "curriculum": [
       "食品化学",
       "食品安全与微生物学",
@@ -2097,7 +4889,74 @@
       "临床营养研究员"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行要求（2026-10-22核对）",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-msc-in-earth-and-planetary-sciences",
@@ -2110,21 +4969,21 @@
     "qs_ranking_2026": "451-460",
     "college": "太空科学研究所",
     "major_cn": "地球与行星科学硕士",
-    "major_en": "MSc in Earth and Planetary Sciences",
+    "major_en": "Master of Earth and Planetary Sciences",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 237,000（约RMB 211,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "6.0（或CET-6≥430）",
-    "toefl": "80（或CET-4≥450）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$120,000；澳门居民 MOP73,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "授课语言：中文/英文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位（地球科学、物理、化学或相关理工科背景）；须提交英语能力证明（CET-4≥450/CET-6≥430/IELTS 6.0/TOEFL 80）。",
-    "official_url": "https://www.must.edu.mo/ssi/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。修读行星科学、天文学、地球科学、地球物理（包括大气物理、空间物理）、物理、化学、生物、地质、遥感、计算机、数学或相近学科之各类专业（含工科）",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "地球系统科学",
       "行星地质学",
@@ -2147,7 +5006,75 @@
       "空间技术企业研发人员"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    }
   },
   {
     "id": "must-postgraduate-msc-in-spatial-big-data-analytics",
@@ -2160,21 +5087,21 @@
     "qs_ranking_2026": "451-460",
     "college": "太空科学研究所",
     "major_cn": "空间大数据分析学硕士",
-    "major_en": "MSc in Spatial Big Data Analytics",
+    "major_en": "Master of Space Big Data Analytics",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 237,000（约RMB 211,000）",
-    "deadline": "第一轮：2025年9月10日-11月19日；最终截止：2026年3月5日",
-    "ielts": "6.0（或CET-6≥430）",
-    "toefl": "80（或CET-4≥450）",
+    "duration": "正常2年，最长3年",
+    "intake": "2027年秋季",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$120,000；澳门居民 MOP73,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "授课语言：中文/英文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位（计算机、数据科学、遥感、地理信息或相关理工科背景）；须提交英语能力证明（CET-4≥450/CET-6≥430/IELTS 6.0/TOEFL 80）。",
-    "official_url": "https://www.must.edu.mo/ssi/programmes",
-    "study_mode": "全日制",
+    "req_detail": "须具学士学位／本科学历。修读计算机、大数据科学、地球科学、地球物理（包括大气物理、空间物理）、行星科学、遥感、数学、物理学、天文学或相近学科之各类专业（含工科）",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "study_mode": "全日制；中文/英文授课",
     "curriculum": [
       "空间大数据基础",
       "遥感数据处理与分析",
@@ -2197,7 +5124,75 @@
       "环境监测数据分析师"
     ],
     "source_file": "schools/must_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    }
   },
   {
     "id": "must-undergraduate-bachelor-of-science-computer-science-electronic-and-information-engineering-software-engineering",
@@ -3398,5 +6393,602 @@
     ],
     "source_file": "schools_undergraduate/must_undergraduate_data.json",
     "last_updated": "2026-05-21"
+  },
+  {
+    "school_code": "MUST",
+    "school_name": "澳门科技大学",
+    "school_name_en": "Macau University of Science and Technology",
+    "region_cn": "中国澳门",
+    "region_en": "Macao SAR",
+    "qs_ranking_2026": "451-460",
+    "id": "must-postgraduate-master-of-intelligent-supply-chain-management",
+    "education_level": "postgraduate",
+    "college": "商学院",
+    "degree": "硕士",
+    "curriculum": [],
+    "careers": [],
+    "objectives": "",
+    "source_file": "official-must-2027-catalogue",
+    "gaokao_requirement": null,
+    "subject_requirement": null,
+    "admission_route": null,
+    "major_cn": "智能供应链管理学硕士",
+    "major_en": "Master of Intelligent Supply Chain Management",
+    "duration": "正常2年，最长3年",
+    "study_mode": "全日制；中文/英文授课",
+    "intake": "2027年秋季",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "req_detail": "须具学士学位／本科学历。具有相关专业学士学位，供应链或者物流相关专业申请人优先考虑。",
+    "fee": "所查官方2026/27学费表未以此课程名称列出收费，2027/28金额亦待正式公布；不套用相近名称课程学费。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
+    "language_requirement": "授课语言：中文/英文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "added_to_database",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    },
+    "last_updated": "2026-10-22"
+  },
+  {
+    "school_code": "MUST",
+    "school_name": "澳门科技大学",
+    "school_name_en": "Macau University of Science and Technology",
+    "region_cn": "中国澳门",
+    "region_en": "Macao SAR",
+    "qs_ranking_2026": "451-460",
+    "id": "must-postgraduate-master-of-fine-arts-in-game-art-design",
+    "education_level": "postgraduate",
+    "college": "人文艺术学院",
+    "degree": "MFA",
+    "curriculum": [],
+    "careers": [],
+    "objectives": "",
+    "source_file": "official-must-2027-catalogue",
+    "gaokao_requirement": null,
+    "subject_requirement": null,
+    "admission_route": null,
+    "major_cn": "游戏艺术设计硕士",
+    "major_en": "Master of Fine Arts in Game Art Design",
+    "duration": "正常2年，最长3年",
+    "study_mode": "全日制；中文/英文授课",
+    "intake": "2027年秋季",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "req_detail": "须具学士学位／本科学历。具有本科或以上学历者。不限专业，优先考虑具备艺术设计、计算机科学、数字媒体背景或相关行业实践经验的申请者。",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$141,000；澳门居民 MOP77,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
+    "language_requirement": "授课语言：中文/英文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "added_to_database",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    },
+    "last_updated": "2026-10-22"
+  },
+  {
+    "school_code": "MUST",
+    "school_name": "澳门科技大学",
+    "school_name_en": "Macau University of Science and Technology",
+    "region_cn": "中国澳门",
+    "region_en": "Macao SAR",
+    "qs_ranking_2026": "451-460",
+    "id": "must-postgraduate-master-of-artificial-intelligence-law",
+    "education_level": "postgraduate",
+    "college": "法学院",
+    "degree": "硕士",
+    "curriculum": [],
+    "careers": [],
+    "objectives": "",
+    "source_file": "official-must-2027-catalogue",
+    "gaokao_requirement": null,
+    "subject_requirement": null,
+    "admission_route": null,
+    "major_cn": "人工智能法学硕士",
+    "major_en": "Master of Artificial Intelligence Law",
+    "duration": "正常2年，最长3年",
+    "study_mode": "全日制；中文/英文授课",
+    "intake": "2027年秋季",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "req_detail": "须具学士学位／本科学历。具有法学学士或以上学位；具有其他专业学士或以上学位者，需具有法律职业资格或两年以上法律工作经历。",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$130,000；澳门居民 MOP73,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "ielts": "现行硕士材料清单未列本项目统一IELTS门槛",
+    "toefl": "现行硕士材料清单未列本项目统一TOEFL门槛",
+    "language_requirement": "授课语言：中文/英文。现行研究生院硕士报名材料清单未将本项目列入必交英语证明的院系／项目名单，也未列统一IELTS或TOEFL分数。此项不等于免除课程面试或学校后续补件要求。",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "added_to_database",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行材料清单",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "未列统一考试分数，不填写虚构分数或笼统标记“无语言要求”。"
+        }
+      }
+    },
+    "last_updated": "2026-10-22"
+  },
+  {
+    "school_code": "MUST",
+    "school_name": "澳门科技大学",
+    "school_name_en": "Macau University of Science and Technology",
+    "region_cn": "中国澳门",
+    "region_en": "Macao SAR",
+    "qs_ranking_2026": "451-460",
+    "id": "must-postgraduate-master-of-science-in-low-altitude-economy-and-technology",
+    "education_level": "postgraduate",
+    "college": "创新工程学院",
+    "degree": "MSc",
+    "curriculum": [],
+    "careers": [],
+    "objectives": "",
+    "source_file": "official-must-2027-catalogue",
+    "gaokao_requirement": null,
+    "subject_requirement": null,
+    "admission_route": null,
+    "major_cn": "低空经济与技术理学硕士",
+    "major_en": "Master of Science in Low-Altitude Economy and Technology",
+    "duration": "正常2年，最长3年",
+    "study_mode": "全日制；英文授课",
+    "intake": "2027年秋季",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "req_detail": "须具学士学位／本科学历。具有数学、物理、计算机、工程、统计、经济、生物、医学或相关专业的学士学位。 须提交英语能力证明",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$125,500；澳门居民 MOP77,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "ielts": "可提交 IELTS；现行通用材料清单不设分数下限",
+    "toefl": "可提交 TOEFL；现行通用材料清单不设分数下限",
+    "language_requirement": "须提交英语能力证明，可接受 CET、TEM、IELTS、TOEFL 等成绩，或全英授课证明。现行材料清单明确不设分数限制、择优遴选；IELTS／TOEFL 须为两年内成绩。 授课语言：英文。 澳科大创新工程学院毕业生如CGPA≥2.7，可豁免英语能力证明。",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "added_to_database",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行要求（2026-10-22核对）",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "verified"
+        }
+      }
+    },
+    "last_updated": "2026-10-22"
+  },
+  {
+    "school_code": "MUST",
+    "school_name": "澳门科技大学",
+    "school_name_en": "Macau University of Science and Technology",
+    "region_cn": "中国澳门",
+    "region_en": "Macao SAR",
+    "qs_ranking_2026": "451-460",
+    "id": "must-postgraduate-master-of-science-in-artificial-intelligence",
+    "education_level": "postgraduate",
+    "college": "创新工程学院",
+    "degree": "MSc",
+    "curriculum": [],
+    "careers": [],
+    "objectives": "",
+    "source_file": "official-must-2027-catalogue",
+    "gaokao_requirement": null,
+    "subject_requirement": null,
+    "admission_route": null,
+    "major_cn": "人工智能硕士",
+    "major_en": "Master of Science in Artificial Intelligence",
+    "duration": "正常2年，最长3年",
+    "study_mode": "全日制；英文授课",
+    "intake": "2027年秋季",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "deadline": "2027年秋季首轮：2026-09-08 开放，2026-11-16 18:00 截止（GMT+8）；分批择优录取，可能提前满额。后续轮次以官网另行公告为准。",
+    "req_detail": "须具学士学位／本科学历。具有数学、物理、计算机、工程、统计、经济、生物、医学或相关专业的学士学位； 须提交英语能力证明",
+    "fee": "2027/28 学费尚未在所查官方表中公布。参考2026/27首年学费：非澳门居民 HK$125,500；澳门居民 MOP77,000。这不是全课程总费用；表内注明学费每年调整约5%，不得据此推算2027/28收费。",
+    "ielts": "可提交 IELTS；现行通用材料清单不设分数下限",
+    "toefl": "可提交 TOEFL；现行通用材料清单不设分数下限",
+    "language_requirement": "须提交英语能力证明，可接受 CET、TEM、IELTS、TOEFL 等成绩，或全英授课证明。现行材料清单明确不设分数限制、择优遴选；IELTS／TOEFL 须为两年内成绩。 授课语言：英文。 澳科大创新工程学院毕业生如CGPA≥2.7，可豁免英语能力证明。",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "added_to_database",
+      "fields": {
+        "deadline": {
+          "cycle": "2027秋季首轮",
+          "sources": [
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            },
+            {
+              "key": "94156fddb00ca42ddc82",
+              "url": "https://sgs.must.edu.mo/page/important.dates.html?locale=en_US",
+              "label": "官方截止时刻及提前满额规则"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行要求（2026-10-22核对）",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "verified"
+        }
+      }
+    },
+    "last_updated": "2026-10-22"
+  },
+  {
+    "school_code": "MUST",
+    "school_name": "澳门科技大学",
+    "school_name_en": "Macau University of Science and Technology",
+    "region_cn": "中国澳门",
+    "region_en": "Macao SAR",
+    "qs_ranking_2026": "451-460",
+    "id": "must-postgraduate-master-of-clinical-medicine",
+    "education_level": "postgraduate",
+    "college": "医学院",
+    "degree": "硕士",
+    "curriculum": [],
+    "careers": [],
+    "objectives": "",
+    "source_file": "official-must-2027-catalogue",
+    "gaokao_requirement": null,
+    "subject_requirement": null,
+    "admission_route": null,
+    "major_cn": "临床医学硕士（拟开办，待正式登记）",
+    "major_en": "Master of Clinical Medicine",
+    "duration": "正常2年，最长3年",
+    "study_mode": "全日制；英文授课",
+    "intake": "2027年秋季",
+    "official_url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+    "deadline": "官网列为拟开办课程，须完成课程登记及刊登《澳门特别行政区公报》后正式运作。本项目是否适用2027秋季首轮日期须学校确认。",
+    "req_detail": "须具学士学位／本科学历。须具有内外全科医学学士专业本科或同等专业学位； 须提交英语能力证明 。申请者须于医疗机构现任职为临床医生，并拥有三年或以上的临床工作经验。",
+    "fee": "所查官方2026/27学费表未以此课程名称列出收费，2027/28金额亦待正式公布；不套用相近名称课程学费。",
+    "ielts": "可提交 IELTS；现行通用材料清单不设分数下限",
+    "toefl": "可提交 TOEFL；现行通用材料清单不设分数下限",
+    "language_requirement": "须提交英语能力证明，可接受 CET、TEM、IELTS、TOEFL 等成绩，或全英授课证明。现行材料清单明确不设分数限制、择优遴选；IELTS／TOEFL 须为两年内成绩。 授课语言：英文。",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "pending_approval",
+      "catalogue_sources": [
+        {
+          "key": "166c3d518641d5189935",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+          "label": "研究生院现行硕士课程及报读要求"
+        },
+        {
+          "key": "532f957d78f7f8b5c195",
+          "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=en_US",
+          "label": "研究生院英文课程目录"
+        }
+      ],
+      "newness": "added_to_database",
+      "fields": {
+        "deadline": {
+          "cycle": "拟开办，正式招生待确认",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "c61158cf92caec072a6d",
+              "url": "https://sgs.must.edu.mo/news.pg/article/view/id-42429.html?locale=zh_MO",
+              "label": "官方2027秋季首轮招生公告"
+            }
+          ],
+          "status": "unconfirmed"
+        },
+        "fee": {
+          "cycle": "2027/28未公布；2026/27仅作历史参考",
+          "sources": [
+            {
+              "key": "3e3642150617c23fd88e",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Non_Macao_residents.pdf",
+              "label": "官方2026/27非澳门居民首年学费表"
+            },
+            {
+              "key": "d67390f2dc4d16ac9018",
+              "url": "https://www.must.edu.mo/images/pdf/MasterFT_Macao_residents.pdf",
+              "label": "官方2026/27澳门居民首年学费表"
+            }
+          ],
+          "status": "not_published"
+        },
+        "language": {
+          "cycle": "官网现行要求（2026-10-22核对）",
+          "sources": [
+            {
+              "key": "166c3d518641d5189935",
+              "url": "https://sgs.must.edu.mo/faculty/masters.html?locale=zh_CN",
+              "label": "研究生院现行硕士课程及报读要求"
+            },
+            {
+              "key": "9f84e837c3ceda230b1f",
+              "url": "https://sgs.must.edu.mo/page/application.documents.html?locale=zh_MO",
+              "label": "研究生院现行硕士报名材料及语言证明要求"
+            }
+          ],
+          "status": "verified"
+        }
+      }
+    },
+    "last_updated": "2026-10-22"
   }
 ]

@@ -38,7 +38,7 @@ export async function POST(request: NextRequest) {
     const apiKey = process.env.DEEPSEEK_API_KEY;
     if (!apiKey) {
       return NextResponse.json(
-        { success: false, error: 'DeepSeek API Key 未配置，请在服务端环境变量中设置 DEEPSEEK_API_KEY。' },
+        { success: false, error: '文书生成服务尚未配置，请联系管理员。' },
         { status: 500 }
       );
     }

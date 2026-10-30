@@ -25,8 +25,8 @@ export default function SchoolMatchCard({ school }: SchoolMatchCardProps) {
         <div className="flex flex-col items-end">
           {school.qsRank && (
             <div className="flex items-center">
-              <span className="text-xs text-gray-500 mr-1">QS</span>
-              <span className="text-lg font-bold text-red-600">{school.qsRank}</span>
+              <span className="text-xs text-gray-500 mr-1">QS {school.qsYear}</span>
+              <span className="text-lg font-bold text-red-600">{school.qsLabel || school.qsRank}</span>
             </div>
           )}
           <span className={`mt-1 px-2 py-0.5 rounded text-xs font-medium ${difficultyColor}`}>

@@ -1,3 +1,4 @@
+import {getAllSchools,getProgramIndex} from "@/lib/data.server";
 import Link from "next/link";
 
 export const metadata = {
@@ -5,7 +6,8 @@ export const metadata = {
   description: "了解九万里AI的使命和技术能力",
 };
 
-export default function AboutPage() {
+export default async function AboutPage() {
+  const [schools,programs]=await Promise.all([getAllSchools(),getProgramIndex()]);
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       {/* 页面标题 */}
@@ -24,19 +26,19 @@ export default function AboutPage() {
         </p>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           <div className="text-center p-4 bg-white/10 rounded-xl">
-            <div className="text-3xl font-bold mb-2">100+</div>
+            <div className="text-3xl font-bold mb-2">{schools.length}</div>
             <div className="text-blue-200 text-sm">全球院校</div>
           </div>
           <div className="text-center p-4 bg-white/10 rounded-xl">
-            <div className="text-3xl font-bold mb-2">3000+</div>
+            <div className="text-3xl font-bold mb-2">{programs.length.toLocaleString()}</div>
             <div className="text-blue-200 text-sm">专业项目</div>
           </div>
           <div className="text-center p-4 bg-white/10 rounded-xl">
-            <div className="text-3xl font-bold mb-2">10000+</div>
-            <div className="text-blue-200 text-sm">AI分析次数</div>
+            <div className="text-3xl font-bold mb-2">按需</div>
+            <div className="text-blue-200 text-sm">申请分析</div>
           </div>
           <div className="text-center p-4 bg-white/10 rounded-xl">
-            <div className="text-3xl font-bold mb-2">5000+</div>
+            <div className="text-3xl font-bold mb-2">练习</div>
             <div className="text-blue-200 text-sm">模拟面试训练</div>
           </div>
         </div>
@@ -54,7 +56,7 @@ export default function AboutPage() {
             </div>
             <h3 className="font-bold text-gray-900 mb-2 text-lg">AI申请决策引擎</h3>
             <p className="text-gray-600 text-sm">
-              基于大数据分析和机器学习算法，为学生提供精准的冲刺/匹配/保底方案
+              结合项目资料和学生背景，提供可解释的申请匹配参考
             </p>
           </div>
           <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl p-6">
@@ -65,7 +67,7 @@ export default function AboutPage() {
             </div>
             <h3 className="font-bold text-gray-900 mb-2 text-lg">全球院校数据库</h3>
             <p className="text-gray-600 text-sm">
-              覆盖QS1000+院校，包含本科、硕士专业信息，实时更新招生要求
+              按国家和地区整理本科、研究生项目，展示招生批次、来源与资料日期
             </p>
           </div>
           <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-xl p-6">

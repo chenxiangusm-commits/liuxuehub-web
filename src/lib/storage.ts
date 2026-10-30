@@ -14,15 +14,17 @@ export function getFavorites(): string[] {
   try {
     const saved = localStorage.getItem(FAVORITES_KEY);
     if (saved) {
-      return JSON.parse(saved);
+      const parsed=JSON.parse(saved);
+      return Array.isArray(parsed)?[...new Set(parsed.filter((id:unknown)=>typeof id==='string'))]:[];
     }
 
     const legacySaved = localStorage.getItem(LEGACY_FAVORITES_KEY);
     if (legacySaved) {
       const legacyFavorites = JSON.parse(legacySaved);
-      saveFavorites(legacyFavorites);
-      localStorage.removeItem(LEGACY_FAVORITES_KEY);
-      return legacyFavorites;
+      if(!Array.isArray(legacyFavorites))return [];
+      const valid=legacyFavorites.filter((id:unknown)=>typeof id==='string');
+      if(saveFavorites(valid))localStorage.removeItem(LEGACY_FAVORITES_KEY);
+      return valid;
     }
 
     return [];
@@ -32,13 +34,15 @@ export function getFavorites(): string[] {
   }
 }
 
-export function saveFavorites(ids: string[]): void {
-  if (typeof window === "undefined") return;
+export function saveFavorites(ids: string[]): boolean {
+  if (typeof window === "undefined") return false;
   try {
     localStorage.setItem(FAVORITES_KEY, JSON.stringify(ids));
     notifyFavoritesUpdated();
+    return true;
   } catch (error) {
     console.error("Failed to save favorites:", error);
+    return false;
   }
 }
 

@@ -1,6 +1,10 @@
+import { readRelease } from "./release.server";
+import { applyQSRankings } from "@/lib/qs-ranking.server";
 import fs from "fs";
 import path from "path";
 import { Database, Program, ProgramIndexItem, School } from "@/types";
+import { applyHKUPreview } from "@/lib/hku-preview.server";
+import { appendSGPreviewSchools, appendSGPreviewPrograms, hasSGPreviewExpansion } from "@/lib/sg-public-preview.server";
 
 type ProgramLookup = Record<string, { school_code: string; education_level: string; source_file?: string }>;
 type ProgramFilterIndexes = Record<string, Record<string, string[]>>;
@@ -11,6 +15,23 @@ let cachedProgramIndex: ProgramIndexItem[] | null = null;
 let cachedProgramLookup: ProgramLookup | null = null;
 let cachedProgramFilterIndexes: ProgramFilterIndexes | null = null;
 const cachedSchoolPrograms = new Map<string, Program[]>();
+let cachedDataRevision = "";
+
+// The review importer writes meta.json last, after all data and indexes are ready.
+function refreshDataRevision(): void {
+  const splitDir = resolveSplitDatabaseDir();
+  if (!splitDir) return;
+  const metaPath = path.join(splitDir, "meta.json");
+  const revision = `${splitDir}:${fs.statSync(metaPath).mtimeMs}`;
+  if (revision === cachedDataRevision) return;
+  cachedDataRevision = revision;
+  cachedDatabase = null;
+  cachedSchools = null;
+  cachedProgramIndex = null;
+  cachedProgramLookup = null;
+  cachedProgramFilterIndexes = null;
+  cachedSchoolPrograms.clear();
+}
 
 function existingPath(candidates: string[]): string | null {
   return candidates.find(candidate => fs.existsSync(candidate)) || null;
@@ -65,26 +86,33 @@ export async function getDatabase(): Promise<Database> {
 }
 
 export async function getAllSchools(): Promise<School[]> {
-  if (cachedSchools) return cachedSchools;
+  const release=readRelease();if(release)return release.schools;
+  refreshDataRevision();
+  if (cachedSchools) return applyQSRankings(appendSGPreviewSchools(cachedSchools));
 
   const splitDir = resolveSplitDatabaseDir();
   if (splitDir) {
     cachedSchools = uniqueBy(readJson<School[]>(path.join(splitDir, "schools.json")), school => school.school_code);
-    return cachedSchools;
+    return applyQSRankings(appendSGPreviewSchools(cachedSchools));
   }
 
   const db = await getDatabase();
   cachedSchools = uniqueBy(db.schools, school => school.school_code);
-  return cachedSchools;
+  return applyQSRankings(appendSGPreviewSchools(cachedSchools));
 }
 
 export async function getSchoolByCode(schoolCode: string): Promise<School | undefined> {
   const schools = await getAllSchools();
-  return schools.find(s => s.school_code === schoolCode);
+  const decoded = (()=>{try{return decodeURIComponent(schoolCode);}catch{return schoolCode;}})();
+  const aliases:Record<string,string>={MELBOURNE:'UNIMELB',SYDNEY:'USYD',WESTERN_AUSTRALIA:'UWA'};
+  const code=aliases[decoded]||decoded;
+  return schools.find(s => s.school_code.toLowerCase() === code.toLowerCase() || s.school_name === decoded || s.school_name_en.toLowerCase() === decoded.toLowerCase());
 }
 
 export async function getProgramIndex(): Promise<ProgramIndexItem[]> {
-  if (cachedProgramIndex) return cachedProgramIndex;
+  const release=readRelease();if(release)return release.programs;
+  refreshDataRevision();
+  if (cachedProgramIndex) return applyQSRankings(appendSGPreviewPrograms(applyHKUPreview(cachedProgramIndex)));
 
   const splitDir = resolveSplitDatabaseDir();
   if (splitDir) {
@@ -92,15 +120,16 @@ export async function getProgramIndex(): Promise<ProgramIndexItem[]> {
       readJson<ProgramIndexItem[]>(path.join(splitDir, "programs_index.json")),
       program => program.id,
     );
-    return cachedProgramIndex;
+    return applyQSRankings(appendSGPreviewPrograms(applyHKUPreview(cachedProgramIndex)));
   }
 
   const db = await getDatabase();
   cachedProgramIndex = uniqueBy(db.programs, program => program.id);
-  return cachedProgramIndex;
+  return applyQSRankings(appendSGPreviewPrograms(applyHKUPreview(cachedProgramIndex)));
 }
 
 async function getProgramLookup(): Promise<ProgramLookup> {
+  refreshDataRevision();
   if (cachedProgramLookup) return cachedProgramLookup;
 
   const splitDir = resolveSplitDatabaseDir();
@@ -118,6 +147,10 @@ async function getProgramLookup(): Promise<ProgramLookup> {
 }
 
 async function getProgramFilterIndexes(): Promise<ProgramFilterIndexes | null> {
+  if(readRelease())return null;
+  // Formal index IDs do not include development-only schools and programmes.
+  if (hasSGPreviewExpansion()) return null;
+  refreshDataRevision();
   if (cachedProgramFilterIndexes) return cachedProgramFilterIndexes;
 
   const splitDir = resolveSplitDatabaseDir();
@@ -131,21 +164,26 @@ async function getProgramFilterIndexes(): Promise<ProgramFilterIndexes | null> {
 }
 
 export async function getAllPrograms(): Promise<Program[]> {
+  const release=readRelease();if(release)return release.programs;
   const splitDir = resolveSplitDatabaseDir();
   if (splitDir) {
     const bySchoolDir = path.join(splitDir, "programs_by_school");
     const files = fs.readdirSync(bySchoolDir).filter(file => file.endsWith(".json"));
     const all = files.flatMap(file => readJson<Program[]>(path.join(bySchoolDir, file)));
-    return uniqueBy(all, program => program.id);
+    return applyQSRankings(appendSGPreviewPrograms(applyHKUPreview(uniqueBy(all, program => program.id))));
   }
 
   const db = await getDatabase();
-  return uniqueBy(db.programs, program => program.id);
+  return applyQSRankings(appendSGPreviewPrograms(applyHKUPreview(uniqueBy(db.programs, program => program.id))));
 }
 
 export async function getProgramsBySchoolCode(schoolCode: string): Promise<Program[]> {
+  const school=await getSchoolByCode(schoolCode);if(!school)return [];
+  schoolCode=school.school_code;
+  const release=readRelease();if(release)return release.programs.filter(p=>p.school_code===schoolCode);
+  refreshDataRevision();
   if (cachedSchoolPrograms.has(schoolCode)) {
-    return cachedSchoolPrograms.get(schoolCode) || [];
+    return applyQSRankings(appendSGPreviewPrograms(applyHKUPreview(cachedSchoolPrograms.get(schoolCode) || []), schoolCode));
   }
 
   const splitDir = resolveSplitDatabaseDir();
@@ -153,16 +191,17 @@ export async function getProgramsBySchoolCode(schoolCode: string): Promise<Progr
     const filePath = path.join(splitDir, "programs_by_school", `${schoolCode}.json`);
     const programs = fs.existsSync(filePath) ? readJson<Program[]>(filePath) : [];
     cachedSchoolPrograms.set(schoolCode, programs);
-    return programs;
+    return applyQSRankings(appendSGPreviewPrograms(applyHKUPreview(programs), schoolCode));
   }
 
   const db = await getDatabase();
   const programs = db.programs.filter(p => p.school_code === schoolCode);
   cachedSchoolPrograms.set(schoolCode, programs);
-  return programs;
+  return applyQSRankings(appendSGPreviewPrograms(applyHKUPreview(programs), schoolCode));
 }
 
 export async function getProgramById(id: string): Promise<Program | undefined> {
+  const release=readRelease();if(release)return release.programs.find(p=>p.id===id);
   const lookup = await getProgramLookup();
   const match = lookup[id];
   if (match) {
@@ -170,8 +209,9 @@ export async function getProgramById(id: string): Promise<Program | undefined> {
     return programs.find(program => program.id === id);
   }
 
-  const programs = await getAllPrograms();
-  return programs.find(p => p.id === id);
+  const index=(await getProgramIndex()).find(p=>p.id===id);
+  if(!index)return undefined;
+  return (await getProgramsBySchoolCode(index.school_code)).find(p=>p.id===id);
 }
 
 export async function searchProgramIndex(options: {

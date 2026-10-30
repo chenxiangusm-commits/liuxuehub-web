@@ -1,5 +1,8 @@
 "use client";
 
+import { getQSRank, getQSYear, getQSLabel } from "@/lib/qs-ranking";
+
+
 import Image from "next/image";
 import Link from "next/link";
 import { getSchoolLogo, getSchoolLogoAlt } from "@/lib/schoolLogos";
@@ -51,15 +54,15 @@ export default function SchoolCard({ school, educationLevel }: SchoolCardProps) 
         <div className="ranking-divider" />
 
         <div className="ranking-indicator">
-          {school.qs_ranking_2026 && school.qs_ranking_2026 > 0 ? (
+          {getQSRank(school) && getQSRank(school) > 0 ? (
             <>
-              <span className="ranking-indicator-number">{school.qs_ranking_2026}</span>
-              <span className="ranking-indicator-label">QS排名</span>
+              <span className="ranking-indicator-number">{getQSLabel(school)}</span>
+              <span className="ranking-indicator-label">QS {getQSYear(school)}</span>
             </>
           ) : (
             <>
               <span className="ranking-indicator-number no-rank">暂无</span>
-              <span className="ranking-indicator-label">QS排名</span>
+              <span className="ranking-indicator-label">QS {getQSYear(school)}</span>
             </>
           )}
         </div>

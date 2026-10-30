@@ -1,3 +1,5 @@
+import type { School } from "@/types";
+import { getQSRank, getQSYear, getQSLabel } from "@/lib/qs-ranking";
 /**
  * 智能定校匹配逻辑
  * 基于规则匹配生成冲刺/稳妥/保底选校方案
@@ -24,6 +26,8 @@ export interface RecommendedSchool {
   nameEn: string;
   country: string;
   qsRank?: number;
+  qsYear?: number;
+  qsLabel?: string;
   matchScore: number;
   type: 'reach' | 'match' | 'safety';
   difficulty: string;
@@ -57,53 +61,56 @@ export interface SchoolMatchResult {
 
 // 学校数据库 - 简化版mock数据
 const schoolDatabase: Array<{
+  schoolCode: string;
   nameCn: string;
   nameEn: string;
   country: string;
   qsRank?: number;
+  qsYear?: number;
+  qsLabel?: string;
   tiers: string[];
   directions: string[];
 }> = [
   // 英国
-  { nameCn: '帝国理工学院', nameEn: 'Imperial College London', country: '英国', qsRank: 2, tiers: ['985', '211', '双一流'], directions: ['商科', '金融', '计算机', '工程'] },
-  { nameCn: '牛津大学', nameEn: 'University of Oxford', country: '英国', qsRank: 3, tiers: ['985', '211', '双一流'], directions: ['商科', '法律', '公共政策', '国际关系'] },
-  { nameCn: '剑桥大学', nameEn: 'University of Cambridge', country: '英国', qsRank: 3, tiers: ['985', '211', '双一流'], directions: ['商科', '工程', '法律', '教育'] },
-  { nameCn: '伦敦大学学院', nameEn: 'UCL', country: '英国', qsRank: 8, tiers: ['985', '211', '双一流', '普通一本'], directions: ['商科', '建筑', '教育', '传媒'] },
-  { nameCn: '爱丁堡大学', nameEn: 'University of Edinburgh', country: '英国', qsRank: 15, tiers: ['985', '211', '双一流', '普通一本'], directions: ['商科', '金融', '教育', 'AI'] },
-  { nameCn: '曼彻斯特大学', nameEn: 'University of Manchester', country: '英国', qsRank: 27, tiers: ['985', '211', '双一流', '普通一本'], directions: ['商科', '金融', '会计', '工程'] },
-  { nameCn: '伦敦国王学院', nameEn: "King's College London", country: '英国', qsRank: 37, tiers: ['985', '211', '双一流', '普通一本'], directions: ['医学', '法律', '公共政策'] },
-  { nameCn: '华威大学', nameEn: 'University of Warwick', country: '英国', qsRank: 64, tiers: ['985', '211', '双一流', '普通一本', '普通二本'], directions: ['商科', '金融', '管理', '数据科学'] },
-  { nameCn: '布里斯托大学', nameEn: 'University of Bristol', country: '英国', qsRank: 49, tiers: ['985', '211', '双一流', '普通一本'], directions: ['工程', '计算机', '金融', '法学'] },
-  { nameCn: '格拉斯哥大学', nameEn: 'University of Glasgow', country: '英国', qsRank: 76, tiers: ['211', '双一流', '普通一本', '普通二本'], directions: ['商科', '金融', '教育', '工程'] },
-  { nameCn: '南安普顿大学', nameEn: 'University of Southampton', country: '英国', qsRank: 77, tiers: ['211', '双一流', '普通一本', '普通二本'], directions: ['工程', '计算机', '物理', '光电'] },
-  { nameCn: '利兹大学', nameEn: 'University of Leeds', country: '英国', qsRank: 86, tiers: ['211', '双一流', '普通一本', '普通二本'], directions: ['商科', '金融', '传媒', '工程'] },
-  { nameCn: '谢菲尔德大学', nameEn: 'University of Sheffield', country: '英国', qsRank: 104, tiers: ['211', '普通一本', '普通二本'], directions: ['工程', '计算机', '管理', '建筑'] },
-  { nameCn: '诺丁汉大学', nameEn: 'University of Nottingham', country: '英国', qsRank: 114, tiers: ['普通一本', '普通二本', '独立学院/民办'], directions: ['商科', '工程', '教育', '传媒'] },
-  { nameCn: '纽卡斯尔大学', nameEn: 'Newcastle University', country: '英国', qsRank: 122, tiers: ['普通一本', '普通二本', '独立学院/民办'], directions: ['医学', '商科', '建筑', '计算机'] },
-  { nameCn: '卡迪夫大学', nameEn: 'Cardiff University', country: '英国', qsRank: 154, tiers: ['普通一本', '普通二本', '独立学院/民办'], directions: ['商科', '传媒', '建筑', '工程'] },
-  { nameCn: '埃克塞特大学', nameEn: 'University of Exeter', country: '英国', qsRank: 163, tiers: ['普通一本', '普通二本', '独立学院/民办'], directions: ['商科', '金融', '教育', '心理学'] },
-  { nameCn: '约克大学', nameEn: 'University of York', country: '英国', qsRank: 162, tiers: ['普通一本', '普通二本', '独立学院/民办'], directions: ['计算机', '教育', '心理学', '艺术设计'] },
+  { schoolCode: 'IC', nameCn: '帝国理工学院', nameEn: 'Imperial College London', country: '英国', tiers: ['985', '211', '双一流'], directions: ['商科', '金融', '计算机', '工程'] },
+  { schoolCode: 'OXFORD', nameCn: '牛津大学', nameEn: 'University of Oxford', country: '英国', tiers: ['985', '211', '双一流'], directions: ['商科', '法律', '公共政策', '国际关系'] },
+  { schoolCode: 'CAMBRIDGE', nameCn: '剑桥大学', nameEn: 'University of Cambridge', country: '英国', tiers: ['985', '211', '双一流'], directions: ['商科', '工程', '法律', '教育'] },
+  { schoolCode: 'UCL', nameCn: '伦敦大学学院', nameEn: 'UCL', country: '英国', tiers: ['985', '211', '双一流', '普通一本'], directions: ['商科', '建筑', '教育', '传媒'] },
+  { schoolCode: 'EDINBURGH', nameCn: '爱丁堡大学', nameEn: 'University of Edinburgh', country: '英国', tiers: ['985', '211', '双一流', '普通一本'], directions: ['商科', '金融', '教育', 'AI'] },
+  { schoolCode: 'MANCHESTER', nameCn: '曼彻斯特大学', nameEn: 'University of Manchester', country: '英国', tiers: ['985', '211', '双一流', '普通一本'], directions: ['商科', '金融', '会计', '工程'] },
+  { schoolCode: 'KCL', nameCn: '伦敦国王学院', nameEn: "King's College London", country: '英国', tiers: ['985', '211', '双一流', '普通一本'], directions: ['医学', '法律', '公共政策'] },
+  { schoolCode: 'WARWICK', nameCn: '华威大学', nameEn: 'University of Warwick', country: '英国', tiers: ['985', '211', '双一流', '普通一本', '普通二本'], directions: ['商科', '金融', '管理', '数据科学'] },
+  { schoolCode: 'BRISTOL', nameCn: '布里斯托大学', nameEn: 'University of Bristol', country: '英国', tiers: ['985', '211', '双一流', '普通一本'], directions: ['工程', '计算机', '金融', '法学'] },
+  { schoolCode: 'GLASGOW', nameCn: '格拉斯哥大学', nameEn: 'University of Glasgow', country: '英国', tiers: ['211', '双一流', '普通一本', '普通二本'], directions: ['商科', '金融', '教育', '工程'] },
+  { schoolCode: 'SOUTHAMPTON', nameCn: '南安普顿大学', nameEn: 'University of Southampton', country: '英国', tiers: ['211', '双一流', '普通一本', '普通二本'], directions: ['工程', '计算机', '物理', '光电'] },
+  { schoolCode: 'LEEDS', nameCn: '利兹大学', nameEn: 'University of Leeds', country: '英国', tiers: ['211', '双一流', '普通一本', '普通二本'], directions: ['商科', '金融', '传媒', '工程'] },
+  { schoolCode: 'SHEFFIELD', nameCn: '谢菲尔德大学', nameEn: 'University of Sheffield', country: '英国', tiers: ['211', '普通一本', '普通二本'], directions: ['工程', '计算机', '管理', '建筑'] },
+  { schoolCode: 'NOTTINGHAM', nameCn: '诺丁汉大学', nameEn: 'University of Nottingham', country: '英国', tiers: ['普通一本', '普通二本', '独立学院/民办'], directions: ['商科', '工程', '教育', '传媒'] },
+  { schoolCode: 'NEWCASTLE', nameCn: '纽卡斯尔大学', nameEn: 'Newcastle University', country: '英国', tiers: ['普通一本', '普通二本', '独立学院/民办'], directions: ['医学', '商科', '建筑', '计算机'] },
+  { schoolCode: 'CARDIFF', nameCn: '卡迪夫大学', nameEn: 'Cardiff University', country: '英国', tiers: ['普通一本', '普通二本', '独立学院/民办'], directions: ['商科', '传媒', '建筑', '工程'] },
+  { schoolCode: 'EXETER', nameCn: '埃克塞特大学', nameEn: 'University of Exeter', country: '英国', tiers: ['普通一本', '普通二本', '独立学院/民办'], directions: ['商科', '金融', '教育', '心理学'] },
+  { schoolCode: 'YORK', nameCn: '约克大学', nameEn: 'University of York', country: '英国', tiers: ['普通一本', '普通二本', '独立学院/民办'], directions: ['计算机', '教育', '心理学', '艺术设计'] },
 
   // 澳大利亚
-  { nameCn: '澳大利亚国立大学', nameEn: 'ANU', country: '澳大利亚', qsRank: 30, tiers: ['985', '211', '双一流', '普通一本'], directions: ['计算机', '公共政策', '国际关系', 'AI'] },
-  { nameCn: '墨尔本大学', nameEn: 'University of Melbourne', country: '澳大利亚', qsRank: 33, tiers: ['985', '211', '双一流', '普通一本'], directions: ['商科', '医学', '法学', '工程'] },
-  { nameCn: '悉尼大学', nameEn: 'University of Sydney', country: '澳大利亚', qsRank: 41, tiers: ['985', '211', '双一流', '普通一本'], directions: ['商科', '医学', '法学', '传媒'] },
-  { nameCn: '新南威尔士大学', nameEn: 'UNSW', country: '澳大利亚', qsRank: 45, tiers: ['985', '211', '双一流', '普通一本'], directions: ['工程', '商科', '金融', '计算机'] },
-  { nameCn: '昆士兰大学', nameEn: 'UQ', country: '澳大利亚', qsRank: 50, tiers: ['985', '211', '双一流', '普通一本'], directions: ['商科', '医学', '生物', '环境'] },
-  { nameCn: '莫纳什大学', nameEn: 'Monash University', country: '澳大利亚', qsRank: 57, tiers: ['211', '双一流', '普通一本', '普通二本'], directions: ['商科', '工程', '医学', '教育'] },
-  { nameCn: '西澳大学', nameEn: 'UWA', country: '澳大利亚', qsRank: 90, tiers: ['普通一本', '普通二本', '独立学院/民办'], directions: ['工程', '商科', '医学', '矿业'] },
-  { nameCn: '阿德莱德大学', nameEn: 'University of Adelaide', country: '澳大利亚', qsRank: 111, tiers: ['普通一本', '普通二本', '独立学院/民办'], directions: ['工程', '医学', '商科', '葡萄酒'] },
+  { schoolCode: 'ANU', nameCn: '澳大利亚国立大学', nameEn: 'ANU', country: '澳大利亚', tiers: ['985', '211', '双一流', '普通一本'], directions: ['计算机', '公共政策', '国际关系', 'AI'] },
+  { schoolCode: 'UNIMELB', nameCn: '墨尔本大学', nameEn: 'University of Melbourne', country: '澳大利亚', tiers: ['985', '211', '双一流', '普通一本'], directions: ['商科', '医学', '法学', '工程'] },
+  { schoolCode: 'USYD', nameCn: '悉尼大学', nameEn: 'University of Sydney', country: '澳大利亚', tiers: ['985', '211', '双一流', '普通一本'], directions: ['商科', '医学', '法学', '传媒'] },
+  { schoolCode: 'UNSW', nameCn: '新南威尔士大学', nameEn: 'UNSW', country: '澳大利亚', tiers: ['985', '211', '双一流', '普通一本'], directions: ['工程', '商科', '金融', '计算机'] },
+  { schoolCode: 'UQ', nameCn: '昆士兰大学', nameEn: 'UQ', country: '澳大利亚', tiers: ['985', '211', '双一流', '普通一本'], directions: ['商科', '医学', '生物', '环境'] },
+  { schoolCode: 'MONASH', nameCn: '莫纳什大学', nameEn: 'Monash University', country: '澳大利亚', tiers: ['211', '双一流', '普通一本', '普通二本'], directions: ['商科', '工程', '医学', '教育'] },
+  { schoolCode: 'UWA', nameCn: '西澳大学', nameEn: 'UWA', country: '澳大利亚', tiers: ['普通一本', '普通二本', '独立学院/民办'], directions: ['工程', '商科', '医学', '矿业'] },
+  { schoolCode: 'ADELAIDE', nameCn: '阿德莱德大学', nameEn: 'Adelaide University', country: '澳大利亚', tiers: ['普通一本', '普通二本', '独立学院/民办'], directions: ['工程', '医学', '商科', '葡萄酒'] },
 
   // 新加坡
-  { nameCn: '新加坡国立大学', nameEn: 'NUS', country: '新加坡', qsRank: 8, tiers: ['985', '211', '双一流'], directions: ['商科', '计算机', '工程', '法学'] },
-  { nameCn: '南洋理工大学', nameEn: 'NTU', country: '新加坡', qsRank: 15, tiers: ['985', '211', '双一流'], directions: ['工程', '商科', 'AI', '数据科学'] },
+  { schoolCode: 'NUS', nameCn: '新加坡国立大学', nameEn: 'NUS', country: '新加坡', tiers: ['985', '211', '双一流'], directions: ['商科', '计算机', '工程', '法学'] },
+  { schoolCode: 'NTU', nameCn: '南洋理工大学', nameEn: 'NTU', country: '新加坡', tiers: ['985', '211', '双一流'], directions: ['工程', '商科', 'AI', '数据科学'] },
 
   // 中国香港
-  { nameCn: '香港大学', nameEn: 'HKU', country: '中国香港', qsRank: 21, tiers: ['985', '211', '双一流', '普通一本'], directions: ['医学', '法学', '商科', '建筑'] },
-  { nameCn: '香港中文大学', nameEn: 'CUHK', country: '中国香港', qsRank: 38, tiers: ['985', '211', '双一流', '普通一本'], directions: ['商科', '法学', '传媒', '医学'] },
-  { nameCn: '香港科技大学', nameEn: 'HKUST', country: '中国香港', qsRank: 40, tiers: ['985', '211', '双一流', '普通一本'], directions: ['工程', '商科', '计算机', '金融'] },
-  { nameCn: '香港城市大学', nameEn: 'CityU', country: '中国香港', qsRank: 54, tiers: ['211', '双一流', '普通一本', '普通二本'], directions: ['商科', '法学', '工程', '数据科学'] },
-  { nameCn: '香港理工大学', nameEn: 'PolyU', country: '中国香港', qsRank: 65, tiers: ['211', '双一流', '普通一本', '普通二本'], directions: ['工程', '建筑', '商科', '设计'] },
+  { schoolCode: 'HKU', nameCn: '香港大学', nameEn: 'HKU', country: '中国香港', tiers: ['985', '211', '双一流', '普通一本'], directions: ['医学', '法学', '商科', '建筑'] },
+  { schoolCode: 'CUHK', nameCn: '香港中文大学', nameEn: 'CUHK', country: '中国香港', tiers: ['985', '211', '双一流', '普通一本'], directions: ['商科', '法学', '传媒', '医学'] },
+  { schoolCode: 'HKUST', nameCn: '香港科技大学', nameEn: 'HKUST', country: '中国香港', tiers: ['985', '211', '双一流', '普通一本'], directions: ['工程', '商科', '计算机', '金融'] },
+  { schoolCode: 'CityU', nameCn: '香港城市大学', nameEn: 'CityU', country: '中国香港', tiers: ['211', '双一流', '普通一本', '普通二本'], directions: ['商科', '法学', '工程', '数据科学'] },
+  { schoolCode: 'PolyU', nameCn: '香港理工大学', nameEn: 'PolyU', country: '中国香港', tiers: ['211', '双一流', '普通一本', '普通二本'], directions: ['工程', '建筑', '商科', '设计'] },
 ];
 
 // 将GPA转换为百分制
@@ -165,9 +172,10 @@ function calculateComprehensiveScore(
 // 筛选学校
 function filterSchools(
   input: SchoolMatchInput,
-  gpa: number
+  gpa: number,
+  schools: typeof schoolDatabase
 ): typeof schoolDatabase {
-  return schoolDatabase.filter(school => {
+  return schools.filter(school => {
     // 1. 按国家筛选
     if (!input.countries.includes(school.country)) return false;
 
@@ -326,6 +334,8 @@ function generateRecommendedSchool(
     nameEn: school.nameEn,
     country: school.country,
     qsRank: school.qsRank,
+    qsYear: school.qsYear,
+    qsLabel: school.qsLabel,
     matchScore,
     type,
     difficulty: type === 'reach' ? '冲刺' : type === 'match' ? '稳妥' : '保底',
@@ -401,7 +411,7 @@ function generateAICommentary(
 }
 
 // 主函数：生成选校匹配结果
-export function generateSchoolMatch(input: SchoolMatchInput): SchoolMatchResult {
+export function generateSchoolMatch(input: SchoolMatchInput, rankings: School[] = []): SchoolMatchResult {
   const gpa = normalizeGPA(input.gpa, input.gpaType);
   const hasLanguage = !!input.languageScore;
 
@@ -409,7 +419,11 @@ export function generateSchoolMatch(input: SchoolMatchInput): SchoolMatchResult 
   const comprehensiveScore = calculateComprehensiveScore(gpa, input.schoolTier, hasLanguage, input.targetDirections);
 
   // 筛选学校
-  const filteredSchools = filterSchools(input, gpa);
+  const rankedSchools = schoolDatabase.map(s => {
+    const current = rankings.find(r => r.school_code === s.schoolCode);
+    return { ...s, qsRank: current ? getQSRank(current) : undefined, qsYear: current ? getQSYear(current) : undefined, qsLabel: current ? getQSLabel(current) : undefined };
+  });
+  const filteredSchools = filterSchools(input, gpa, rankedSchools);
 
   // 分类学校
   const categorized = categorizeSchools(filteredSchools, gpa, input.schoolTier, input);

@@ -1,5 +1,8 @@
 "use client";
 
+import { getQSYear } from "@/lib/qs-ranking";
+
+
 import { useState, useMemo } from "react";
 import { useSearchParams } from "next/navigation";
 import ProgramCard from "@/components/ProgramCard";
@@ -123,7 +126,7 @@ export default function ProgramsClient({
 
           {/* QS排名筛选 */}
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">QS排名</label>
+            <label className="block text-sm font-medium text-gray-700 mb-2">QS {getQSYear(initialPrograms[0] || {})} 世界排名</label>
             <select
               value={qsRanking}
               onChange={(e) => setQsRanking(e.target.value)}

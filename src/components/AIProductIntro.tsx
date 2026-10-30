@@ -9,17 +9,17 @@ const productCopy: Record<ProductType, { title: string; subtitle: string; focus:
     focus: ["申请定位分析", "项目匹配表达", "经历量化呈现"],
   },
   ps: {
-    title: "AI个人陈述 PS",
+    title: "个人陈述 PS 模板",
     subtitle: "围绕学术动机、成长经历和目标专业生成 Personal Statement 参考草稿",
     focus: ["故事线设计", "学术潜力表达", "院校专业侧重"],
   },
   recommendation: {
-    title: "AI推荐信",
+    title: "推荐信模板",
     subtitle: "从推荐人视角组织学生能力证据，生成正式英文推荐信参考草稿",
     focus: ["推荐人视角", "可验证事例", "招生官阅读逻辑"],
   },
   motivation: {
-    title: "AI动机信",
+    title: "动机信模板",
     subtitle: "针对目标院校、目标专业和职业规划生成 Motivation Letter 参考草稿",
     focus: ["院校匹配", "专业动机", "未来规划表达"],
   },
@@ -52,27 +52,27 @@ export default function AIProductIntro({ product }: AIProductIntroProps) {
       <section className="rounded-xl border border-blue-100 bg-gradient-to-br from-white to-blue-50 p-5 shadow-sm">
         <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
           <div>
-            <p className="text-xs font-semibold text-blue-600 mb-2">留学Hub 文书模型</p>
+            <p className="text-xs font-semibold text-blue-600 mb-2">留学Hub 文书助手</p>
             <h1 className="text-2xl font-bold text-gray-900">{copy.title}</h1>
             <p className="mt-2 text-gray-600">{copy.subtitle}</p>
             <p className="mt-3 text-sm leading-6 text-gray-600">
-              基于全球 3000+ 院校与专业数据、招生官录取文书偏好观察，以及多年成功申请顾问经验沉淀，
-              将不同国家、学校和专业的关注点提炼为 AI 写作策略，帮助你把真实经历转化为更清晰、更匹配的申请表达。
+              按你提供的真实经历组织材料，缺失内容需自行补充。
+              个人陈述、推荐信、动机信当前使用固定结构模板，结果不是学校或招生官的审核意见。
             </p>
           </div>
 
           <div className="grid grid-cols-3 gap-2 lg:min-w-[300px]">
             <div className="rounded-lg bg-white px-3 py-3 text-center border border-blue-100">
-              <div className="text-lg font-bold text-blue-600">3000+</div>
-              <div className="text-xs text-gray-500">院校专业数据</div>
+              <div className="text-lg font-bold text-blue-600">真实</div>
+              <div className="text-xs text-gray-500">个人素材</div>
             </div>
             <div className="rounded-lg bg-white px-3 py-3 text-center border border-blue-100">
               <div className="text-lg font-bold text-blue-600">多地区</div>
-              <div className="text-xs text-gray-500">申请偏好沉淀</div>
+              <div className="text-xs text-gray-500">材料组织</div>
             </div>
             <div className="rounded-lg bg-white px-3 py-3 text-center border border-blue-100">
-              <div className="text-lg font-bold text-blue-600">定制化</div>
-              <div className="text-xs text-gray-500">学校专业侧重</div>
+              <div className="text-lg font-bold text-blue-600">可编辑</div>
+              <div className="text-xs text-gray-500">自行完善</div>
             </div>
           </div>
         </div>

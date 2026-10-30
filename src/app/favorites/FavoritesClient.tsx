@@ -1,79 +1,18 @@
 "use client";
-
-import { useEffect, useState } from "react";
+import {useEffect,useState} from "react";
 import Link from "next/link";
-import { Program } from "@/types";
-import { FAVORITES_UPDATED_EVENT, getFavorites } from "@/lib/storage";
-import ProgramCard from "@/components/ProgramCard";
-
-interface FavoritesClientProps {
-  allPrograms: Program[];
-}
-
-export default function FavoritesClient({
-  allPrograms,
-}: FavoritesClientProps) {
-  const [favoriteIds, setFavoriteIds] = useState<string[]>([]);
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-    setFavoriteIds(getFavorites());
-  }, []);
-
-  useEffect(() => {
-    if (!mounted) return;
-
-    const handleStorageChange = () => {
-      setFavoriteIds(getFavorites());
-    };
-
-    window.addEventListener("storage", handleStorageChange);
-    window.addEventListener(FAVORITES_UPDATED_EVENT, handleStorageChange);
-    return () => {
-      window.removeEventListener("storage", handleStorageChange);
-      window.removeEventListener(FAVORITES_UPDATED_EVENT, handleStorageChange);
-    };
-  }, [mounted]);
-
-  const favoritePrograms = allPrograms.filter((p) =>
-    favoriteIds.includes(p.id)
-  );
-
-  if (!mounted) {
-    return null;
-  }
-
-  return (
-    <div className="max-w-7xl mx-auto px-4 py-8">
-      <div className="mb-8">
-        <h1 className="text-2xl font-bold text-text mb-2">选校清单</h1>
-        <p className="text-textSecondary">
-          已收藏 <span className="font-semibold text-primary">{favoritePrograms.length}</span> 个专业
-        </p>
-      </div>
-
-      {favoritePrograms.length === 0 ? (
-        <div className="bg-white rounded-xl border border-border p-12 text-center">
-          <div className="text-5xl mb-4">📋</div>
-          <h2 className="text-xl font-semibold text-text mb-2">选校清单为空</h2>
-          <p className="text-textSecondary mb-6">
-            去专业搜索页面找到感兴趣的专业并收藏它们吧
-          </p>
-          <Link
-            href="/programs"
-            className="inline-block px-6 py-3 bg-primary text-white rounded-lg hover:bg-blue-700 transition-colors"
-          >
-            浏览专业
-          </Link>
-        </div>
-      ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-          {favoritePrograms.map((program) => (
-            <ProgramCard key={program.id} program={program} />
-          ))}
-        </div>
-      )}
-    </div>
-  );
+import {getFavorites,removeFavorite,FAVORITES_UPDATED_EVENT} from "@/lib/storage";
+import {readStudentLists,saveStudentLists,type StudentList} from "@/lib/shortlist";
+import type {CatalogItem,SchoolSummary} from "@/lib/catalog-types";
+import CatalogCard from "@/components/CatalogCard";
+export default function FavoritesClient(){
+ const [ids,setIds]=useState<string[]>([]),[lists,setLists]=useState<StudentList[]>([]),[active,setActive]=useState(''),[name,setName]=useState('');
+ const [items,setItems]=useState<CatalogItem[]>([]),[schools,setSchools]=useState<SchoolSummary[]>([]),[message,setMessage]=useState(''),[loading,setLoading]=useState(false);
+ useEffect(()=>{const sync=()=>setIds(getFavorites());sync();setLists(readStudentLists());window.addEventListener(FAVORITES_UPDATED_EVENT,sync);window.addEventListener('storage',sync);return()=>{window.removeEventListener(FAVORITES_UPDATED_EVENT,sync);window.removeEventListener('storage',sync);};},[]);
+ const selected=lists.find(x=>x.id===active);const current=selected?.ids||ids;const signature=current.join('|');
+ useEffect(()=>{const c=new AbortController();setMessage('');if(!current.length){setItems([]);setSchools([]);setLoading(false);return;}setLoading(true);(async()=>{const merged:CatalogItem[]=[];const foundSchools:SchoolSummary[]=[];let missing=0;for(let start=0;start<current.length;start+=200){const r=await fetch('/api/catalog',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({ids:current.slice(start,start+200)}),signal:c.signal});if(!r.ok)throw Error('清单资料读取失败，请重试。');const data=await r.json();merged.push(...data.items);foundSchools.push(...data.schools);missing+=data.missing.length;}setItems(merged);setSchools(foundSchools);if(missing)setMessage(`${missing} 个历史收藏暂时找不到，原记录仍保留。`);})().catch(e=>{if(!c.signal.aborted)setMessage(e.message);}).finally(()=>{if(!c.signal.aborted)setLoading(false);});return()=>c.abort();},[signature]);
+ function update(next:StudentList[]){try{saveStudentLists(next);setLists(next);setMessage('');}catch{setMessage('本机保存失败，请先导出清单。');}}
+ function remove(id:string){if(selected)update(lists.map(x=>x.id===active?{...x,ids:x.ids.filter(i=>i!==id)}:x));else removeFavorite(id);}
+ function exportText(){const text=[selected?.name||'我的收藏',`导出日期：${new Date().toLocaleDateString('zh-CN')}`,selected?.note||'',...schools.map(s=>`${s.name} · ${s.region}`),...items.map(p=>[p.school+' / '+p.name,p.cycle,p.state.label,'学费：'+p.fee,'语言：'+p.language,'截止：'+p.deadline,'详情：'+location.origin+'/programs/'+p.id,'官网：'+p.officialUrl].join('\n'))].join('\n\n');const url=URL.createObjectURL(new Blob([text],{type:'text/plain;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='选校清单.txt';a.click();URL.revokeObjectURL(url);}
+ return <main className="mx-auto max-w-7xl px-4 py-8"><h1 className="text-2xl font-bold">收藏与学生清单</h1><p className="mt-2 text-sm text-gray-600">保存在当前浏览器，可使用学生代号分类；暂不跨设备同步，请及时导出备份。</p><section className="my-5 rounded-2xl border bg-white p-5"><div className="flex flex-wrap items-end gap-3"><label className="text-sm">当前清单<select className="ml-2 rounded-lg border p-2" value={active} onChange={e=>setActive(e.target.value)}><option value="">我的收藏</option>{lists.map(l=><option key={l.id} value={l.id}>{l.name}</option>)}</select></label><label className="text-sm">学生代号<input className="ml-2 rounded-lg border p-2" maxLength={60} value={name} onChange={e=>setName(e.target.value)} placeholder="如 学生A / 2027商科"/></label><button className="rounded-lg bg-blue-600 px-4 py-2 text-sm text-white" onClick={()=>{if(!name.trim())return;const id=crypto.randomUUID();update([...lists,{id,name:name.trim(),ids:[],note:''}]);setActive(id);setName('');}}>新建清单</button><Link href="/programs" className="text-sm text-blue-700">查找专业</Link><Link href="/compare" className="text-sm text-blue-700">专业对比</Link></div>{selected&&<><label className="mt-4 block text-sm">顾问备注<textarea className="mt-2 w-full rounded-lg border p-3" maxLength={2000} value={selected.note} placeholder="目标、预算、待补材料等；建议不填写证件号等敏感信息" onChange={e=>update(lists.map(x=>x.id===active?{...x,note:e.target.value}:x))}/></label><button className="mt-3 text-sm text-blue-700" onClick={()=>update(lists.map(x=>x.id===active?{...x,ids:[...new Set([...x.ids,...ids])]}:x))}>将我的收藏复制到此清单</button></>}<button className="mt-4 block text-sm text-blue-700" onClick={exportText}>导出清单与备注</button></section><p role="status" className="mb-4 text-sm text-gray-600">{loading?'正在读取清单…':message||`${schools.length} 所学校 · ${items.length} 个专业`}</p>{schools.length>0&&<section className="mb-6"><h2 className="mb-3 font-semibold">学校收藏</h2><div className="grid gap-3 sm:grid-cols-3">{schools.map(s=><article key={s.id} className="rounded-xl border bg-white p-4"><Link href={`/schools/${s.id}`} className="font-semibold text-blue-700">{s.name}</Link><p className="mt-2 text-sm">{s.region} · {s.programs} 个项目</p><button className="mt-2 text-xs text-gray-500" onClick={()=>remove(s.id)}>从当前清单移除</button></article>)}</div></section>}<div className="grid gap-4 lg:grid-cols-2">{items.map(p=><div key={p.id}><CatalogCard item={p}/>{selected&&<button className="p-2 text-xs text-gray-500" onClick={()=>remove(p.id)}>从当前学生清单移除</button>}</div>)}</div>{!loading&&!current.length&&<p className="rounded-xl bg-white p-8 text-center">清单暂无记录。可以在学校或专业页面点击收藏。</p>}</main>;
 }

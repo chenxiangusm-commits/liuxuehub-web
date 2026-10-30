@@ -12,42 +12,91 @@
     "major_cn": "健康服务管理理学硕士",
     "major_en": "Master of Science in Health Services Management",
     "degree": "MSc",
-    "duration": "1-2年",
-    "intake": "9月/1月",
-    "fee": "HKD 120,000-130,000（约RMB 110,400-119,600）",
-    "deadline": "2026年6月30日",
-    "ielts": "6.0",
-    "toefl": "80",
+    "duration": "当前课程身份待核实",
+    "intake": "当前招生身份待核实",
+    "fee": "当前官方目录未确认此硕士，无法确认适用学费；旧库金额不作为申请依据。",
+    "deadline": "当前官方目录未确认此硕士，无法确认开放及截止日期。",
+    "ielts": "课程身份未确认，原分数未获官网支持",
+    "toefl": "课程身份未确认，原分数未获官网支持",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "此名称未能与当前官方硕士目录对应，旧库语言要求不作为当前招生条件。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "申请人须持有认可大学颁授的学士学位，或具备同等学历；优先录取具有医疗或健康服务相关工作经验的申请人；需提交个人简历及陈述。",
-    "official_url": "https://www.twc.edu.hk/en/Programme_cat",
-    "study_mode": "全日制/兼读制",
-    "curriculum": [
-      "医疗系统与政策分析",
-      "健康资讯管理",
-      "医疗服务质素管理",
-      "医疗经济学与财务管理",
-      "医疗法律与伦理",
-      "健康资讯系统应用",
-      "医疗项目管理",
-      "医疗策略管理与领导",
-      "健康服务研究方法",
-      "医疗服务实习"
-    ],
-    "objectives": "本课程旨在培养具备现代医疗管理理念和专业技能的健康服务管理人才。学生将系统学习医疗系统运作、健康资讯管理、服务质量控制、财务管理及策略规划等核心知识，结合东华三院丰富的医疗资源与实践经验，毕业后能够在医院管理局、私家医院、诊所及健康服务机构从事管理工作，推动香港医疗服务水平的提升。",
-    "careers": [
-      "医院行政管理人员",
-      "医疗资讯系统经理",
-      "健康服务策划主任",
-      "医疗质量管理师",
-      "医疗政策分析师",
-      "健康机构顾问"
-    ],
+    "req_detail": "当前官方目录未列此名称。学校2026年7月公告将智慧医疗服务管理列为首个硕士；尚无证据证明本旧条目是该项目旧名或独立在招项目。请先向学校核实。",
+    "official_url": "https://www.twc.edu.hk/en/Programme_cat/all/all/4/PG",
+    "study_mode": "当前课程身份待核实",
+    "curriculum": [],
+    "objectives": "旧库课程身份及介绍未获当前官网确认。",
+    "careers": [],
     "source_file": "twc_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "unconfirmed",
+      "catalogue_sources": [
+        {
+          "key": "twc-web-catalogue",
+          "url": "https://www.twc.edu.hk/en/Programme_cat/all/all/4/PG",
+          "label": "东华学院现行研究生课程目录"
+        },
+        {
+          "key": "twc-web-launch",
+          "url": "https://www.twc.edu.hk/sc/twc/news/1695",
+          "label": "2026-07-28官方公告：首个硕士、2026年9月首届中文班"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "twc-web-catalogue",
+              "url": "https://www.twc.edu.hk/en/Programme_cat/all/all/4/PG",
+              "label": "东华学院现行研究生课程目录"
+            },
+            {
+              "key": "twc-web-launch",
+              "url": "https://www.twc.edu.hk/sc/twc/news/1695",
+              "label": "2026-07-28官方公告：首个硕士、2026年9月首届中文班"
+            }
+          ],
+          "cycle": "现行目录／2026年首个硕士公告",
+          "status": "unconfirmed"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "twc-web-catalogue",
+              "url": "https://www.twc.edu.hk/en/Programme_cat/all/all/4/PG",
+              "label": "东华学院现行研究生课程目录"
+            },
+            {
+              "key": "twc-web-launch",
+              "url": "https://www.twc.edu.hk/sc/twc/news/1695",
+              "label": "2026-07-28官方公告：首个硕士、2026年9月首届中文班"
+            }
+          ],
+          "cycle": "现行目录／2026年首个硕士公告",
+          "status": "unconfirmed"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "twc-web-catalogue",
+              "url": "https://www.twc.edu.hk/en/Programme_cat/all/all/4/PG",
+              "label": "东华学院现行研究生课程目录"
+            },
+            {
+              "key": "twc-web-launch",
+              "url": "https://www.twc.edu.hk/sc/twc/news/1695",
+              "label": "2026-07-28官方公告：首个硕士、2026年9月首届中文班"
+            }
+          ],
+          "cycle": "现行目录／2026年首个硕士公告",
+          "status": "unconfirmed"
+        }
+      }
+    }
   },
   {
     "id": "twc-postgraduate-master-of-science-in-applied-gerontology",
@@ -62,42 +111,91 @@
     "major_cn": "应用老年学理学硕士",
     "major_en": "Master of Science in Applied Gerontology",
     "degree": "MSc",
-    "duration": "1-2年",
-    "intake": "9月",
-    "fee": "HKD 115,000-125,000（约RMB 105,800-115,000）",
-    "deadline": "2026年5月31日",
-    "ielts": "6.0",
-    "toefl": "80",
+    "duration": "当前课程身份待核实",
+    "intake": "当前招生身份待核实",
+    "fee": "当前官方目录未确认此硕士，无法确认适用学费；旧库金额不作为申请依据。",
+    "deadline": "当前官方目录未确认此硕士，无法确认开放及截止日期。",
+    "ielts": "课程身份未确认，原分数未获官网支持",
+    "toefl": "课程身份未确认，原分数未获官网支持",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "此名称未能与当前官方硕士目录对应，旧库语言要求不作为当前招生条件。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "申请人须持有认可大学颁授的学士学位，主修社会科学、医疗、护理或相关领域优先；具有老年服务工作经验者将获优先考虑。",
-    "official_url": "https://www.twc.edu.hk/en/Programme_cat",
-    "study_mode": "全日制",
-    "curriculum": [
-      "老年学理论与实务",
-      "认知障碍与照护策略",
-      "长者心理健康",
-      "社区安老服务规划",
-      "安老服务政策与法规",
-      "老年康复治疗",
-      "临终关怀与舒缓治疗",
-      "长者社区参与与社会支持",
-      "老年学研究方法",
-      "安老服务实习"
-    ],
-    "objectives": "本课程回应香港及全球人口老龄化趋势，培育具备专业老年学知识和实务技能的应用型人才。学生将深入了解长者的生理、心理及社会需求，学习最新的老年护理理念与科技应用，并透过东华三院的安老服务体系进行实地实习，毕业后可在政府部门、安老院舍、日间护理中心及社区服务单位担任管理或专业职务。",
-    "careers": [
-      "安老院舍管理员",
-      "长者服务项目经理",
-      "社区安老服务主任",
-      "老年康复治疗师",
-      "安老政策研究员",
-      "认知障碍症照护专员"
-    ],
+    "req_detail": "当前官方目录未列此名称。学校2026年7月公告将智慧医疗服务管理列为首个硕士；尚无证据证明本旧条目是该项目旧名或独立在招项目。请先向学校核实。",
+    "official_url": "https://www.twc.edu.hk/en/Programme_cat/all/all/4/PG",
+    "study_mode": "当前课程身份待核实",
+    "curriculum": [],
+    "objectives": "旧库课程身份及介绍未获当前官网确认。",
+    "careers": [],
     "source_file": "twc_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "unconfirmed",
+      "catalogue_sources": [
+        {
+          "key": "twc-web-catalogue",
+          "url": "https://www.twc.edu.hk/en/Programme_cat/all/all/4/PG",
+          "label": "东华学院现行研究生课程目录"
+        },
+        {
+          "key": "twc-web-launch",
+          "url": "https://www.twc.edu.hk/sc/twc/news/1695",
+          "label": "2026-07-28官方公告：首个硕士、2026年9月首届中文班"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "twc-web-catalogue",
+              "url": "https://www.twc.edu.hk/en/Programme_cat/all/all/4/PG",
+              "label": "东华学院现行研究生课程目录"
+            },
+            {
+              "key": "twc-web-launch",
+              "url": "https://www.twc.edu.hk/sc/twc/news/1695",
+              "label": "2026-07-28官方公告：首个硕士、2026年9月首届中文班"
+            }
+          ],
+          "cycle": "现行目录／2026年首个硕士公告",
+          "status": "unconfirmed"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "twc-web-catalogue",
+              "url": "https://www.twc.edu.hk/en/Programme_cat/all/all/4/PG",
+              "label": "东华学院现行研究生课程目录"
+            },
+            {
+              "key": "twc-web-launch",
+              "url": "https://www.twc.edu.hk/sc/twc/news/1695",
+              "label": "2026-07-28官方公告：首个硕士、2026年9月首届中文班"
+            }
+          ],
+          "cycle": "现行目录／2026年首个硕士公告",
+          "status": "unconfirmed"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "twc-web-catalogue",
+              "url": "https://www.twc.edu.hk/en/Programme_cat/all/all/4/PG",
+              "label": "东华学院现行研究生课程目录"
+            },
+            {
+              "key": "twc-web-launch",
+              "url": "https://www.twc.edu.hk/sc/twc/news/1695",
+              "label": "2026-07-28官方公告：首个硕士、2026年9月首届中文班"
+            }
+          ],
+          "cycle": "现行目录／2026年首个硕士公告",
+          "status": "unconfirmed"
+        }
+      }
+    }
   },
   {
     "id": "twc-postgraduate-master-of-science-in-medical-laboratory-science",
@@ -112,42 +210,91 @@
     "major_cn": "医疗化验科学理学硕士",
     "major_en": "Master of Science in Medical Laboratory Science",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "HKD 180,000-200,000（约RMB 165,600-184,000）",
-    "deadline": "2026年4月30日",
-    "ielts": "6.0",
-    "toefl": "80",
+    "duration": "当前课程身份待核实",
+    "intake": "当前招生身份待核实",
+    "fee": "当前官方目录未确认此硕士，无法确认适用学费；旧库金额不作为申请依据。",
+    "deadline": "当前官方目录未确认此硕士，无法确认开放及截止日期。",
+    "ielts": "课程身份未确认，原分数未获官网支持",
+    "toefl": "课程身份未确认，原分数未获官网支持",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "此名称未能与当前官方硕士目录对应，旧库语言要求不作为当前招生条件。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "申请人须持有医疗化验科学、生物医学或相关学科的学士学位；或具备香港医务化验师管理委员会认可的专业资格；优先录取具备化验工作经验者。",
-    "official_url": "https://www.twc.edu.hk/en/Programme_cat",
-    "study_mode": "全日制",
-    "curriculum": [
-      "临床化学与诊断分析",
-      "血液学与输血科学",
-      "临床微生物学",
-      "组织病理学技术",
-      "免疫学与血清学",
-      "分子诊断学原理",
-      "实验室质量管理系统",
-      "医学化验研究方法",
-      "临床化验实习（一）",
-      "临床化验实习（二）"
-    ],
-    "objectives": "本课程旨在提升医疗化验专业人员的学术水平和技术能力，培养具备独立思考和科研能力的化验科学专才。课程涵盖临床化学、血液学、微生物学及分子诊断等核心领域，学生将在现代化验室进行实践训练，毕业后可成为注册医务化验师，在医院、诊所或化验中心从事诊断化验工作。",
-    "careers": [
-      "注册医务化验师",
-      "化验室质量管理主任",
-      "临床化学分析师",
-      "血液学化验师",
-      "分子诊断技术员",
-      "化验部门主管"
-    ],
+    "req_detail": "当前官方目录未列此名称。学校2026年7月公告将智慧医疗服务管理列为首个硕士；尚无证据证明本旧条目是该项目旧名或独立在招项目。请先向学校核实。",
+    "official_url": "https://www.twc.edu.hk/en/Programme_cat/all/all/4/PG",
+    "study_mode": "当前课程身份待核实",
+    "curriculum": [],
+    "objectives": "旧库课程身份及介绍未获当前官网确认。",
+    "careers": [],
     "source_file": "twc_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "unconfirmed",
+      "catalogue_sources": [
+        {
+          "key": "twc-web-catalogue",
+          "url": "https://www.twc.edu.hk/en/Programme_cat/all/all/4/PG",
+          "label": "东华学院现行研究生课程目录"
+        },
+        {
+          "key": "twc-web-launch",
+          "url": "https://www.twc.edu.hk/sc/twc/news/1695",
+          "label": "2026-07-28官方公告：首个硕士、2026年9月首届中文班"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "twc-web-catalogue",
+              "url": "https://www.twc.edu.hk/en/Programme_cat/all/all/4/PG",
+              "label": "东华学院现行研究生课程目录"
+            },
+            {
+              "key": "twc-web-launch",
+              "url": "https://www.twc.edu.hk/sc/twc/news/1695",
+              "label": "2026-07-28官方公告：首个硕士、2026年9月首届中文班"
+            }
+          ],
+          "cycle": "现行目录／2026年首个硕士公告",
+          "status": "unconfirmed"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "twc-web-catalogue",
+              "url": "https://www.twc.edu.hk/en/Programme_cat/all/all/4/PG",
+              "label": "东华学院现行研究生课程目录"
+            },
+            {
+              "key": "twc-web-launch",
+              "url": "https://www.twc.edu.hk/sc/twc/news/1695",
+              "label": "2026-07-28官方公告：首个硕士、2026年9月首届中文班"
+            }
+          ],
+          "cycle": "现行目录／2026年首个硕士公告",
+          "status": "unconfirmed"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "twc-web-catalogue",
+              "url": "https://www.twc.edu.hk/en/Programme_cat/all/all/4/PG",
+              "label": "东华学院现行研究生课程目录"
+            },
+            {
+              "key": "twc-web-launch",
+              "url": "https://www.twc.edu.hk/sc/twc/news/1695",
+              "label": "2026-07-28官方公告：首个硕士、2026年9月首届中文班"
+            }
+          ],
+          "cycle": "现行目录／2026年首个硕士公告",
+          "status": "unconfirmed"
+        }
+      }
+    }
   },
   {
     "id": "twc-postgraduate-master-of-social-sciences-in-psychology",
@@ -162,42 +309,91 @@
     "major_cn": "心理学社会科学硕士",
     "major_en": "Master of Social Sciences in Psychology",
     "degree": "MSocSc",
-    "duration": "1-2年",
-    "intake": "9月",
-    "fee": "HKD 110,000-120,000（约RMB 101,200-110,400）",
-    "deadline": "2026年5月31日",
-    "ielts": "6.0",
-    "toefl": "80",
+    "duration": "当前课程身份待核实",
+    "intake": "当前招生身份待核实",
+    "fee": "当前官方目录未确认此硕士，无法确认适用学费；旧库金额不作为申请依据。",
+    "deadline": "当前官方目录未确认此硕士，无法确认开放及截止日期。",
+    "ielts": "课程身份未确认，原分数未获官网支持",
+    "toefl": "课程身份未确认，原分数未获官网支持",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "此名称未能与当前官方硕士目录对应，旧库语言要求不作为当前招生条件。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "申请人须持有认可大学颁授的心理学或相关学科的学士学位；非心理学背景申请人需完成认可的心理學基礎課程；需提交个人陈述阐述学习动机。",
-    "official_url": "https://www.twc.edu.hk/en/Programme_cat",
-    "study_mode": "全日制/兼读制",
-    "curriculum": [
-      "高级研究方法与统计分析",
-      "认知心理学专题",
-      "发展心理学与应用",
-      "心理评估与测量",
-      "辅导心理学理论与实务",
-      "健康心理学",
-      "社会心理学议题",
-      "心理干预与治疗技术",
-      "职业与组织心理学",
-      "心理学实习与督导"
-    ],
-    "objectives": "本课程为持有心理学学位的学生提供进阶专业训练，深化其在认知、发展、辅导及社会心理学等领域的理论与实务能力。学生将学习运用心理学原理解决实际问题，透过案例研讨和实习训练，培养专业的心理学工作能力，毕业后可在社会服务机构、教育单位或企业人力资源部门从事心理学相关工作。",
-    "careers": [
-      "辅导心理学家",
-      "教育心理辅导员",
-      "人力资源管理主任",
-      "心理测评专员",
-      "社会服务个案工作者",
-      "心理健康推广专员"
-    ],
+    "req_detail": "当前官方目录未列此名称。学校2026年7月公告将智慧医疗服务管理列为首个硕士；尚无证据证明本旧条目是该项目旧名或独立在招项目。请先向学校核实。",
+    "official_url": "https://www.twc.edu.hk/en/Programme_cat/all/all/4/PG",
+    "study_mode": "当前课程身份待核实",
+    "curriculum": [],
+    "objectives": "旧库课程身份及介绍未获当前官网确认。",
+    "careers": [],
     "source_file": "twc_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "unconfirmed",
+      "catalogue_sources": [
+        {
+          "key": "twc-web-catalogue",
+          "url": "https://www.twc.edu.hk/en/Programme_cat/all/all/4/PG",
+          "label": "东华学院现行研究生课程目录"
+        },
+        {
+          "key": "twc-web-launch",
+          "url": "https://www.twc.edu.hk/sc/twc/news/1695",
+          "label": "2026-07-28官方公告：首个硕士、2026年9月首届中文班"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "twc-web-catalogue",
+              "url": "https://www.twc.edu.hk/en/Programme_cat/all/all/4/PG",
+              "label": "东华学院现行研究生课程目录"
+            },
+            {
+              "key": "twc-web-launch",
+              "url": "https://www.twc.edu.hk/sc/twc/news/1695",
+              "label": "2026-07-28官方公告：首个硕士、2026年9月首届中文班"
+            }
+          ],
+          "cycle": "现行目录／2026年首个硕士公告",
+          "status": "unconfirmed"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "twc-web-catalogue",
+              "url": "https://www.twc.edu.hk/en/Programme_cat/all/all/4/PG",
+              "label": "东华学院现行研究生课程目录"
+            },
+            {
+              "key": "twc-web-launch",
+              "url": "https://www.twc.edu.hk/sc/twc/news/1695",
+              "label": "2026-07-28官方公告：首个硕士、2026年9月首届中文班"
+            }
+          ],
+          "cycle": "现行目录／2026年首个硕士公告",
+          "status": "unconfirmed"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "twc-web-catalogue",
+              "url": "https://www.twc.edu.hk/en/Programme_cat/all/all/4/PG",
+              "label": "东华学院现行研究生课程目录"
+            },
+            {
+              "key": "twc-web-launch",
+              "url": "https://www.twc.edu.hk/sc/twc/news/1695",
+              "label": "2026-07-28官方公告：首个硕士、2026年9月首届中文班"
+            }
+          ],
+          "cycle": "现行目录／2026年首个硕士公告",
+          "status": "unconfirmed"
+        }
+      }
+    }
   },
   {
     "id": "twc-postgraduate-master-of-social-work",
@@ -212,42 +408,91 @@
     "major_cn": "社会工作硕士",
     "major_en": "Master of Social Work",
     "degree": "MSW",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "HKD 140,000-150,000（约RMB 128,800-138,000）",
-    "deadline": "2026年3月31日",
-    "ielts": "6.0",
-    "toefl": "80",
+    "duration": "当前课程身份待核实",
+    "intake": "当前招生身份待核实",
+    "fee": "当前官方目录未确认此硕士，无法确认适用学费；旧库金额不作为申请依据。",
+    "deadline": "当前官方目录未确认此硕士，无法确认开放及截止日期。",
+    "ielts": "课程身份未确认，原分数未获官网支持",
+    "toefl": "课程身份未确认，原分数未获官网支持",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "此名称未能与当前官方硕士目录对应，旧库语言要求不作为当前招生条件。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "申请人须持有认可大学颁授的学士学位，社会科学或人文学科背景优先；需展示对社会工作的认识和个人承担；优先录取具有社会服务工作经验者。",
-    "official_url": "https://www.twc.edu.hk/en/Programme_cat",
-    "study_mode": "全日制/兼读制",
-    "curriculum": [
-      "社会工作理论与实务整合",
-      "社会福利政策与分析",
-      "个人与家庭社会工作",
-      "社区工作与组织方法",
-      "社会工作研究方法",
-      "社会工作伦理与法律",
-      "精神健康与社会工作",
-      "儿童及家庭服务",
-      "长者与安老服务",
-      "社会工作实习（一）"
-    ],
-    "objectives": "本课程培育具有专业伦理、理论知识和实务技能的社会工作专才。学生将深入学习社会工作核心理论与介入方法，透过与东华三院及其他社福机构的合作，提供多元化的实习机会。课程强调社会公义与弱势群体关怀，毕业后可成为香港注册社会工作者，在社署、非政府机构或社区服务单位服务。",
-    "careers": [
-      "注册社会工作者",
-      "社会服务项目经理",
-      "家庭服务中心社工",
-      "儿童及青少年服务社工",
-      "安老服务社工",
-      "社区发展主任"
-    ],
+    "req_detail": "当前官方目录未列此名称。学校2026年7月公告将智慧医疗服务管理列为首个硕士；尚无证据证明本旧条目是该项目旧名或独立在招项目。请先向学校核实。",
+    "official_url": "https://www.twc.edu.hk/en/Programme_cat/all/all/4/PG",
+    "study_mode": "当前课程身份待核实",
+    "curriculum": [],
+    "objectives": "旧库课程身份及介绍未获当前官网确认。",
+    "careers": [],
     "source_file": "twc_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "unconfirmed",
+      "catalogue_sources": [
+        {
+          "key": "twc-web-catalogue",
+          "url": "https://www.twc.edu.hk/en/Programme_cat/all/all/4/PG",
+          "label": "东华学院现行研究生课程目录"
+        },
+        {
+          "key": "twc-web-launch",
+          "url": "https://www.twc.edu.hk/sc/twc/news/1695",
+          "label": "2026-07-28官方公告：首个硕士、2026年9月首届中文班"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "twc-web-catalogue",
+              "url": "https://www.twc.edu.hk/en/Programme_cat/all/all/4/PG",
+              "label": "东华学院现行研究生课程目录"
+            },
+            {
+              "key": "twc-web-launch",
+              "url": "https://www.twc.edu.hk/sc/twc/news/1695",
+              "label": "2026-07-28官方公告：首个硕士、2026年9月首届中文班"
+            }
+          ],
+          "cycle": "现行目录／2026年首个硕士公告",
+          "status": "unconfirmed"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "twc-web-catalogue",
+              "url": "https://www.twc.edu.hk/en/Programme_cat/all/all/4/PG",
+              "label": "东华学院现行研究生课程目录"
+            },
+            {
+              "key": "twc-web-launch",
+              "url": "https://www.twc.edu.hk/sc/twc/news/1695",
+              "label": "2026-07-28官方公告：首个硕士、2026年9月首届中文班"
+            }
+          ],
+          "cycle": "现行目录／2026年首个硕士公告",
+          "status": "unconfirmed"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "twc-web-catalogue",
+              "url": "https://www.twc.edu.hk/en/Programme_cat/all/all/4/PG",
+              "label": "东华学院现行研究生课程目录"
+            },
+            {
+              "key": "twc-web-launch",
+              "url": "https://www.twc.edu.hk/sc/twc/news/1695",
+              "label": "2026-07-28官方公告：首个硕士、2026年9月首届中文班"
+            }
+          ],
+          "cycle": "现行目录／2026年首个硕士公告",
+          "status": "unconfirmed"
+        }
+      }
+    }
   },
   {
     "id": "twc-postgraduate-master-of-business-administration",
@@ -262,42 +507,91 @@
     "major_cn": "工商管理硕士",
     "major_en": "Master of Business Administration",
     "degree": "MBA",
-    "duration": "1-2年",
-    "intake": "9月/1月",
-    "fee": "HKD 150,000-160,000（约RMB 138,000-147,200）",
-    "deadline": "2026年6月30日",
-    "ielts": "6.0",
-    "toefl": "80",
+    "duration": "当前课程身份待核实",
+    "intake": "当前招生身份待核实",
+    "fee": "当前官方目录未确认此硕士，无法确认适用学费；旧库金额不作为申请依据。",
+    "deadline": "当前官方目录未确认此硕士，无法确认开放及截止日期。",
+    "ielts": "课程身份未确认，原分数未获官网支持",
+    "toefl": "课程身份未确认，原分数未获官网支持",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "此名称未能与当前官方硕士目录对应，旧库语言要求不作为当前招生条件。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "申请人须持有认可大学颁授的学士学位；具备2年以上管理或相关工作经验优先；需提交GMAT或GRE成绩（如适用）；需提供两封推荐信及个人简历。",
-    "official_url": "https://www.twc.edu.hk/en/Programme_cat",
-    "study_mode": "全日制/兼读制",
-    "curriculum": [
-      "管理经济学",
-      "财务会计与分析",
-      "组织行为与领导力",
-      "市场营销管理",
-      "战略管理与商业伦理",
-      "人力资源管理",
-      "营运管理与供应链",
-      "企业财务管理",
-      "商业研究方法",
-      "管理实习或商业计划项目"
-    ],
-    "objectives": "本课程旨在培养具备全局视野和战略思维的企业管理人才。学生将系统学习现代工商管理的核心知识，包括财务、市场营销、人力资源及营运管理，结合案例分析和商业模拟训练，提升解决实际商业问题的能力。课程还特别关注香港及大湾区商业环境，毕业后可在各类企业担任中层或高层管理职务。",
-    "careers": [
-      "企业部门经理",
-      "财务分析师",
-      "市场策划经理",
-      "人力资源主管",
-      "营运管理主任",
-      "创业及商业顾问"
-    ],
+    "req_detail": "当前官方目录未列此名称。学校2026年7月公告将智慧医疗服务管理列为首个硕士；尚无证据证明本旧条目是该项目旧名或独立在招项目。请先向学校核实。",
+    "official_url": "https://www.twc.edu.hk/en/Programme_cat/all/all/4/PG",
+    "study_mode": "当前课程身份待核实",
+    "curriculum": [],
+    "objectives": "旧库课程身份及介绍未获当前官网确认。",
+    "careers": [],
     "source_file": "twc_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "unconfirmed",
+      "catalogue_sources": [
+        {
+          "key": "twc-web-catalogue",
+          "url": "https://www.twc.edu.hk/en/Programme_cat/all/all/4/PG",
+          "label": "东华学院现行研究生课程目录"
+        },
+        {
+          "key": "twc-web-launch",
+          "url": "https://www.twc.edu.hk/sc/twc/news/1695",
+          "label": "2026-07-28官方公告：首个硕士、2026年9月首届中文班"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "twc-web-catalogue",
+              "url": "https://www.twc.edu.hk/en/Programme_cat/all/all/4/PG",
+              "label": "东华学院现行研究生课程目录"
+            },
+            {
+              "key": "twc-web-launch",
+              "url": "https://www.twc.edu.hk/sc/twc/news/1695",
+              "label": "2026-07-28官方公告：首个硕士、2026年9月首届中文班"
+            }
+          ],
+          "cycle": "现行目录／2026年首个硕士公告",
+          "status": "unconfirmed"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "twc-web-catalogue",
+              "url": "https://www.twc.edu.hk/en/Programme_cat/all/all/4/PG",
+              "label": "东华学院现行研究生课程目录"
+            },
+            {
+              "key": "twc-web-launch",
+              "url": "https://www.twc.edu.hk/sc/twc/news/1695",
+              "label": "2026-07-28官方公告：首个硕士、2026年9月首届中文班"
+            }
+          ],
+          "cycle": "现行目录／2026年首个硕士公告",
+          "status": "unconfirmed"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "twc-web-catalogue",
+              "url": "https://www.twc.edu.hk/en/Programme_cat/all/all/4/PG",
+              "label": "东华学院现行研究生课程目录"
+            },
+            {
+              "key": "twc-web-launch",
+              "url": "https://www.twc.edu.hk/sc/twc/news/1695",
+              "label": "2026-07-28官方公告：首个硕士、2026年9月首届中文班"
+            }
+          ],
+          "cycle": "现行目录／2026年首个硕士公告",
+          "status": "unconfirmed"
+        }
+      }
+    }
   },
   {
     "id": "twc-undergraduate-bachelor-of-social-sciences-hons-in-applied-psychology",
@@ -648,5 +942,94 @@
     ],
     "source_file": "schools_undergraduate/twc_undergraduate_data.json",
     "last_updated": "2026-05-21"
+  },
+  {
+    "school_code": "TWC",
+    "school_name": "香港东华学院",
+    "school_name_en": "Tung Wah College",
+    "region_cn": "中国香港",
+    "region_en": "Hong Kong SAR",
+    "qs_ranking_2026": null,
+    "id": "twc-postgraduate-master-of-smart-health-services-management",
+    "education_level": "postgraduate",
+    "major_cn": "智慧医疗服务管理硕士",
+    "major_en": "Master of Smart Health Services Management",
+    "degree": "MSHSM",
+    "college": "管理学院",
+    "curriculum": [],
+    "careers": [],
+    "objectives": "结合医疗管理与数字科技的跨学科硕士。",
+    "source_file": "official-twc-mshsm-catalogue",
+    "gaokao_requirement": null,
+    "subject_requirement": null,
+    "admission_route": null,
+    "fee": "2027/28全日制一年：本地HKD170,350，非本地HKD212,940。兼读两年：官网列每年本地HKD85,175、非本地HKD106,470；第二年（2028/29）可按年度调整，不能视为锁定两年总价。",
+    "deadline": "2026/27申请已关闭；所查官网尚未公布2027/28开放及截止日期。",
+    "ielts": "英语班6.0（各项≥5.5）；中文班按普通话条件",
+    "toefl": "英语班iBT74；中文班按普通话条件",
+    "language_requirement": "英语授课模式：前置学历非英语授课／考核者，可用IELTS Academic≥6.0且各项≥5.5，或TOEFL iBT≥74，或CET-6≥500且CET-SET口语≥B。中文模式：普通话母语，或学历以普通话授课／考核，或普通话水平测试三级乙等及以上。2026/27仅开中文班；2027/28具体开班语言安排待确认。",
+    "intake": "2027/28申请安排待公布；2026/27已截止",
+    "duration": "全日制1年／兼读制2年",
+    "study_mode": "全日制／兼读制；按所开中文／英文班申请",
+    "official_url": "https://www.twc.edu.hk/en/Programmes/mshsm",
+    "req_detail": "医疗保健、信息技术、管理或相关学科学士，或资历架构第5级同等资格。项目共27学分。2026年9月首次开办中文班，不应宣传为2027年首次开设。",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "twc-web-catalogue",
+          "url": "https://www.twc.edu.hk/en/Programme_cat/all/all/4/PG",
+          "label": "东华学院现行研究生课程目录"
+        },
+        {
+          "key": "twc-web-launch",
+          "url": "https://www.twc.edu.hk/sc/twc/news/1695",
+          "label": "2026-07-28官方公告：首个硕士、2026年9月首届中文班"
+        },
+        {
+          "key": "twc-web-mshsm",
+          "url": "https://www.twc.edu.hk/en/Programmes/mshsm",
+          "label": "智慧医疗服务管理硕士：分模式语言要求及2027/28收费"
+        }
+      ],
+      "newness": "added_to_database",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "twc-web-mshsm",
+              "url": "https://www.twc.edu.hk/en/Programmes/mshsm",
+              "label": "智慧医疗服务管理硕士：分模式语言要求及2027/28收费"
+            }
+          ],
+          "cycle": "2027/28入学；兼读次年可调整",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "twc-web-mshsm",
+              "url": "https://www.twc.edu.hk/en/Programmes/mshsm",
+              "label": "智慧医疗服务管理硕士：分模式语言要求及2027/28收费"
+            }
+          ],
+          "cycle": "2027/28",
+          "status": "not_published"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "twc-web-mshsm",
+              "url": "https://www.twc.edu.hk/en/Programmes/mshsm",
+              "label": "智慧医疗服务管理硕士：分模式语言要求及2027/28收费"
+            }
+          ],
+          "cycle": "官网按中英文模式分别规定；2027/28开班待确认",
+          "status": "verified"
+        }
+      }
+    },
+    "last_updated": "2026-10-22"
   }
 ]

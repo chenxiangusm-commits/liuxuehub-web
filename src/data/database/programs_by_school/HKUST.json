@@ -10,20 +10,20 @@
     "qs_ranking_2026": 47,
     "college": "工商管理学院",
     "major_cn": "会计学",
-    "major_en": "MSc in Accounting",
+    "major_en": "Master of Science in Accounting",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 355,000（约RMB 326,600）",
-    "deadline": "第1轮：2025年12月15日；第2轮：2026年2月1日；第3轮：2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "1 Year",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\nHK$428,000\n为满足 HKICPA QP 要求修读本科基础课，另收 HK$10,000／门。",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2027-04-01\n本地申请人\n全日制： 2027-04-01\n滚动录取，建议尽早提交。\n商学院提前批：2026-07-02 至2026-08-15（已结束）。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；优先考虑具有商业相关学科背景的申请者，需具备会计学、经济学、统计学或金融学基础知识；不要求工作经验",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-accounting",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-acct/",
     "study_mode": "全日制",
     "curriculum": [
       "财务报告与分析",
@@ -47,7 +47,59 @@
       "投资银行分析师"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-acct/",
+          "key": "da90c2fdb48ef70f626c",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-acct/",
+              "key": "da90c2fdb48ef70f626c",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-acct/",
+              "key": "da90c2fdb48ef70f626c",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-acct/",
+              "key": "da90c2fdb48ef70f626c",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-business-analytics",
@@ -60,21 +112,21 @@
     "qs_ranking_2026": 47,
     "college": "工商管理学院",
     "major_cn": "商业分析",
-    "major_en": "MSc in Business Analytics",
+    "major_en": "Master of Science in Business Analytics",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 360,000（约RMB 331,200）",
-    "deadline": "第1轮：2025年12月15日；第2轮：2026年2月1日；第3轮：2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "全日制： 1 year\n兼读制： 2 years",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\nHK$415,000",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2027-02-28\n兼读制： 2027-05-02\n本地申请人\n全日制： 2027-02-28\n兼读制： 2027-05-02\n滚动录取，建议尽早提交。\n商学院提前批：2026-07-02 至2026-08-15（已结束）。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；需具备统计分析或数值分析背景；欢迎工程、理学、金融、经济、数学、统计学等背景申请",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-business-analytics",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ba/",
+    "study_mode": "全日制及兼读制",
     "curriculum": [
       "商业数据分析",
       "统计学与机器学习",
@@ -97,7 +149,59 @@
       "战略顾问"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ba/",
+          "key": "dd9c5156a4221ce63519",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ba/",
+              "key": "dd9c5156a4221ce63519",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ba/",
+              "key": "dd9c5156a4221ce63519",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ba/",
+              "key": "dd9c5156a4221ce63519",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-family-office-and-family-business",
@@ -110,21 +214,21 @@
     "qs_ranking_2026": 47,
     "college": "工商管理学院",
     "major_cn": "家族办公室与家族企业",
-    "major_en": "MSc in Family Office and Family Business",
+    "major_en": "Master of Science in Family Office and Family Business",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 430,000（约RMB 395,600）",
-    "deadline": "第1轮：2025年12月1日；第2轮：2026年2月1日；第3轮：2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "全日制： 1 year\n兼读制： 2 years",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\nHK$477,400",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2027-02-28\n兼读制： 2027-05-02\n本地申请人\n全日制： 2027-02-28\n兼读制： 2027-05-02\n滚动录取，建议尽早提交。\n商学院提前批：2026-07-02 至2026-08-15（已结束）。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；优先考虑有3年以上工作经验的申请者；家族企业继承人或有家族企业管理经验者优先",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-family-office",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fofb/",
+    "study_mode": "全日制及兼读制",
     "curriculum": [
       "家族企业治理",
       "家族办公室管理",
@@ -147,7 +251,59 @@
       "投资顾问"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fofb/",
+          "key": "1f277c55e7ea7b1adce4",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fofb/",
+              "key": "1f277c55e7ea7b1adce4",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fofb/",
+              "key": "1f277c55e7ea7b1adce4",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fofb/",
+              "key": "1f277c55e7ea7b1adce4",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-finance",
@@ -160,21 +316,21 @@
     "qs_ranking_2026": 47,
     "college": "工商管理学院",
     "major_cn": "金融学",
-    "major_en": "MSc in Finance",
+    "major_en": "Master of Science in Finance",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 420,000（约RMB 386,400）",
-    "deadline": "第1轮：2025年12月1日；第2轮：2026年2月1日；第3轮：2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "全日制： 1 year\n兼读制： 2 years",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\nHK$460,000",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2027-02-28\n兼读制： 2027-05-02\n本地申请人\n全日制： 2027-02-28\n兼读制： 2027-05-02\n滚动录取，建议尽早提交。\n商学院提前批：2026-07-02 至2026-08-15（已结束）。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；需具备良好的数学或统计学基础；不要求工作经验，但有相关实习或工作经验者优先",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-finance",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fina/",
+    "study_mode": "全日制及兼读制",
     "curriculum": [
       "公司金融",
       "投资分析",
@@ -197,7 +353,59 @@
       "金融产品经理"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fina/",
+          "key": "7ec4097aab7503821b87",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fina/",
+              "key": "7ec4097aab7503821b87",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fina/",
+              "key": "7ec4097aab7503821b87",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fina/",
+              "key": "7ec4097aab7503821b87",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-global-operations",
@@ -210,20 +418,20 @@
     "qs_ranking_2026": 47,
     "college": "工商管理学院",
     "major_cn": "环球运营管理",
-    "major_en": "MSc in Global Operations",
+    "major_en": "Master of Science in Global Operations",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 345,000（约RMB 317,400）",
-    "deadline": "第1轮：2025年12月1日；第2轮：2026年2月1日；第3轮：2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "1 year",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\nHK$365,000",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2027-02-28\n本地申请人\n全日制： 2027-02-28\n滚动录取，建议尽早提交。\n商学院提前批：2026-07-02 至2026-08-15（已结束）。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；不限制专业背景；欢迎具有工程、科学、商科背景的申请者",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-global-operations",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-go/",
     "study_mode": "全日制",
     "curriculum": [
       "全球供应链管理",
@@ -247,7 +455,59 @@
       "咨询顾问"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-go/",
+          "key": "509c892b4d5837d504fd",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-go/",
+              "key": "509c892b4d5837d504fd",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-go/",
+              "key": "509c892b4d5837d504fd",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-go/",
+              "key": "509c892b4d5837d504fd",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-information-and-cyber-security-management",
@@ -260,21 +520,21 @@
     "qs_ranking_2026": 47,
     "college": "工商管理学院",
     "major_cn": "信息与网络安全管理",
-    "major_en": "MSc in Information and Cyber Security Management",
+    "major_en": "Master of Science in Information and Cyber Security Management",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 320,000（约RMB 294,400）",
-    "deadline": "第1轮：2025年12月1日；第2轮：2026年2月1日；第3轮：2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "全日制： 1 year\n兼读制： 2 years",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\n全日制： HK$400,000\n兼读制： HK$360,000",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2027-02-28\n兼读制： 2027-05-02\n本地申请人\n全日制： 2027-02-28\n兼读制： 2027-05-02\n滚动录取，建议尽早提交。\n商学院提前批：2026-07-02 至2026-08-15（已结束）。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；不限制专业背景；具备信息技术或相关工作经验者优先",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-cyber-security",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-icsm/",
+    "study_mode": "全日制及兼读制",
     "curriculum": [
       "网络安全基础",
       "信息安全管理",
@@ -297,7 +557,59 @@
       "首席信息安全官"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-icsm/",
+          "key": "7a2ecd91cab05d9c4ea6",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-icsm/",
+              "key": "7a2ecd91cab05d9c4ea6",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-icsm/",
+              "key": "7a2ecd91cab05d9c4ea6",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-icsm/",
+              "key": "7a2ecd91cab05d9c4ea6",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-information-systems-management",
@@ -310,21 +622,21 @@
     "qs_ranking_2026": 47,
     "college": "工商管理学院",
     "major_cn": "信息系统管理",
-    "major_en": "MSc in Information Systems Management",
+    "major_en": "Master of Science in Information Systems Management",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 315,000（约RMB 289,800）",
-    "deadline": "第1轮：2025年12月1日；第2轮：2026年2月1日；第3轮：2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "全日制： 1 year\n兼读制： 2 years\n(provided that students attend Winter Term)",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\n全日制： HK$360,000\n兼读制： HK$297,000",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2027-02-28\n兼读制： 2027-05-02\n本地申请人\n全日制： 2027-02-28\n兼读制： 2027-05-02\n滚动录取，建议尽早提交。\n商学院提前批：2026-07-02 至2026-08-15（已结束）。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；不限制专业背景；欢迎工程、商科、理学等背景的申请者",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-ism",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ism/",
+    "study_mode": "全日制及兼读制",
     "curriculum": [
       "信息系统战略管理",
       "企业系统架构",
@@ -347,7 +659,59 @@
       "技术总监"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ism/",
+          "key": "ae056073e98bdeb3091a",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ism/",
+              "key": "ae056073e98bdeb3091a",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ism/",
+              "key": "ae056073e98bdeb3091a",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ism/",
+              "key": "ae056073e98bdeb3091a",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-international-management",
@@ -360,20 +724,20 @@
     "qs_ranking_2026": 47,
     "college": "工商管理学院",
     "major_cn": "国际管理",
-    "major_en": "MSc in International Management",
+    "major_en": "Master of Science in International Management",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 380,000（约RMB 349,600）",
-    "deadline": "第1轮：2025年11月1日；第2轮：2026年1月1日；第3轮：2026年3月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "1 year\nThe program commences with a foundation Summer Term, followed by Term 1 in Fall, and Term 2 in Spring.",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\nHK$420,000",
+    "deadline": "2027/28 秋季（2027年9月入学）\n非本地申请人\n全日制： 2027-02-27\n本地申请人\n全日制： 2027-02-27\n滚动录取，建议尽早提交。\n商学院提前批：2026-07-02 至2026-08-15（已结束）。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。 申请 CEMS 资格者另须掌握包括英语在内的两种语言。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；不限制专业背景；不要求工作经验，但有相关经验者优先；CEMS成员学校学生可获得双学位",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-im",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-imt/",
     "study_mode": "全日制",
     "curriculum": [
       "跨文化管理",
@@ -397,7 +761,59 @@
       "国际组织官员"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-imt/",
+          "key": "50c693dfbab17f714b44",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-imt/",
+              "key": "50c693dfbab17f714b44",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-imt/",
+              "key": "50c693dfbab17f714b44",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-imt/",
+              "key": "50c693dfbab17f714b44",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-marketing",
@@ -410,20 +826,20 @@
     "qs_ranking_2026": 47,
     "college": "工商管理学院",
     "major_cn": "市场营销",
-    "major_en": "MSc in Marketing",
+    "major_en": "Master of Science in Marketing",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 330,000（约RMB 303,600）",
-    "deadline": "第1轮：2025年12月1日；第2轮：2026年2月1日；第3轮：2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "1 year",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\nHK$400,000",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2027-02-28\n本地申请人\n全日制： 2027-02-28\n滚动录取，建议尽早提交。\n商学院提前批：2026-07-02 至2026-08-15（已结束）。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；不限制专业背景；欢迎具有营销、商业或相关领域经验的申请者",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-marketing",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mark/",
     "study_mode": "全日制",
     "curriculum": [
       "消费者行为分析",
@@ -447,7 +863,59 @@
       "营销顾问"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mark/",
+          "key": "c69851e1d0ab144ee5e6",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mark/",
+              "key": "c69851e1d0ab144ee5e6",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mark/",
+              "key": "c69851e1d0ab144ee5e6",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mark/",
+              "key": "c69851e1d0ab144ee5e6",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-economics",
@@ -460,20 +928,20 @@
     "qs_ranking_2026": 47,
     "college": "工商管理学院",
     "major_cn": "经济学",
-    "major_en": "MSc in Economics",
+    "major_en": "Master of Science in Economics",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 295,000（约RMB 271,400）",
-    "deadline": "第1轮：2025年12月1日；第2轮：2026年2月1日；第3轮：2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "1 year",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\nHK$350,000",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2027-02-15\n本地申请人\n全日制： 2027-02-15\n滚动录取，建议尽早提交。\n商学院提前批：2026-07-02 至2026-08-15（已结束）。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；需具备扎实的经济学背景；欢迎经济学、金融、工程、数学、统计学等背景的申请者",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-economics",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-econ/",
     "study_mode": "全日制",
     "curriculum": [
       "微观经济理论",
@@ -497,7 +965,59 @@
       "政府经济部门官员"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-econ/",
+          "key": "1807e413c6a58d70933e",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-econ/",
+              "key": "1807e413c6a58d70933e",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-econ/",
+              "key": "1807e413c6a58d70933e",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-econ/",
+              "key": "1807e413c6a58d70933e",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-financial-technology",
@@ -510,21 +1030,21 @@
     "qs_ranking_2026": 47,
     "college": "工商管理学院",
     "major_cn": "金融科技",
-    "major_en": "MSc in Financial Technology",
+    "major_en": "Master of Science in Financial Technology",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 400,000（约RMB 368,000）",
-    "deadline": "第1轮：2025年12月1日；第2轮：2026年2月1日；第3轮：2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "全日制： 1 year\n兼读制： 2 years",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\nHK$405,000\n获学分转移者仍须支付全额课程费；额外修课、重修或超出标准修读期的收费详见官网。",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）\n兼读制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）\n本地申请人\n全日制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）\n兼读制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；需具备良好的数学、统计学或计算机科学背景；欢迎工程、金融、经济、理学等背景申请",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-fintech",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fintech/",
+    "study_mode": "全日制及兼读制",
     "curriculum": [
       "金融科技基础",
       "区块链与加密货币",
@@ -547,7 +1067,59 @@
       "金融科技产品经理"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fintech/",
+          "key": "55a13ef7132bd2fec3d1",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fintech/",
+              "key": "55a13ef7132bd2fec3d1",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fintech/",
+              "key": "55a13ef7132bd2fec3d1",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fintech/",
+              "key": "55a13ef7132bd2fec3d1",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-aeronautical-engineering",
@@ -560,21 +1132,21 @@
     "qs_ranking_2026": 47,
     "college": "工程学院",
     "major_cn": "航空工程",
-    "major_en": "MSc in Aeronautical Engineering",
+    "major_en": "Master of Science in Aeronautical Engineering",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 175,000（约RMB 161,000）",
-    "deadline": "2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "全日制： 1 year\n兼读制： 2 years",
+    "intake": "2027/28 秋季；另有2026/27春季，具体月份见截止日期",
+    "fee": "2027/28 秋季入学全课程费用：\n全日制： HK$249,000\n兼读制： HK$216,000\n获学分转移者仍须支付全额课程费；额外修课、重修或超出标准修读期的收费详见官网。",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）; 2027-06-01 （第3轮）\n兼读制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）; 2027-06-01 （第3轮）\n本地申请人\n全日制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）\n兼读制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）\n2026/27 春季（2027年2月入学）:\n非本地申请人\n全日制： 2026-11-01\n兼读制： 2026-11-01\n本地申请人\n全日制： 2026-12-15\n兼读制： 2026-12-15\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；优先考虑航空工程、机械工程、土木工程、电气电子工程等相关专业背景",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-aeronautical",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae/",
+    "study_mode": "全日制及兼读制",
     "curriculum": [
       "飞机结构与设计",
       "空气动力学",
@@ -597,7 +1169,60 @@
       "航空研究分析师"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae/",
+          "key": "3859b11c0e75819958d7",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae/",
+              "key": "3859b11c0e75819958d7",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ],
+          "note": "本条费用为2027/28秋季课程目录所列；春季批次收费须另行确认。"
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae/",
+              "key": "3859b11c0e75819958d7",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae/",
+              "key": "3859b11c0e75819958d7",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-intelligent-building-technology-and-management",
@@ -610,21 +1235,21 @@
     "qs_ranking_2026": 47,
     "college": "工程学院",
     "major_cn": "智能楼宇技术与管理",
-    "major_en": "MSc in Intelligent Building Technology and Management",
+    "major_en": "Master of Science in Intelligent Building Technology and Management",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 165,000（约RMB 151,800）",
-    "deadline": "2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "全日制： 1 year\n兼读制： 2 years",
+    "intake": "2027/28 秋季；另有2026/27春季，具体月份见截止日期",
+    "fee": "2027/28 秋季入学全课程费用：\n全日制： HK$249,000\n兼读制： HK$216,000\n获学分转移者仍须支付全额课程费；额外修课、重修或超出标准修读期的收费详见官网。",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2027-01-01 （第1轮）; 2027-04-01 （第2轮）\n兼读制： 2027-01-01 （第1轮）; 2027-04-01 （第2轮）\n本地申请人\n全日制： 2027-01-01 （第1轮）; 2027-04-01 （第2轮）; 2027-06-01 （第3轮）\n兼读制： 2027-01-01 （第1轮）; 2027-04-01 （第2轮）; 2027-06-01 （第3轮）\n2026/27 春季（2027年2月入学）:\n非本地申请人\n全日制： 2026-11-15\n兼读制： 2026-11-15\n本地申请人\n全日制： 2026-10-15\n兼读制： 2026-10-15\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；优先考虑建筑设备工程、屋宇装备工程、机械工程、电气工程等相关专业背景",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-ibt",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ibtm/",
+    "study_mode": "全日制及兼读制",
     "curriculum": [
       "智能建筑系统",
       "建筑自动化",
@@ -647,7 +1272,60 @@
       "绿色建筑顾问"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ibtm/",
+          "key": "b873c756e1f434145a93",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ibtm/",
+              "key": "b873c756e1f434145a93",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ],
+          "note": "本条费用为2027/28秋季课程目录所列；春季批次收费须另行确认。"
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ibtm/",
+              "key": "b873c756e1f434145a93",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ibtm/",
+              "key": "b873c756e1f434145a93",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-mechanical-engineering",
@@ -660,21 +1338,21 @@
     "qs_ranking_2026": 47,
     "college": "工程学院",
     "major_cn": "机械工程",
-    "major_en": "MSc in Mechanical Engineering",
+    "major_en": "Master of Science in Mechanical Engineering",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 170,000（约RMB 156,400）",
-    "deadline": "2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "全日制： 1 year\n兼读制： 2 years",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\n全日制： HK$249,000\n兼读制： HK$216,000\n获学分转移者仍须支付全额课程费；额外修课、重修或超出标准修读期的收费详见官网。",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）\n兼读制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）\n本地申请人\n全日制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）; 2027-06-01 （第3轮）\n兼读制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）; 2027-06-01 （第3轮）\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；优先考虑机械工程、船舶与海洋工程、制造工程等相关专业背景",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-mechanical",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech/",
+    "study_mode": "全日制及兼读制",
     "curriculum": [
       "高级材料力学",
       "制造技术与自动化",
@@ -697,7 +1375,59 @@
       "技术顾问"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech/",
+          "key": "97f1a29467ef3d5d0ade",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech/",
+              "key": "97f1a29467ef3d5d0ade",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech/",
+              "key": "97f1a29467ef3d5d0ade",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech/",
+              "key": "97f1a29467ef3d5d0ade",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-artificial-intelligence",
@@ -710,21 +1440,21 @@
     "qs_ranking_2026": 47,
     "college": "工程学院",
     "major_cn": "人工智能",
-    "major_en": "MSc in Artificial Intelligence",
+    "major_en": "Master of Science in Artificial Intelligence",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "HKD 400,000（约RMB 368,000）",
-    "deadline": "2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "全日制 : 1 year\n兼读制 : 2 years",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\nHK$400,000\n获学分转移者仍须支付全额课程费；额外修课、重修或超出标准修读期的收费详见官网。",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）\n兼读制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）\n本地申请人\n全日制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）\n兼读制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；需具备计算机科学、工程、理学等相关专业背景；需具备编程能力和数学基础",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-ai",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai/",
+    "study_mode": "全日制及兼读制",
     "curriculum": [
       "机器学习",
       "深度学习",
@@ -747,7 +1477,59 @@
       "AI产品经理"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai/",
+          "key": "746c9441170700ac3c19",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai/",
+              "key": "746c9441170700ac3c19",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai/",
+              "key": "746c9441170700ac3c19",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai/",
+              "key": "746c9441170700ac3c19",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-ai-and-entrepreneurship",
@@ -759,21 +1541,21 @@
     "region_en": "Hong Kong SAR",
     "qs_ranking_2026": 47,
     "college": "工程学院",
-    "major_cn": "人工智能与创业",
-    "major_en": "MSc in AI and Entrepreneurship",
-    "degree": "MSc",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "HKD 450,000（约RMB 414,000）",
-    "deadline": "2026年3月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "major_cn": "人工智能与创业工学硕士",
+    "major_en": "Master of Engineering in AI and Entrepreneurship",
+    "degree": "MEng",
+    "duration": "2 years",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\nHK$540,000\n获学分转移者仍须支付全额课程费；额外修课、重修或超出标准修读期的收费详见官网。",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）\n本地申请人\n全日制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；需具备计算机科学、工程、理学等相关专业背景；欢迎有创业想法或经验的申请者",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-ai-entrepreneurship",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/meng-aie/",
     "study_mode": "全日制",
     "curriculum": [
       "人工智能核心原理",
@@ -797,7 +1579,59 @@
       "科技顾问"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/meng-aie/",
+          "key": "25c4c418fdafe142d117",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/meng-aie/",
+              "key": "25c4c418fdafe142d117",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/meng-aie/",
+              "key": "25c4c418fdafe142d117",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/meng-aie/",
+              "key": "25c4c418fdafe142d117",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-biomolecular-engineering-and-health-informatics",
@@ -810,20 +1644,20 @@
     "qs_ranking_2026": 47,
     "college": "工程学院",
     "major_cn": "生物分子工程与健康信息学",
-    "major_en": "MSc in Biomolecular Engineering and Health Informatics",
+    "major_en": "Master of Science in Biomolecular Engineering and Health Informatics",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 180,000（约RMB 165,600）",
-    "deadline": "2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "1 year",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\nHK$229,000\n获学分转移者仍须支付全额课程费；额外修课、重修或超出标准修读期的收费详见官网。",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2026-12-01 （第1轮）; 2027-02-15 （第2轮）\n本地申请人\n全日制： 2026-12-01 （第1轮）; 2027-02-15 （第2轮）\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；优先考虑化学工程、生物工程、生物技术、药学、医学等相关专业背景",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-biohealth",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-behi/",
     "study_mode": "全日制",
     "curriculum": [
       "分子生物学基础",
@@ -847,7 +1681,59 @@
       "精准医疗专家"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-behi/",
+          "key": "d4a848f63889c1aabd68",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-behi/",
+              "key": "d4a848f63889c1aabd68",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-behi/",
+              "key": "d4a848f63889c1aabd68",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-behi/",
+              "key": "d4a848f63889c1aabd68",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-chemical-and-energy-engineering",
@@ -860,21 +1746,21 @@
     "qs_ranking_2026": 47,
     "college": "工程学院",
     "major_cn": "化工与能源工程",
-    "major_en": "MSc in Chemical and Energy Engineering",
+    "major_en": "Master of Science in Chemical and Energy Engineering",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 178,000（约RMB 163,760）",
-    "deadline": "2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "全日制 : 1 year\n兼读制 : 2 years",
+    "intake": "2027/28 秋季；另有2026/27春季，具体月份见截止日期",
+    "fee": "2027/28 秋季入学全课程费用：\n全日制： HK$229,000\n兼读制： HK$177,000\n获学分转移者仍须支付全额课程费；额外修课、重修或超出标准修读期的收费详见官网。",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）\n兼读制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）\n本地申请人\n全日制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）\n兼读制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）\n2026/27 春季（2027年2月入学）:\n非本地申请人\n全日制： 2026-10-15\n兼读制： 2026-10-15\n本地申请人\n全日制： 2026-11-01\n兼读制： 2026-11-01\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；优先考虑化学工程、环境工程、能源工程等相关专业背景",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-chemical-energy",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-cee/",
+    "study_mode": "全日制及兼读制",
     "curriculum": [
       "化学反应工程",
       "化工热力学",
@@ -897,7 +1783,60 @@
       "技术研发工程师"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-cee/",
+          "key": "cc89bfa47d150d0dab4d",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-cee/",
+              "key": "cc89bfa47d150d0dab4d",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ],
+          "note": "本条费用为2027/28秋季课程目录所列；春季批次收费须另行确认。"
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-cee/",
+              "key": "cc89bfa47d150d0dab4d",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-cee/",
+              "key": "cc89bfa47d150d0dab4d",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-electronic-engineering",
@@ -910,21 +1849,21 @@
     "qs_ranking_2026": 47,
     "college": "工程学院",
     "major_cn": "电子工程",
-    "major_en": "MSc in Electronic Engineering",
+    "major_en": "Master of Science in Electronic Engineering",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 175,000（约RMB 161,000）",
-    "deadline": "2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "全日制 : 1 year\n兼读制 : 2 years",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\n全日制： HK$298,000\n兼读制： HK$258,000\n获学分转移者仍须支付全额课程费；额外修课、重修或超出标准修读期的收费详见官网。",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2026-12-01 （第1轮）; 2027-04-01 （第2轮）\n兼读制： 2026-12-01 （第1轮）; 2027-04-01 （第2轮）\n本地申请人\n全日制： 2026-12-01 （第1轮）; 2027-04-01 （第2轮）\n兼读制： 2026-12-01 （第1轮）; 2027-04-01 （第2轮）\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；优先考虑电气工程、电子工程、通信工程、计算机工程等相关专业背景",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-electronic",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eleg/",
+    "study_mode": "全日制及兼读制",
     "curriculum": [
       "半导体器件",
       "数字系统设计",
@@ -947,7 +1886,59 @@
       "技术支持工程师"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eleg/",
+          "key": "00dc1184793b7e91b21e",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eleg/",
+              "key": "00dc1184793b7e91b21e",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eleg/",
+              "key": "00dc1184793b7e91b21e",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eleg/",
+              "key": "00dc1184793b7e91b21e",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-information-technology",
@@ -960,21 +1951,21 @@
     "qs_ranking_2026": 47,
     "college": "工程学院",
     "major_cn": "信息技术",
-    "major_en": "MSc in Information Technology",
+    "major_en": "Master of Science in Information Technology",
     "degree": "MSc",
-    "duration": "1.5年",
-    "intake": "9月",
-    "fee": "HKD 200,000（约RMB 184,000）",
-    "deadline": "2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "全日制： 1 year\n兼读制： 2 years",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\n全日制： HK$320,000\n兼读制： HK$260,000\n获学分转移者仍须支付全额课程费；额外修课、重修或超出标准修读期的收费详见官网。",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）\n兼读制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）\n本地申请人\n全日制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）\n兼读制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；不限制专业背景，但需具备基本的编程能力和数学基础",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-it",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-it/",
+    "study_mode": "全日制及兼读制",
     "curriculum": [
       "算法设计",
       "软件工程",
@@ -997,7 +1988,59 @@
       "技术顾问"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-it/",
+          "key": "7f070478396e6c41a58b",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-it/",
+              "key": "7f070478396e6c41a58b",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-it/",
+              "key": "7f070478396e6c41a58b",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-it/",
+              "key": "7f070478396e6c41a58b",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-big-data-technology",
@@ -1010,21 +2053,21 @@
     "qs_ranking_2026": 47,
     "college": "工程学院",
     "major_cn": "大数据技术",
-    "major_en": "MSc in Big Data Technology",
+    "major_en": "Master of Science in Big Data Technology",
     "degree": "MSc",
-    "duration": "1.5年",
-    "intake": "9月",
-    "fee": "HKD 210,000（约RMB 193,200）",
-    "deadline": "2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "全日制 : 1 year\n兼读制 : 2 years",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\n全日制： HK$350,000\n兼读制： HK$290,000\n获学分转移者仍须支付全额课程费；额外修课、重修或超出标准修读期的收费详见官网。",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）\n兼读制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）\n本地申请人\n全日制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）\n兼读制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；需具备计算机科学、工程、理学等相关专业背景；需具备编程能力和数学基础",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-bigdata",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-bdt/",
+    "study_mode": "全日制及兼读制",
     "curriculum": [
       "大数据基础设施",
       "分布式计算",
@@ -1047,7 +2090,59 @@
       "数据平台工程师"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-bdt/",
+          "key": "79bce062ce16b9afd876",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-bdt/",
+              "key": "79bce062ce16b9afd876",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-bdt/",
+              "key": "79bce062ce16b9afd876",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-bdt/",
+              "key": "79bce062ce16b9afd876",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-engineering-enterprise-management",
@@ -1060,21 +2155,21 @@
     "qs_ranking_2026": 47,
     "college": "工程学院",
     "major_cn": "工程企业管理",
-    "major_en": "MSc in Engineering Enterprise Management",
+    "major_en": "Master of Science in Engineering Enterprise Management",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 168,000（约RMB 154,560）",
-    "deadline": "2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "全日制： 1 year\n兼读制： 2 years",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\n全日制： HK$320,000\n兼读制： HK$218,000\n获学分转移者仍须支付全额课程费；额外修课、重修或超出标准修读期的收费详见官网。",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）\n兼读制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）\n本地申请人\n全日制： 2026-12-01 （第1轮）; 2027-06-01 （第2轮）\n兼读制： 2026-12-01 （第1轮）; 2027-06-01 （第2轮）\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；优先考虑工程、科学或商科背景；欢迎有工作经验的申请者",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-eem",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eem/",
+    "study_mode": "全日制及兼读制",
     "curriculum": [
       "工程管理基础",
       "项目管理",
@@ -1097,7 +2192,59 @@
       "质量管理经理"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eem/",
+          "key": "0fe356cdecabea995368",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eem/",
+              "key": "0fe356cdecabea995368",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eem/",
+              "key": "0fe356cdecabea995368",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eem/",
+              "key": "0fe356cdecabea995368",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-civil-infrastructural-engineering-and-management",
@@ -1110,21 +2257,21 @@
     "qs_ranking_2026": 47,
     "college": "工程学院",
     "major_cn": "土木基建工程与管理",
-    "major_en": "MSc in Civil Infrastructural Engineering and Management",
+    "major_en": "Master of Science in Civil Infrastructural Engineering and Management",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 172,000（约RMB 158,240）",
-    "deadline": "2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "PGD\n兼读制： 1 – 1.5 years\nMSc\n全日制： 1 – 1.5 years\n兼读制： 2 – 2.5 years",
+    "intake": "2027/28 秋季；另有2026/27春季，具体月份见截止日期",
+    "fee": "2027/28 秋季入学全课程费用：\nMSc\n全日制： HK$210,000\n兼读制： HK$180,000\n获学分转移者仍须支付全额课程费；额外修课、重修或超出标准修读期的收费详见官网。",
+    "deadline": "2027/28 秋季（2027年9月入学）:\nMSc\n非本地申请人\n全日制： 2026-12-15 （第1轮）; 2027-04-01 （第2轮）\n兼读制： 2026-12-15 （第1轮）; 2027-04-01 （第2轮）\n本地申请人\n全日制： 2026-12-15 （第1轮）; 2027-05-15 （第2轮）\n兼读制： 2026-12-15 （第1轮）; 2027-05-15 （第2轮）\n2026/27 春季（2027年2月入学）:\nMSc\n非本地申请人\n兼读制： 2026-11-01\n本地申请人\n兼读制： 2026-11-01\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；优先考虑土木工程、建筑工程、城市规划等相关专业背景",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-civil",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-ciem/",
+    "study_mode": "PGD\n: 兼读制\nMSc\n: 全日制及兼读制",
     "curriculum": [
       "结构分析",
       "基础工程",
@@ -1147,7 +2294,60 @@
       "施工经理"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-ciem/",
+          "key": "221439a5a02cbf859b13",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-ciem/",
+              "key": "221439a5a02cbf859b13",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ],
+          "note": "本条费用为2027/28秋季课程目录所列；春季批次收费须另行确认。"
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-ciem/",
+              "key": "221439a5a02cbf859b13",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-ciem/",
+              "key": "221439a5a02cbf859b13",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-digital-and-sustainable-cities",
@@ -1160,21 +2360,21 @@
     "qs_ranking_2026": 47,
     "college": "工程学院",
     "major_cn": "数字与可持续城市",
-    "major_en": "MSc in Digital and Sustainable Cities",
+    "major_en": "Master of Science in Digital and Sustainable Cities / Master of Engineering in Digital and Sustainable Cities",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 165,000（约RMB 151,800）",
-    "deadline": "2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "MSc\n全日制： 1 year\n兼读制： 2 – 2.5 years\nMEng\n全日制： 2 years",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\nMSc\n全日制： HK$270,000\n兼读制： HK$230,000\nMEng\n第二年选择 MEng 者另付 HK$150,000。\n获学分转移者仍须支付全额课程费；额外修课、重修或超出标准修读期的收费详见官网。",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2026-12-15 （第1轮）; 2027-04-01 （第2轮）\n兼读制： 2026-12-15 （第1轮）; 2027-04-01 （第2轮）\n本地申请人\n全日制： 2026-12-15 （第1轮）; 2027-05-15 （第2轮）\n兼读制： 2026-12-15 （第1轮）; 2027-05-15 （第2轮）\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；优先考虑城市规划、建筑学、工程、环境科学、地理信息等相关专业背景",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-digital-cities",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc/",
+    "study_mode": "MSc\n: 全日制及兼读制\nMEng\n: 全日制",
     "curriculum": [
       "智慧城市理论与实践",
       "城市数据分析",
@@ -1197,7 +2397,59 @@
       "智慧城市项目经理"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc/",
+          "key": "08593ef16cc89e793273",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc/",
+              "key": "08593ef16cc89e793273",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc/",
+              "key": "08593ef16cc89e793273",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-meng-disc/",
+              "key": "08593ef16cc89e793273",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-environmental-engineering-and-management",
@@ -1210,21 +2462,21 @@
     "qs_ranking_2026": 47,
     "college": "工程学院",
     "major_cn": "环境工程与管理",
-    "major_en": "MSc in Environmental Engineering and Management",
+    "major_en": "Master of Science in Environmental Engineering and Management",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 168,000（约RMB 154,560）",
-    "deadline": "2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "PGD\n全日制： 1 year\n兼读制： 1.5 years\nMSc\n全日制： 1 – 1.5 years\n兼读制： 2 – 2.5 years",
+    "intake": "2027/28 秋季；另有2026/27春季，具体月份见截止日期",
+    "fee": "2027/28 秋季入学全课程费用：\nMSc\n全日制： HK$210,000\n兼读制： HK$180,000\n获学分转移者仍须支付全额课程费；额外修课、重修或超出标准修读期的收费详见官网。",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2026-12-15 （第1轮）; 2027-04-01 （第2轮）\n兼读制： 2026-12-15 （第1轮）; 2027-04-01 (Round 2\n本地申请人\n全日制： 2026-12-15 （第1轮）; 2027-05-15 （第2轮）\n兼读制： 2026-12-15 （第1轮）; 2027-05-15 （第2轮）)\n2026/27 春季（2027年2月入学）:\n非本地申请人\n全日制： 2026-11-01\n兼读制： 2026-11-01\n本地申请人\n全日制： 2026-11-01\n兼读制： 2026-11-01\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；优先考虑环境工程、化学工程、土木工程、生物科学等相关专业背景",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-environmental",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-evem/",
+    "study_mode": "全日制及兼读制",
     "curriculum": [
       "环境工程原理",
       "水污染控制",
@@ -1247,7 +2499,60 @@
       "可持续发展顾问"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-evem/",
+          "key": "b004271a9fef4a2dc56c",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-evem/",
+              "key": "b004271a9fef4a2dc56c",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ],
+          "note": "本条费用为2027/28秋季课程目录所列；春季批次收费须另行确认。"
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-evem/",
+              "key": "b004271a9fef4a2dc56c",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-msc-evem/",
+              "key": "b004271a9fef4a2dc56c",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-integrated-circuits",
@@ -1260,21 +2565,21 @@
     "qs_ranking_2026": 47,
     "college": "工程学院",
     "major_cn": "集成电路",
-    "major_en": "MSc in Integrated Circuits",
+    "major_en": "Master of Science in Integrated Circuits",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 180,000（约RMB 165,600）",
-    "deadline": "2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "全日制： 1 year\n兼读制： 2 years",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\n全日制： HK$298,000\n兼读制： HK$258,000\n获学分转移者仍须支付全额课程费；额外修课、重修或超出标准修读期的收费详见官网。",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2026-12-01 （第1轮）; 2027-04-01 （第2轮）\n兼读制： 2026-12-01 （第1轮）; 2027-04-01 （第2轮）\n本地申请人\n全日制： 2026-12-01 （第1轮）; 2027-04-01 （第2轮）\n兼读制： 2026-12-01 （第1轮）; 2027-04-01 （第2轮）; 2027-06-01 （第3轮）\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；优先考虑电气工程、电子工程、微电子等相关专业背景；需具备半导体物理基础",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-ic",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ic/",
+    "study_mode": "全日制及兼读制",
     "curriculum": [
       "模拟集成电路设计",
       "数字集成电路设计",
@@ -1297,7 +2602,59 @@
       "硬件工程师"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ic/",
+          "key": "dccfce8d4ed2eab47869",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ic/",
+              "key": "dccfce8d4ed2eab47869",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ic/",
+              "key": "dccfce8d4ed2eab47869",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ic/",
+              "key": "dccfce8d4ed2eab47869",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-telecommunications",
@@ -1310,21 +2667,21 @@
     "qs_ranking_2026": 47,
     "college": "工程学院",
     "major_cn": "电信学",
-    "major_en": "MSc in Telecommunications",
+    "major_en": "Master of Science in Telecommunications",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 175,000（约RMB 161,000）",
-    "deadline": "2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "全日制： 1 year\n兼读制： 2 years",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\n全日制： HK$298,000\n兼读制： HK$258,000\n获学分转移者仍须支付全额课程费；额外修课、重修或超出标准修读期的收费详见官网。",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2026-12-01 （第1轮）; 2027-04-01 （第2轮）\n兼读制： 2026-12-01 （第1轮）; 2027-04-01 （第2轮）\n本地申请人\n全日制： 2026-12-01 （第1轮）; 2027-04-01 （第2轮）\n兼读制： 2026-12-01 （第1轮）; 2027-04-01 （第2轮）\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；优先考虑电气工程、电子工程、通信工程、计算机工程等相关专业背景",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-telecom",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-telecom/",
+    "study_mode": "全日制及兼读制",
     "curriculum": [
       "数字通信",
       "无线通信",
@@ -1347,7 +2704,59 @@
       "网络规划工程师"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-telecom/",
+          "key": "8b49c94cb8a8dbd740cf",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-telecom/",
+              "key": "8b49c94cb8a8dbd740cf",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-telecom/",
+              "key": "8b49c94cb8a8dbd740cf",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-telecom/",
+              "key": "8b49c94cb8a8dbd740cf",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-materials-engineering",
@@ -1360,20 +2769,20 @@
     "qs_ranking_2026": 47,
     "college": "工程学院",
     "major_cn": "材料工程",
-    "major_en": "MSc in Materials Engineering",
+    "major_en": "Master of Science in Materials Engineering",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 168,000（约RMB 154,560）",
-    "deadline": "2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "1 year",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\nHK$220,000\n获学分转移者仍须支付全额课程费；额外修课、重修或超出标准修读期的收费详见官网。",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）\n本地申请人\n全日制： 2026-12-01 （第1轮）; 2027-03-01 （第2轮）",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；优先考虑材料科学、工程、物理、化学等相关专业背景",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-materials",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mate/",
     "study_mode": "全日制",
     "curriculum": [
       "材料表征技术",
@@ -1397,7 +2806,59 @@
       "研发项目经理"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mate/",
+          "key": "a159195c3ffacabbc477",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mate/",
+              "key": "a159195c3ffacabbc477",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mate/",
+              "key": "a159195c3ffacabbc477",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mate/",
+              "key": "a159195c3ffacabbc477",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-analytical-chemistry",
@@ -1410,21 +2871,21 @@
     "qs_ranking_2026": 47,
     "college": "理学院",
     "major_cn": "分析化学",
-    "major_en": "MSc in Analytical Chemistry",
+    "major_en": "Master of Science in Analytical Chemistry",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 135,000（约RMB 124,200）",
-    "deadline": "2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "全日制 : 1 year\n兼读制 : 2 years",
+    "intake": "2027/28 秋季；另有2026/27春季，具体月份见截止日期",
+    "fee": "2027/28 秋季入学全课程费用：\nHK$170,000",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2027-06-01\n兼读制： 2027-06-01\n本地申请人\n全日制： 2027-07-15\n兼读制： 2027-07-15\n2026/27 春季（2027年2月入学）:\n非本地申请人\n全日制： 2026-11-01\n兼读制： 2026-11-01\n本地申请人\n全日制： 2026-12-15\n兼读制： 2026-12-15\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；优先考虑化学、药学、生物科学、食品科学、环境科学、材料科学等相关专业背景",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-analytical-chemistry",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-anchem/",
+    "study_mode": "全日制及兼读制",
     "curriculum": [
       "现代分析化学",
       "光谱分析",
@@ -1447,7 +2908,60 @@
       "食品安全分析师"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-anchem/",
+          "key": "ccead2d57ef6110261b9",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-anchem/",
+              "key": "ccead2d57ef6110261b9",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ],
+          "note": "本条费用为2027/28秋季课程目录所列；春季批次收费须另行确认。"
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-anchem/",
+              "key": "ccead2d57ef6110261b9",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-anchem/",
+              "key": "ccead2d57ef6110261b9",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-biotechnology",
@@ -1460,21 +2974,21 @@
     "qs_ranking_2026": 47,
     "college": "理学院",
     "major_cn": "生物技术",
-    "major_en": "MSc in Biotechnology",
+    "major_en": "Master of Science in Biotechnology",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 138,000（约RMB 126,960）",
-    "deadline": "2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "全日制： 1 year\n兼读制： 1.5 years\nThe majority of the courses will be conducted on weekday evenings/Saturdays at HKUST.",
+    "intake": "2027/28 秋季；另有2026/27春季，具体月份见截止日期",
+    "fee": "2027/28 秋季入学全课程费用：\n全日制： HK$168,000\n兼读制： HK$152,000\n获学分转移者仍须支付全额课程费；额外修课、重修或超出标准修读期的收费详见官网。",
+    "deadline": "2027/28 秋季（2027年8月入学）:\n非本地申请人\n全日制： 2027-06-01\n兼读制： 2027-06-01\n本地申请人\n全日制： 2027-07-15\n兼读制： 2027-07-15\n2026/27 春季（2027年1月入学）:\n非本地申请人\n全日制： 2026-11-01\n兼读制： 2026-11-01\n本地申请人\n全日制： 2026-12-15\n兼读制： 2026-12-15\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；优先考虑生物学、生物化学、化学、药学、医学、农业科学等相关专业背景",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-biotechnology",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-biot/",
+    "study_mode": "全日制及兼读制",
     "curriculum": [
       "分子生物学技术",
       "细胞培养与工程",
@@ -1497,7 +3011,60 @@
       "生物技术项目经理"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-biot/",
+          "key": "fcc4105e949dbf724563",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-biot/",
+              "key": "fcc4105e949dbf724563",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ],
+          "note": "本条费用为2027/28秋季课程目录所列；春季批次收费须另行确认。"
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-biot/",
+              "key": "fcc4105e949dbf724563",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-biot/",
+              "key": "fcc4105e949dbf724563",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-mathematics-for-educators",
@@ -1510,21 +3077,21 @@
     "qs_ranking_2026": 47,
     "college": "理学院",
     "major_cn": "数学教育工作者",
-    "major_en": "MSc in Mathematics for Educators",
+    "major_en": "Master of Science in Mathematics for Educators",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 125,000（约RMB 115,000）",
-    "deadline": "2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "全日制 : 1 year\n兼读制 : 2 years",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\nHK$175,000",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2027-06-01\n兼读制： 2027-06-01\n本地申请人\n全日制： 2027-07-15\n兼读制： 2027-07-15\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；需具备数学或数学教育相关专业背景；优先考虑有教学经验的申请者",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-math-educators",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-maed/",
+    "study_mode": "全日制及兼读制",
     "curriculum": [
       "高等代数",
       "数学分析",
@@ -1547,7 +3114,59 @@
       "在线数学教育专家"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-maed/",
+          "key": "da573c100bb1d32e5990",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-maed/",
+              "key": "da573c100bb1d32e5990",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-maed/",
+              "key": "da573c100bb1d32e5990",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-maed/",
+              "key": "da573c100bb1d32e5990",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-environmental-health-and-safety",
@@ -1560,21 +3179,21 @@
     "qs_ranking_2026": 47,
     "college": "理学院",
     "major_cn": "环境健康与安全",
-    "major_en": "MSc in Environmental Health and Safety",
+    "major_en": "Master of Science in Environmental Health and Safety",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 130,000（约RMB 119,600）",
-    "deadline": "2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "全日制 : 1 year\n兼读制 : 2 years\nThe courses will be conducted on weekday evenings/Saturdays at HKUST.",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\nHK$175,000\n额外修课／重修：HK$5,834／学分。",
+    "deadline": "2027/28 秋季（2027年9月入学）\n非本地申请人\n全日制： 2027-06-01\n兼读制： 2027-06-01\n本地申请人\n全日制： 2027-07-15\n兼读制： 2027-07-15\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；优先考虑生物、化学、环境科学、公共卫生、医学等相关专业背景",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-environmental-health",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ehs/",
+    "study_mode": "全日制及兼读制",
     "curriculum": [
       "环境健康科学",
       "职业健康与安全",
@@ -1597,7 +3216,59 @@
       "环境影响评价师"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ehs/",
+          "key": "939ca18c2259f3a025c3",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ehs/",
+              "key": "939ca18c2259f3a025c3",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ehs/",
+              "key": "939ca18c2259f3a025c3",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ehs/",
+              "key": "939ca18c2259f3a025c3",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-global-marine-resources-management",
@@ -1610,20 +3281,20 @@
     "qs_ranking_2026": 47,
     "college": "理学院",
     "major_cn": "全球海洋资源管理",
-    "major_en": "MSc in Global Marine Resources Management",
+    "major_en": "Master of Science in Global Marine Resources Management",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 140,000（约RMB 128,800）",
-    "deadline": "2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "1 year",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学：港科大部分 HK$140,000；南安普顿大学部分非英国学生 £10,000、英国学生 £3,800，须合并计算两校费用。英国／非英国收费身份按南安普顿大学规定。语言班费用另计。",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2027-06-01\n本地申请人\n全日制： 2027-06-01\n滚动录取，建议尽早提交。\n课程先在南安普顿大学开始；英国签证要求向项目办公室查询。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。 南安普顿语言班另有条件：IELTS总分≥7且各项≥6.5（或同等TOEFL）可免语言班；较低成绩可能须读6周或11周语言班，边界分数与具体安排须按官网或录取条件确认。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；优先考虑海洋科学、生物学、环境科学、渔业科学、地理学等相关专业背景",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-marine",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-gmrm/",
     "study_mode": "全日制",
     "curriculum": [
       "海洋生态系统",
@@ -1647,7 +3318,59 @@
       "海洋保护区管理员"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-gmrm/",
+          "key": "f22e1880fb407dc882ab",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-gmrm/",
+              "key": "f22e1880fb407dc882ab",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-gmrm/",
+              "key": "f22e1880fb407dc882ab",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-gmrm/",
+              "key": "f22e1880fb407dc882ab",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-drug-regulatory-affairs-and-policy",
@@ -1660,21 +3383,21 @@
     "qs_ranking_2026": 47,
     "college": "理学院",
     "major_cn": "药品监管事务与政策",
-    "major_en": "MSc in Drug Regulatory Affairs and Policy",
+    "major_en": "Master of Science in Drug Regulatory Affairs and Policy",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 138,000（约RMB 126,960）",
-    "deadline": "2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "全日制： 1 year\n兼读制： 2 years",
+    "intake": "2027/28 秋季；另有2026/27春季，具体月份见截止日期",
+    "fee": "2027/28 秋季入学全课程费用：\nHK$330,000",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2027-06-01\n兼读制： 2027-06-01\n本地申请人\n全日制： 2027-07-15\n兼读制： 2027-07-15\n2026/27 春季（2027年2月入学）:\n非本地申请人\n全日制： 2026-11-01\n兼读制： 2026-11-01\n本地申请人\n全日制： 2026-12-15\n兼读制： 2026-12-15\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；优先考虑药学、医学、化学、生物学、公共卫生等相关专业背景；欢迎有制药行业工作经验的申请者",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-drug-regulatory",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-drap/",
+    "study_mode": "全日制及兼读制",
     "curriculum": [
       "药品监管概论",
       "国际药品注册",
@@ -1697,7 +3420,60 @@
       "制药企业事务经理"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-drap/",
+          "key": "66b678fe147e9bfad99b",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-drap/",
+              "key": "66b678fe147e9bfad99b",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ],
+          "note": "本条费用为2027/28秋季课程目录所列；春季批次收费须另行确认。"
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-drap/",
+              "key": "66b678fe147e9bfad99b",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-drap/",
+              "key": "66b678fe147e9bfad99b",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-physics",
@@ -1710,21 +3486,21 @@
     "qs_ranking_2026": 47,
     "college": "理学院",
     "major_cn": "物理学",
-    "major_en": "MSc in Physics",
+    "major_en": "Master of Science in Physics",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 130,000（约RMB 119,600）",
-    "deadline": "2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "全日制： 1 year\n兼读制： 2 years",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\nHK$190,000",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2027-06-01\n兼读制： 2027-06-01\n本地申请人\n全日制： 2027-07-15\n兼读制： 2027-07-15\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；需具备物理、应用物理、材料科学、工程物理等相关专业背景；需具备扎实的数学和物理基础",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-physics",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-phys/",
+    "study_mode": "全日制及兼读制",
     "curriculum": [
       "量子力学",
       "统计物理学",
@@ -1747,7 +3523,59 @@
       "科技企业研发人员"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-phys/",
+          "key": "dd5955776a972d78f831",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-phys/",
+              "key": "dd5955776a972d78f831",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-phys/",
+              "key": "dd5955776a972d78f831",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-phys/",
+              "key": "dd5955776a972d78f831",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-financial-mathematics",
@@ -1760,21 +3588,21 @@
     "qs_ranking_2026": 47,
     "college": "理学院",
     "major_cn": "金融数学",
-    "major_en": "MSc in Financial Mathematics",
+    "major_en": "Master of Science in Financial Mathematics",
     "degree": "MSc",
-    "duration": "1.5年",
-    "intake": "9月",
-    "fee": "HKD 210,000（约RMB 193,200）",
-    "deadline": "2026年3月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "全日制 : 1.5 years\n兼读制 : 2.5 years",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\nHK$300,000",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2027-04-30\n兼读制： 2027-04-30\n本地申请人\n全日制： 2027-04-30\n兼读制： 2027-04-30\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；需具备扎实的数学、物理、统计学或工程学背景；需具备微积分、线性代数和概率论基础",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-financial-math",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mafm/",
+    "study_mode": "全日制及兼读制",
     "curriculum": [
       "概率论与随机过程",
       "金融微积分",
@@ -1797,7 +3625,59 @@
       "投资组合经理助理"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mafm/",
+          "key": "9e4e53ebeaf015353f8e",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mafm/",
+              "key": "9e4e53ebeaf015353f8e",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mafm/",
+              "key": "9e4e53ebeaf015353f8e",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mafm/",
+              "key": "9e4e53ebeaf015353f8e",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-data-driven-modeling",
@@ -1810,21 +3690,21 @@
     "qs_ranking_2026": 47,
     "college": "理学院",
     "major_cn": "数据驱动建模",
-    "major_en": "MSc in Data-Driven Modeling",
+    "major_en": "Master of Science in Data-Driven Modeling",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 140,000（约RMB 128,800）",
-    "deadline": "2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "全日制 : 1 year\n兼读制 : 2 years",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\n$286,000",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2026-11-01 （第1轮）; 2027-02-15 （第2轮）; 2027-04-15 （第3轮）\n兼读制： 2026-11-01 （第1轮）; 2027-02-15 （第2轮）; 2027-04-15 （第3轮）\n本地申请人\n全日制： 2026-11-01 （第1轮）; 2027-02-15 （第2轮）; 2027-04-15 （第3轮）\n兼读制： 2026-11-01 （第1轮）; 2027-02-15 （第2轮）; 2027-04-15 （第3轮）\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；需具备科学、工程、数学、统计学或计算机科学等相关专业背景；需具备基本的编程能力和数学基础",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-data-driven-modeling",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ddm/",
+    "study_mode": "全日制及兼读制",
     "curriculum": [
       "数学建模基础",
       "概率与统计建模",
@@ -1847,7 +3727,60 @@
       "科学计算工程师"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ddm/",
+          "key": "374574b1ca4a107ab503",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "unconfirmed",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ddm/",
+              "key": "374574b1ca4a107ab503",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ],
+          "note": "官网本条只写 $286,000，未标注币种；待项目办公室或收费页进一步确认。"
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ddm/",
+              "key": "374574b1ca4a107ab503",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ddm/",
+              "key": "374574b1ca4a107ab503",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-ma-in-chinese-culture",
@@ -1860,21 +3793,21 @@
     "qs_ranking_2026": 47,
     "college": "人文社会科学学院",
     "major_cn": "中国文化",
-    "major_en": "MA in Chinese Culture",
+    "major_en": "Master of Arts in Chinese Culture",
     "degree": "MA",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 120,000（约RMB 110,400）",
-    "deadline": "2026年4月1日",
-    "ielts": "6.5（阅读和写作不低于6.0）",
-    "toefl": "80",
+    "duration": "全日制： 1 year\n兼读制： 2 years",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\nHK$174,000\n获学分转移者仍须支付全额课程费；额外修课、重修或超出标准修读期的收费详见官网。",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2027-04-06\n兼读制： 2027-04-06\n本地申请人\n全日制： 2027-07-06\n兼读制： 2027-07-06\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。 另须满足中文条件之一：HSK四级、中文为第一语言，或中文授课学位／完成中文授课学术课程。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；不限制专业背景；需具备良好的中文能力；优先考虑对中国文化有浓厚兴趣的申请者",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/ma-chinese-culture",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-cc/",
+    "study_mode": "全日制及兼读制",
     "curriculum": [
       "中国思想史",
       "中国文学概论",
@@ -1897,7 +3830,59 @@
       "文化项目策划"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-cc/",
+          "key": "28d1a4baed381a256da9",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-cc/",
+              "key": "28d1a4baed381a256da9",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-cc/",
+              "key": "28d1a4baed381a256da9",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-cc/",
+              "key": "28d1a4baed381a256da9",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-global-china-studies",
@@ -1910,21 +3895,21 @@
     "qs_ranking_2026": 47,
     "college": "人文社会科学学院",
     "major_cn": "全球中国研究",
-    "major_en": "MSc in Global China Studies",
+    "major_en": "Master of Science in Global China Studies",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 130,000（约RMB 119,600）",
-    "deadline": "2026年4月1日",
-    "ielts": "6.5（阅读和写作不低于6.0）",
-    "toefl": "80",
+    "duration": "全日制： 1 year\n兼读制： 2 years\nStudents opting for the Academic Research Concentration will normally complete the program in two years in full-time mode.",
+    "intake": "2027/28 秋季；另有2026/27春季，具体月份见截止日期",
+    "fee": "2027/28 秋季入学全课程费用：\nHK$170,000\n选择学术研究方向者：两年课程费 HK$255,000。额外学分 HK$7,083／学分。",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2027-05-01\n兼读制： 2027-05-01\n本地申请人\n全日制： 2027-07-15\n兼读制： 2027-07-15\n2026/27 春季（2027年2月入学）:\n非本地申请人\n全日制： 2026-11-01\n兼读制： 2026-11-01\n本地申请人\n全日制： 2026-12-15\n兼读制： 2026-12-15\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 7.0，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试100；当日及以后考试5；pBT 600",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 7.0（单项≥5.5），或 TOEFL iBT 100（2026-01-21前考试）／5（当日及以后考试），或 pBT 600。英语为第一语言或学士学历以英语授课者可满足语言条件。成绩须来自单次考试，不接受居家考试。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；不限制专业背景；需具备良好的英语能力；欢迎对中国研究感兴趣的申请者",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-global-china",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-gcs/",
+    "study_mode": "全日制及兼读制",
     "curriculum": [
       "中国政治与治理",
       "中国经济与全球化",
@@ -1947,7 +3932,60 @@
       "新闻记者"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-gcs/",
+          "key": "a57c5e1a1d376819845a",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-gcs/",
+              "key": "a57c5e1a1d376819845a",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ],
+          "note": "本条费用为2027/28秋季课程目录所列；春季批次收费须另行确认。"
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-gcs/",
+              "key": "a57c5e1a1d376819845a",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-gcs/",
+              "key": "a57c5e1a1d376819845a",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-ma-in-international-language-education",
@@ -1960,20 +3998,20 @@
     "qs_ranking_2026": 47,
     "college": "人文社会科学学院",
     "major_cn": "国际语言教育",
-    "major_en": "MA in International Language Education",
+    "major_en": "Master of Arts in International Language Education",
     "degree": "MA",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 125,000（约RMB 115,000）",
-    "deadline": "2026年4月1日",
-    "ielts": "6.5（阅读和写作不低于6.0）",
-    "toefl": "80",
+    "duration": "1 year",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\nHK$165,000",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2027-04-01\n本地申请人\n全日制： 2027-04-01\n须在申请系统中选择 MA ILE-TC 或 MA ILE-TE 方向。\n滚动录取，建议尽早提交。",
+    "ielts": "TESL：7.0（写作7.0，其他5.5）；TCSL：6.5（各项5.5）",
+    "toefl": "TESL：旧制100（写作27）／新制5（写作5.5）；TCSL：旧制85／新制4.5",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "英语教学 TESL：IELTS 7.0（写作≥7.0，其他≥5.5），或 TOEFL iBT 100（写作≥27/30；2026-01-21前考试）／5（写作≥5.5；当日及以后考试）。中文教学 TCSL：IELTS 6.5（各项≥5.5），或 TOEFL iBT 85（旧制）／4.5（新制）。英语为第一语言或英语授课学士可满足英语条件；成绩须为单次考试且不接受居家考试。TCSL 中文要求：非中文母语且前置学士非中文授课者须 HSK五级；中文母语或中文授课学士者须普通话水平测试二级乙等。申请时须选择方向。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；需具备语言学、教育学或相关专业背景；优先考虑有教学经验的申请者；需提交语言能力证明",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/ma-language-education",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile/",
     "study_mode": "全日制",
     "curriculum": [
       "第二语言习得",
@@ -1997,7 +4035,59 @@
       "语言教育研究员"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile/",
+          "key": "2561680bb0529a85ea3c",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile/",
+              "key": "2561680bb0529a85ea3c",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile/",
+              "key": "2561680bb0529a85ea3c",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile/",
+              "key": "2561680bb0529a85ea3c",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-ma-in-social-science",
@@ -2010,21 +4100,21 @@
     "qs_ranking_2026": 47,
     "college": "人文社会科学学院",
     "major_cn": "社会科学",
-    "major_en": "MA in Social Science",
+    "major_en": "Master of Arts in Social Science",
     "degree": "MA",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 118,000（约RMB 108,560）",
-    "deadline": "2026年4月1日",
-    "ielts": "6.5（阅读和写作不低于6.0）",
-    "toefl": "80",
+    "duration": "MA\n全日制： 1 year\n兼读制： 2 years",
+    "intake": "2027/28 秋季；另有2026/27春季，具体月份见截止日期",
+    "fee": "2027/28 秋季入学全课程费用：\nMA\nHK$178,000\n获学分转移者仍须支付全额课程费；额外修课、重修或超出标准修读期的收费详见官网。",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2027-03-28\n兼读制： 2027-03-28\n本地申请人\n全日制： 2027-03-28\n兼读制： 2027-03-28\n2026/27 春季（2027年2月入学）:\n非本地申请人\n全日制： 2026-11-01\n兼读制： 2026-11-01\n本地申请人\n全日制： 2026-12-15\n兼读制： 2026-12-15\nPGD 不招收新生；本条记录为 MA 申请。\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；不限制专业背景；欢迎有人文社科背景的申请者；需具备良好的英语读写能力",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/ma-social-science",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-ma-sosc/",
+    "study_mode": "全日制及兼读制",
     "curriculum": [
       "社会学研究方法",
       "当代社会理论",
@@ -2047,7 +4137,60 @@
       "智库研究员"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-ma-sosc/",
+          "key": "5defda91551d8bad0da6",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-ma-sosc/",
+              "key": "5defda91551d8bad0da6",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ],
+          "note": "本条费用为2027/28秋季课程目录所列；春季批次收费须另行确认。"
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-ma-sosc/",
+              "key": "5defda91551d8bad0da6",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/pgd-ma-sosc/",
+              "key": "5defda91551d8bad0da6",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-ma-in-arts-and-machine-creativity",
@@ -2060,21 +4203,21 @@
     "qs_ranking_2026": 47,
     "college": "跨学科研究学院",
     "major_cn": "艺术与机器创造力",
-    "major_en": "MA in Arts and Machine Creativity",
+    "major_en": "Master of Arts in Arts and Machine Creativity",
     "degree": "MA",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 160,000（约RMB 147,200）",
-    "deadline": "2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "全日制： 1 year\n兼读制： 2 years",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\nHK$200,000\n标准费用涵盖27学分；超出要求的修课或旁听另收 HK$7,500／学分。",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2027-05-01\n兼读制： 2027-05-01\n本地申请人\n全日制： 2027-06-01\n兼读制： 2027-06-01\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；不限制专业背景；欢迎艺术、设计、人文、科技等跨学科背景申请；需提交作品集或个人陈述",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/ma-arts-machine",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-amc/",
+    "study_mode": "全日制及兼读制",
     "curriculum": [
       "人工智能与艺术创作",
       "数字媒体艺术",
@@ -2097,7 +4240,59 @@
       "新媒体艺术家"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-amc/",
+          "key": "38c7474a57907b0ab171",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-amc/",
+              "key": "38c7474a57907b0ab171",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-amc/",
+              "key": "38c7474a57907b0ab171",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-amc/",
+              "key": "38c7474a57907b0ab171",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-environmental-science-management-and-sustainability",
@@ -2110,21 +4305,21 @@
     "qs_ranking_2026": 47,
     "college": "跨学科研究学院",
     "major_cn": "环境科学、管理与可持续性",
-    "major_en": "MSc in Environmental Science, Management and Sustainability",
+    "major_en": "Master of Science in Environmental Science, Management and Sustainability",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 150,000（约RMB 138,000）",
-    "deadline": "2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "全日制： 1-1.5 years\n兼读制： 2-2.5 years",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\nHK$198,000\n获学分转移者仍须支付全额课程费；额外修课、重修或超出标准修读期的收费详见官网。",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2027-06-01\n兼读制： 2027-06-01\n本地申请人\n全日制： 2027-06-30\n兼读制： 2027-06-30\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；优先考虑环境科学、生物学、化学、工程、公共政策等相关专业背景；欢迎有环境相关工作经验的申请者",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-environmental-sustainability",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-evsm/",
+    "study_mode": "全日制及兼读制",
     "curriculum": [
       "环境科学基础",
       "可持续发展理论与实践",
@@ -2147,7 +4342,59 @@
       "绿色企业管理者"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-evsm/",
+          "key": "ca931a0250d25813af59",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-evsm/",
+              "key": "ca931a0250d25813af59",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-evsm/",
+              "key": "ca931a0250d25813af59",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-evsm/",
+              "key": "ca931a0250d25813af59",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-msc-in-technology-leadership-and-entrepreneurship",
@@ -2160,21 +4407,21 @@
     "qs_ranking_2026": 47,
     "college": "跨学科研究学院",
     "major_cn": "科技领导与创业",
-    "major_en": "MSc in Technology Leadership and Entrepreneurship",
+    "major_en": "Master of Science in Technology Leadership and Entrepreneurship",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 155,000（约RMB 142,600）",
-    "deadline": "2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "全日制： 1.5 years\n兼读制： 3 years",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\nHK$300,000",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2027-04-30\n兼读制： 2027-04-30\n本地申请人\n全日制： 2027-06-10\n兼读制： 2027-06-10\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；不限制专业背景；欢迎有科技或商业背景的申请者；优先考虑有创业意愿或创新项目的申请者",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/msc-tle",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-tle/",
+    "study_mode": "全日制及兼读制",
     "curriculum": [
       "科技创业基础",
       "创新管理",
@@ -2197,7 +4444,59 @@
       "企业战略顾问"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-tle/",
+          "key": "302aba369055c9e0e2f5",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-tle/",
+              "key": "302aba369055c9e0e2f5",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-tle/",
+              "key": "302aba369055c9e0e2f5",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-tle/",
+              "key": "302aba369055c9e0e2f5",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-master-of-public-management",
@@ -2212,19 +4511,19 @@
     "major_cn": "公共管理",
     "major_en": "Master of Public Management",
     "degree": "MPM",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 160,000（约RMB 147,200）",
-    "deadline": "2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "全日制： 1 year\n兼读制： 2 years",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\nHK$190,000\n标准费用涵盖27学分；额外修课或旁听另收 HK$7,500／学分。",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2027-05-31\n兼读制： 2027-05-31\n本地申请人\n全日制： 2027-06-30\n兼读制： 2027-06-30\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；优先考虑有公共服务或管理经验；欢迎政府、企业、非营利组织背景申请；需具备领导潜力和公共服务意识",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/mpm",
-    "study_mode": "全日制",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mpm/",
+    "study_mode": "全日制及兼读制",
     "curriculum": [
       "公共管理理论",
       "公共政策分析",
@@ -2247,7 +4546,59 @@
       "国际组织官员"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mpm/",
+          "key": "6484b5412a9cf21d26a0",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mpm/",
+              "key": "6484b5412a9cf21d26a0",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mpm/",
+              "key": "6484b5412a9cf21d26a0",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mpm/",
+              "key": "6484b5412a9cf21d26a0",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-postgraduate-master-of-public-policy",
@@ -2262,18 +4613,18 @@
     "major_cn": "公共政策",
     "major_en": "Master of Public Policy",
     "degree": "MPP",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "HKD 280,000（约RMB 257,600）",
-    "deadline": "2026年4月1日",
-    "ielts": "6.5（单项不低于5.5）",
-    "toefl": "80",
+    "duration": "2 years",
+    "intake": "2027/28 秋季",
+    "fee": "2027/28 秋季入学全课程费用：\nHK$320,000\n额外修课或旁听另收 HK$7,000／学分。",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2027-05-31\n本地申请人\n全日制： 2027-05-31\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "持有认可大学的学士学位；不限制专业背景；欢迎有政策相关工作经验的申请者；需具备分析能力和公共政策兴趣",
-    "official_url": "https://prog-crs.hkust.edu.hk/prog/mpp",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mpp/",
     "study_mode": "全日制",
     "curriculum": [
       "公共政策导论",
@@ -2297,7 +4648,59 @@
       "公共事务顾问"
     ],
     "source_file": "HKUST_Taught_Postgraduate_Database.json",
-    "last_updated": "2026-05-14"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mpp/",
+          "key": "b707c8e7fe27454b9615",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mpp/",
+              "key": "b707c8e7fe27454b9615",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mpp/",
+              "key": "b707c8e7fe27454b9615",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mpp/",
+              "key": "b707c8e7fe27454b9615",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "hkust-undergraduate-bsc-in-international-research-enrichment",
@@ -4209,5 +6612,174 @@
     ],
     "source_file": "schools_undergraduate/hkust_undergraduate_data.json",
     "last_updated": "2026-05-21"
+  },
+  {
+    "school_code": "HKUST",
+    "school_name": "香港科技大学",
+    "school_name_en": "The Hong Kong University of Science and Technology",
+    "region_cn": "中国香港",
+    "region_en": "Hong Kong SAR",
+    "qs_ranking_2026": 47,
+    "id": "hkust-postgraduate-msc-elbt",
+    "education_level": "postgraduate",
+    "college": "Division of Life Science",
+    "major_cn": "生物科技创业领导理学硕士",
+    "major_en": "Master of Science in Entrepreneurial Leadership in Biotechnology",
+    "degree": "MSc",
+    "curriculum": [],
+    "careers": [],
+    "objectives": "",
+    "req_detail": "须持认可学士学位或同等资格，专业背景及补充材料要求见官方项目页面。",
+    "gaokao_requirement": null,
+    "subject_requirement": null,
+    "admission_route": null,
+    "source_file": "official-hkust-2027-28",
+    "fee": "2027/28 秋季入学全课程费用：\nHK$250,000",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2027-06-01\n兼读制： 2027-06-01\n本地申请人\n全日制： 2027-07-15\n兼读制： 2027-07-15\n2026/27 春季（2027年2月入学）:\n非本地申请人\n全日制： 2026-11-01\n兼读制： 2026-11-01\n本地申请人\n全日制： 2026-12-15\n兼读制： 2026-12-15\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-elbt/",
+    "duration": "全日制： 1 year\n兼读制： 2 years",
+    "study_mode": "全日制及兼读制",
+    "intake": "2027/28 秋季；另有2026/27春季，具体月份见截止日期",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-elbt/",
+          "key": "d9bba0252f8357ca6028",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "added_to_database",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-elbt/",
+              "key": "d9bba0252f8357ca6028",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ],
+          "note": "本条费用为2027/28秋季课程目录所列；春季批次收费须另行确认。"
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-elbt/",
+              "key": "d9bba0252f8357ca6028",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-elbt/",
+              "key": "d9bba0252f8357ca6028",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    },
+    "last_updated": "2026-10-22"
+  },
+  {
+    "school_code": "HKUST",
+    "school_name": "香港科技大学",
+    "school_name_en": "The Hong Kong University of Science and Technology",
+    "region_cn": "中国香港",
+    "region_en": "Hong Kong SAR",
+    "qs_ranking_2026": 47,
+    "id": "hkust-postgraduate-meng-di",
+    "education_level": "postgraduate",
+    "college": "Division of Integrative Systems and Design",
+    "major_cn": "设计智能工学硕士",
+    "major_en": "Master of Engineering in Design Intelligence",
+    "degree": "MEng",
+    "curriculum": [],
+    "careers": [],
+    "objectives": "",
+    "req_detail": "须持认可学士学位或同等资格，专业背景及补充材料要求见官方项目页面。",
+    "gaokao_requirement": null,
+    "subject_requirement": null,
+    "admission_route": null,
+    "source_file": "official-hkust-2027-28",
+    "fee": "2027/28 秋季入学全课程费用：\nHK$400,000",
+    "deadline": "2027/28 秋季（2027年9月入学）:\n非本地申请人\n全日制： 2026-12-01 （第1轮）; 2027-02-15 （第2轮）; 2027-04-30 （第3轮）\n本地申请人\n全日制： 2026-12-01 （第1轮）; 2027-02-15 （第2轮）; 2027-04-30 （第3轮）\n滚动录取，建议尽早提交。",
+    "ielts": "IELTS Academic 6.5，单项≥5.5",
+    "toefl": "TOEFL iBT：2026-01-21前考试80；当日及以后考试4.5；pBT 550",
+    "language_requirement": "IELTS Academic 6.5（单项≥5.5），或 TOEFL iBT 80（2026-01-21前考试）／4.5（2026-01-21起考试）；亦列 TOEFL pBT 550、Revised paper-delivered 60（读听写合计）。成绩须来自单次考试，不接受居家考试。英语为第一语言或学士／同等学历以英语授课者可免交 IELTS／TOEFL。",
+    "official_url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/meng-di/",
+    "duration": "2 years",
+    "study_mode": "全日制",
+    "intake": "2027/28 秋季",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/meng-di/",
+          "key": "0240cbc1b984c8b8fc9e",
+          "label": "港科大 2027/28 官方项目目录"
+        },
+        {
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/",
+          "key": "d4e0da05c7d39c007d28",
+          "label": "港科大 2027/28 课程目录入口"
+        }
+      ],
+      "newness": "added_to_database",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 秋季入学",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/meng-di/",
+              "key": "0240cbc1b984c8b8fc9e",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/meng-di/",
+              "key": "0240cbc1b984c8b8fc9e",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "官网列明的各入学批次（2026-10-22核对）",
+          "sources": [
+            {
+              "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/meng-di/",
+              "key": "0240cbc1b984c8b8fc9e",
+              "label": "港科大 2027/28 官方项目目录"
+            }
+          ]
+        }
+      }
+    },
+    "last_updated": "2026-10-22"
   }
 ]

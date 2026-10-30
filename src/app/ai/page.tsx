@@ -15,15 +15,15 @@ const onlineTools = [
 const onlineToolsRow2 = [
   {
     id: "ps",
-    title: "AI个人陈述PS",
-    description: "生成个性化、有说服力的 Personal Statement 完整英文成稿",
+    title: "个人陈述PS模板",
+    description: "按固定结构整理个人陈述草稿，需补充真实事例",
     icon: "✍️",
     features: ["完整英文成稿", "故事线设计", "结构优化"],
     href: "/ai/ps",
   },
   {
     id: "recommendation",
-    title: "AI推荐信",
+    title: "推荐信模板",
     description: "生成正式英文推荐信参考草稿，供推荐人审阅确认",
     icon: "📝",
     features: ["推荐信参考草稿", "推荐人视角", "可编辑下载"],
@@ -31,10 +31,10 @@ const onlineToolsRow2 = [
   },
   {
     id: "motivation",
-    title: "AI动机信",
-    description: "针对目标院校和专业生成 Motivation Letter 成稿",
+    title: "动机信模板",
+    description: "按固定结构整理动机信草稿，需自行核对院校要求",
     icon: "💌",
-    features: ["院校专业定制", "完整英文成稿", "个性化内容"],
+    features: ["结构化模板", "完整英文成稿", "真实素材整理"],
     href: "/ai/motivation-letter",
   },
   {

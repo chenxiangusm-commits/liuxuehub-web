@@ -1,3 +1,4 @@
+import type {CatalogItem} from "../catalog-types";
 export type StudyPlanStage = "undergraduate" | "postgraduate";
 
 export interface StudyPlanForm {
@@ -24,6 +25,7 @@ export interface StudyPlanForm {
 }
 
 export interface StudyPlanRecommendation {
+  programId?: string;
   school: string;
   program: string;
   reason: string;
@@ -31,6 +33,8 @@ export interface StudyPlanRecommendation {
 }
 
 export interface StudyPlanResult {
+  references?: CatalogItem[];
+  generatedAt?: string;
   studentProfile: {
     summary: string;
     strengths: string[];
@@ -132,10 +136,10 @@ export function normalizeStudyPlanTimeline(
   timeline: StudyPlanResult["timeline"] | undefined,
   baseDate = new Date()
 ): StudyPlanResult["timeline"] {
-  if (!timeline?.length) return createDynamicStudyPlanTimeline(baseDate);
+  if (!timeline?.length) return [{stage:"核对申请安排",time:"确认项目及批次后安排",tasks:["先查看专业页有效截止日，再安排材料和递交时间。"]}];
 
   const hasExpiredStage = timeline.some((item) => isExpiredTime(String(item.time || ""), baseDate));
-  if (hasExpiredStage) return createDynamicStudyPlanTimeline(baseDate);
+  if (hasExpiredStage) return timeline.map(item=>({...item,time:isExpiredTime(item.time,baseDate)?"原时间已过，请按当前项目截止日重新安排":item.time}));
 
   return timeline.map((item) => ({
     stage: item.stage || "申请规划",

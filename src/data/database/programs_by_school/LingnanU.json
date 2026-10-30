@@ -12,19 +12,19 @@
     "major_cn": "会计学硕士",
     "major_en": "Master of Accountancy",
     "degree": "MAcc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 229,000 - 315,000（约RMB 210,680 - 289,800）",
-    "deadline": "2026-06-30",
-    "ielts": "6.0",
-    "toefl": "79",
+    "duration": "全日制1年",
+    "intake": "2027/28",
+    "fee": "2027/28全课程学费：本地HKD229,000；非本地HKD315,000。 先修课程另计，每门HKD6,000。",
+    "deadline": "2027/28入学：申请期2026-08-01至2027-06-30；具体名额及安排以项目最新公告为准。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "项目列英语证明：IELTS≥6.0、TOEFL iBT≥79或CET-6≥450；同等测试／资格可按个案评估。 采用CET-6还须证明英语口语能力。 项目页将此要求列于非香港／非英语国家院校学位申请人。 项目另说明英语授课大学毕业者一般可免交英语测试证明。 大学现行通则另列2026-01-21起新制TOEFL≥4.0（此前旧制≥79）。 大学通则：IELTS／TOEFL须认可考场同一次考试、提交申请时两年内；CET-6须提交申请时五年内，口语以项目面试及／或CET-6口语B及以上证明。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，非会计背景需修读预科课程。英语非母语或非英语授课学位的申请者需提供雅思6.0或托福79分以上的成绩。",
-    "official_url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/macc",
-    "study_mode": "全日制",
+    "req_detail": "认可学士学位或按个案认可的同等资格。 非商科学位须完成并通过指定先修课程，所需门数视本科背景；会计、审计、税务、金融经验或专业资格优先。 语言条件详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/macc/programme-information",
+    "study_mode": "全日制；英语授课",
     "curriculum": [
       "财务报告与分析",
       "管理会计",
@@ -47,7 +47,64 @@
       "企业财务总监"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院现行课程及2027/28申请期"
+        },
+        {
+          "key": "5566eeb8f596df134428",
+          "url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/macc/programme-information",
+          "label": "本项目2027/28全课程收费、学制与先修安排"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "5566eeb8f596df134428",
+              "url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/macc/programme-information",
+              "label": "本项目2027/28全课程收费、学制与先修安排"
+            }
+          ],
+          "cycle": "2027/28入学／官网现行要求",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院现行课程及2027/28申请期"
+            }
+          ],
+          "cycle": "2027/28入学／官网现行要求",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "c1a23bff534fe164b519",
+              "url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/macc/admission-requirements",
+              "label": "本项目入学及语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "研究生院语言通则：新TOEFL、单次考试与有效期"
+            }
+          ],
+          "cycle": "2027/28入学／官网现行要求",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-msc-in-arts-technology-and-business",
@@ -62,19 +119,19 @@
     "major_cn": "艺术科技与商业理学硕士",
     "major_en": "MSc in Arts Technology and Business",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 258,000（约RMB 237,360）",
-    "deadline": "2026-06-30",
-    "ielts": "6.0",
-    "toefl": "79",
+    "duration": "全日制1年",
+    "intake": "2027/28",
+    "fee": "2027/28全课程学费：本地HKD258,000；非本地HKD258,000。 学生签证费HKD700另计。",
+    "deadline": "2027/28入学：申请期2026-08-01至2027-06-30；具体名额及安排以项目最新公告为准。",
+    "ielts": "5.5（或其他认可证明）",
+    "toefl": "iBT46（新制对应分数须确认）",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "项目列英语证明：IELTS≥5.5、TOEFL iBT≥46或CET-6≥430；同等测试／资格可按个案评估。 采用CET-6还须证明英语口语能力。 项目页将此要求列于非香港／非英语国家院校学位申请人。 大学通则按前置学位是否以英语授课判断，具体豁免须由项目审核。 普通话授课并不代表免英语要求；入学后还须完成学校安排的英语课程及活动。 项目未列其较低TOEFL门槛对应的新制分数，须向项目确认，不能自行换算。 大学通则：IELTS／TOEFL须认可考场同一次考试、提交申请时两年内；CET-6须提交申请时五年内，口语以项目面试及／或CET-6口语B及以上证明。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，不限专业背景。授课语言为普通话，英语非母语或非英语授课学位的申请者需提供雅思6.0或托福79分以上的成绩。",
-    "official_url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mscatb",
-    "study_mode": "全日制",
+    "req_detail": "认可学士学位或按个案认可的同等资格。 语言条件详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mscatb/programme-information",
+    "study_mode": "全日制；普通话授课",
     "curriculum": [
       "艺术科技概论",
       "数字创意产业管理",
@@ -97,7 +154,64 @@
       "艺术与设计创业"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院现行课程及2027/28申请期"
+        },
+        {
+          "key": "fa30a1cb54de2bdc2509",
+          "url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mscatb/programme-information",
+          "label": "本项目2027/28全课程收费、学制与先修安排"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "fa30a1cb54de2bdc2509",
+              "url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mscatb/programme-information",
+              "label": "本项目2027/28全课程收费、学制与先修安排"
+            }
+          ],
+          "cycle": "2027/28入学／官网现行要求",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院现行课程及2027/28申请期"
+            }
+          ],
+          "cycle": "2027/28入学／官网现行要求",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "729bc024ab07838ae984",
+              "url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mscatb/admission-requirements",
+              "label": "本项目入学及语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "研究生院语言通则：新TOEFL、单次考试与有效期"
+            }
+          ],
+          "cycle": "2027/28入学／官网现行要求",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-msc-in-business-innovation-and-entrepreneurship",
@@ -112,19 +226,19 @@
     "major_cn": "商业创新与创业理学硕士",
     "major_en": "MSc in Business Innovation and Entrepreneurship",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 308,000（约RMB 283,360）",
-    "deadline": "2026-06-30",
-    "ielts": "6.0",
-    "toefl": "79",
+    "duration": "全日制1年",
+    "intake": "2027/28",
+    "fee": "2027/28全课程学费：本地HKD308,000；非本地HKD308,000。",
+    "deadline": "2027/28入学：申请期2026-08-01至2027-06-30；具体名额及安排以项目最新公告为准。",
+    "ielts": "5.5（或其他认可证明）",
+    "toefl": "iBT46（新制对应分数须确认）",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "项目列英语证明：IELTS≥5.5、TOEFL iBT≥46或CET-6≥430；同等测试／资格可按个案评估。 项目页将此要求列于非香港／非英语国家院校学位申请人。 项目另说明英语授课大学毕业者一般可免交英语测试证明。 普通话授课并不代表免英语要求；入学后还须完成学校安排的英语课程及活动。 项目未列其较低TOEFL门槛对应的新制分数，须向项目确认，不能自行换算。 大学通则：IELTS／TOEFL须认可考场同一次考试、提交申请时两年内；CET-6须提交申请时五年内，口语以项目面试及／或CET-6口语B及以上证明。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，不限专业背景。授课语言为普通话，英语非母语或非英语授课学位的申请者需提供雅思6.0或托福79分以上的成绩。",
-    "official_url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mscbie",
-    "study_mode": "全日制",
+    "req_detail": "认可学士学位或按个案认可的同等资格。 语言条件详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mscbie/programme-information",
+    "study_mode": "全日制；普通话授课",
     "curriculum": [
       "商业创新战略",
       "创业机会识别与评估",
@@ -147,7 +261,64 @@
       "新产品开发总监"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院现行课程及2027/28申请期"
+        },
+        {
+          "key": "4b2c6ed91de70052dbf4",
+          "url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mscbie/programme-information",
+          "label": "本项目2027/28全课程收费、学制与先修安排"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "4b2c6ed91de70052dbf4",
+              "url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mscbie/programme-information",
+              "label": "本项目2027/28全课程收费、学制与先修安排"
+            }
+          ],
+          "cycle": "2027/28入学／官网现行要求",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院现行课程及2027/28申请期"
+            }
+          ],
+          "cycle": "2027/28入学／官网现行要求",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "a2e634dfad04697e9496",
+              "url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mscbie/admission-requirements",
+              "label": "本项目入学及语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "研究生院语言通则：新TOEFL、单次考试与有效期"
+            }
+          ],
+          "cycle": "2027/28入学／官网现行要求",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-msc-in-ebusiness-and-supply-chain-management",
@@ -162,19 +333,19 @@
     "major_cn": "电子商务与供应链管理理学硕士",
     "major_en": "MSc in eBusiness and Supply Chain Management",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 208,000 - 238,000（约RMB 191,360 - 218,960）",
-    "deadline": "2026-06-30",
-    "ielts": "6.0",
-    "toefl": "79",
+    "duration": "全日制1年",
+    "intake": "2027/28",
+    "fee": "2027/28全课程学费：本地HKD208,000；非本地HKD238,000。 先修课程另计。",
+    "deadline": "2027/28入学：申请期2026-08-01至2027-06-30；具体名额及安排以项目最新公告为准。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "项目列英语证明：IELTS≥6.0、TOEFL iBT≥79或CET-6≥450；同等测试／资格可按个案评估。 采用CET-6还须证明英语口语能力。 此条件针对前置学历非英语授课者。 大学现行通则另列2026-01-21起新制TOEFL≥4.0（此前旧制≥79）。 大学通则：IELTS／TOEFL须认可考场同一次考试、提交申请时两年内；CET-6须提交申请时五年内，口语以项目面试及／或CET-6口语B及以上证明。 项目页仍说MyBest可结合面试评估，大学现行通则只接受单次考试，两者不一致；MyBest可否使用须先确认。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，不限专业背景。授课语言为英语，无信息系统管理和统计学背景的申请者需修读预科课程。",
-    "official_url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mscebscm",
-    "study_mode": "全日制",
+    "req_detail": "认可学士学位或按个案认可的同等资格。 缺少信息系统管理或统计背景者须通过相关先修课程。 语言条件详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mscebscm/programme-information",
+    "study_mode": "全日制；英语授课",
     "curriculum": [
       "电子商务战略",
       "供应链管理原理",
@@ -197,7 +368,65 @@
       "电商平台管理"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院现行课程及2027/28申请期"
+        },
+        {
+          "key": "c3922f324292635401e7",
+          "url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mscebscm/programme-information",
+          "label": "本项目2027/28全课程收费、学制与先修安排"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "c3922f324292635401e7",
+              "url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mscebscm/programme-information",
+              "label": "本项目2027/28全课程收费、学制与先修安排"
+            }
+          ],
+          "cycle": "2027/28入学／官网现行要求",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院现行课程及2027/28申请期"
+            }
+          ],
+          "cycle": "2027/28入学／官网现行要求",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "2312583eb1c88635bbd2",
+              "url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mscebscm/admission-requirements",
+              "label": "本项目入学及语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "研究生院语言通则：新TOEFL、单次考试与有效期"
+            }
+          ],
+          "cycle": "2027/28入学／官网现行要求",
+          "status": "conflict",
+          "note": "不将项目旧MyBest说明当作无条件接受；大学通则明确单次考试。"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-msc-in-environmental-social-and-governance-management",
@@ -212,19 +441,19 @@
     "major_cn": "环境、社会及管治管理理学硕士",
     "major_en": "MSc in Environmental, Social, and Governance Management",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 258,000（约RMB 237,360）",
-    "deadline": "2026-06-30",
-    "ielts": "6.0",
-    "toefl": "79",
+    "duration": "全日制1年",
+    "intake": "2027/28",
+    "fee": "2027/28全课程学费：本地HKD258,000；非本地HKD258,000。 先修课程另计。",
+    "deadline": "2027/28入学：申请期2026-08-01至2027-06-30；具体名额及安排以项目最新公告为准。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "项目列英语证明：IELTS≥6.0、TOEFL iBT≥79或CET-6≥450；同等测试／资格可按个案评估。 采用CET-6还须证明英语口语能力。 大学通则按前置学位是否以英语授课判断，具体豁免须由项目审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0（此前旧制≥79）。 大学通则：IELTS／TOEFL须认可考场同一次考试、提交申请时两年内；CET-6须提交申请时五年内，口语以项目面试及／或CET-6口语B及以上证明。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，不限专业背景。授课语言为英语，无会计、经济、金融及商业背景的申请者需修读预科课程。",
-    "official_url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mscesgm",
-    "study_mode": "全日制",
+    "req_detail": "认可学士学位或按个案认可的同等资格。 主项目及可持续技术方向中，缺商科背景者须按审核修读30小时商业导论先修课。 语言条件详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mscesgm/programme-information",
+    "study_mode": "全日制；英语授课",
     "curriculum": [
       "ESG原理与框架",
       "企业可持续发展战略",
@@ -247,7 +476,64 @@
       "ESG投资研究员"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院现行课程及2027/28申请期"
+        },
+        {
+          "key": "643972340a2c01a6b9c7",
+          "url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mscesgm/programme-information",
+          "label": "本项目2027/28全课程收费、学制与先修安排"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "643972340a2c01a6b9c7",
+              "url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mscesgm/programme-information",
+              "label": "本项目2027/28全课程收费、学制与先修安排"
+            }
+          ],
+          "cycle": "2027/28入学／官网现行要求",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院现行课程及2027/28申请期"
+            }
+          ],
+          "cycle": "2027/28入学／官网现行要求",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "b07248ee261ddf2041e9",
+              "url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mscesgm/admission-requirements",
+              "label": "本项目入学及语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "研究生院语言通则：新TOEFL、单次考试与有效期"
+            }
+          ],
+          "cycle": "2027/28入学／官网现行要求",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-msc-in-finance",
@@ -262,19 +548,19 @@
     "major_cn": "金融学硕士",
     "major_en": "MSc in Finance",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 218,000 - 300,000（约RMB 200,560 - 276,000）",
-    "deadline": "2026-06-30",
-    "ielts": "6.0",
-    "toefl": "79",
+    "duration": "全日制1年",
+    "intake": "2027/28",
+    "fee": "2027/28全课程学费：本地HKD218,000；非本地HKD300,000。 先修课程另计。",
+    "deadline": "2027/28入学：申请期2026-08-01至2027-06-30；具体名额及安排以项目最新公告为准。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "项目列英语证明：IELTS≥6.0、TOEFL iBT≥79或CET-6≥450；同等测试／资格可按个案评估。 采用CET-6还须证明英语口语能力。 项目页将此要求列于非香港／非英语国家院校学位申请人。 大学通则按前置学位是否以英语授课判断，具体豁免须由项目审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0（此前旧制≥79）。 大学通则：IELTS／TOEFL须认可考场同一次考试、提交申请时两年内；CET-6须提交申请时五年内，口语以项目面试及／或CET-6口语B及以上证明。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，不限专业背景。授课语言为英语，无金融、会计及统计学背景的申请者需在课程开始前通过预科课程。",
-    "official_url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mfin",
-    "study_mode": "全日制",
+    "req_detail": "认可学士学位或按个案认可的同等资格。 缺金融、会计或统计背景者须按要求通过财务管理／统计先修课。GMAT／GRE非必需，但有助审核。 语言条件详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mfin/programme-information",
+    "study_mode": "全日制；英语授课",
     "curriculum": [
       "投资分析",
       "公司金融",
@@ -297,7 +583,64 @@
       "资产管理经理"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院现行课程及2027/28申请期"
+        },
+        {
+          "key": "59d490412e5a6e0bb8f5",
+          "url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mfin/programme-information",
+          "label": "本项目2027/28全课程收费、学制与先修安排"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "59d490412e5a6e0bb8f5",
+              "url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mfin/programme-information",
+              "label": "本项目2027/28全课程收费、学制与先修安排"
+            }
+          ],
+          "cycle": "2027/28入学／官网现行要求",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院现行课程及2027/28申请期"
+            }
+          ],
+          "cycle": "2027/28入学／官网现行要求",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "5d8c592c04dc9e59ecad",
+              "url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mfin/admission-requirements",
+              "label": "本项目入学及语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "研究生院语言通则：新TOEFL、单次考试与有效期"
+            }
+          ],
+          "cycle": "2027/28入学／官网现行要求",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-msc-in-human-resource-and-organisational-management",
@@ -312,19 +655,19 @@
     "major_cn": "人力资源与组织管理理学硕士",
     "major_en": "MSc in Human Resource and Organisational Management",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 208,000 - 248,000（约RMB 191,360 - 228,160）",
-    "deadline": "2026-06-30",
-    "ielts": "6.0",
-    "toefl": "79",
+    "duration": "全日制1年",
+    "intake": "2027/28",
+    "fee": "2027/28全课程学费：本地HKD208,000；非本地HKD248,000。 先修课程另计。",
+    "deadline": "2027/28入学：申请期2026-08-01至2027-06-30；具体名额及安排以项目最新公告为准。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "项目列英语证明：IELTS≥6.0、TOEFL iBT≥79或CET-6≥450；同等测试／资格可按个案评估。 采用CET-6还须证明英语口语能力。 项目页将此要求列于非香港／非英语国家院校学位申请人。 英语授课大学毕业者须提交授课语言证据，不能仅口头自报豁免。 大学现行通则另列2026-01-21起新制TOEFL≥4.0（此前旧制≥79）。 大学通则：IELTS／TOEFL须认可考场同一次考试、提交申请时两年内；CET-6须提交申请时五年内，口语以项目面试及／或CET-6口语B及以上证明。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，不限专业背景。授课语言为英语。HRADT方向申请者需参加Python预科课程，无人力资源背景者需修读人力资源管理预科课程。",
-    "official_url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mschrom",
-    "study_mode": "全日制",
+    "req_detail": "认可学士学位或按个案认可的同等资格。 主项目非商科背景者须按本科修课参加经济、人力资源管理及统计预备课；HRADT方向通常须Python预备课，缺人力资源背景者另有相关预备课。 语言条件详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mschrom/programme-information",
+    "study_mode": "全日制；英语授课",
     "curriculum": [
       "组织行为学",
       "人力资源管理战略",
@@ -347,7 +690,64 @@
       "HR科技产品经理"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院现行课程及2027/28申请期"
+        },
+        {
+          "key": "1868d81b372f7ae23426",
+          "url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mschrom/programme-information",
+          "label": "本项目2027/28全课程收费、学制与先修安排"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "1868d81b372f7ae23426",
+              "url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mschrom/programme-information",
+              "label": "本项目2027/28全课程收费、学制与先修安排"
+            }
+          ],
+          "cycle": "2027/28入学／官网现行要求",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院现行课程及2027/28申请期"
+            }
+          ],
+          "cycle": "2027/28入学／官网现行要求",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "834d6feb5a1d5f11314c",
+              "url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mschrom/admission-requirements",
+              "label": "本项目入学及语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "研究生院语言通则：新TOEFL、单次考试与有效期"
+            }
+          ],
+          "cycle": "2027/28入学／官网现行要求",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-msc-in-marketing-and-international-business",
@@ -362,19 +762,19 @@
     "major_cn": "市场学与国际商业理学硕士",
     "major_en": "MSc in Marketing and International Business",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 228,000 - 278,000（约RMB 209,760 - 255,760）",
-    "deadline": "2026-06-30",
-    "ielts": "6.0",
-    "toefl": "79",
+    "duration": "全日制1年",
+    "intake": "2027/28",
+    "fee": "2027/28全课程学费：本地HKD228,000；非本地HKD278,000。 先修课程另计。",
+    "deadline": "2027/28入学：申请期2026-08-01至2027-06-30；具体名额及安排以项目最新公告为准。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "项目列英语证明：IELTS≥6.0、TOEFL iBT≥79或CET-6≥450；同等测试／资格可按个案评估。 采用CET-6还须证明英语口语能力。 项目页将此要求列于非香港／非英语国家院校学位申请人。 项目另说明英语授课大学毕业者一般可免交英语测试证明。 大学现行通则另列2026-01-21起新制TOEFL≥4.0（此前旧制≥79）。 大学通则：IELTS／TOEFL须认可考场同一次考试、提交申请时两年内；CET-6须提交申请时五年内，口语以项目面试及／或CET-6口语B及以上证明。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，不限专业背景。授课语言为英语。非商科学位的申请者需在硕士课程开始前完成市场营销与经济学预科课程。",
-    "official_url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mscmib",
-    "study_mode": "全日制",
+    "req_detail": "认可学士学位或按个案认可的同等资格。 有工作经验者优先；非商科或缺市场学／经济学基础者须通过指定先修课程。 语言条件详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mscmib/programme-information",
+    "study_mode": "全日制；英语授课",
     "curriculum": [
       "消费者行为分析",
       "国际市场营销战略",
@@ -397,7 +797,64 @@
       "营销顾问"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院现行课程及2027/28申请期"
+        },
+        {
+          "key": "479fda9889c45009f074",
+          "url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mscmib/programme-information",
+          "label": "本项目2027/28全课程收费、学制与先修安排"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "479fda9889c45009f074",
+              "url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mscmib/programme-information",
+              "label": "本项目2027/28全课程收费、学制与先修安排"
+            }
+          ],
+          "cycle": "2027/28入学／官网现行要求",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院现行课程及2027/28申请期"
+            }
+          ],
+          "cycle": "2027/28入学／官网现行要求",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "65b0547c0b4fb35c595e",
+              "url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mscmib/admission-requirements",
+              "label": "本项目入学及语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "研究生院语言通则：新TOEFL、单次考试与有效期"
+            }
+          ],
+          "cycle": "2027/28入学／官网现行要求",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-msc-in-risk-insurance-and-actuarial-analytics",
@@ -412,19 +869,19 @@
     "major_cn": "风险、保险与精算分析理学硕士",
     "major_en": "MSc in Risk, Insurance and Actuarial Analytics",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 208,000 - 238,000（约RMB 191,360 - 218,960）",
-    "deadline": "2026-06-30",
-    "ielts": "6.0",
-    "toefl": "79",
+    "duration": "全日制1年",
+    "intake": "2027/28",
+    "fee": "2027/28全课程学费：本地HKD208,000；非本地HKD238,000。 如须先修，风险与保险基础42小时HKD6,000，统计工作坊24小时HKD4,000，另计。",
+    "deadline": "2027/28入学：申请期2026-08-01至2027-06-30；具体名额及安排以项目最新公告为准。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "项目列英语证明：IELTS≥6.0、TOEFL iBT≥79或CET-6≥450；同等测试／资格可按个案评估。 采用CET-6还须证明英语口语能力。 项目页将此要求列于非香港／非英语国家院校学位申请人。 大学通则按前置学位是否以英语授课判断，具体豁免须由项目审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0（此前旧制≥79）。 大学通则：IELTS／TOEFL须认可考场同一次考试、提交申请时两年内；CET-6须提交申请时五年内，口语以项目面试及／或CET-6口语B及以上证明。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，不限专业背景。授课语言为英语。未修读过保险或统计学相关课程的学生需完成预科课程。",
-    "official_url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mscriaa",
-    "study_mode": "全日制",
+    "req_detail": "认可学士学位或按个案认可的同等资格。 缺保险／统计背景者须按要求通过先修课程。GMAT／GRE非必需，但有助审核。 语言条件详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mscriaa/programme-information",
+    "study_mode": "全日制；英语授课",
     "curriculum": [
       "风险管理与保险原理",
       "精算数学",
@@ -447,7 +904,64 @@
       "投资分析师"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院现行课程及2027/28申请期"
+        },
+        {
+          "key": "6e82b3fdd97588ab8f77",
+          "url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mscriaa/programme-information",
+          "label": "本项目2027/28全课程收费、学制与先修安排"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "6e82b3fdd97588ab8f77",
+              "url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mscriaa/programme-information",
+              "label": "本项目2027/28全课程收费、学制与先修安排"
+            }
+          ],
+          "cycle": "2027/28入学／官网现行要求",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院现行课程及2027/28申请期"
+            }
+          ],
+          "cycle": "2027/28入学／官网现行要求",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "3cdecbd83b767d292c7e",
+              "url": "https://www.ln.edu.hk/fb/tpo/academic-programmes/mscriaa/admission-requirements",
+              "label": "本项目入学及语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "研究生院语言通则：新TOEFL、单次考试与有效期"
+            }
+          ],
+          "cycle": "2027/28入学／官网现行要求",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-ma-in-arts-and-cultural-heritage-management",
@@ -463,18 +977,18 @@
     "major_en": "MA in Arts and Cultural Heritage Management",
     "degree": "MA",
     "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 180,000（约RMB 165,600）",
-    "deadline": "2026-06-30",
-    "ielts": "6.0",
-    "toefl": "79",
+    "intake": "2027/28",
+    "fee": "2027/28：文化遗产旅游与管理方向HKD180,000；无方向的林肯大学双学位为岭南HKD90,000加林肯GBP10,500（英镑部分为指示金额，仍待林肯最终审定）。",
+    "deadline": "2027/28入学申请期：1 Aug 2026 – 30 Jun 2027；名额及调整以官网为准。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.0，或TOEFL iBT≥79，或CET-6≥450并提供英语口语证明；其他同等考试／资格按项目个案审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内；CET-6须五年内，并按项目面试及／或CET-6口语B及以上证明口语能力。 无方向双学位还须满足英国林肯大学自身的英语条件，不能仅凭岭南6.0门槛判断两校均合格。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，不限专业背景。授课语言为英语。可选择与英国林肯大学合作的双学位项目。",
-    "official_url": "https://www.ln.edu.hk/sgs/achm",
-    "study_mode": "全日制",
+    "req_detail": "认可相关学士学位、同等资格，或经个案认可的学术及专业成就。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/sgs/achm/admission/entry-requirements",
+    "study_mode": "Full-time；授课语言：English",
     "curriculum": [
       "文化遗产管理概论",
       "艺术机构管理",
@@ -497,7 +1011,64 @@
       "策展人"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "ea9b6cf923a4357216bb",
+          "url": "https://www.ln.edu.hk/sgs/achm/admission/entry-requirements",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "be6ef7ffc8af468cc5ed",
+              "url": "https://www.ln.edu.hk/sgs/achm/admission/tuition-fee-and-scholarships",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2027/28",
+          "status": "unconfirmed"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "ea9b6cf923a4357216bb",
+              "url": "https://www.ln.edu.hk/sgs/achm/admission/entry-requirements",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-ma-in-international-higher-education-and-management",
@@ -513,18 +1084,18 @@
     "major_en": "MA in International Higher Education and Management",
     "degree": "MA",
     "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 198,000（约RMB 182,160）",
-    "deadline": "2026-06-30",
-    "ielts": "6.0",
-    "toefl": "79",
+    "intake": "2027/28",
+    "fee": "2027/28学费HKD198,000。",
+    "deadline": "2027/28入学申请期：1 Aug 2026 – 30 Jun 2027；名额及调整以官网为准。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.0，或TOEFL iBT≥79，或CET-6≥450并提供英语口语证明；其他同等考试／资格按项目个案审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内；CET-6须五年内，并按项目面试及／或CET-6口语B及以上证明口语能力。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，或具备同等学历。英语非母语或非英语授课学位的申请者需提供雅思6.0或托福79分以上的成绩。",
-    "official_url": "https://www.ln.edu.hk/sgs/ihem",
-    "study_mode": "全日制/兼读制",
+    "req_detail": "认可相关学士学位、同等资格，或经个案认可的学术及专业成就。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/sgs/ihem/admission",
+    "study_mode": "Full-time / Part-time；授课语言：English",
     "curriculum": [
       "高等教育比较研究",
       "教育管理与领导力",
@@ -547,7 +1118,64 @@
       "教育研究员"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "78228e93cadca36ca477",
+          "url": "https://www.ln.edu.hk/sgs/ihem/admission",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "78228e93cadca36ca477",
+              "url": "https://www.ln.edu.hk/sgs/ihem/admission",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2027/28",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "78228e93cadca36ca477",
+              "url": "https://www.ln.edu.hk/sgs/ihem/admission",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-ma-in-social-entrepreneurship-and-innovation-management",
@@ -562,19 +1190,19 @@
     "major_cn": "社会创业与创新管理文学硕士",
     "major_en": "MA in Social Entrepreneurship and Innovation Management",
     "degree": "MA",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 210,000（约RMB 193,200）",
-    "deadline": "2026-06-30",
-    "ielts": "6.0",
-    "toefl": "79",
+    "duration": "全日制1年／兼读制2年",
+    "intake": "2027/28",
+    "fee": "2027/28全程HKD210,000，全日制1年或兼读2年相同。",
+    "deadline": "2027/28入学申请期：1 Aug 2026 – 30 Jun 2027；名额及调整以官网为准。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.0，或TOEFL iBT≥79，或CET-6≥450并提供英语口语证明；其他同等考试／资格按项目个案审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内；CET-6须五年内，并按项目面试及／或CET-6口语B及以上证明口语能力。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，或具备同等学历。英语非母语或非英语授课学位的申请者需提供雅思6.0或托福79分以上的成绩。",
-    "official_url": "https://www.ln.edu.hk/sgs/seim",
-    "study_mode": "全日制/兼读制",
+    "req_detail": "认可相关学士学位、同等资格，或经个案认可的学术及专业成就。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/sgs/seim/admission/entry-requirments",
+    "study_mode": "Full-time / Part-time；授课语言：English",
     "curriculum": [
       "社会创业概论",
       "社会创新设计思维",
@@ -597,7 +1225,64 @@
       "社会创新顾问"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "03e75aa27d1788851527",
+          "url": "https://www.ln.edu.hk/sgs/seim/admission/entry-requirments",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "c0fa8a1003e24d7aab8c",
+              "url": "https://www.ln.edu.hk/sgs/seim/admission/tuition-fees",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2027/28",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "03e75aa27d1788851527",
+              "url": "https://www.ln.edu.hk/sgs/seim/admission/entry-requirments",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-master-of-china-and-regional-development-studies",
@@ -613,18 +1298,18 @@
     "major_en": "Master of China and Regional Development Studies",
     "degree": "Master",
     "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 175,000（约RMB 161,000）",
-    "deadline": "2026-06-30",
-    "ielts": "6.0",
-    "toefl": "79",
+    "intake": "2027/28",
+    "fee": "2027/28学费HKD175,000。",
+    "deadline": "2027/28入学申请期：1 Aug 2026 – 30 Jun 2027；名额及调整以官网为准。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.0，或TOEFL iBT≥79，或CET-6≥450并提供英语口语证明；其他同等考试／资格按项目个案审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内；CET-6须五年内，并按项目面试及／或CET-6口语B及以上证明口语能力。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，或具备同等学历。英语非母语或非英语授课学位的申请者需提供雅思6.0或托福79分以上的成绩。",
-    "official_url": "https://www.ln.edu.hk/sgs/crds",
-    "study_mode": "全日制/兼读制",
+    "req_detail": "认可相关学士学位、同等资格，或经个案认可的学术及专业成就。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/sgs/crds/admission/entry-requirements",
+    "study_mode": "Full-time / Part-time；授课语言：English",
     "curriculum": [
       "中国区域经济发展",
       "大湾区研究",
@@ -647,7 +1332,64 @@
       "跨境投资顾问"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "2c8668a23e0cbfdbb2c2",
+          "url": "https://www.ln.edu.hk/sgs/crds/admission/entry-requirements",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "26686151182dac37c306",
+              "url": "https://www.ln.edu.hk/sgs/crds/admission/tuition-fee",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2027/28",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "2c8668a23e0cbfdbb2c2",
+              "url": "https://www.ln.edu.hk/sgs/crds/admission/entry-requirements",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-master-of-cities-and-governance",
@@ -663,18 +1405,18 @@
     "major_en": "Master of Cities and Governance",
     "degree": "Master",
     "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 174,000（约RMB 160,080）",
-    "deadline": "2026-06-30",
-    "ielts": "6.0",
-    "toefl": "79",
+    "intake": "2027/28",
+    "fee": "2027/28学费HKD174,000。",
+    "deadline": "2027/28入学申请期：1 Aug 2026 – 30 Jun 2027；名额及调整以官网为准。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.0，或TOEFL iBT≥79，或CET-6≥450并提供英语口语证明；其他同等考试／资格按项目个案审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内；CET-6须五年内，并按项目面试及／或CET-6口语B及以上证明口语能力。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，或具备同等学历。英语非母语或非英语授课学位的申请者需提供雅思6.0或托福79分以上的成绩。",
-    "official_url": "https://www.ln.edu.hk/sgs/mcg",
-    "study_mode": "全日制/兼读制",
+    "req_detail": "认可相关学士学位、同等资格，或经个案认可的学术及专业成就。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/sgs/mcg/admission/entry-requirements",
+    "study_mode": "Full-time / Part-time；授课语言：English",
     "curriculum": [
       "城市治理理论",
       "城市规划与政策",
@@ -697,7 +1439,64 @@
       "智库研究员"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "7b17c9b371dfd8810738",
+          "url": "https://www.ln.edu.hk/sgs/mcg/admission/entry-requirements",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "5e7273af345f150f1880",
+              "url": "https://www.ln.edu.hk/sgs/mcg/admission/tuition-fee-and-scholarships",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2027/28",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "7b17c9b371dfd8810738",
+              "url": "https://www.ln.edu.hk/sgs/mcg/admission/entry-requirements",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-master-of-housing-policy-and-management",
@@ -713,17 +1512,17 @@
     "major_en": "Master of Housing Policy and Management",
     "degree": "Master",
     "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 190,000（约RMB 174,800）",
-    "deadline": "2026-03-31",
-    "ielts": "6.0",
-    "toefl": "79",
+    "intake": "2027/28招生未确认",
+    "fee": "2026/27历史学费HKD190,000；2027/28收费及是否招生未确认。",
+    "deadline": "所查2027/28总目录未列本项目。项目页仅公布2026/27申请期：2025-10-01至2026-06-30，已结束；2027/28是否招生及日期待确认。",
+    "ielts": "历史／现行项目页6.0；当届适用性待确认",
+    "toefl": "历史／现行项目页iBT79；当届适用性待确认",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.0，或TOEFL iBT≥79，或CET-6≥450并提供英语口语证明；其他同等考试／资格按项目个案审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内；CET-6须五年内，并按项目面试及／或CET-6口语B及以上证明口语能力。 以上为仍可读取的项目页条件；未确认2027/28招生，不能视为当届已开放。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，或具备同等学历。英语非母语或非英语授课学位的申请者需提供雅思6.0或托福79分以上的成绩。",
-    "official_url": "https://www.ln.edu.hk/sgs/mhpm",
+    "req_detail": "项目网站仍存在，但2027/28总目录未列本项目；未找到明确停办公告，不据此断定停办。",
+    "official_url": "https://www.ln.edu.hk/sgs/mhpm/admission/entry-requirements",
     "study_mode": "全日制/兼读制",
     "curriculum": [
       "房屋政策分析",
@@ -747,7 +1546,69 @@
       "非营利住房组织管理者"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "unconfirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "a0b0555f80509e8533e1",
+          "url": "https://www.ln.edu.hk/sgs/mhpm/admission/application-deadline",
+          "label": "仅公布2026/27的申请期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "f249ba4e16958a7889a3",
+              "url": "https://www.ln.edu.hk/sgs/mhpm/admission/tuition-fee-and-scholarships",
+              "label": "项目收费页"
+            }
+          ],
+          "cycle": "历史／未标学年；2027/28未确认",
+          "status": "unconfirmed"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            },
+            {
+              "key": "a0b0555f80509e8533e1",
+              "url": "https://www.ln.edu.hk/sgs/mhpm/admission/application-deadline",
+              "label": "仅公布2026/27的申请期"
+            }
+          ],
+          "cycle": "2026/27历史申请期；2027/28未确认",
+          "status": "unconfirmed"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "80a991f2caa29978a5c9",
+              "url": "https://www.ln.edu.hk/sgs/mhpm/admission/entry-requirements",
+              "label": "仍可读取的项目语言条件"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "项目页条件；2027/28适用性未确认",
+          "status": "unconfirmed"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-msc-in-health-analytics-and-management",
@@ -762,19 +1623,19 @@
     "major_cn": "健康分析与管理理学硕士",
     "major_en": "MSc in Health Analytics and Management",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 205,000（约RMB 188,600）",
-    "deadline": "2026-06-30",
-    "ielts": "6.0",
-    "toefl": "79",
+    "duration": "全日制1年／兼读制2年",
+    "intake": "2027/28",
+    "fee": "2027/28全程HKD205,000，全日制1年或兼读2年相同。",
+    "deadline": "2027/28入学申请期：1 Aug 2026 – 30 Jun 2027；名额及调整以官网为准。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.0，或TOEFL iBT≥79，或CET-6≥450并提供英语口语证明；其他同等考试／资格按项目个案审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内；CET-6须五年内，并按项目面试及／或CET-6口语B及以上证明口语能力。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，或具备同等学历。英语非母语或非英语授课学位的申请者需提供雅思6.0或托福79分以上的成绩。",
-    "official_url": "https://www.ln.edu.hk/sgs/ham",
-    "study_mode": "全日制/兼读制",
+    "req_detail": "认可相关学士学位、同等资格，或经个案认可的学术及专业成就。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/sgs/ham/admission/entry-requirements",
+    "study_mode": "Full-time / Part-time；授课语言：English",
     "curriculum": [
       "健康经济学",
       "医疗数据分析",
@@ -797,7 +1658,64 @@
       "公共卫生顾问"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "b991a3c5c74f10953572",
+          "url": "https://www.ln.edu.hk/sgs/ham/admission/entry-requirements",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "5f344feeef1d86fad372",
+              "url": "https://www.ln.edu.hk/sgs/ham/admission/tuition-fees",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2027/28",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "b991a3c5c74f10953572",
+              "url": "https://www.ln.edu.hk/sgs/ham/admission/entry-requirements",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-msc-in-global-humanitarian-innovation-and-technology",
@@ -813,17 +1731,17 @@
     "major_en": "MSc in Global Humanitarian Innovation and Technology",
     "degree": "MSc",
     "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 198,000（约RMB 182,160）",
-    "deadline": "2026-06-30",
-    "ielts": "6.0",
-    "toefl": "79",
+    "intake": "2027/28招生未确认",
+    "fee": "官网未标学年的全程学费HKD210,000（全日制1年／兼读2年）；不能确认为2027/28收费。",
+    "deadline": "所查2027/28总目录未列本项目。项目页仅公布2026/27申请期：2025-10-01至2026-06-30，已结束；2027/28是否招生及日期待确认。",
+    "ielts": "历史／现行项目页6.0；当届适用性待确认",
+    "toefl": "历史／现行项目页iBT79；当届适用性待确认",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.0，或TOEFL iBT≥79，或CET-6≥450并提供英语口语证明；其他同等考试／资格按项目个案审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内；CET-6须五年内，并按项目面试及／或CET-6口语B及以上证明口语能力。 以上为仍可读取的项目页条件；未确认2027/28招生，不能视为当届已开放。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，或具备同等学历。英语非母语或非英语授课学位的申请者需提供雅思6.0或托福79分以上的成绩。",
-    "official_url": "https://www.ln.edu.hk/sgs/ghit",
+    "req_detail": "项目网站仍存在，但2027/28总目录未列本项目；未找到明确停办公告，不据此断定停办。",
+    "official_url": "https://www.ln.edu.hk/sgs/ghit/admission/entry-requirements",
     "study_mode": "全日制/兼读制",
     "curriculum": [
       "人道主义系统与框架",
@@ -847,7 +1765,69 @@
       "NGO管理者"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "unconfirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "a22e4b1fc636812d9048",
+          "url": "https://www.ln.edu.hk/sgs/ghit/admission/application-deadline",
+          "label": "仅公布2026/27的申请期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "74aa5f08726c96af0e37",
+              "url": "https://www.ln.edu.hk/sgs/ghit/admission/tuition-fees",
+              "label": "项目收费页"
+            }
+          ],
+          "cycle": "历史／未标学年；2027/28未确认",
+          "status": "unconfirmed"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            },
+            {
+              "key": "a22e4b1fc636812d9048",
+              "url": "https://www.ln.edu.hk/sgs/ghit/admission/application-deadline",
+              "label": "仅公布2026/27的申请期"
+            }
+          ],
+          "cycle": "2026/27历史申请期；2027/28未确认",
+          "status": "unconfirmed"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "d6f4b3566a9be3e59d8d",
+              "url": "https://www.ln.edu.hk/sgs/ghit/admission/entry-requirements",
+              "label": "仍可读取的项目语言条件"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "项目页条件；2027/28适用性未确认",
+          "status": "unconfirmed"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-msc-in-smart-ageing-and-gerontology",
@@ -863,18 +1843,18 @@
     "major_en": "MSc in Smart Ageing and Gerontology",
     "degree": "MSc",
     "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 198,000（约RMB 182,160）",
-    "deadline": "2026-06-30",
-    "ielts": "6.0",
-    "toefl": "79",
+    "intake": "2027/28",
+    "fee": "2027/28拟定学费HKD150,000，尚待最终批准。",
+    "deadline": "2027/28入学申请期：1 Aug 2026 – 30 Jun 2027；名额及调整以官网为准。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.0，或TOEFL iBT≥79，或CET-6≥450并提供英语口语证明；其他同等考试／资格按项目个案审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内；CET-6须五年内，并按项目面试及／或CET-6口语B及以上证明口语能力。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，或具备同等学历。英语非母语或非英语授课学位的申请者需提供雅思6.0或托福79分以上的成绩。与香港都会大学合作提供双学位选项。",
-    "official_url": "https://www.ln.edu.hk/sgs/sag/home",
-    "study_mode": "全日制/兼读制",
+    "req_detail": "认可相关学士、同等资格或专业成就；与香港都会大学合作双学位，属于同一合作项目，不能另算两个新专业。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/sgs/sag/admission",
+    "study_mode": "Full-time / Part-time；授课语言：English",
     "curriculum": [
       "老龄化社会学",
       "老年健康与护理",
@@ -897,7 +1877,64 @@
       "长期照护专员"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "d9aa583302bb4e6e299c",
+          "url": "https://www.ln.edu.hk/sgs/sag/admission",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "d9aa583302bb4e6e299c",
+              "url": "https://www.ln.edu.hk/sgs/sag/admission",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2027/28",
+          "status": "unconfirmed"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "d9aa583302bb4e6e299c",
+              "url": "https://www.ln.edu.hk/sgs/sag/admission",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-mssc-in-comparative-public-administration",
@@ -912,19 +1949,19 @@
     "major_cn": "比较公共行政社会科学硕士",
     "major_en": "MSSc in Comparative Public Administration",
     "degree": "MSSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 190,000（约RMB 174,800）",
-    "deadline": "2026-06-30",
-    "ielts": "6.0",
-    "toefl": "79",
+    "duration": "全日制1年／兼读制2年",
+    "intake": "2027/28",
+    "fee": "2027/28学费HKD190,000。",
+    "deadline": "2027/28入学申请期：1 Aug 2026 – 30 Jun 2027；名额及调整以官网为准。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.0，或TOEFL iBT≥79，或CET-6≥450并提供英语口语证明；其他同等考试／资格按项目个案审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内；CET-6须五年内，并按项目面试及／或CET-6口语B及以上证明口语能力。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，或具备同等学历。英语非母语或非英语授课学位的申请者需提供雅思6.0或托福79分以上的成绩。",
-    "official_url": "https://www.ln.edu.hk/sgs/cpa",
-    "study_mode": "全日制/兼读制",
+    "req_detail": "认可相关学士学位、同等资格，或经个案认可的学术及专业成就。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/sgs/cpa/admission",
+    "study_mode": "Full-time / Part-time；授课语言：English",
     "curriculum": [
       "比较公共行政",
       "公共部门管理",
@@ -947,7 +1984,64 @@
       "非营利组织管理者"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "8dda4477325fd6321d5d",
+          "url": "https://www.ln.edu.hk/sgs/cpa/admission",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "8dda4477325fd6321d5d",
+              "url": "https://www.ln.edu.hk/sgs/cpa/admission",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2027/28",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "8dda4477325fd6321d5d",
+              "url": "https://www.ln.edu.hk/sgs/cpa/admission",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-mssc-in-health-and-social-services-management",
@@ -962,19 +2056,19 @@
     "major_cn": "健康与社会服务管理社会科学硕士",
     "major_en": "MSSc in Health and Social Services Management",
     "degree": "MSSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 198,000（约RMB 182,160）",
-    "deadline": "2026-06-30",
-    "ielts": "6.0",
-    "toefl": "79",
+    "duration": "全日制1年／兼读制2年",
+    "intake": "2027/28",
+    "fee": "2027/28全程HKD198,000，全日制1年或兼读2年相同。",
+    "deadline": "2027/28入学申请期：1 Aug 2026 – 30 Jun 2027；名额及调整以官网为准。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.0，或TOEFL iBT≥79，或CET-6≥450并提供英语口语证明；其他同等考试／资格按项目个案审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内；CET-6须五年内，并按项目面试及／或CET-6口语B及以上证明口语能力。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，或具备同等学历。英语非母语或非英语授课学位的申请者需提供雅思6.0或托福79分以上的成绩。",
-    "official_url": "https://www.ln.edu.hk/sgs/mhsm",
-    "study_mode": "全日制/兼读制",
+    "req_detail": "认可相关学士学位、同等资格，或经个案认可的学术及专业成就。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/sgs/mhsm/admission/entry-requirements",
+    "study_mode": "Full-time / Part-time；授课语言：English",
     "curriculum": [
       "健康与社会服务系统",
       "社会服务管理",
@@ -997,7 +2091,64 @@
       "健康政策顾问"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "e5be4aa1cb67ab457c4c",
+          "url": "https://www.ln.edu.hk/sgs/mhsm/admission/entry-requirements",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "0260563827da94e5705f",
+              "url": "https://www.ln.edu.hk/sgs/mhsm/admission/tuition-fees",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2027/28",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "e5be4aa1cb67ab457c4c",
+              "url": "https://www.ln.edu.hk/sgs/mhsm/admission/entry-requirements",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-ma-in-international-affairs",
@@ -1013,18 +2164,18 @@
     "major_en": "MA in International Affairs",
     "degree": "MA",
     "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 168,000（约RMB 154,560）",
-    "deadline": "2026-07-01",
-    "ielts": "6.0",
-    "toefl": "79",
+    "intake": "2027/28",
+    "fee": "2027/28全日制学费HKD190,000。",
+    "deadline": "2027/28入学申请期：1 Sep 2026 – 15 July 2027；名额及调整以官网为准。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.0，或TOEFL iBT≥79，或CET-6≥450并提供英语口语证明；其他同等考试／资格按项目个案审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内；CET-6须五年内，并按项目面试及／或CET-6口语B及以上证明口语能力。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，或具备同等学历。授课语言为英语，需提供雅思6.0或托福79分以上的成绩。",
-    "official_url": "https://www.ln.edu.hk/fss/",
-    "study_mode": "全日制",
+    "req_detail": "政治、社会科学、人文、法律、传播、商科或相关背景学士，或同等资格／专业成就；可能面试。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/gia/maia/admission-application",
+    "study_mode": "Full-time；授课语言：English",
     "curriculum": [
       "国际关系理论",
       "国际安全研究",
@@ -1047,7 +2198,64 @@
       "跨国企业政府事务专员"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "1f48c0d54636fd8cfe86",
+          "url": "https://www.ln.edu.hk/gia/maia/admission-application",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "1f48c0d54636fd8cfe86",
+              "url": "https://www.ln.edu.hk/gia/maia/admission-application",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2027/28",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "1f48c0d54636fd8cfe86",
+              "url": "https://www.ln.edu.hk/gia/maia/admission-application",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-msc-in-international-and-development-economics",
@@ -1063,18 +2271,18 @@
     "major_en": "MSc in International and Development Economics",
     "degree": "MSc",
     "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 168,000（约RMB 154,560）",
-    "deadline": "2026-05-31",
-    "ielts": "6.0",
-    "toefl": "79",
+    "intake": "2027/28",
+    "fee": "2027/28全课程学费：本地HKD150,000，非本地HKD270,000。",
+    "deadline": "2027/28入学申请期：1 Sep 2026 – 31 May 2027；名额及调整以官网为准。",
+    "ielts": "5.5（或其他认可证明）",
+    "toefl": "iBT46（新制分数待确认）",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥5.5，或TOEFL iBT≥46，或CET-6≥430并提供英语口语证明；其他同等考试／资格按项目个案审核。 项目尚未列此较低TOEFL门槛对应的新制分数，须由学校确认，不能直接换算。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内；CET-6须五年内，并按项目面试及／或CET-6口语B及以上证明口语能力。 本项目为中文授课，但仍需英语证明；CET-6口语以项目面试证明。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，或具备同等学历。授课语言为中文/英文，需提供雅思6.0或托福79分以上的成绩。",
-    "official_url": "https://www.ln.edu.hk/fss/",
-    "study_mode": "全日制/兼读制",
+    "req_detail": "认可相关学士学位、同等资格，或经个案认可的学术及专业成就。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/econ/mide/admission/admission-information",
+    "study_mode": "Full-time / Part-time；授课语言：Chinese",
     "curriculum": [
       "发展经济学原理",
       "国际经济学",
@@ -1097,7 +2305,64 @@
       "投资分析师"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "002c76e0499eaf5b5603",
+          "url": "https://www.ln.edu.hk/econ/mide/admission/admission-information",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "002c76e0499eaf5b5603",
+              "url": "https://www.ln.edu.hk/econ/mide/admission/admission-information",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2027/28",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "002c76e0499eaf5b5603",
+              "url": "https://www.ln.edu.hk/econ/mide/admission/admission-information",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-msc-in-international-banking-and-finance",
@@ -1113,18 +2378,18 @@
     "major_en": "MSc in International Banking and Finance",
     "degree": "MSc",
     "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 218,000（约RMB 200,560）",
-    "deadline": "2026-05-31",
-    "ielts": "6.0",
-    "toefl": "79",
+    "intake": "2027/28",
+    "fee": "2027/28学费：本地HKD150,000，非本地HKD270,000。双学位选项费用须另按合作项目核实。",
+    "deadline": "2027/28入学申请期：1 Sep 2026 – 31 May 2027；名额及调整以官网为准。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.0，或TOEFL iBT≥79；其他同等考试／资格按项目个案审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内。 项目未明确列CET-6分数，不将大学通则中的CET-6自动视为本项目已确认接受。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，或具备同等学历。授课语言为英语，需提供雅思6.0或托福79分以上的成绩。可选择双学位项目。",
-    "official_url": "https://www.ln.edu.hk/fss/",
-    "study_mode": "全日制/兼读制",
+    "req_detail": "相关领域良好本科学位，或本科学位加相关工作经验；同等资格个案审核。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/econ/mibf/admission/admission-information",
+    "study_mode": "Full-time / Part-time；授课语言：English",
     "curriculum": [
       "国际银行学",
       "金融市场与机构",
@@ -1147,7 +2412,64 @@
       "金融监管官员"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "e342be8226ce28f86530",
+          "url": "https://www.ln.edu.hk/econ/mibf/admission/admission-information",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "e342be8226ce28f86530",
+              "url": "https://www.ln.edu.hk/econ/mibf/admission/admission-information",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2027/28",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "e342be8226ce28f86530",
+              "url": "https://www.ln.edu.hk/econ/mibf/admission/admission-information",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-msc-in-work-and-organisational-psychology",
@@ -1163,18 +2485,18 @@
     "major_en": "MSc in Work and Organisational Psychology",
     "degree": "MSc",
     "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 198,000（约RMB 182,160）",
-    "deadline": "2026-06-15",
-    "ielts": "6.0",
-    "toefl": "79",
+    "intake": "2027年1月／2027年9月／2028年1月",
+    "fee": "2026/27（含2027年1月班）：全日制HKD178,000；兼读每门HKD17,800。所查收费页尚未列2027/28金额。",
+    "deadline": "2027年1月班：2026-06-16至2026-10-31，额满可提前结束；2027年9月班：2026-10-01至2027-06-15；2028年1月班：2027-06-16至2027-10-31。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.0，或TOEFL iBT≥79，或CET-6≥450并提供英语口语证明；其他同等考试／资格按项目个案审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内；CET-6须五年内，并按项目面试及／或CET-6口语B及以上证明口语能力。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，或具备同等学历。授课语言为英语，需提供雅思6.0或托福79分以上的成绩。可选择双学位项目。",
-    "official_url": "https://www.ln.edu.hk/fss/",
-    "study_mode": "全日制/兼读制",
+    "req_detail": "相关学士／同等资格或专业成就；非心理学本科须完成入学前课程。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/psy/mwop/admission/requirements",
+    "study_mode": "Full-time / Part-time；授课语言：English",
     "curriculum": [
       "组织心理学",
       "工作动机与态度",
@@ -1197,7 +2519,69 @@
       "员工体验经理"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "f747466f381cb2c7ab36",
+          "url": "https://www.ln.edu.hk/psy/mwop/admission/requirements",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "093cb5a7b7eb3426b982",
+              "url": "https://www.ln.edu.hk/psy/mwop/admission/tuition-fees-and-scholarships",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2026/27已公布；2027/28待公布",
+          "status": "not_published"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            },
+            {
+              "key": "f747466f381cb2c7ab36",
+              "url": "https://www.ln.edu.hk/psy/mwop/admission/requirements",
+              "label": "项目具体申请期／轮次"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "f747466f381cb2c7ab36",
+              "url": "https://www.ln.edu.hk/psy/mwop/admission/requirements",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-mssc-in-applied-psychology",
@@ -1213,18 +2597,18 @@
     "major_en": "MSSc in Applied Psychology",
     "degree": "MSSc",
     "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 180,000（约RMB 165,600）",
-    "deadline": "2026-06-15",
-    "ielts": "6.0",
-    "toefl": "79",
+    "intake": "2027年9月／2028年1月",
+    "fee": "官网列2026/27起全日制／兼读学费HKD178,000；仍保留可逐年调整说明，以录取年度正式收费为准。",
+    "deadline": "2027年9月班：2026-10-16至2027-06-15；2028年1月班：2027-06-16至2027-10-15（研究生院目录）。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.0，或TOEFL iBT≥79，或CET-6≥450并提供英语口语证明；其他同等考试／资格按项目个案审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内；CET-6须五年内，并按项目面试及／或CET-6口语B及以上证明口语能力。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，或具备同等学历。授课语言为英语，需提供雅思6.0或托福79分以上的成绩。可选择辅导心理学专修方向。",
-    "official_url": "https://www.ln.edu.hk/fss/",
-    "study_mode": "全日制/兼读制",
+    "req_detail": "认可学士或同等资格及经验，可能面试；辅导心理学为项目方向。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/psy/mssap/sample-lectures/admission-requirements",
+    "study_mode": "Full-time / Part-time；授课语言：English",
     "curriculum": [
       "应用心理学研究方法",
       "心理评估与测量",
@@ -1247,7 +2631,69 @@
       "用户体验研究员"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "d82a0b3b517d997a999c",
+          "url": "https://www.ln.edu.hk/psy/mssap/sample-lectures/admission-requirements",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "7fbb2eb460a461a5b533",
+              "url": "https://www.ln.edu.hk/psy/mssap/sample-lectures/tuition-fees-and-scholarships",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2026/27起适用；可逐年调整",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            },
+            {
+              "key": "d82a0b3b517d997a999c",
+              "url": "https://www.ln.edu.hk/psy/mssap/sample-lectures/admission-requirements",
+              "label": "项目具体申请期／轮次"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "d82a0b3b517d997a999c",
+              "url": "https://www.ln.edu.hk/psy/mssap/sample-lectures/admission-requirements",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-mssc-in-comparative-social-policy-international",
@@ -1263,18 +2709,18 @@
     "major_en": "MSSc in Comparative Social Policy (International)",
     "degree": "MSSc",
     "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 160,000（约RMB 147,200）",
-    "deadline": "2026-06-15",
-    "ielts": "6.0",
-    "toefl": "79",
+    "intake": "2027/28",
+    "fee": "2027/28起全课程学费HKD160,000。",
+    "deadline": "2027/28：2026-08-01开放；非本地2027-06-30截止，本地2027-07-31截止（项目页区分申请身份；总目录统一列6月30日）。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.0，或TOEFL iBT≥79，或CET-6≥450并提供英语口语证明；其他同等考试／资格按项目个案审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内；CET-6须五年内，并按项目面试及／或CET-6口语B及以上证明口语能力。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，社会政策、国际发展、社会学或其他社会科学专业背景优先。授课语言为英语，需提供雅思6.0或托福79分以上的成绩。",
-    "official_url": "https://www.ln.edu.hk/socsp/imcsp",
-    "study_mode": "全日制/兼读制",
+    "req_detail": "认可学士或同等资格及经验；所有申请者须面试，相关社会科学或政策工作经验优先。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/socsp/imcsp/admission-information",
+    "study_mode": "Full-time / Part-time；授课语言：English",
     "curriculum": [
       "比较社会政策导论",
       "福利国家比较研究",
@@ -1297,7 +2743,69 @@
       "社会保障官员"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "a0d224314f17001b7f02",
+          "url": "https://www.ln.edu.hk/socsp/imcsp/admission-information",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "a0d224314f17001b7f02",
+              "url": "https://www.ln.edu.hk/socsp/imcsp/admission-information",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2027/28",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            },
+            {
+              "key": "a0d224314f17001b7f02",
+              "url": "https://www.ln.edu.hk/socsp/imcsp/admission-information",
+              "label": "项目具体申请期／轮次"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "a0d224314f17001b7f02",
+              "url": "https://www.ln.edu.hk/socsp/imcsp/admission-information",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-mssc-in-organisational-psychology-and-education-management",
@@ -1313,18 +2821,18 @@
     "major_en": "MSSc in Organisational Psychology and Education Management",
     "degree": "MSSc",
     "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 180,000（约RMB 165,600）",
-    "deadline": "2026-06-15",
-    "ielts": "6.0",
-    "toefl": "79",
+    "intake": "2027/28",
+    "fee": "2027/28学费HKD188,900。",
+    "deadline": "2027/28入学申请期：1 Oct 2026 – 15 Jun 2027；名额及调整以官网为准。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.0，或TOEFL iBT≥79，或CET-6≥450并提供英语口语证明；其他同等考试／资格按项目个案审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内；CET-6须五年内，并按项目面试及／或CET-6口语B及以上证明口语能力。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，或具备同等学历。授课语言为英语，需提供雅思6.0或托福79分以上的成绩。",
-    "official_url": "https://www.ln.edu.hk/fss/",
-    "study_mode": "全日制/兼读制",
+    "req_detail": "认可相关学士学位、同等资格，或经个案认可的学术及专业成就。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/psy/opem/admission",
+    "study_mode": "Full-time / Part-time；授课语言：English",
     "curriculum": [
       "组织心理学基础",
       "教育管理理论",
@@ -1347,7 +2855,64 @@
       "教育顾问"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "e7534f8c865cc553bff4",
+          "url": "https://www.ln.edu.hk/psy/opem/admission",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "e6009f6f388b344babd7",
+              "url": "https://www.ln.edu.hk/psy/opem/programme-overview/tuition-fee-and-scholarships",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2027/28",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "e7534f8c865cc553bff4",
+              "url": "https://www.ln.edu.hk/psy/opem/admission",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-mssc-in-sociology-and-data-analytics",
@@ -1363,18 +2928,18 @@
     "major_en": "MSSc in Sociology and Data Analytics",
     "degree": "MSSc",
     "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 165,000（约RMB 151,800）",
-    "deadline": "2026-06-15",
-    "ielts": "6.0",
-    "toefl": "79",
+    "intake": "2027/28",
+    "fee": "2027/28起全课程学费HKD181,500。",
+    "deadline": "2027/28：2026-08-01开放；非本地2027-06-30截止，本地2027-07-31截止（项目页区分身份；总目录统一列6月30日）。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.0，或TOEFL iBT≥79，或CET-6≥450并提供英语口语证明；其他同等考试／资格按项目个案审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内；CET-6须五年内，并按项目面试及／或CET-6口语B及以上证明口语能力。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，或具备同等学历。授课语言为英语，需提供雅思6.0或托福79分以上的成绩。",
-    "official_url": "https://www.ln.edu.hk/fss/",
-    "study_mode": "全日制/兼读制",
+    "req_detail": "社会学、心理学、政治、经济、公共政策、数据科学等相关学士或同等资格。无需已有统计训练；所有申请者面试，设一周入学前工作坊。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/socsp/msoda/admission-information",
+    "study_mode": "Full-time / Part-time；授课语言：English",
     "curriculum": [
       "社会学理论",
       "社会研究方法",
@@ -1397,7 +2962,69 @@
       "用户研究员"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "a82feec0040a9c52fe7a",
+          "url": "https://www.ln.edu.hk/socsp/msoda/admission-information",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "a82feec0040a9c52fe7a",
+              "url": "https://www.ln.edu.hk/socsp/msoda/admission-information",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2027/28",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            },
+            {
+              "key": "a82feec0040a9c52fe7a",
+              "url": "https://www.ln.edu.hk/socsp/msoda/admission-information",
+              "label": "项目具体申请期／轮次"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "a82feec0040a9c52fe7a",
+              "url": "https://www.ln.edu.hk/socsp/msoda/admission-information",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-ma-in-translation-studies",
@@ -1409,45 +3036,89 @@
     "region_en": "Hong Kong SAR",
     "qs_ranking_2026": 601,
     "college": "文学院",
-    "major_cn": "翻译研究文学硕士",
-    "major_en": "MA in Translation Studies",
+    "major_cn": "语言传意及科技应用文学硕士（原翻译研究）",
+    "major_en": "Master of Arts in Language, Communication, and Technology",
     "degree": "MA",
     "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 158,620（约RMB 145,930）",
-    "deadline": "2026-06-30",
-    "ielts": "6.0",
-    "toefl": "79",
+    "intake": "2027/28",
+    "fee": "2027/28学费待核实：现行项目详情链接无法读取，未把旧库金额作为新年度费用。",
+    "deadline": "2027/28入学申请期：1 Sep 2026 – 30 Jun 2027；名额及调整以官网为准。",
+    "ielts": "项目门槛待核实",
+    "toefl": "项目门槛待核实",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "改名后项目的具体语言门槛尚未完成核验；大学通则不能代替该项目的可能更高要求，旧库分数不作为当前申请依据。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，中英文水平良好。授课语言为中英双语，需提供雅思6.0或托福79分以上的成绩。",
-    "official_url": "https://www.ln.edu.hk/tran/programmes/mats",
-    "study_mode": "全日制/兼读制",
-    "curriculum": [
-      "翻译理论：传统与现代",
-      "中英翻译方法与实践",
-      "翻译研究方法",
-      "高级商务翻译",
-      "新闻翻译",
-      "法律翻译",
-      "文学翻译",
-      "比较语言学",
-      "翻译批评与鉴赏",
-      "翻译项目或论文"
-    ],
-    "objectives": "本课程是香港唯一一个以中英翻译为特色的翻译研究硕士课程，强调翻译作为文化活动而非单纯的语言转换。学生将学习翻译的理论与实践，培养在商业、法律、新闻和文学等领域的专业翻译能力。课程采用小班教学，由来自加拿大和内地的国际师资授课，提供一对一的论文或项目指导。",
-    "careers": [
-      "专业译者",
-      "翻译项目经理",
-      "本地化专家",
-      "口译员",
-      "跨文化沟通顾问",
-      "语言教师"
-    ],
+    "req_detail": "2026-10-21大学公告确认：2027/28由翻译研究更名为语言传意及科技应用，属于同一项目。改名后详细入学条件待核验。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/news/press-releases/20261021/lingnan-university-to-rename-department-of-translation-as-department-of-language-industry-and-technology-in202728-undergraduate-and-postgraduate-programmes-to-adopt-new-names-reflecting-language-technology-and-ai-integration",
+    "study_mode": "Full-time / Part-time；授课语言：English / Chinese",
+    "curriculum": [],
+    "objectives": "2027/28起由翻译研究更名，课程结合双语传播、语言科技与人工智能。",
+    "careers": [],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "dc4e3c1183387f8c1210",
+          "url": "https://www.ln.edu.hk/news/press-releases/20261021/lingnan-university-to-rename-department-of-translation-as-department-of-language-industry-and-technology-in202728-undergraduate-and-postgraduate-programmes-to-adopt-new-names-reflecting-language-technology-and-ai-integration",
+          "label": "项目入学与语言要求"
+        },
+        {
+          "key": "dc4e3c1183387f8c1210",
+          "url": "https://www.ln.edu.hk/news/press-releases/20261021/lingnan-university-to-rename-department-of-translation-as-department-of-language-industry-and-technology-in202728-undergraduate-and-postgraduate-programmes-to-adopt-new-names-reflecting-language-technology-and-ai-integration",
+          "label": "2026-10-21大学公告：翻译研究硕士于2027/28更名"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "dc4e3c1183387f8c1210",
+              "url": "https://www.ln.edu.hk/news/press-releases/20261021/lingnan-university-to-rename-department-of-translation-as-department-of-language-industry-and-technology-in202728-undergraduate-and-postgraduate-programmes-to-adopt-new-names-reflecting-language-technology-and-ai-integration",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2027/28",
+          "status": "unconfirmed"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "dc4e3c1183387f8c1210",
+              "url": "https://www.ln.edu.hk/news/press-releases/20261021/lingnan-university-to-rename-department-of-translation-as-department-of-language-industry-and-technology-in202728-undergraduate-and-postgraduate-programmes-to-adopt-new-names-reflecting-language-technology-and-ai-integration",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "unconfirmed"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-ma-in-chinese",
@@ -1462,19 +3133,19 @@
     "major_cn": "中文文学硕士",
     "major_en": "MA in Chinese",
     "degree": "MA",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 158,620（约RMB 145,930）",
-    "deadline": "2026-05-15",
-    "ielts": "6.0",
-    "toefl": "79",
+    "duration": "全日制通常2–5学期；具体修读安排以项目为准",
+    "intake": "2027/28",
+    "fee": "2027/28全日制30学分合计HKD175,000，每3学分HKD17,500；分两期支付。",
+    "deadline": "2027/28入学申请期：1 Sep 2026 – 15 May 2027；名额及调整以官网为准。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "iBT60（新制分数待确认）",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.0，或TOEFL iBT≥60，或CET-6≥450并提供英语口语证明；其他同等考试／资格按项目个案审核。 项目尚未列此较低TOEFL门槛对应的新制分数，须由学校确认，不能直接换算。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内；CET-6须五年内，并按项目面试及／或CET-6口语B及以上证明口语能力。 中文授课仍须满足上述英语条件。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的中文或相关学科学士学位，或具备同等学历。授课语言为中文，需具备良好的中文读写能力。",
-    "official_url": "https://www.ln.edu.hk/fah/",
-    "study_mode": "全日制",
+    "req_detail": "相关学士或同等资格；须参加项目面试。全球中文研究属于该硕士的方向。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/chi/machi/machi-apply",
+    "study_mode": "Full-time；授课语言：Chinese",
     "curriculum": [
       "汉语语言学专题",
       "中国文学经典",
@@ -1497,7 +3168,64 @@
       "对外汉语教师"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "a6e1875b274e84604c1a",
+          "url": "https://www.ln.edu.hk/chi/machi/machi-apply",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "a6e1875b274e84604c1a",
+              "url": "https://www.ln.edu.hk/chi/machi/machi-apply",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2027/28",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "a6e1875b274e84604c1a",
+              "url": "https://www.ln.edu.hk/chi/machi/machi-apply",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-ma-in-creative-and-media-industries",
@@ -1512,19 +3240,19 @@
     "major_cn": "创意与媒体产业文学硕士",
     "major_en": "MA in Creative and Media Industries",
     "degree": "MA",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 158,620（约RMB 145,930）",
-    "deadline": "2026-05-15",
-    "ielts": "6.0",
-    "toefl": "79",
+    "duration": "全日制1年／兼读制2年",
+    "intake": "2027/28",
+    "fee": "2027/28学费尚未在所查项目页公布。历史参考2026/27：全日制1年HKD190,000；兼读2年每年HKD95,000。",
+    "deadline": "2027/28入学申请期：1 Sep 2026 – 15 May 2027；名额及调整以官网为准。",
+    "ielts": "6.5（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.5，或TOEFL iBT≥79，或CET-6≥475并提供英语口语证明；其他同等考试／资格按项目个案审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内；CET-6须五年内，并按项目面试及／或CET-6口语B及以上证明口语能力。 CET-6途径按个案审核。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，或具备同等学历。授课语言为英语，需提供雅思6.0或托福79分以上的成绩。",
-    "official_url": "https://www.ln.edu.hk/fah/",
-    "study_mode": "全日制/兼读制",
+    "req_detail": "认可相关学士学位、同等资格，或经个案认可的学术及专业成就。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/daci/macmi/admission-application",
+    "study_mode": "Full-time / Part-time；授课语言：English",
     "curriculum": [
       "创意产业概论",
       "媒体经济学",
@@ -1547,7 +3275,64 @@
       "媒体顾问"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "badee024a98583484d2f",
+          "url": "https://www.ln.edu.hk/daci/macmi/admission-application",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "badee024a98583484d2f",
+              "url": "https://www.ln.edu.hk/daci/macmi/admission-application",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2026/27历史收费；2027/28待公布",
+          "status": "not_published"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "badee024a98583484d2f",
+              "url": "https://www.ln.edu.hk/daci/macmi/admission-application",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-ma-in-curating-and-art-history",
@@ -1562,19 +3347,19 @@
     "major_cn": "策展与艺术史文学硕士",
     "major_en": "MA in Curating and Art History",
     "degree": "MA",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 158,620（约RMB 145,930）",
-    "deadline": "2026-06-30",
-    "ielts": "6.0",
-    "toefl": "79",
+    "duration": "全日制1年／兼读制2年",
+    "intake": "2027/28",
+    "fee": "2027/28：全日制1年HKD168,000；兼读2年每年HKD84,000；香港以外实习、考察等自选活动另计。",
+    "deadline": "2027/28入学申请期：1 Sep 2026 – 15 Jun 2027；名额及调整以官网为准。",
+    "ielts": "6.5（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.5，或TOEFL iBT≥79，或CET-6≥475并提供英语口语证明；其他同等考试／资格按项目个案审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内；CET-6须五年内，并按项目面试及／或CET-6口语B及以上证明口语能力。 项目页以学位是否来自香港／英语国家院校描述适用对象；具体英语授课豁免须由项目审核。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，艺术史或相关人文学科背景优先。授课语言为英语，需提供雅思6.0或托福79分以上的成绩。",
-    "official_url": "https://www.ln.edu.hk/fah/",
-    "study_mode": "全日制/兼读制",
+    "req_detail": "相关学位或同等资格；非相关背景可凭突出专业成就个案考虑。须交500–1200词个人陈述，可附英文写作、实习及作品集。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/daci/macah/programme/admission-and-application",
+    "study_mode": "Full-time / Part-time；授课语言：English",
     "curriculum": [
       "艺术史专题",
       "策展理论与实践",
@@ -1597,7 +3382,64 @@
       "艺术教育者"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "19edb56221fea96e987b",
+          "url": "https://www.ln.edu.hk/daci/macah/programme/admission-and-application",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "19edb56221fea96e987b",
+              "url": "https://www.ln.edu.hk/daci/macah/programme/admission-and-application",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2027/28",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "19edb56221fea96e987b",
+              "url": "https://www.ln.edu.hk/daci/macah/programme/admission-and-application",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-ma-in-artificial-intelligence-and-the-future",
@@ -1612,19 +3454,19 @@
     "major_cn": "人工智能与未来文学硕士",
     "major_en": "MA in Artificial Intelligence and the Future",
     "degree": "MA",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 158,620（约RMB 145,930）",
-    "deadline": "2026-05-31",
-    "ielts": "6.0",
-    "toefl": "79",
+    "duration": "全日制1年／兼读制2年",
+    "intake": "2027/28",
+    "fee": "2027/28：全日制1年HKD200,000；兼读2年每年HKD100,000。毕业项目延至暑期另收HKD10,000。",
+    "deadline": "2027/28入学申请期：1 Sep 2026 – 15 Jun 2027；名额及调整以官网为准。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.0，或TOEFL iBT≥79，或CET-6≥450并提供英语口语证明；其他同等考试／资格按项目个案审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内；CET-6须五年内，并按项目面试及／或CET-6口语B及以上证明口语能力。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，不限专业背景。授课语言为英语，需提供雅思6.0或托福79分以上的成绩。",
-    "official_url": "https://www.ln.edu.hk/fah/",
-    "study_mode": "全日制/兼读制",
+    "req_detail": "认可相关学士学位、同等资格，或经个案认可的学术及专业成就。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/philoso/hkcrc/maaif/admissions-and-application/admission-requirements",
+    "study_mode": "Full-time / Part-time；授课语言：English",
     "curriculum": [
       "人工智能哲学与伦理",
       "科技未来学",
@@ -1647,7 +3489,64 @@
       "科技未来学家"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "be73d6df57d5ccb42774",
+          "url": "https://www.ln.edu.hk/philoso/hkcrc/maaif/admissions-and-application/admission-requirements",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "05698298440b2bd13904",
+              "url": "https://www.ln.edu.hk/philoso/hkcrc/maaif/admissions-and-application/fees-and-scholarships",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2027/28",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "be73d6df57d5ccb42774",
+              "url": "https://www.ln.edu.hk/philoso/hkcrc/maaif/admissions-and-application/admission-requirements",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-msc-in-data-science",
@@ -1663,18 +3562,18 @@
     "major_en": "MSc in Data Science",
     "degree": "MSc",
     "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 289,000（约RMB 265,880）",
-    "deadline": "2026-06-30",
-    "ielts": "6.0",
-    "toefl": "79",
+    "intake": "2027/28",
+    "fee": "2027/28全课程学费HKD293,000，本地与非本地相同。 如须先修课程，每门另收HKD3,000，金额可调整。",
+    "deadline": "2027/28入学申请期：1 Aug 2026 – 30 Jun 2027；名额及调整以官网为准。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.0，或TOEFL iBT≥79，或CET-6≥450并提供英语口语证明；其他同等考试／资格按项目个案审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内；CET-6须五年内，并按项目面试及／或CET-6口语B及以上证明口语能力。 项目另明确接受PTE Academic总分≥62、各项≥59；数据科学与AI商业分析项目明确PTE也须认可考场及提交时两年内。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，理工科或相关学科背景优先。授课语言为英语，需提供雅思6.0或托福79分以上的成绩。",
-    "official_url": "https://www.ln.edu.hk/sds/dai/mscds",
-    "study_mode": "全日制",
+    "req_detail": "工程、科学或同等相关学士，或经个案认可的同等资格／专业成就。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/sds/dai/mscds/admissions/admission-requirements",
+    "study_mode": "Full-time；授课语言：English",
     "curriculum": [
       "数据科学基础",
       "机器学习",
@@ -1697,7 +3596,64 @@
       "数据产品经理"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "88804fa8bc88c474161d",
+          "url": "https://www.ln.edu.hk/sds/dai/mscds/admissions/admission-requirements",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "ce2e5b4a747572b0a85f",
+              "url": "https://www.ln.edu.hk/sds/dai/mscds/admissions/tuition-fees-scholarships-financial-assistance",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2027/28",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "88804fa8bc88c474161d",
+              "url": "https://www.ln.edu.hk/sds/dai/mscds/admissions/admission-requirements",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-msc-in-artificial-intelligence-and-business-analytics",
@@ -1713,18 +3669,18 @@
     "major_en": "MSc in Artificial Intelligence and Business Analytics",
     "degree": "MSc",
     "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 289,000（约RMB 265,880）",
-    "deadline": "2026-06-30",
-    "ielts": "6.0",
-    "toefl": "79",
+    "intake": "2027/28",
+    "fee": "2027/28全课程学费HKD293,000，本地与非本地相同。 如须先修课程，每门另收HKD3,000，金额可调整。",
+    "deadline": "2027/28入学申请期：1 Aug 2026 – 30 Jun 2027；名额及调整以官网为准。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.0，或TOEFL iBT≥79，或CET-6≥450并提供英语口语证明；其他同等考试／资格按项目个案审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内；CET-6须五年内，并按项目面试及／或CET-6口语B及以上证明口语能力。 项目另明确接受PTE Academic总分≥62、各项≥59；数据科学与AI商业分析项目明确PTE也须认可考场及提交时两年内。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，理工科或相关学科背景优先。授课语言为英语，需提供雅思6.0或托福79分以上的成绩。",
-    "official_url": "https://www.ln.edu.hk/sds/dai/mscaiba",
-    "study_mode": "全日制",
+    "req_detail": "工程、科学或同等相关学士，或经个案认可的同等资格／专业成就。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/sds/dai/mscaiba/application-and-admission/admission-requirements",
+    "study_mode": "Full-time；授课语言：English",
     "curriculum": [
       "人工智能基础",
       "商业数据分析",
@@ -1747,7 +3703,64 @@
       "金融科技分析师"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "87e98ca117c49f7af9f4",
+          "url": "https://www.ln.edu.hk/sds/dai/mscaiba/application-and-admission/admission-requirements",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "61ce97261062f08a8dca",
+              "url": "https://www.ln.edu.hk/sds/dai/mscaiba/application-and-admission/tuition-fees-scholarships-and-financial-assistance",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2027/28",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "87e98ca117c49f7af9f4",
+              "url": "https://www.ln.edu.hk/sds/dai/mscaiba/application-and-admission/admission-requirements",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-msc-in-industrial-data-analytics",
@@ -1763,18 +3776,18 @@
     "major_en": "MSc in Industrial Data Analytics",
     "degree": "MSc",
     "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 289,000（约RMB 265,880）",
-    "deadline": "2026-06-30",
-    "ielts": "6.0",
-    "toefl": "79",
+    "intake": "2027/28",
+    "fee": "2027/28全课程学费HKD293,000，本地与非本地相同。 页面仍附2027/28信息更新中的提示。 如须先修课程，每门另收HKD3,000，金额可调整。",
+    "deadline": "2027/28入学申请期：1 Aug 2026 – 30 Jun 2027；名额及调整以官网为准。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.0，或TOEFL iBT≥79，或CET-6≥450并提供英语口语证明；其他同等考试／资格按项目个案审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内；CET-6须五年内，并按项目面试及／或CET-6口语B及以上证明口语能力。 项目页仍附2027/28信息正在更新说明，后续变更以正式录取条件为准。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，工程、科学或相关学科背景优先。授课语言为英语，需提供雅思6.0或托福79分以上的成绩。",
-    "official_url": "https://www.ln.edu.hk/sds/",
-    "study_mode": "全日制",
+    "req_detail": "工程、计算机、数理、数据科学、商业分析、运筹供应链、经济金融、信息系统等相关学士，或同等资格／专业成就；缺计算机／统计基础须修先修课。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/sds/dids/ida/admission-and-application/admission-requirements",
+    "study_mode": "Full-time；授课语言：English",
     "curriculum": [
       "工业数据采集与处理",
       "预测性维护分析",
@@ -1797,7 +3810,64 @@
       "生产优化专员"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "251423879036176d4b84",
+          "url": "https://www.ln.edu.hk/sds/dids/ida/admission-and-application/admission-requirements",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "7e9c438a70290b811c68",
+              "url": "https://www.ln.edu.hk/sds/dids/ida/admission-and-application/tuition-fee-scholarships-and-financial-assistance",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2027/28",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "251423879036176d4b84",
+              "url": "https://www.ln.edu.hk/sds/dids/ida/admission-and-application/admission-requirements",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-postgraduate-msc-in-smart-city-technologies-and-applications",
@@ -1813,18 +3883,18 @@
     "major_en": "MSc in Smart City Technologies and Applications",
     "degree": "MSc",
     "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 289,000（约RMB 265,880）",
-    "deadline": "2026-06-30",
-    "ielts": "6.0",
-    "toefl": "79",
+    "intake": "2027/28",
+    "fee": "2027/28全课程学费HKD293,000，本地与非本地相同。 如须先修课程，每门另收HKD3,000，金额可调整。",
+    "deadline": "2027/28入学申请期：24 Aug 2026 – 30 Jun 2027；名额及调整以官网为准。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.0，或TOEFL iBT≥79，或CET-6≥450并提供英语口语证明；其他同等考试／资格按项目个案审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内；CET-6须五年内，并按项目面试及／或CET-6口语B及以上证明口语能力。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学的本科学士学位，计算机科学、工程或相关学科背景优先。授课语言为英语，需提供雅思6.0或托福79分以上的成绩。",
-    "official_url": "https://www.ln.edu.hk/sds/",
-    "study_mode": "全日制",
+    "req_detail": "工程、科学、规划、信息科技、环境、公共政策等相关学士，亦欢迎多元背景；缺计算机或统计基础须完成指定先修课。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/sds/dids/scta/application-admission/admission-requirements",
+    "study_mode": "Full-time；授课语言：English",
     "curriculum": [
       "智慧城市概论",
       "城市数据分析",
@@ -1847,7 +3917,64 @@
       "政府智慧城市专员"
     ],
     "source_file": "lingnan_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "64d3855749fd58399eee",
+          "url": "https://www.ln.edu.hk/sds/dids/scta/application-admission/admission-requirements",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "11eae3891843e90571f6",
+              "url": "https://www.ln.edu.hk/sds/dids/scta/application-admission/tuition-fees-scholarships-financial-assistance",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2027/28",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "64d3855749fd58399eee",
+              "url": "https://www.ln.edu.hk/sds/dids/scta/application-admission/admission-requirements",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "lingnanu-undergraduate-bachelor-of-arts-honours-in-chinese",
@@ -3065,5 +5192,836 @@
     "careers": [],
     "source_file": "schools_undergraduate/lingnanu_undergraduate_data.json",
     "last_updated": "2026-05-21"
+  },
+  {
+    "school_code": "LingnanU",
+    "school_name": "香港岭南大学",
+    "school_name_en": "Lingnan University",
+    "region_cn": "中国香港",
+    "region_en": "Hong Kong SAR",
+    "qs_ranking_2026": 601,
+    "id": "lingnanu-postgraduate-ma-in-digital-english-studies",
+    "education_level": "postgraduate",
+    "major_cn": "数字英语研究文学硕士",
+    "major_en": "Master of Arts in Digital English Studies",
+    "degree": "MA",
+    "college": "文学院",
+    "duration": "全日制1–3年／兼读制2–5年",
+    "curriculum": [],
+    "careers": [],
+    "objectives": "以官方项目目录及招生说明为准。",
+    "source_file": "official-lingnan-2027-catalogue",
+    "gaokao_requirement": null,
+    "subject_requirement": null,
+    "admission_route": null,
+    "fee": "2027/28官网列HKD178,000／年；兼读制是否按年全额计费及完整费用须向项目确认，不能把年度金额当作各模式全程总额。",
+    "deadline": "2027/28：2026-09-01 06:00至2027-06-30 18:00；以官网当地时间为准。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.0，或TOEFL iBT≥79，或CET-6≥450并提供英语口语证明；其他同等考试／资格按项目个案审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内；CET-6须五年内，并按项目面试及／或CET-6口语B及以上证明口语能力。 全学位英语授课可提交注册处盖章证明；未完全达到门槛者仅可个案审核。IELTS7／TOEFL97等是优先或奖学金指标，不是最低申请门槛。",
+    "req_detail": "英语研究、文学、语言学、传播、媒体、商科等相关学士，或同等资格／专业成就。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/eng/mades",
+    "intake": "2027/28",
+    "study_mode": "Full-time / Part-time；授课语言：English",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "c61e3b486ee61ff2a15f",
+          "url": "https://www.ln.edu.hk/eng/mades",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "added_to_database",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "c61e3b486ee61ff2a15f",
+              "url": "https://www.ln.edu.hk/eng/mades",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2027/28",
+          "status": "unconfirmed"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            },
+            {
+              "key": "c61e3b486ee61ff2a15f",
+              "url": "https://www.ln.edu.hk/eng/mades",
+              "label": "项目具体申请期／轮次"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "c61e3b486ee61ff2a15f",
+              "url": "https://www.ln.edu.hk/eng/mades",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "verified"
+        }
+      }
+    },
+    "last_updated": "2026-10-22"
+  },
+  {
+    "school_code": "LingnanU",
+    "school_name": "香港岭南大学",
+    "school_name_en": "Lingnan University",
+    "region_cn": "中国香港",
+    "region_en": "Hong Kong SAR",
+    "qs_ranking_2026": 601,
+    "id": "lingnanu-postgraduate-ma-in-digital-history-in-global-asia",
+    "education_level": "postgraduate",
+    "major_cn": "全球亚洲数码历史文学硕士（拟更名：中国历史与数字人文学）",
+    "major_en": "Master of Arts in Digital History in Global Asia",
+    "degree": "MA",
+    "college": "文学院",
+    "duration": "全日制1年／兼读制2年",
+    "curriculum": [],
+    "careers": [],
+    "objectives": "以官方项目目录及招生说明为准。",
+    "source_file": "official-lingnan-2027-catalogue",
+    "gaokao_requirement": null,
+    "subject_requirement": null,
+    "admission_route": null,
+    "fee": "新版项目页列全日制1年HKD160,000、兼读2年HKD80,000；兼读金额是否为每年未明确，完整应付金额须确认。",
+    "deadline": "2027/28入学申请期：1 Sep 2026 – 30 Jun 2027；名额及调整以官网为准。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.0，或TOEFL iBT≥79，或CET-6≥450并提供英语口语证明；其他同等考试／资格按项目个案审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内；CET-6须五年内，并按项目面试及／或CET-6口语B及以上证明口语能力。",
+    "req_detail": "认可学士或同等资格，须满足大学英语要求。新页说明与全球亚洲数码历史是同一项目，2027/28更名为中国历史与数字人文学；总目录仍保留更名待批说明，应按申请系统最终名称办理。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/history/programmes/chdh",
+    "intake": "2027/28",
+    "study_mode": "全日制／兼读制；新项目页为英语及普通话，总目录仍列英语，须按实际课程安排确认。",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "0db13988d7450a24f996",
+          "url": "https://www.ln.edu.hk/history/programmes/chdh",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "added_to_database",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "0db13988d7450a24f996",
+              "url": "https://www.ln.edu.hk/history/programmes/chdh",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2027/28",
+          "status": "unconfirmed"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "0db13988d7450a24f996",
+              "url": "https://www.ln.edu.hk/history/programmes/chdh",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "verified"
+        }
+      }
+    },
+    "last_updated": "2026-10-22"
+  },
+  {
+    "school_code": "LingnanU",
+    "school_name": "香港岭南大学",
+    "school_name_en": "Lingnan University",
+    "region_cn": "中国香港",
+    "region_en": "Hong Kong SAR",
+    "qs_ranking_2026": 601,
+    "id": "lingnanu-postgraduate-master-of-cultural-studies",
+    "education_level": "postgraduate",
+    "major_cn": "文化研究硕士",
+    "major_en": "Master of Cultural Studies",
+    "degree": "MCS",
+    "college": "文学院",
+    "duration": "全日制1年／兼读制2年",
+    "curriculum": [],
+    "careers": [],
+    "objectives": "以官方项目目录及招生说明为准。",
+    "source_file": "official-lingnan-2027-catalogue",
+    "gaokao_requirement": null,
+    "subject_requirement": null,
+    "admission_route": null,
+    "fee": "2027/28：全日制1年HKD180,000；兼读2年每年HKD90,000。",
+    "deadline": "2027/28开放2026-09-01；文化研究系招生页写截止2026-12-31，研究生院总目录写2027-06-30，存在冲突。建议按较早日期准备并向项目确认。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.0，或TOEFL iBT≥79，或CET-6≥450并提供英语口语证明；其他同等考试／资格按项目个案审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内；CET-6须五年内，并按项目面试及／或CET-6口语B及以上证明口语能力。",
+    "req_detail": "认可相关学士学位、同等资格，或经个案认可的学术及专业成就。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/cultural/programmes/mcs/admission",
+    "intake": "2027/28",
+    "study_mode": "Full-time / Part-time；授课语言：English / Chinese",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "c191b0514f0c81b1b8b2",
+          "url": "https://www.ln.edu.hk/cultural/programmes/mcs/admission",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "added_to_database",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "c191b0514f0c81b1b8b2",
+              "url": "https://www.ln.edu.hk/cultural/programmes/mcs/admission",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2027/28",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            },
+            {
+              "key": "c191b0514f0c81b1b8b2",
+              "url": "https://www.ln.edu.hk/cultural/programmes/mcs/admission",
+              "label": "项目具体申请期／轮次"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "conflict"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "c191b0514f0c81b1b8b2",
+              "url": "https://www.ln.edu.hk/cultural/programmes/mcs/admission",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "verified"
+        }
+      }
+    },
+    "last_updated": "2026-10-22"
+  },
+  {
+    "school_code": "LingnanU",
+    "school_name": "香港岭南大学",
+    "school_name_en": "Lingnan University",
+    "region_cn": "中国香港",
+    "region_en": "Hong Kong SAR",
+    "qs_ranking_2026": 601,
+    "id": "lingnanu-postgraduate-master-of-research-in-advanced-data-science",
+    "education_level": "postgraduate",
+    "major_cn": "高级数据科学研究硕士",
+    "major_en": "Master of Research in Advanced Data Science",
+    "degree": "MRes",
+    "college": "数据科学学院",
+    "duration": "学制请参阅项目官网",
+    "curriculum": [],
+    "careers": [],
+    "objectives": "以官方项目目录及招生说明为准。",
+    "source_file": "official-lingnan-2027-catalogue",
+    "gaokao_requirement": null,
+    "subject_requirement": null,
+    "admission_route": null,
+    "fee": "2027/28拟定全课程学费HKD351,000，本地与非本地相同，尚待批准。 如须先修课程，每门另收HKD3,000，金额可调整。",
+    "deadline": "2027/28入学申请期：1 Aug 2026 – 30 Jun 2027；名额及调整以官网为准。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.0，或TOEFL iBT≥79，或CET-6≥450并提供英语口语证明；其他同等考试／资格按项目个案审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内；CET-6须五年内，并按项目面试及／或CET-6口语B及以上证明口语能力。",
+    "req_detail": "工程、科学或相关学士，须一等或二等荣誉；同等资格及经验可个案考虑。缺计算机／统计基础须完成相应先修课。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/sds/dai/ads/application-admission/admission-requirements",
+    "intake": "2027/28",
+    "study_mode": "Full-time；授课语言：English",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "9a3e7398ddf485f3df43",
+          "url": "https://www.ln.edu.hk/sds/dai/ads/application-admission/admission-requirements",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "added_to_database",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "bfe2abb7e7157d83f8ff",
+              "url": "https://www.ln.edu.hk/sds/dai/ads/application-admission/tuition-fees-scholarships-financial-assistance",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2027/28",
+          "status": "unconfirmed"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "9a3e7398ddf485f3df43",
+              "url": "https://www.ln.edu.hk/sds/dai/ads/application-admission/admission-requirements",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "verified"
+        }
+      }
+    },
+    "last_updated": "2026-10-22"
+  },
+  {
+    "school_code": "LingnanU",
+    "school_name": "香港岭南大学",
+    "school_name_en": "Lingnan University",
+    "region_cn": "中国香港",
+    "region_en": "Hong Kong SAR",
+    "qs_ranking_2026": 601,
+    "id": "lingnanu-postgraduate-msc-in-agentic-ai-systems",
+    "education_level": "postgraduate",
+    "major_cn": "智能体人工智能系统理学硕士",
+    "major_en": "Master of Science in Agentic AI Systems",
+    "degree": "MSc",
+    "college": "数据科学学院",
+    "duration": "全日制1年",
+    "curriculum": [],
+    "careers": [],
+    "objectives": "以官方项目目录及招生说明为准。",
+    "source_file": "official-lingnan-2027-catalogue",
+    "gaokao_requirement": null,
+    "subject_requirement": null,
+    "admission_route": null,
+    "fee": "2027年1月班HKD289,000；2027年9月班HKD293,000，本地与非本地相同。 如须先修课程，每门另收HKD3,000，金额可调整。",
+    "deadline": "2027年1月班：2026-11-30截止；2027年9月班：首轮2027-04-30、末轮2027-06-30。滚动审核，额满即止。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.0，或TOEFL iBT≥79，或CET-6≥450并提供英语口语证明；其他同等考试／资格按项目个案审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内；CET-6须五年内，并按项目面试及／或CET-6口语B及以上证明口语能力。 项目另明确接受PTE Academic总分≥62、各项≥59；数据科学与AI商业分析项目明确PTE也须认可考场及提交时两年内。",
+    "req_detail": "相关学士或同等资格／专业成就；缺数学、计算机或统计基础须按要求修读不计学分先修课。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/sds/dai/mscaais/admission-and-application/admission-requirements",
+    "intake": "2027年1月／2027年9月",
+    "study_mode": "Full-time；授课语言：English",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "51b7078e4822d34733ba",
+          "url": "https://www.ln.edu.hk/sds/dai/mscaais/admission-and-application/admission-requirements",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "added_to_database",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "8c57da93141445f22d7e",
+              "url": "https://www.ln.edu.hk/sds/dai/mscaais/admission-and-application/tuition-fee-scholarships-and-financial-assistance",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2027/28",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            },
+            {
+              "key": "7ed4db852239b73b1ddb",
+              "url": "https://www.ln.edu.hk/sds/dai/mscaais/admission-and-application/application-procedure",
+              "label": "项目具体申请期／轮次"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "51b7078e4822d34733ba",
+              "url": "https://www.ln.edu.hk/sds/dai/mscaais/admission-and-application/admission-requirements",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "verified"
+        }
+      }
+    },
+    "last_updated": "2026-10-22"
+  },
+  {
+    "school_code": "LingnanU",
+    "school_name": "香港岭南大学",
+    "school_name_en": "Lingnan University",
+    "region_cn": "中国香港",
+    "region_en": "Hong Kong SAR",
+    "qs_ranking_2026": 601,
+    "id": "lingnanu-postgraduate-msc-in-innovative-design-and-artificial-intelligence",
+    "education_level": "postgraduate",
+    "major_cn": "创新设计与人工智能理学硕士",
+    "major_en": "Master of Science in Innovative Design and Artificial Intelligence",
+    "degree": "MSc",
+    "college": "数据科学学院",
+    "duration": "学制请参阅项目官网",
+    "curriculum": [],
+    "careers": [],
+    "objectives": "以官方项目目录及招生说明为准。",
+    "source_file": "official-lingnan-2027-catalogue",
+    "gaokao_requirement": null,
+    "subject_requirement": null,
+    "admission_route": null,
+    "fee": "2027年1月班HKD289,000；2027年9月班HKD293,000，本地与非本地相同。 如须先修课程，每门另收HKD3,000，金额可调整。",
+    "deadline": "2027年1月班：2026-11-30截止；2027年9月班：首轮2027-04-30、末轮2027-06-30。滚动审核，额满即止。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.0，或TOEFL iBT≥79，或CET-6≥450并提供英语口语证明；其他同等考试／资格按项目个案审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内；CET-6须五年内，并按项目面试及／或CET-6口语B及以上证明口语能力。",
+    "req_detail": "工程、计算机、数理、数据科学、商业分析、运筹供应链、经济金融、信息系统等相关学士，或同等资格／专业成就；缺计算机／统计基础须修先修课。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/sds/dids/idai/admission-and-application/admission-requirements",
+    "intake": "2027年1月／2027年9月",
+    "study_mode": "Full-time；授课语言：English",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "7f9ca41d44db5e57ef4d",
+          "url": "https://www.ln.edu.hk/sds/dids/idai/admission-and-application/admission-requirements",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "added_to_database",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "31af157c3826d01ffccc",
+              "url": "https://www.ln.edu.hk/sds/dids/idai/admission-and-application/tuition-fee-scholarships-and-financial-assistance",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2027/28",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            },
+            {
+              "key": "86aedff73bed60574b74",
+              "url": "https://www.ln.edu.hk/sds/dids/idai/admission-and-application/application-procedure",
+              "label": "项目具体申请期／轮次"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "7f9ca41d44db5e57ef4d",
+              "url": "https://www.ln.edu.hk/sds/dids/idai/admission-and-application/admission-requirements",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "verified"
+        }
+      }
+    },
+    "last_updated": "2026-10-22"
+  },
+  {
+    "school_code": "LingnanU",
+    "school_name": "香港岭南大学",
+    "school_name_en": "Lingnan University",
+    "region_cn": "中国香港",
+    "region_en": "Hong Kong SAR",
+    "qs_ranking_2026": 601,
+    "id": "lingnanu-postgraduate-master-of-liberal-sciences",
+    "education_level": "postgraduate",
+    "major_cn": "博雅科学硕士",
+    "major_en": "Master of Liberal Sciences",
+    "degree": "MLS",
+    "college": "跨学科学院",
+    "duration": "学制请参阅项目官网",
+    "curriculum": [],
+    "careers": [],
+    "objectives": "以官方项目目录及招生说明为准。",
+    "source_file": "official-lingnan-2027-catalogue",
+    "gaokao_requirement": null,
+    "subject_requirement": null,
+    "admission_route": null,
+    "fee": "当前春季招生页列学费HKD188,000（2027年春季／2026/27入口）。2027年秋季及以后独立收费尚未明确，须确认。",
+    "deadline": "2027年春季班：2026-08-01至2026-11-30（须选择2026/27申请入口）；2027年秋季班：2026-08-01至2027-07-30；2028年春季班：2027-08-01至2027-11-30。",
+    "ielts": "5.5（或其他认可证明）",
+    "toefl": "iBT46（新制分数待确认）",
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥5.5，或TOEFL iBT≥46；其他同等考试／资格按项目个案审核。 项目尚未列此较低TOEFL门槛对应的新制分数，须由学校确认，不能直接换算。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内。",
+    "req_detail": "认可学士、同等资格或个案认可的专业成就；申请具体方向须有相关背景，并交作品集／奖项等证明。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/wjysis/mls/admission",
+    "intake": "2027年春季／秋季；2028年春季",
+    "study_mode": "Full-time；授课语言：Chinese",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "30294e4f8298895420cb",
+          "url": "https://www.ln.edu.hk/wjysis/mls/admission",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "added_to_database",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "30294e4f8298895420cb",
+              "url": "https://www.ln.edu.hk/wjysis/mls/admission",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2027年春季页面；秋季收费待确认",
+          "status": "not_published"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            },
+            {
+              "key": "30294e4f8298895420cb",
+              "url": "https://www.ln.edu.hk/wjysis/mls/admission",
+              "label": "项目具体申请期／轮次"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "30294e4f8298895420cb",
+              "url": "https://www.ln.edu.hk/wjysis/mls/admission",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "verified"
+        }
+      }
+    },
+    "last_updated": "2026-10-22"
+  },
+  {
+    "school_code": "LingnanU",
+    "school_name": "香港岭南大学",
+    "school_name_en": "Lingnan University",
+    "region_cn": "中国香港",
+    "region_en": "Hong Kong SAR",
+    "qs_ranking_2026": 601,
+    "id": "lingnanu-postgraduate-msc-in-cross-disciplinary-technologies-plus",
+    "education_level": "postgraduate",
+    "major_cn": "跨学科科技理学硕士",
+    "major_en": "Master of Science in Cross-disciplinary Technologies+",
+    "degree": "MSc",
+    "college": "跨学科学院",
+    "duration": "学制请参阅项目官网",
+    "curriculum": [],
+    "careers": [],
+    "objectives": "以官方项目目录及招生说明为准。",
+    "source_file": "official-lingnan-2027-catalogue",
+    "gaokao_requirement": null,
+    "subject_requirement": null,
+    "admission_route": null,
+    "fee": "当前春季招生页列学费HKD188,000（2027年春季／2026/27入口）。2027年秋季及以后独立收费尚未明确，须确认。",
+    "deadline": "2027年春季班：2026-08-01至2026-11-30（须选择2026/27申请入口）；2027年秋季班：2026-08-01至2027-07-30；2028年春季班：2027-08-01至2027-11-30。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.0，或TOEFL iBT≥79，或CET-6≥450并提供英语口语证明；其他同等考试／资格按项目个案审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内；CET-6须五年内，并按项目面试及／或CET-6口语B及以上证明口语能力。",
+    "req_detail": "认可相关学士、同等资格或专业成就。官网十个方向属于同一硕士，不应计作十个独立新增项目。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/wjysis/mct/admission#admission-requirements",
+    "intake": "2027年春季／秋季；2028年春季",
+    "study_mode": "Full-time；授课语言：English",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "88d7b5c2e9ee1e667c98",
+          "url": "https://www.ln.edu.hk/wjysis/mct/admission#admission-requirements",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "added_to_database",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "88d7b5c2e9ee1e667c98",
+              "url": "https://www.ln.edu.hk/wjysis/mct/admission#admission-requirements",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2027年春季页面；秋季收费待确认",
+          "status": "not_published"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            },
+            {
+              "key": "88d7b5c2e9ee1e667c98",
+              "url": "https://www.ln.edu.hk/wjysis/mct/admission#admission-requirements",
+              "label": "项目具体申请期／轮次"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "88d7b5c2e9ee1e667c98",
+              "url": "https://www.ln.edu.hk/wjysis/mct/admission#admission-requirements",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "verified"
+        }
+      }
+    },
+    "last_updated": "2026-10-22"
+  },
+  {
+    "school_code": "LingnanU",
+    "school_name": "香港岭南大学",
+    "school_name_en": "Lingnan University",
+    "region_cn": "中国香港",
+    "region_en": "Hong Kong SAR",
+    "qs_ranking_2026": 601,
+    "id": "lingnanu-postgraduate-msc-in-sustainability-and-environmental-analytics",
+    "education_level": "postgraduate",
+    "major_cn": "可持续发展与环境分析理学硕士",
+    "major_en": "Master of Science in Sustainability and Environmental Analytics",
+    "degree": "MSc",
+    "college": "科学教研组",
+    "duration": "学制请参阅项目官网",
+    "curriculum": [],
+    "careers": [],
+    "objectives": "以官方项目目录及招生说明为准。",
+    "source_file": "official-lingnan-2027-catalogue",
+    "gaokao_requirement": null,
+    "subject_requirement": null,
+    "admission_route": null,
+    "fee": "2027/28费用尚未在所查收费页公布。2026/27历史参考：全日制／兼读均HKD188,000。",
+    "deadline": "2027/28入学申请期：1 Sep 2026 – 30 Jun 2027；名额及调整以官网为准。",
+    "ielts": "6.0（或其他认可证明）",
+    "toefl": "旧制iBT79；2026-01-21起新制4.0",
+    "language_requirement": "前置学位非英语授课者：IELTS Academic≥6.0，或TOEFL iBT≥79；其他同等考试／资格按项目个案审核。 大学现行通则另列2026-01-21起新制TOEFL≥4.0。 IELTS／TOEFL须认可考场同一次考试，申请提交时两年内。 项目明确不接受TOEFL Home Edition和IELTS One Skill Retake；未明确列CET-6分数。项目页语言条款带参议会审批说明，须按最终录取要求。",
+    "req_detail": "相关学士或同等资格及经验；须掌握基本计算机知识，具数据分析基础者优先，可能面试。 语言条件及例外详见本页招生信息。",
+    "official_url": "https://www.ln.edu.hk/dos/sea/app-adm",
+    "intake": "2027/28",
+    "study_mode": "Full-time / Part-time；授课语言：English",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "4d9ea8535977f1f027b2",
+          "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+          "label": "研究生院2027/28项目及申请期"
+        },
+        {
+          "key": "43b8d7b7ae96d0173174",
+          "url": "https://www.ln.edu.hk/dos/sea/app-adm",
+          "label": "项目入学与语言要求"
+        }
+      ],
+      "newness": "added_to_database",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "ce664d9816720ec7188d",
+              "url": "https://www.ln.edu.hk/dos/sea/app-adm/fees",
+              "label": "项目收费及适用学年"
+            }
+          ],
+          "cycle": "2026/27历史收费；2027/28待公布",
+          "status": "not_published"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "4d9ea8535977f1f027b2",
+              "url": "https://www.ln.edu.hk/sgs/programmes-on-offer",
+              "label": "研究生院2027/28项目及申请期"
+            }
+          ],
+          "cycle": "见各入学批次",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "43b8d7b7ae96d0173174",
+              "url": "https://www.ln.edu.hk/dos/sea/app-adm",
+              "label": "项目入学与语言要求"
+            },
+            {
+              "key": "d5931db498a1333110cb",
+              "url": "https://www.ln.edu.hk/sgs/for-prospective-students/taught-postgraduate-programmes/admission-information",
+              "label": "大学现行语言通则、考试形式及有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及大学通则",
+          "status": "unconfirmed"
+        }
+      }
+    },
+    "last_updated": "2026-10-22"
   }
 ]

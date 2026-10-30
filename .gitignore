@@ -19,6 +19,8 @@
 .DS_Store
 *.pem
 .vercel
+# Local source snapshots (curated reviews retain public source URLs).
+/docs/admissions/*/sources/
 .turbo
 .cache
 Thumbs.db
@@ -40,3 +42,8 @@ test-results/
 *.tsbuildinfo
 
 .vercel
+
+# Build and local verification artifacts
+.next-*/
+__pycache__/
+*.pyc

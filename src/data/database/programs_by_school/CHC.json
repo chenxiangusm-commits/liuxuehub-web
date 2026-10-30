@@ -10,20 +10,20 @@
     "qs_ranking_2026": null,
     "college": "佛学研究中心",
     "major_cn": "应用佛学文学硕士",
-    "major_en": "Master of Arts in Applied Buddhism",
+    "major_en": "Master of Arts in Applied Buddhist Studies",
     "degree": "MA",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 140,000（约RMB 128,800）",
-    "deadline": "第一轮：2025年10月20日至2026年1月31日；第二轮：2026年2月2日至2026年5月30日（额满即止）",
-    "ielts": "6.0",
-    "toefl": "80",
+    "duration": "全日制1年",
+    "intake": "2027/28秋季",
+    "fee": "2027/28入学：本地及非本地全课程学费均为HKD150,000。 全日制1年，分2期缴交。 延期、超出毕业要求学分等另按规定收费。",
+    "deadline": "2027/28秋季入学：本地及非本地申请期2026-10-12至2027-05-31；额满可提前截止。",
+    "ielts": "6.0（不接受Online；另有认可证明）",
+    "toefl": "旧制iBT80／新制4.0；不接受Home Edition",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "须满足以下英语资格之一：香港AS Level／高等程度会考英语合格；珠海学院佛学研究中心英语入学资格考试合格；HKDSE英文≥4；香港或英语国家大学颁授的学位；TOEFL旧制iBT≥80或2026-01-21后新制≥4.0；IELTS Academic≥6.0；或香港／英语国家认可机构颁授的专业资格。不接受TOEFL Home Edition及IELTS Online。IELTS／TOEFL须为提交申请前两年内、同一次考试成绩，并经官方送分。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可学士学位或同等学历；如从非中文授课高等院校毕业须满足英语能力要求（IELTS 6.0或TOEFL 80或其他同等英文水平）；适合对汉传佛教文化有兴趣、希望将佛法智慧应用于日常生活及职业发展的学生报考。",
-    "official_url": "https://cbs.chuhai.edu.hk/",
+    "req_detail": "须持认可学士学位或同等资格。 语言条件详见本页“招生信息与来源”。",
+    "official_url": "https://www.chuhai.edu.hk/en/Master%20of%20Arts%20in%20Applied%20Buddhist%20Studies",
     "study_mode": "全日制",
     "curriculum": [
       "佛教哲学与义理",
@@ -47,7 +47,64 @@
       "企业管理层及行政事务"
     ],
     "source_file": "chc_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ab40fd5a10aff46def97",
+          "url": "https://www.chuhai.edu.hk/en/Postgraduate",
+          "label": "官方2027/28硕士招生目录"
+        },
+        {
+          "key": "530f3c03cada8bd12e3b",
+          "url": "https://www.chuhai.edu.hk/en/Master%20of%20Arts%20in%20Applied%20Buddhist%20Studies",
+          "label": "本项目2027/28官方招生要求、费用与申请期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "6512d84a52daf513d562",
+              "url": "https://www.chuhai.edu.hk/en/tuition-and-related-fees",
+              "label": "官方分学年、修读模式全课程收费表"
+            },
+            {
+              "key": "530f3c03cada8bd12e3b",
+              "url": "https://www.chuhai.edu.hk/en/Master%20of%20Arts%20in%20Applied%20Buddhist%20Studies",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "530f3c03cada8bd12e3b",
+              "url": "https://www.chuhai.edu.hk/en/Master%20of%20Arts%20in%20Applied%20Buddhist%20Studies",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28秋季；如有春季分别列明",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "530f3c03cada8bd12e3b",
+              "url": "https://www.chuhai.edu.hk/en/Master%20of%20Arts%20in%20Applied%20Buddhist%20Studies",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "chc-postgraduate-master-of-arts-in-arts-tech-and-digital-communication",
@@ -62,18 +119,18 @@
     "major_cn": "艺创科技及数码传播文学硕士",
     "major_en": "Master of Arts in Arts Tech and Digital Communication",
     "degree": "MA",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 155,000（约RMB 142,600）",
-    "deadline": "第一轮：2025年10月20日至2026年1月31日；第二轮：2026年2月2日至2026年5月30日（额满即止）",
-    "ielts": "6.0",
-    "toefl": "79",
+    "duration": "全日制1年",
+    "intake": "2027/28秋季及春季（详见申请期）",
+    "fee": "2027/28入学：本地及非本地全课程学费均为HKD155,000。 全日制1年，分2期缴交。 延期、超出毕业要求学分等另按规定收费。",
+    "deadline": "2027/28秋季入学：本地及非本地申请期2026-10-12至2027-05-31；额满可提前截止。\n官网另列2027/28春季申请期2027-08-02至2027-09-30（额满即止）；2026/27春季申请已于2026-10-09截止。",
+    "ielts": "6.0（另可用CET-6等认可证明）",
+    "toefl": "旧制iBT79／纸笔550；2026-01-21后新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "若学历的教学及／或考试语言非英语，须满足以下之一：IELTS总分≥6.0；TOEFL旧制iBT≥79／纸笔≥550，2026-01-21后成绩新制≥4.0；CET-6≥430；或其他同等英语资格。 IELTS／TOEFL成绩自考试日至提交申请须在两年内，仅接受同一次考试达到要求的成绩；须通过ETS（院校代码9495）或IELTS官方电子送分至Hong Kong Chu Hai College。2005年6月前CET成绩须由原院校通过官方邮箱验证。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可学士学位，主修新闻传播、艺术、视觉艺术、计算机、资讯科技、建筑设计、电影、媒体制作等相关学科优先；非英语授课大学毕业须满足英语能力要求（IELTS 6.0或TOEFL 79或CET-6合格）。",
-    "official_url": "https://jcm.chuhai.edu.hk/master-of-arts-in-arts-tech-and-digital-communication/",
+    "req_detail": "须持认可学士学位或同等资格。 语言条件详见本页“招生信息与来源”。",
+    "official_url": "https://www.chuhai.edu.hk/en/Master of Arts in Arts Tech and Digital Communication",
     "study_mode": "全日制",
     "curriculum": [
       "艺术与数字传讯科技",
@@ -97,7 +154,64 @@
       "文化创意产业创业者"
     ],
     "source_file": "chc_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ab40fd5a10aff46def97",
+          "url": "https://www.chuhai.edu.hk/en/Postgraduate",
+          "label": "官方2027/28硕士招生目录"
+        },
+        {
+          "key": "3bdc89058cda26dbcfe2",
+          "url": "https://www.chuhai.edu.hk/en/Master of Arts in Arts Tech and Digital Communication",
+          "label": "本项目2027/28官方招生要求、费用与申请期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "6512d84a52daf513d562",
+              "url": "https://www.chuhai.edu.hk/en/tuition-and-related-fees",
+              "label": "官方分学年、修读模式全课程收费表"
+            },
+            {
+              "key": "3bdc89058cda26dbcfe2",
+              "url": "https://www.chuhai.edu.hk/en/Master of Arts in Arts Tech and Digital Communication",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "3bdc89058cda26dbcfe2",
+              "url": "https://www.chuhai.edu.hk/en/Master of Arts in Arts Tech and Digital Communication",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28秋季；如有春季分别列明",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "3bdc89058cda26dbcfe2",
+              "url": "https://www.chuhai.edu.hk/en/Master of Arts in Arts Tech and Digital Communication",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "chc-postgraduate-master-of-arts-in-chinese-studies",
@@ -112,18 +226,18 @@
     "major_cn": "国学文学硕士",
     "major_en": "Master of Arts in Chinese Studies",
     "degree": "MA",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 163,000（约RMB 149,960）",
-    "deadline": "第一轮：2025年10月20日至2026年1月31日；第二轮：2026年2月2日至2026年4月30日（额满即止）",
-    "ielts": null,
-    "toefl": null,
+    "duration": "全日制1年",
+    "intake": "2027/28秋季",
+    "fee": "2027/28入学：本地及非本地全课程学费均为HKD165,000。 全日制1年，分2期缴交。 延期、超出毕业要求学分等另按规定收费。",
+    "deadline": "2027/28秋季入学：本地及非本地申请期2026-10-12至2027-04-30；额满可提前截止。",
+    "ielts": "按项目中文能力要求，未列英语最低分",
+    "toefl": "按项目中文能力要求，未列英语最低分",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "若学历的教学及／或考试语言非中文，须有HKDSE中国语文≥3或其他中文能力证明。 本项目招生页未另列IELTS／TOEFL最低分。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可学士学位，中国文学、中国历史、中国思想或相关学科学士学位优先；如从非中文授课高等院校毕业须提供中国语文能力证明（香港中学文凭试中国语文科第3级或HSK 5级或以上）。",
-    "official_url": "https://www.chuhai.edu.hk/sc/%E5%9B%BD%E5%AD%A6%E6%96%87%E5%AD%A6%E7%A1%95%E5%A3%AB",
+    "req_detail": "须持认可学士学位或同等资格。 语言条件详见本页“招生信息与来源”。",
+    "official_url": "https://www.chuhai.edu.hk/en/Master of Arts in Chinese Studies",
     "study_mode": "全日制",
     "curriculum": [
       "治学方法与专题论文",
@@ -147,7 +261,64 @@
       "博物馆及文史研究机构"
     ],
     "source_file": "chc_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ab40fd5a10aff46def97",
+          "url": "https://www.chuhai.edu.hk/en/Postgraduate",
+          "label": "官方2027/28硕士招生目录"
+        },
+        {
+          "key": "e5fcf37b8cd7df93f569",
+          "url": "https://www.chuhai.edu.hk/en/Master of Arts in Chinese Studies",
+          "label": "本项目2027/28官方招生要求、费用与申请期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "6512d84a52daf513d562",
+              "url": "https://www.chuhai.edu.hk/en/tuition-and-related-fees",
+              "label": "官方分学年、修读模式全课程收费表"
+            },
+            {
+              "key": "e5fcf37b8cd7df93f569",
+              "url": "https://www.chuhai.edu.hk/en/Master of Arts in Chinese Studies",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "e5fcf37b8cd7df93f569",
+              "url": "https://www.chuhai.edu.hk/en/Master of Arts in Chinese Studies",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28秋季；如有春季分别列明",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "e5fcf37b8cd7df93f569",
+              "url": "https://www.chuhai.edu.hk/en/Master of Arts in Chinese Studies",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "chc-postgraduate-master-of-arts-in-global-communication",
@@ -162,18 +333,18 @@
     "major_cn": "环球传播文学硕士",
     "major_en": "Master of Arts in Global Communication",
     "degree": "MA",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 155,000（约RMB 142,600）",
-    "deadline": "第一轮：2025年10月20日至2026年1月31日；第二轮：2026年2月2日至2026年5月30日（额满即止）",
-    "ielts": "6.0",
-    "toefl": "79",
+    "duration": "全日制1年",
+    "intake": "2027/28秋季",
+    "fee": "2027/28入学：本地及非本地全课程学费均为HKD155,000。 全日制1年，分2期缴交。 延期、超出毕业要求学分等另按规定收费。",
+    "deadline": "2027/28秋季入学：本地及非本地申请期2026-10-12至2027-05-31；额满可提前截止。",
+    "ielts": "6.0（另可用CET-6等认可证明）",
+    "toefl": "旧制iBT79／纸笔550；2026-01-21后新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "若学历的教学及／或考试语言非英语，须满足以下之一：IELTS总分≥6.0；TOEFL旧制iBT≥79／纸笔≥550，2026-01-21后成绩新制≥4.0；CET-6≥430；或其他同等英语资格。 IELTS／TOEFL成绩自考试日至提交申请须在两年内，仅接受同一次考试达到要求的成绩；须通过ETS（院校代码9495）或IELTS官方电子送分至Hong Kong Chu Hai College。2005年6月前CET成绩须由原院校通过官方邮箱验证。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可学士学位或同等学历；如从非英语授课的大学/院校毕业须满足英语能力要求（IELTS 6.0或TOEFL 79或CET-6合格）；教学语言以英语为主，实务科目辅以中文解说。",
-    "official_url": "https://jcm.chuhai.edu.hk/master-of-arts-in-global-communication-2/",
+    "req_detail": "须持认可学士学位或同等资格。 语言条件详见本页“招生信息与来源”。",
+    "official_url": "https://www.chuhai.edu.hk/en/Master of Arts in Global Communication",
     "study_mode": "全日制",
     "curriculum": [
       "全球传播应用研究",
@@ -197,7 +368,64 @@
       "数字媒体内容创作"
     ],
     "source_file": "chc_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ab40fd5a10aff46def97",
+          "url": "https://www.chuhai.edu.hk/en/Postgraduate",
+          "label": "官方2027/28硕士招生目录"
+        },
+        {
+          "key": "aaf277a0a8439badca63",
+          "url": "https://www.chuhai.edu.hk/en/Master of Arts in Global Communication",
+          "label": "本项目2027/28官方招生要求、费用与申请期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "6512d84a52daf513d562",
+              "url": "https://www.chuhai.edu.hk/en/tuition-and-related-fees",
+              "label": "官方分学年、修读模式全课程收费表"
+            },
+            {
+              "key": "aaf277a0a8439badca63",
+              "url": "https://www.chuhai.edu.hk/en/Master of Arts in Global Communication",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "aaf277a0a8439badca63",
+              "url": "https://www.chuhai.edu.hk/en/Master of Arts in Global Communication",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28秋季；如有春季分别列明",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "aaf277a0a8439badca63",
+              "url": "https://www.chuhai.edu.hk/en/Master of Arts in Global Communication",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "chc-postgraduate-master-of-arts-in-history-and-culture-of-south-china",
@@ -212,18 +440,18 @@
     "major_cn": "华南历史与文化文学硕士",
     "major_en": "Master of Arts in History and Culture of South China",
     "degree": "MA",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 163,000（约RMB 149,960）",
-    "deadline": "第一轮：2025年10月20日至2026年1月31日；第二轮：2026年2月2日至2026年4月30日（额满即止）",
-    "ielts": null,
-    "toefl": null,
+    "duration": "全日制1年",
+    "intake": "2027/28秋季",
+    "fee": "2027/28入学：本地及非本地全课程学费均为HKD165,000。 全日制1年，分2期缴交。 延期、超出毕业要求学分等另按规定收费。",
+    "deadline": "2027/28秋季入学：本地及非本地申请期2026-10-12至2027-04-30；额满可提前截止。",
+    "ielts": "按项目中文能力要求，未列英语最低分",
+    "toefl": "按项目中文能力要求，未列英语最低分",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "持外国学历申请人须提供HKDSE中文≥3或其他中文能力证明；官网未另列英语最低分。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可学士学位或同等学历；如从非中文授课高等院校毕业须提供中国语文能力证明（香港中学文凭试中国语文科第3级或HSK 5级或其他中国语文能力证明）；课程聚焦华南大湾区与东南亚历史文化。",
-    "official_url": "https://chi.chuhai.edu.hk/%e8%aa%b2%e7%a8%8b%e7%b0%a1%e4%bb%8b_mahcsc/",
+    "req_detail": "须持认可学士学位或同等资格。 语言条件详见本页“招生信息与来源”。",
+    "official_url": "https://www.chuhai.edu.hk/en/Master of Arts in History and Culture of South China",
     "study_mode": "全日制",
     "curriculum": [
       "华南区域史专题",
@@ -247,7 +475,64 @@
       "大湾区文创产业"
     ],
     "source_file": "chc_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ab40fd5a10aff46def97",
+          "url": "https://www.chuhai.edu.hk/en/Postgraduate",
+          "label": "官方2027/28硕士招生目录"
+        },
+        {
+          "key": "2da2aee00e8a14aa0f63",
+          "url": "https://www.chuhai.edu.hk/en/Master of Arts in History and Culture of South China",
+          "label": "本项目2027/28官方招生要求、费用与申请期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "6512d84a52daf513d562",
+              "url": "https://www.chuhai.edu.hk/en/tuition-and-related-fees",
+              "label": "官方分学年、修读模式全课程收费表"
+            },
+            {
+              "key": "2da2aee00e8a14aa0f63",
+              "url": "https://www.chuhai.edu.hk/en/Master of Arts in History and Culture of South China",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "2da2aee00e8a14aa0f63",
+              "url": "https://www.chuhai.edu.hk/en/Master of Arts in History and Culture of South China",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28秋季；如有春季分别列明",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "2da2aee00e8a14aa0f63",
+              "url": "https://www.chuhai.edu.hk/en/Master of Arts in History and Culture of South China",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "chc-postgraduate-master-of-arts-in-innovative-application-for-creative-industries",
@@ -262,18 +547,18 @@
     "major_cn": "创意产业应用科技文学硕士",
     "major_en": "Master of Arts in Innovative Application for Creative Industries",
     "degree": "MA",
-    "duration": "1年",
-    "intake": "1月/9月",
-    "fee": "HKD 155,000（约RMB 142,600）",
-    "deadline": "秋季入学第一轮：11月1日至次年1月24日；第二轮：次年2月10日至4月30日（额满即止）",
-    "ielts": null,
-    "toefl": null,
+    "duration": "全日制1年",
+    "intake": "2027/28秋季",
+    "fee": "2027/28入学：本地及非本地全课程学费均为HKD165,000。 全日制1年，分2期缴交。 延期、超出毕业要求学分等另按规定收费。",
+    "deadline": "2027/28秋季入学：本地及非本地申请期2026-10-12至2027-04-30；额满可提前截止。",
+    "ielts": "按项目中文能力要求，未列英语最低分",
+    "toefl": "按项目中文能力要求，未列英语最低分",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "非中文授课高等院校毕业者须有HKDSE中文≥3、HSK≥5、PSC普通话二级乙等或其他中文能力证明。项目未另列IELTS／TOEFL或CET最低分。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可学士学位或同等学历；非中文授课院校毕业须提供中国语文能力证明（香港中学文凭试中国语文科第3级或同等证明）；中文（广东话和普通话）授课，辅以英语参考资料；大学英语六级430分。",
-    "official_url": "https://www.chuhai.edu.hk/%E5%89%B5%E6%84%8F%E4%BA%A7%E4%B8%9A%E5%BA%94%E7%94%A8%E7%A7%91%E6%8A%80%E6%96%87%E5%AD%A6%E7%A1%95%E5%A3%AB",
+    "req_detail": "须持认可学士学位或同等资格。 建议具相关专业本科背景或丰富相关工作经验。 语言条件详见本页“招生信息与来源”。",
+    "official_url": "https://twww.chuhai.edu.hk/%E5%89%B5%E6%84%8F%E7%94%A2%E6%A5%AD%E6%87%89%E7%94%A8%E7%A7%91%E6%8A%80%E6%96%87%E5%AD%B8%E7%A2%A9%E5%A3%AB",
     "study_mode": "全日制",
     "curriculum": [
       "人工智能理论及应用",
@@ -297,7 +582,64 @@
       "文化活动策划与执行"
     ],
     "source_file": "chc_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ab40fd5a10aff46def97",
+          "url": "https://www.chuhai.edu.hk/en/Postgraduate",
+          "label": "官方2027/28硕士招生目录"
+        },
+        {
+          "key": "f4c869f02440c5a6cfdb",
+          "url": "https://twww.chuhai.edu.hk/%E5%89%B5%E6%84%8F%E7%94%A2%E6%A5%AD%E6%87%89%E7%94%A8%E7%A7%91%E6%8A%80%E6%96%87%E5%AD%B8%E7%A2%A9%E5%A3%AB",
+          "label": "本项目2027/28官方招生要求、费用与申请期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "6512d84a52daf513d562",
+              "url": "https://www.chuhai.edu.hk/en/tuition-and-related-fees",
+              "label": "官方分学年、修读模式全课程收费表"
+            },
+            {
+              "key": "f4c869f02440c5a6cfdb",
+              "url": "https://twww.chuhai.edu.hk/%E5%89%B5%E6%84%8F%E7%94%A2%E6%A5%AD%E6%87%89%E7%94%A8%E7%A7%91%E6%8A%80%E6%96%87%E5%AD%B8%E7%A2%A9%E5%A3%AB",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "f4c869f02440c5a6cfdb",
+              "url": "https://twww.chuhai.edu.hk/%E5%89%B5%E6%84%8F%E7%94%A2%E6%A5%AD%E6%87%89%E7%94%A8%E7%A7%91%E6%8A%80%E6%96%87%E5%AD%B8%E7%A2%A9%E5%A3%AB",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28秋季；如有春季分别列明",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "f4c869f02440c5a6cfdb",
+              "url": "https://twww.chuhai.edu.hk/%E5%89%B5%E6%84%8F%E7%94%A2%E6%A5%AD%E6%87%89%E7%94%A8%E7%A7%91%E6%8A%80%E6%96%87%E5%AD%B8%E7%A2%A9%E5%A3%AB",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "chc-postgraduate-master-of-arts-in-teaching-chinese-as-a-second-language",
@@ -312,18 +654,18 @@
     "major_cn": "汉语作为第二语言教学文学硕士",
     "major_en": "Master of Arts in Teaching Chinese as a Second Language",
     "degree": "MA",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 155,000（约RMB 142,600）",
-    "deadline": "第一轮：2025年10月20日至2026年1月31日；第二轮：2026年2月2日至2026年5月30日（额满即止）",
-    "ielts": "6.0",
-    "toefl": "80",
+    "duration": "全日制1年",
+    "intake": "2027/28秋季",
+    "fee": "2027/28入学：本地及非本地全课程学费均为HKD160,000。 全日制1年，分2期缴交。 延期、超出毕业要求学分等另按规定收费。",
+    "deadline": "2027/28秋季入学：本地及非本地申请期2026-10-12至2027-05-31；额满可提前截止。",
+    "ielts": "6.0（另可用CET-6等认可证明）",
+    "toefl": "旧制iBT80；2026-01-21后新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "非中文授课毕业者须有HKDSE中文≥3、HSK≥5、PSC普通话二级乙等或其他中文能力证明。非英语授课毕业者须满足以下之一：AS Level英语合格、HKDSE英文≥3、TOEFL旧制iBT≥80／2026-01-21后新制≥4.0、IELTS≥6.0、CET-6≥430或同等证明。 IELTS／TOEFL成绩自考试日至提交申请须在两年内，仅接受同一次考试达到要求的成绩；须通过ETS（院校代码9495）或IELTS官方电子送分至Hong Kong Chu Hai College。2005年6月前CET成绩须由原院校通过官方邮箱验证。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有香港珠海学院或其认可院校的学士学位或同等学历；中文能力证明（如从非中文授课高等院校毕业）：HKDSE中国语文科第3级、HSK第5级或普通话水平测试二级乙等；英语能力证明：IELTS 6.0或TOEFL 80或CET-6 430分。",
-    "official_url": "https://www.chuhai.edu.hk/%E6%BC%A2%E8%AA%9E%E4%BD%9C%E7%82%BA%E7%AC%AC%E4%BA%8C%E8%AA%9E%E8%A8%80%E6%95%99%E5%AD%B8%E6%96%87%E5%AD%B8%E7%A2%A9%E5%A3%AB",
+    "req_detail": "须持认可学士学位或同等资格。 语言条件详见本页“招生信息与来源”。",
+    "official_url": "https://chuhai.edu.hk/en/master-of-arts-in-teaching-chinese-as-a-second-language",
     "study_mode": "全日制",
     "curriculum": [
       "汉语语言学概论",
@@ -347,7 +689,64 @@
       "政府外事部门语言事务"
     ],
     "source_file": "chc_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ab40fd5a10aff46def97",
+          "url": "https://www.chuhai.edu.hk/en/Postgraduate",
+          "label": "官方2027/28硕士招生目录"
+        },
+        {
+          "key": "ec51b2a374489e6263da",
+          "url": "https://chuhai.edu.hk/en/master-of-arts-in-teaching-chinese-as-a-second-language",
+          "label": "本项目2027/28官方招生要求、费用与申请期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "6512d84a52daf513d562",
+              "url": "https://www.chuhai.edu.hk/en/tuition-and-related-fees",
+              "label": "官方分学年、修读模式全课程收费表"
+            },
+            {
+              "key": "ec51b2a374489e6263da",
+              "url": "https://chuhai.edu.hk/en/master-of-arts-in-teaching-chinese-as-a-second-language",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "ec51b2a374489e6263da",
+              "url": "https://chuhai.edu.hk/en/master-of-arts-in-teaching-chinese-as-a-second-language",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28秋季；如有春季分别列明",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "ec51b2a374489e6263da",
+              "url": "https://chuhai.edu.hk/en/master-of-arts-in-teaching-chinese-as-a-second-language",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "chc-postgraduate-master-of-arts-in-cultural-and-creative-industries-and-chinese-studies",
@@ -360,20 +759,20 @@
     "qs_ranking_2026": null,
     "college": "文学与社会科学院",
     "major_cn": "文化创意与中文研究文学硕士",
-    "major_en": "Master of Arts in Cultural and Creative Industries and Chinese Studies",
+    "major_en": "Master of Arts in Cultural Creativity in Chinese Studies",
     "degree": "MA",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 168,000（约RMB 154,560）",
-    "deadline": "第一轮：2025年10月20日至2026年1月31日；第二轮：2026年2月2日至2026年4月30日（额满即止）",
-    "ielts": null,
-    "toefl": null,
+    "duration": "全日制1年",
+    "intake": "2027/28秋季",
+    "fee": "2027/28入学：本地及非本地全课程学费均为HKD170,000。 全日制1年，分2期缴交。 延期、超出毕业要求学分等另按规定收费。",
+    "deadline": "2027/28秋季入学：本地及非本地申请期2026-10-12至2027-04-30；额满可提前截止。",
+    "ielts": "按项目中文能力要求，未列英语最低分",
+    "toefl": "按项目中文能力要求，未列英语最低分",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "若学历的教学及／或考试语言非中文，须有HKDSE中国语文≥3或其他中文能力证明。 本项目招生页未另列IELTS／TOEFL最低分。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可学士学位或同等学历；如从非中文授课高等院校毕业须提供中国语文能力证明（香港中学文凭试中国语文科第3级或HSK 5级或以上）；课程融合中文研究与中国文化创意产业，适合中文相关背景学生报考。",
-    "official_url": "https://chi.chuhai.edu.hk/",
+    "req_detail": "须持认可学士学位或同等资格。 语言条件详见本页“招生信息与来源”。",
+    "official_url": "https://www.chuhai.edu.hk/en/Master%20of%20Arts%20in%20Cultural%20Creativity%20in%20Chinese%20Studies",
     "study_mode": "全日制",
     "curriculum": [
       "中文文学经典研读",
@@ -397,7 +796,64 @@
       "文化交流与传播机构"
     ],
     "source_file": "chc_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ab40fd5a10aff46def97",
+          "url": "https://www.chuhai.edu.hk/en/Postgraduate",
+          "label": "官方2027/28硕士招生目录"
+        },
+        {
+          "key": "64a8006c8cdf035707bc",
+          "url": "https://www.chuhai.edu.hk/en/Master%20of%20Arts%20in%20Cultural%20Creativity%20in%20Chinese%20Studies",
+          "label": "本项目2027/28官方招生要求、费用与申请期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "6512d84a52daf513d562",
+              "url": "https://www.chuhai.edu.hk/en/tuition-and-related-fees",
+              "label": "官方分学年、修读模式全课程收费表"
+            },
+            {
+              "key": "64a8006c8cdf035707bc",
+              "url": "https://www.chuhai.edu.hk/en/Master%20of%20Arts%20in%20Cultural%20Creativity%20in%20Chinese%20Studies",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "64a8006c8cdf035707bc",
+              "url": "https://www.chuhai.edu.hk/en/Master%20of%20Arts%20in%20Cultural%20Creativity%20in%20Chinese%20Studies",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28秋季；如有春季分别列明",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "64a8006c8cdf035707bc",
+              "url": "https://www.chuhai.edu.hk/en/Master%20of%20Arts%20in%20Cultural%20Creativity%20in%20Chinese%20Studies",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "chc-postgraduate-master-of-arts-in-strategic-marketing-communication",
@@ -412,18 +868,18 @@
     "major_cn": "策略营销传讯文学硕士",
     "major_en": "Master of Arts in Strategic Marketing Communication",
     "degree": "MA",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 155,000（约RMB 142,600）",
-    "deadline": "第一轮：2025年10月31日至2026年1月23日；第二轮：2026年2月9日至2026年5月29日（额满即止）",
-    "ielts": null,
-    "toefl": null,
+    "duration": "全日制1年",
+    "intake": "2027/28秋季",
+    "fee": "2027/28入学：本地及非本地全课程学费均为HKD155,000。 全日制1年，分2期缴交。 延期、超出毕业要求学分等另按规定收费。",
+    "deadline": "2027/28秋季入学：本地及非本地申请期2026-10-12至2027-05-31；额满可提前截止。",
+    "ielts": "6.0（不接受Online；另可用CET-4≥425等）",
+    "toefl": "官网未列具体最低分",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "非中文授课学历须有HKDSE中文≥3、HSK≥5、PSC普通话二级乙等或同等中文资格。同时须有以下英语资格之一：IELTS≥6.0、CET-4≥425、英语授课及／或考试的学士学位、或其他同等资格。不接受IELTS Online。官网未列TOEFL具体最低分。 IELTS／TOEFL成绩自考试日至提交申请须在两年内，仅接受同一次考试达到要求的成绩；须通过ETS（院校代码9495）或IELTS官方电子送分至Hong Kong Chu Hai College。2005年6月前CET成绩须由原院校通过官方邮箱验证。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可学士学位或同等学历；中文普通话授课，中英双语教材；英语能力：CET-4 425分或以上，或以英语为教学语言的大学学士学位，或同等英文水平证明；课程鼓励具相关本科专业或丰富工作经验者报考。",
-    "official_url": "https://jcm.chuhai.edu.hk/master-of-arts-in-strategic-marketing-communication/",
+    "req_detail": "须持认可学士学位或同等资格。 强烈建议具相关本科专业或丰富相关行业工作经验。 语言条件详见本页“招生信息与来源”。",
+    "official_url": "https://www.chuhai.edu.hk/en/master-of-arts-in-strategic-marketing-communication",
     "study_mode": "全日制",
     "curriculum": [
       "策略营销传播",
@@ -447,7 +903,64 @@
       "企业传播与投资者关系"
     ],
     "source_file": "chc_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ab40fd5a10aff46def97",
+          "url": "https://www.chuhai.edu.hk/en/Postgraduate",
+          "label": "官方2027/28硕士招生目录"
+        },
+        {
+          "key": "b8dbaaed4901f4e9dc21",
+          "url": "https://www.chuhai.edu.hk/en/master-of-arts-in-strategic-marketing-communication",
+          "label": "本项目2027/28官方招生要求、费用与申请期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "6512d84a52daf513d562",
+              "url": "https://www.chuhai.edu.hk/en/tuition-and-related-fees",
+              "label": "官方分学年、修读模式全课程收费表"
+            },
+            {
+              "key": "b8dbaaed4901f4e9dc21",
+              "url": "https://www.chuhai.edu.hk/en/master-of-arts-in-strategic-marketing-communication",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "b8dbaaed4901f4e9dc21",
+              "url": "https://www.chuhai.edu.hk/en/master-of-arts-in-strategic-marketing-communication",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28秋季；如有春季分别列明",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "b8dbaaed4901f4e9dc21",
+              "url": "https://www.chuhai.edu.hk/en/master-of-arts-in-strategic-marketing-communication",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "chc-postgraduate-master-of-business-administration-in-entrepreneurship-management",
@@ -460,20 +973,20 @@
     "qs_ranking_2026": null,
     "college": "商学院",
     "major_cn": "工商管理（创业管理）硕士",
-    "major_en": "Master of Business Administration in Entrepreneurship Management",
+    "major_en": "Master of Business Administration in Entrepreneurship",
     "degree": "MBA",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 200,000（约RMB 184,000）",
-    "deadline": "第一轮：2025年10月20日至2026年1月31日；第二轮：2026年2月2日至2026年4月30日（额满即止）",
-    "ielts": null,
-    "toefl": null,
+    "duration": "全日制1年",
+    "intake": "2027/28秋季",
+    "fee": "2027/28入学：本地及非本地全课程学费均为HKD220,000。 全日制1年，分2期缴交。 延期、超出毕业要求学分等另按规定收费。",
+    "deadline": "2027/28秋季入学：本地及非本地申请期2026-10-12至2027-04-30；额满可提前截止。",
+    "ielts": "按项目中文能力要求，未列英语最低分",
+    "toefl": "按项目中文能力要求，未列英语最低分",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "若学历的教学及／或考试语言非中文，须有HKDSE中国语文≥3或其他中文能力证明。 本项目招生页未另列IELTS／TOEFL最低分。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可学士学位；须备有最少两年全职工作经验；如从非中文授课高等院校毕业须提供中国语文能力证明（香港中学文凭试中国语文科第3级或以上）；须提交2封推荐信；合适的申请人须接受面试。",
-    "official_url": "https://fob.chuhai.edu.hk/?page_id=3566&lang=hk",
+    "req_detail": "须持认可学士学位或同等资格。 须至少两年工作经验并接受面试。 语言条件详见本页“招生信息与来源”。",
+    "official_url": "https://www.chuhai.edu.hk/en/Master of Business Administration in Entrepreneurship",
     "study_mode": "全日制",
     "curriculum": [
       "创业管理理论与实践",
@@ -497,7 +1010,64 @@
       "产品经理与创业孵化器运营"
     ],
     "source_file": "chc_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ab40fd5a10aff46def97",
+          "url": "https://www.chuhai.edu.hk/en/Postgraduate",
+          "label": "官方2027/28硕士招生目录"
+        },
+        {
+          "key": "ad82a2870a96fa06657f",
+          "url": "https://www.chuhai.edu.hk/en/Master of Business Administration in Entrepreneurship",
+          "label": "本项目2027/28官方招生要求、费用与申请期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "6512d84a52daf513d562",
+              "url": "https://www.chuhai.edu.hk/en/tuition-and-related-fees",
+              "label": "官方分学年、修读模式全课程收费表"
+            },
+            {
+              "key": "ad82a2870a96fa06657f",
+              "url": "https://www.chuhai.edu.hk/en/Master of Business Administration in Entrepreneurship",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "ad82a2870a96fa06657f",
+              "url": "https://www.chuhai.edu.hk/en/Master of Business Administration in Entrepreneurship",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28秋季；如有春季分别列明",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "ad82a2870a96fa06657f",
+              "url": "https://www.chuhai.edu.hk/en/Master of Business Administration in Entrepreneurship",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "chc-postgraduate-master-of-science-in-applied-finance",
@@ -512,18 +1082,18 @@
     "major_cn": "应用金融学理学硕士",
     "major_en": "Master of Science in Applied Finance",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 190,000（约RMB 174,800）",
-    "deadline": "第一轮：2025年10月20日至2026年1月31日；第二轮：2026年2月23日至2026年5月30日（额满即止）",
-    "ielts": null,
-    "toefl": null,
+    "duration": "全日制1年",
+    "intake": "2027/28秋季",
+    "fee": "2027/28入学：本地及非本地全课程学费均为HKD200,000。 全日制1年，分2期缴交。 延期、超出毕业要求学分等另按规定收费。",
+    "deadline": "2027/28秋季入学：本地及非本地申请期2026-10-12至2027-05-31；额满可提前截止。",
+    "ielts": "官网列CET-4或以上，未列IELTS／TOEFL分数",
+    "toefl": "官网列CET-4或以上，未列IELTS／TOEFL分数",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "非中文授课高等院校毕业者须有HKDSE中文≥3、HSK≥5或其他中文能力证明。非英文授课高等院校毕业者须有CET-4或以上成绩；官网未列CET-4具体分数，也未给出IELTS／TOEFL换算门槛。2005年6月前CET成绩须由原院校官方邮箱验证。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可学士学位或同等学历；大学英语四级（CET-4）合格即可申请，无需GMAT/GRE；中文普通话授课，与香港/大湾区金融科技业界紧密合作；适合有意在大中华区金融行业发展的学生报考。",
-    "official_url": "https://www.chuhai.edu.hk/sc/%E5%BA%94%E7%94%A8%E9%87%91%E8%9E%8D%E5%AD%A6%E7%90%86%E5%AD%B8%E7%A2%A9%E5%A3%AB",
+    "req_detail": "须持认可学士学位或同等资格。 语言条件详见本页“招生信息与来源”。",
+    "official_url": "https://www.chuhai.edu.hk/en/Master of Science in Applied Finance",
     "study_mode": "全日制",
     "curriculum": [
       "资本市场财务报告",
@@ -547,7 +1117,64 @@
       "风险管理与量化分析"
     ],
     "source_file": "chc_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ab40fd5a10aff46def97",
+          "url": "https://www.chuhai.edu.hk/en/Postgraduate",
+          "label": "官方2027/28硕士招生目录"
+        },
+        {
+          "key": "e76002e9b5b531348e89",
+          "url": "https://www.chuhai.edu.hk/en/Master of Science in Applied Finance",
+          "label": "本项目2027/28官方招生要求、费用与申请期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "6512d84a52daf513d562",
+              "url": "https://www.chuhai.edu.hk/en/tuition-and-related-fees",
+              "label": "官方分学年、修读模式全课程收费表"
+            },
+            {
+              "key": "e76002e9b5b531348e89",
+              "url": "https://www.chuhai.edu.hk/en/Master of Science in Applied Finance",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "e76002e9b5b531348e89",
+              "url": "https://www.chuhai.edu.hk/en/Master of Science in Applied Finance",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28秋季；如有春季分别列明",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "e76002e9b5b531348e89",
+              "url": "https://www.chuhai.edu.hk/en/Master of Science in Applied Finance",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "chc-postgraduate-master-of-business-administration",
@@ -562,18 +1189,18 @@
     "major_cn": "工商管理硕士",
     "major_en": "Master of Business Administration",
     "degree": "MBA",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 200,000（约RMB 184,000）",
-    "deadline": "第一轮：2025年10月20日至2026年1月31日；第二轮：2026年2月2日至2026年4月30日（额满即止）",
-    "ielts": null,
-    "toefl": null,
+    "duration": "全日制1年",
+    "intake": "2027/28秋季",
+    "fee": "2027/28入学：本地及非本地全课程学费均为HKD220,000。 全日制1年，分2期缴交。 延期、超出毕业要求学分等另按规定收费。",
+    "deadline": "2027/28秋季入学：本地及非本地申请期2026-10-12至2027-04-30；额满可提前截止。",
+    "ielts": "按项目中文能力要求，未列英语最低分",
+    "toefl": "按项目中文能力要求，未列英语最低分",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "若学历的教学及／或考试语言非中文，须有HKDSE中国语文≥3或其他中文能力证明。 本项目招生页未另列IELTS／TOEFL最低分。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可学士学位；须备有最少两年全职工作经验；如从非中文授课高等院校毕业须提供中国语文能力证明（香港中学文凭试中国语文科第3级或以上）；须提交2封推荐信；合适的申请人须接受面试。",
-    "official_url": "https://www.chuhai.edu.hk/sc/%E5%B7%A5%E5%95%86%E7%AE%A1%E7%90%86%E7%A2%A9%E5%A3%AB",
+    "req_detail": "须持认可学士学位或同等资格。 须至少两年工作经验并接受面试。 语言条件详见本页“招生信息与来源”。",
+    "official_url": "https://www.chuhai.edu.hk/en/master-of-business-administration",
     "study_mode": "全日制",
     "curriculum": [
       "战略管理与企业竞争",
@@ -597,7 +1224,64 @@
       "创业及项目投资"
     ],
     "source_file": "chc_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ab40fd5a10aff46def97",
+          "url": "https://www.chuhai.edu.hk/en/Postgraduate",
+          "label": "官方2027/28硕士招生目录"
+        },
+        {
+          "key": "f3d2b98f63da30b0d9ed",
+          "url": "https://www.chuhai.edu.hk/en/master-of-business-administration",
+          "label": "本项目2027/28官方招生要求、费用与申请期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "6512d84a52daf513d562",
+              "url": "https://www.chuhai.edu.hk/en/tuition-and-related-fees",
+              "label": "官方分学年、修读模式全课程收费表"
+            },
+            {
+              "key": "f3d2b98f63da30b0d9ed",
+              "url": "https://www.chuhai.edu.hk/en/master-of-business-administration",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "f3d2b98f63da30b0d9ed",
+              "url": "https://www.chuhai.edu.hk/en/master-of-business-administration",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28秋季；如有春季分别列明",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "f3d2b98f63da30b0d9ed",
+              "url": "https://www.chuhai.edu.hk/en/master-of-business-administration",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "chc-postgraduate-master-of-architecture",
@@ -612,18 +1296,18 @@
     "major_cn": "建筑学硕士",
     "major_en": "Master of Architecture",
     "degree": "MArch",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "HKD 250,000（约RMB 230,000）",
-    "deadline": "第一轮：2025年10月20日至2026年1月31日；第二轮：2026年2月2日至2026年4月30日（额满即止）",
-    "ielts": "6.0",
-    "toefl": "79",
+    "duration": "全日制2年",
+    "intake": "2027/28秋季",
+    "fee": "2027/28入学：本地及非本地全课程学费均为HKD250,000。 两年全日制；每年HKD125,000，官网列分两期缴交。 延期、超出毕业要求学分等另按规定收费。",
+    "deadline": "2027/28秋季入学：本地及非本地申请期2026-10-12至2027-05-31；额满可提前截止。",
+    "ielts": "6.0（另可用CET-4≥425等）",
+    "toefl": "旧制iBT79／新制4.0；另一项500分表述须确认",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "非英语授课及／或考试学历须提供以下之一：HKDSE英文≥3；香港AS Level英文≥E；TOEFL旧制iBT≥79或2026-01-21后新制≥4.0；IELTS Academic≥6.0；CET-4≥425；或PETS-5口试及笔试均合格。英文招生页另写TOEFL“writing 500”，类别表述不清，此项须向学院确认，不能当作托福写作分数。 IELTS／TOEFL成绩自考试日至提交申请须在两年内，仅接受同一次考试达到要求的成绩；须通过ETS（院校代码9495）或IELTS官方电子送分至Hong Kong Chu Hai College。2005年6月前CET成绩须由原院校通过官方邮箱验证。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有建筑学专业学士学位；须具备10个月建筑相关学科工作经验（仅考虑每次连续工作时间不少于五个月的任职经历）；须提交A4尺寸装订成册的作品集；语言要求：IELTS 6.0或TOEFL 79或CET-4 425分；已获香港建筑师学会及香港建筑师注册管理局专业认可（第二部分）。",
-    "official_url": "https://arch.chuhai.edu.hk/",
+    "req_detail": "须有建筑学或相关专业的专业预备学士学位，并有10个月建筑相关工作经验；其他材料与面试要求见官网。 语言条件详见本页“招生信息与来源”。",
+    "official_url": "https://www.chuhai.edu.hk/en/Master of Architecture",
     "study_mode": "全日制",
     "curriculum": [
       "建筑设计与可持续性 I",
@@ -647,7 +1331,65 @@
       "建筑可持续性咨询"
     ],
     "source_file": "chc_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ab40fd5a10aff46def97",
+          "url": "https://www.chuhai.edu.hk/en/Postgraduate",
+          "label": "官方2027/28硕士招生目录"
+        },
+        {
+          "key": "fcc75332c8368e4ac965",
+          "url": "https://www.chuhai.edu.hk/en/Master of Architecture",
+          "label": "本项目2027/28官方招生要求、费用与申请期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "6512d84a52daf513d562",
+              "url": "https://www.chuhai.edu.hk/en/tuition-and-related-fees",
+              "label": "官方分学年、修读模式全课程收费表"
+            },
+            {
+              "key": "fcc75332c8368e4ac965",
+              "url": "https://www.chuhai.edu.hk/en/Master of Architecture",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "fcc75332c8368e4ac965",
+              "url": "https://www.chuhai.edu.hk/en/Master of Architecture",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28秋季；如有春季分别列明",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "fcc75332c8368e4ac965",
+              "url": "https://www.chuhai.edu.hk/en/Master of Architecture",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "conflict",
+          "note": "保留招生页500分项目表述问题，不自行换成纸笔550或写作分数。"
+        }
+      }
+    }
   },
   {
     "id": "chc-postgraduate-master-of-science-in-civil-engineering-infrastructure-construction-and-management",
@@ -662,19 +1404,19 @@
     "major_cn": "土木工程理学硕士（基础建设建造及管理）",
     "major_en": "Master of Science in Civil Engineering (Infrastructure Construction and Management)",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "1月/9月",
-    "fee": "HKD 170,100（约RMB 156,492）",
-    "deadline": "秋季入学第一轮：2025年10月20日至2026年1月31日；第二轮：2026年2月2日至2026年5月30日（额满即止）",
-    "ielts": "6.0",
-    "toefl": "79",
+    "duration": "全日制1年／兼读制2年（仅本地）",
+    "intake": "2027/28秋季及春季（详见申请期）",
+    "fee": "2027/28入学：本地及非本地全课程学费均为HKD170,100。 全日制1年分2期缴交；兼读制2年分4期缴交，仅限本地申请人。 延期、超出毕业要求学分等另按规定收费。",
+    "deadline": "2027/28秋季入学：本地及非本地申请期2026-10-12至2027-05-31；额满可提前截止。\n官网另列2027/28春季申请期2027-08-02至2027-09-30（额满即止）；2026/27春季申请已于2026-10-09截止。",
+    "ielts": "6.0（另可用CET-6等认可证明）",
+    "toefl": "旧制iBT79／纸笔550；2026-01-21后新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "香港或英语国家的学位颁授机构所颁学位可满足英语条件；其他学历须提供以下之一：HKDSE英文≥3；TOEFL旧制iBT≥79／纸笔≥550，2026-01-21后新制≥4.0；IELTS Academic≥6.0；CET-6≥430；或同等英语资格。 IELTS／TOEFL成绩自考试日至提交申请须在两年内，仅接受同一次考试达到要求的成绩；须通过ETS（院校代码9495）或IELTS官方电子送分至Hong Kong Chu Hai College。2005年6月前CET成绩须由原院校通过官方邮箱验证。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有香港珠海学院或同等院校的学士学位，主修相关领域（工程、建筑等）；须提交两位推荐人的姓名及电邮地址；具有相关工作经验者或专业会员资格者将被优先考虑；英语能力：IELTS 6.0或TOEFL 79或CET-6 430分。",
-    "official_url": "https://civ.chuhai.edu.hk/",
-    "study_mode": "全日制",
+    "req_detail": "须具本校或同等认可院校相关领域学士学位。 语言条件详见本页“招生信息与来源”。",
+    "official_url": "https://www.chuhai.edu.hk/en/Master%20of%20Science%20in%20Civil%20Engineering%20(Infrastructure%20Construction%20and%20Management)",
+    "study_mode": "全日制／兼读制（兼读仅本地）",
     "curriculum": [
       "基础建设建造管理原理",
       "结构分析与设计",
@@ -697,7 +1439,64 @@
       "基础设施建设投资"
     ],
     "source_file": "chc_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ab40fd5a10aff46def97",
+          "url": "https://www.chuhai.edu.hk/en/Postgraduate",
+          "label": "官方2027/28硕士招生目录"
+        },
+        {
+          "key": "d8530ae710aa5e236305",
+          "url": "https://www.chuhai.edu.hk/en/Master%20of%20Science%20in%20Civil%20Engineering%20(Infrastructure%20Construction%20and%20Management)",
+          "label": "本项目2027/28官方招生要求、费用与申请期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "6512d84a52daf513d562",
+              "url": "https://www.chuhai.edu.hk/en/tuition-and-related-fees",
+              "label": "官方分学年、修读模式全课程收费表"
+            },
+            {
+              "key": "d8530ae710aa5e236305",
+              "url": "https://www.chuhai.edu.hk/en/Master%20of%20Science%20in%20Civil%20Engineering%20(Infrastructure%20Construction%20and%20Management)",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "d8530ae710aa5e236305",
+              "url": "https://www.chuhai.edu.hk/en/Master%20of%20Science%20in%20Civil%20Engineering%20(Infrastructure%20Construction%20and%20Management)",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28秋季；如有春季分别列明",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "d8530ae710aa5e236305",
+              "url": "https://www.chuhai.edu.hk/en/Master%20of%20Science%20in%20Civil%20Engineering%20(Infrastructure%20Construction%20and%20Management)",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "chc-postgraduate-master-of-science-in-applied-artificial-intelligence",
@@ -712,19 +1511,19 @@
     "major_cn": "应用人工智能理学硕士",
     "major_en": "Master of Science in Applied Artificial Intelligence",
     "degree": "MSc",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 165,000（约RMB 151,800）",
-    "deadline": "第一轮：2025年10月20日至2026年1月31日；第二轮：2026年2月2日至2026年5月30日（额满即止）",
-    "ielts": null,
-    "toefl": null,
+    "duration": "全日制1年／兼读制2年（仅本地）",
+    "intake": "2027/28秋季",
+    "fee": "2027/28入学：本地及非本地全课程学费均为HKD180,000。 全日制1年分2期缴交；兼读制2年分4期缴交，仅限本地申请人。 延期、超出毕业要求学分等另按规定收费。",
+    "deadline": "2027/28秋季入学：本地及非本地申请期2026-10-12至2027-05-31；额满可提前截止。",
+    "ielts": "官网列CET-4≥425或同等资格，未列IELTS／TOEFL分数",
+    "toefl": "官网列CET-4≥425或同等资格，未列IELTS／TOEFL分数",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "非中文授课／考试学历须有HKDSE中文≥3、HSK≥5、PSC普通话二级乙等或同等资格；非英语授课／考试学历须有CET-4≥425或同等英语资格。官网未另列IELTS／TOEFL最低分。2005年6月前CET须由原院校官方邮箱验证。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可科学、工程、商业、金融、跨媒体或相关学科的学士学位；其他学科学士学位且已学习大学程度线性代数、微积分、概率论、统计学和电脑程式设计者也将被考虑；英语能力：CET-4 425分或以上（从非英语授课高等院校毕业须满足）。",
-    "official_url": "https://cs.chuhai.edu.hk/",
-    "study_mode": "全日制",
+    "req_detail": "须具科学、工程、商科、金融、跨媒体或相关学士；其他专业须修过大学程度线性代数、微积分、概率论、统计学及计算机编程，或具同等资格。 语言条件详见本页“招生信息与来源”。",
+    "official_url": "https://www.chuhai.edu.hk/en/master-of-science-in-applied-artificial-intelligence",
+    "study_mode": "全日制／兼读制（兼读仅本地）",
     "curriculum": [
       "机器学习与深度学习",
       "自然语言处理技术",
@@ -747,7 +1546,64 @@
       "金融科技与智能风控"
     ],
     "source_file": "chc_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ab40fd5a10aff46def97",
+          "url": "https://www.chuhai.edu.hk/en/Postgraduate",
+          "label": "官方2027/28硕士招生目录"
+        },
+        {
+          "key": "ef2d6c78f91294bc28dc",
+          "url": "https://www.chuhai.edu.hk/en/master-of-science-in-applied-artificial-intelligence",
+          "label": "本项目2027/28官方招生要求、费用与申请期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "6512d84a52daf513d562",
+              "url": "https://www.chuhai.edu.hk/en/tuition-and-related-fees",
+              "label": "官方分学年、修读模式全课程收费表"
+            },
+            {
+              "key": "ef2d6c78f91294bc28dc",
+              "url": "https://www.chuhai.edu.hk/en/master-of-science-in-applied-artificial-intelligence",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "ef2d6c78f91294bc28dc",
+              "url": "https://www.chuhai.edu.hk/en/master-of-science-in-applied-artificial-intelligence",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28秋季；如有春季分别列明",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "ef2d6c78f91294bc28dc",
+              "url": "https://www.chuhai.edu.hk/en/master-of-science-in-applied-artificial-intelligence",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "chc-postgraduate-master-of-arts-in-cultural-heritage",
@@ -762,18 +1618,18 @@
     "major_cn": "文化遗产文学硕士",
     "major_en": "Master of Arts in Cultural Heritage",
     "degree": "MA",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 162,750（约RMB 149,730）",
-    "deadline": "第一轮：2025年10月20日至2026年1月31日；第二轮：2026年2月2日至2026年5月30日（额满即止）",
-    "ielts": "6.0",
-    "toefl": "79",
+    "duration": "全日制1年",
+    "intake": "2027/28秋季及春季（详见申请期）",
+    "fee": "2027/28入学：本地及非本地全课程学费均为HKD170,900。 全日制1年，分2期缴交。 延期、超出毕业要求学分等另按规定收费。 已截止的2026/27春季批次为HKD162,750，勿与本季170,900混用。",
+    "deadline": "2027/28秋季入学：本地及非本地申请期2026-10-12至2027-05-31；额满可提前截止。\n官网另列2027/28春季申请期2027-08-02至2027-09-30（额满即止）；2026/27春季申请已于2026-10-09截止。",
+    "ielts": "6.0（另可用CET-6等认可证明）",
+    "toefl": "旧制iBT79／纸笔550；2026-01-21后新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "若学历的教学及／或考试语言非英语，须满足以下之一：IELTS总分≥6.0；TOEFL旧制iBT≥79／纸笔≥550，2026-01-21后成绩新制≥4.0；CET-6≥430；HKDSE英文≥3；或其他同等英语资格。 非中文授课／考试学历还须有HKDSE中文≥3、HSK≥5或同等中文资格。 IELTS／TOEFL成绩自考试日至提交申请须在两年内，仅接受同一次考试达到要求的成绩；须通过ETS（院校代码9495）或IELTS官方电子送分至Hong Kong Chu Hai College。2005年6月前CET成绩须由原院校通过官方邮箱验证。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可学士学位或同等学历；非英语授课大学毕业须满足英语能力要求：IELTS 6.0或TOEFL 79或CET-6 430分；课程融合建筑学、都市学、物质与非物质遗产及文化遗产相关的社会文化学科，强调可持续发展与建筑环境保护之间的关系。",
-    "official_url": "https://arch.chuhai.edu.hk/",
+    "req_detail": "须持认可学士学位或同等资格。 语言条件详见本页“招生信息与来源”。",
+    "official_url": "https://www.chuhai.edu.hk/en/master-of-arts-in-cultural-heritage",
     "study_mode": "全日制",
     "curriculum": [
       "解读世界遗产及其意义",
@@ -797,7 +1653,64 @@
       "文化旅游项目策划"
     ],
     "source_file": "chc_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ab40fd5a10aff46def97",
+          "url": "https://www.chuhai.edu.hk/en/Postgraduate",
+          "label": "官方2027/28硕士招生目录"
+        },
+        {
+          "key": "bc2844fb77aa67788410",
+          "url": "https://www.chuhai.edu.hk/en/master-of-arts-in-cultural-heritage",
+          "label": "本项目2027/28官方招生要求、费用与申请期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "6512d84a52daf513d562",
+              "url": "https://www.chuhai.edu.hk/en/tuition-and-related-fees",
+              "label": "官方分学年、修读模式全课程收费表"
+            },
+            {
+              "key": "bc2844fb77aa67788410",
+              "url": "https://www.chuhai.edu.hk/en/master-of-arts-in-cultural-heritage",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "bc2844fb77aa67788410",
+              "url": "https://www.chuhai.edu.hk/en/master-of-arts-in-cultural-heritage",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28秋季；如有春季分别列明",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "bc2844fb77aa67788410",
+              "url": "https://www.chuhai.edu.hk/en/master-of-arts-in-cultural-heritage",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "chc-postgraduate-master-of-arts-in-urban-development-and-practice",
@@ -812,18 +1725,18 @@
     "major_cn": "城市发展及实践文学硕士",
     "major_en": "Master of Arts in Urban Development and Practice",
     "degree": "MA",
-    "duration": "1年",
-    "intake": "9月",
-    "fee": "HKD 176,400（约RMB 162,288）",
-    "deadline": "第一轮：2025年10月20日至2026年1月31日；第二轮：2026年2月2日至2026年4月30日（额满即止）",
-    "ielts": null,
-    "toefl": null,
+    "duration": "全日制1年",
+    "intake": "2027/28秋季",
+    "fee": "2027/28入学：本地及非本地全课程学费均为HKD185,200。 全日制1年，分2期缴交。 延期、超出毕业要求学分等另按规定收费。",
+    "deadline": "2027/28秋季入学：本地及非本地申请期2026-10-12至2027-04-30；额满可提前截止。",
+    "ielts": "按项目中文能力要求，未列英语最低分",
+    "toefl": "按项目中文能力要求，未列英语最低分",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "若学历的教学及／或考试语言非中文，须有HKDSE中国语文≥3或其他中文能力证明。 本项目招生页未另列IELTS／TOEFL最低分。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可学士学位或同等学历；如从非中文授课高等院校毕业须提供中国语文能力证明（香港中学文凭试中国语文科第3级或以上）；课程聚焦城市发展理论与实践，对接香港规划署、建筑署实习机会。",
-    "official_url": "https://arch.chuhai.edu.hk/",
+    "req_detail": "须持认可学士学位或同等资格。 语言条件详见本页“招生信息与来源”。",
+    "official_url": "https://www.chuhai.edu.hk/en/Master%20of%20Arts%20in%20Urban%20Development%20and%20Practice",
     "study_mode": "全日制",
     "curriculum": [
       "城市发展理论与政策",
@@ -847,7 +1760,64 @@
       "可持续发展咨询"
     ],
     "source_file": "chc_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ab40fd5a10aff46def97",
+          "url": "https://www.chuhai.edu.hk/en/Postgraduate",
+          "label": "官方2027/28硕士招生目录"
+        },
+        {
+          "key": "3a517012dcd43e971b26",
+          "url": "https://www.chuhai.edu.hk/en/Master%20of%20Arts%20in%20Urban%20Development%20and%20Practice",
+          "label": "本项目2027/28官方招生要求、费用与申请期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "6512d84a52daf513d562",
+              "url": "https://www.chuhai.edu.hk/en/tuition-and-related-fees",
+              "label": "官方分学年、修读模式全课程收费表"
+            },
+            {
+              "key": "3a517012dcd43e971b26",
+              "url": "https://www.chuhai.edu.hk/en/Master%20of%20Arts%20in%20Urban%20Development%20and%20Practice",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "3a517012dcd43e971b26",
+              "url": "https://www.chuhai.edu.hk/en/Master%20of%20Arts%20in%20Urban%20Development%20and%20Practice",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28秋季；如有春季分别列明",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "3a517012dcd43e971b26",
+              "url": "https://www.chuhai.edu.hk/en/Master%20of%20Arts%20in%20Urban%20Development%20and%20Practice",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "chc-postgraduate-master-of-social-sciences-in-international-business-management-for-belt-and-road-countries",
@@ -862,18 +1832,18 @@
     "major_cn": "社会科学硕士（一带一路国家国际工商管理）",
     "major_en": "Master of Social Sciences in International Business Management for Belt and Road Countries",
     "degree": "MSSc",
-    "duration": "1年",
-    "intake": "1月/9月",
-    "fee": "HKD 162,750（约RMB 149,730）",
-    "deadline": "秋季入学第一轮：2025年10月20日至2026年1月31日；第二轮：2026年2月2日至2026年5月30日（额满即止）",
-    "ielts": "6.5",
-    "toefl": "79",
+    "duration": "全日制1年",
+    "intake": "2027/28秋季及春季（详见申请期）",
+    "fee": "2027/28入学：本地及非本地全课程学费均为HKD162,750。 全日制1年，分2期缴交。 延期、超出毕业要求学分等另按规定收费。",
+    "deadline": "2027/28秋季入学：本地及非本地申请期2026-10-12至2027-05-31；额满可提前截止。\n官网另列2027/28春季申请期2027-08-02至2027-09-30（额满即止）；2026/27春季申请已于2026-10-09截止。",
+    "ielts": "6.0（另可用CET-6等认可证明）",
+    "toefl": "旧制iBT79／纸笔550；2026-01-21后新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "若学历的教学及／或考试语言非英语，须满足以下之一：IELTS总分≥6.0；TOEFL旧制iBT≥79／纸笔≥550，2026-01-21后成绩新制≥4.0；CET-6≥430；或其他同等英语资格。 IELTS／TOEFL成绩自考试日至提交申请须在两年内，仅接受同一次考试达到要求的成绩；须通过ETS（院校代码9495）或IELTS官方电子送分至Hong Kong Chu Hai College。2005年6月前CET成绩须由原院校通过官方邮箱验证。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可学士学位或同等学历，主修社会科学、人文科学、商科或法律优先；非英语授课大学毕业须满足英语能力要求：IELTS 6.5或TOEFL 79或CET-6 430分；课程基于国际理论与商业实践，专注国际工商管理，特别关注一带一路沿线国家的制度与模式变化。",
-    "official_url": "https://obor.chuhai.edu.hk/programmes/",
+    "req_detail": "须持认可学士学位或同等资格。 优先考虑社会科学、人文、商科或法律背景。 语言条件详见本页“招生信息与来源”。",
+    "official_url": "https://www.chuhai.edu.hk/en/Master of Social Sciences in International Business Management for Belt and Road Countries",
     "study_mode": "全日制",
     "curriculum": [
       "国际商业管理——理论与实践",
@@ -897,7 +1867,64 @@
       "政府外事及经贸部门"
     ],
     "source_file": "chc_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ab40fd5a10aff46def97",
+          "url": "https://www.chuhai.edu.hk/en/Postgraduate",
+          "label": "官方2027/28硕士招生目录"
+        },
+        {
+          "key": "600ee5dea99185fe9276",
+          "url": "https://www.chuhai.edu.hk/en/Master of Social Sciences in International Business Management for Belt and Road Countries",
+          "label": "本项目2027/28官方招生要求、费用与申请期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "6512d84a52daf513d562",
+              "url": "https://www.chuhai.edu.hk/en/tuition-and-related-fees",
+              "label": "官方分学年、修读模式全课程收费表"
+            },
+            {
+              "key": "600ee5dea99185fe9276",
+              "url": "https://www.chuhai.edu.hk/en/Master of Social Sciences in International Business Management for Belt and Road Countries",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "600ee5dea99185fe9276",
+              "url": "https://www.chuhai.edu.hk/en/Master of Social Sciences in International Business Management for Belt and Road Countries",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28秋季；如有春季分别列明",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "600ee5dea99185fe9276",
+              "url": "https://www.chuhai.edu.hk/en/Master of Social Sciences in International Business Management for Belt and Road Countries",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "chc-postgraduate-master-of-social-sciences-in-international-relations-for-belt-and-road-countries",
@@ -912,18 +1939,18 @@
     "major_cn": "社会科学硕士（一带一路国家国际关系）",
     "major_en": "Master of Social Sciences in International Relations for Belt and Road Countries",
     "degree": "MSSc",
-    "duration": "1年",
-    "intake": "1月/9月",
-    "fee": "HKD 162,750（约RMB 149,730）",
-    "deadline": "秋季入学第一轮：2025年10月20日至2026年1月31日；第二轮：2026年2月2日至2026年5月30日（额满即止）",
-    "ielts": "6.5",
-    "toefl": "79",
+    "duration": "全日制1年",
+    "intake": "2027/28秋季及春季（详见申请期）",
+    "fee": "2027/28入学：本地及非本地全课程学费均为HKD155,000。 全日制1年，分2期缴交。 延期、超出毕业要求学分等另按规定收费。",
+    "deadline": "2027/28秋季入学：本地及非本地申请期2026-10-12至2027-05-31；额满可提前截止。\n官网另列2027/28春季申请期2027-08-02至2027-09-30（额满即止）；2026/27春季申请已于2026-10-09截止。",
+    "ielts": "6.0（另可用CET-6等认可证明）",
+    "toefl": "旧制iBT79／纸笔550；2026-01-21后新制4.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "若学历的教学及／或考试语言非英语，须满足以下之一：IELTS总分≥6.0；TOEFL旧制iBT≥79／纸笔≥550，2026-01-21后成绩新制≥4.0；CET-6≥430；或其他同等英语资格。 IELTS／TOEFL成绩自考试日至提交申请须在两年内，仅接受同一次考试达到要求的成绩；须通过ETS（院校代码9495）或IELTS官方电子送分至Hong Kong Chu Hai College。2005年6月前CET成绩须由原院校通过官方邮箱验证。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可学士学位或同等学历，主修社会科学、人文科学、商科或法律优先；非英语授课大学毕业须满足英语能力要求：IELTS 6.5或TOEFL 79或CET-6 430分；课程为跨学科综合性课程，关注中国发展与一带一路国家在国际关系中可能存在的变化。",
-    "official_url": "https://obor.chuhai.edu.hk/programmes/",
+    "req_detail": "须持认可学士学位或同等资格。 优先考虑社会科学、人文、商科或法律背景。 语言条件详见本页“招生信息与来源”。",
+    "official_url": "https://www.chuhai.edu.hk/en/Master of Social Sciences in International Relations for Belt and Road Countries",
     "study_mode": "全日制",
     "curriculum": [
       "地缘政治和地缘战略——新的国际关系",
@@ -947,7 +1974,64 @@
       "智库与战略咨询机构"
     ],
     "source_file": "chc_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ab40fd5a10aff46def97",
+          "url": "https://www.chuhai.edu.hk/en/Postgraduate",
+          "label": "官方2027/28硕士招生目录"
+        },
+        {
+          "key": "ee02e10f604604ac39ee",
+          "url": "https://www.chuhai.edu.hk/en/Master of Social Sciences in International Relations for Belt and Road Countries",
+          "label": "本项目2027/28官方招生要求、费用与申请期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "6512d84a52daf513d562",
+              "url": "https://www.chuhai.edu.hk/en/tuition-and-related-fees",
+              "label": "官方分学年、修读模式全课程收费表"
+            },
+            {
+              "key": "ee02e10f604604ac39ee",
+              "url": "https://www.chuhai.edu.hk/en/Master of Social Sciences in International Relations for Belt and Road Countries",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "ee02e10f604604ac39ee",
+              "url": "https://www.chuhai.edu.hk/en/Master of Social Sciences in International Relations for Belt and Road Countries",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28秋季；如有春季分别列明",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "ee02e10f604604ac39ee",
+              "url": "https://www.chuhai.edu.hk/en/Master of Social Sciences in International Relations for Belt and Road Countries",
+              "label": "本项目2027/28官方招生要求、费用与申请期"
+            }
+          ],
+          "cycle": "2027/28 入学",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "chc-undergraduate-bachelor-of-arts-hons-in-chinese-literature",

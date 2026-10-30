@@ -1,8 +1,9 @@
 import LoginClient from "./LoginClient";
 
 export const metadata = {
-  title: "登录 / 注册 | 留学Hub 九万里AI",
-  description: "使用手机号验证码或微信扫码登录留学Hub九万里AI。",
+  robots: {index:false,follow:false},
+  title: "访客使用 | 留学Hub 九万里AI",
+  description: "浏览院校、比较专业，使用本机清单。",
 };
 
 export default function LoginPage() {

@@ -1,9 +1,9 @@
 {
   "name": "留学Hub选校数据库",
   "version": "0.4.0",
-  "generated_at": "2026-06-09",
+  "generated_at": "2026-10-22",
   "school_count": 79,
-  "program_count": 8569,
+  "program_count": 8626,
   "regions": [
     "中国澳门",
     "中国香港",
@@ -22,5 +22,12 @@
     "program_lookup",
     "program_filter_indexes",
     "programs_by_school"
-  ]
+  ],
+  "admissions_review": {
+    "scope": "Hong Kong and Macau masters",
+    "status": "in_progress",
+    "reviewed_records": 545,
+    "baseline_records": 841
+  },
+  "data_revision": "096627dcff493c02aa5dbd37452877abcae84aae02fe4deb4dacb55cf7a2fa74"
 }

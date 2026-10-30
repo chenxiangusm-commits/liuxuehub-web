@@ -12,18 +12,18 @@
     "major_cn": "工商管理硕士",
     "major_en": "Master of Business Administration (MBA)",
     "degree": "MBA",
-    "duration": "2年",
-    "intake": "8月/9月",
-    "fee": "MOP 170,000（约RMB 151,300）",
-    "deadline": "2025年10月20日-2026年4月30日",
-    "ielts": "无需提交（英/中文授课可选）",
-    "toefl": "无需提交（英/中文授课可选）",
+    "duration": "正常修读期2年，最长4年",
+    "intake": "2027年8月下旬",
+    "fee": "2027/28：澳门学生 MOP47,000／年，正常修读期全课程 MOP94,000；内地、香港及台湾学生 MOP85,000／年，全课程 MOP170,000；其他地区学生 MOP95,000／年，全课程 MOP190,000。费用按课程收取，减免学分或提前完成仍须缴全额；延期另收延读费及学分费，收费可按年调整。 MBA在收费表仍带“拟于2027/28开办，公报公布后运作”的脚注，招生课程表则未标该脚注，审批状态待校方确认。",
+    "deadline": "2027/28：2026-10-20 开放申请，2027-05-15 截止；2027年8月下旬开课。",
+    "ielts": "英文班 IELTS 6.0，单项≥5.5",
+    "toefl": "英文班 TOEFL iBT 80 或新版4.0（单项≥3.5）；亦接受纸笔550／机考213／Essentials 8.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "英文授课班：非英语授课学位持有人须提供以下任一成绩：IELTS 总分≥6.0、单项≥5.5；TOEFL 纸笔≥550／机考≥213／iBT≥80，或新版总分≥4.0且单项≥3.5／Essentials≥8.0；CET-6≥430。英语授课学位可豁免；成绩在递交申请时须仍在考试日起2年有效期内。\n中文授课班：学校此项英语考试要求不适用。非中文授课学位持有人须申报中文能力；无证明者可能须语言面试，HSK六级≥180为可选证明。中文授课学位可豁免中文能力证明。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "学士学位或同等学历；往届毕业生申请MBA无需提交考研成绩；拟于2026/2027学年开办，待政府刊宪后正式运作。",
-    "official_url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/",
+    "official_url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
     "study_mode": "全日制",
     "curriculum": [
       "管理经济学",
@@ -47,7 +47,80 @@
       "旅游投资与资产管理"
     ],
     "source_file": "schools/utm_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "9d499130d743e1594ffb",
+          "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+          "label": "招生处课程与授课语言表"
+        },
+        {
+          "key": "fa7ead30c140ecc6530c",
+          "url": "https://www.utm.edu.mo/shm/en/programmes/postgraduate-programmes/index.html",
+          "label": "创新款待管理学院课程目录"
+        },
+        {
+          "key": "ff4551dc47543a96c176",
+          "url": "https://www.utm.edu.mo/stm/en/programmes/postgraduate-programmes/index.html",
+          "label": "创意旅游与智慧科技学院课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "fc9abe35f370d878c9b0",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/master-degree/index.html",
+              "label": "2027/28 硕士申请及语言要求"
+            },
+            {
+              "key": "9d499130d743e1594ffb",
+              "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处课程与授课语言表"
+            }
+          ]
+        },
+        "fee": {
+          "status": "conflict",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "0757f06c72f5339719a9",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/fees/index.html",
+              "label": "2027/28 学费与脚注"
+            },
+            {
+              "key": "9d499130d743e1594ffb",
+              "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处课程与授课语言表"
+            }
+          ],
+          "note": "官网两页对MBA的待批准脚注展示不一致。"
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "fc9abe35f370d878c9b0",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/master-degree/index.html",
+              "label": "2027/28 硕士申请及语言要求"
+            },
+            {
+              "key": "9d499130d743e1594ffb",
+              "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处课程与授课语言表"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "utm-postgraduate-mphil-in-international-hotel-and-tourism-management-with-specialization",
@@ -60,20 +133,20 @@
     "qs_ranking_2026": "未上榜（软科酒店与旅游管理51-75）",
     "college": "酒店管理学院",
     "major_cn": "国际酒店及旅游管理哲学硕士",
-    "major_en": "MPhil in International Hotel and Tourism Management (with Specialization)",
+    "major_en": "MPhil in International Hospitality and Tourism Management (with specialisations)",
     "degree": "MPhil",
-    "duration": "2年",
-    "intake": "8月/9月",
-    "fee": "MOP 170,000（约RMB 151,300）",
-    "deadline": "2025年10月20日-2026年4月30日",
-    "ielts": "需提交英文能力证明（全英文授课）",
-    "toefl": "需提交英文能力证明（全英文授课）",
+    "duration": "正常修读期2年，最长4年",
+    "intake": "2027年8月下旬",
+    "fee": "2027/28：澳门学生 MOP47,000／年，正常修读期全课程 MOP94,000；内地、香港及台湾学生 MOP85,000／年，全课程 MOP170,000；其他地区学生 MOP95,000／年，全课程 MOP190,000。费用按课程收取，减免学分或提前完成仍须缴全额；延期另收延读费及学分费，收费可按年调整。",
+    "deadline": "2027/28：2026-10-20 开放申请，2027-05-15 截止；2027年8月下旬开课。",
+    "ielts": "英文班 IELTS 6.0，单项≥5.5",
+    "toefl": "英文班 TOEFL iBT 80 或新版4.0（单项≥3.5）；亦接受纸笔550／机考213／Essentials 8.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "英文授课班：非英语授课学位持有人须提供以下任一成绩：IELTS 总分≥6.0、单项≥5.5；TOEFL 纸笔≥550／机考≥213／iBT≥80，或新版总分≥4.0且单项≥3.5／Essentials≥8.0；CET-6≥430。英语授课学位可豁免；成绩在递交申请时须仍在考试日起2年有效期内。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "学士学位或同等学历；全英文授课；往届内地毕业生须提交考研成绩且达国家A类线；提交研究计划书；面试。",
-    "official_url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/",
+    "official_url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
     "study_mode": "全日制",
     "curriculum": [
       "酒店与旅游管理研究方法",
@@ -97,7 +170,74 @@
       "继续攻读博士学位"
     ],
     "source_file": "schools/utm_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "9d499130d743e1594ffb",
+          "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+          "label": "招生处课程与授课语言表"
+        },
+        {
+          "key": "fa7ead30c140ecc6530c",
+          "url": "https://www.utm.edu.mo/shm/en/programmes/postgraduate-programmes/index.html",
+          "label": "创新款待管理学院课程目录"
+        },
+        {
+          "key": "ff4551dc47543a96c176",
+          "url": "https://www.utm.edu.mo/stm/en/programmes/postgraduate-programmes/index.html",
+          "label": "创意旅游与智慧科技学院课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "fc9abe35f370d878c9b0",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/master-degree/index.html",
+              "label": "2027/28 硕士申请及语言要求"
+            },
+            {
+              "key": "9d499130d743e1594ffb",
+              "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处课程与授课语言表"
+            }
+          ]
+        },
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "0757f06c72f5339719a9",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/fees/index.html",
+              "label": "2027/28 学费与脚注"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "fc9abe35f370d878c9b0",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/master-degree/index.html",
+              "label": "2027/28 硕士申请及语言要求"
+            },
+            {
+              "key": "9d499130d743e1594ffb",
+              "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处课程与授课语言表"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "utm-postgraduate-mphil-in-cultural-studies-with-specialization",
@@ -110,20 +250,20 @@
     "qs_ranking_2026": "未上榜（软科酒店与旅游管理51-75）",
     "college": "文化创意学院",
     "major_cn": "文化研究哲学硕士",
-    "major_en": "MPhil in Cultural Studies (with Specialization)",
+    "major_en": "MPhil in Cultural Studies (with specialisations)",
     "degree": "MPhil",
-    "duration": "2年",
-    "intake": "8月/9月",
-    "fee": "MOP 170,000（约RMB 151,300）",
-    "deadline": "2025年10月20日-2026年4月30日",
-    "ielts": "需提交英文能力证明（全英文授课）",
-    "toefl": "需提交英文能力证明（全英文授课）",
+    "duration": "正常修读期2年，最长4年",
+    "intake": "2027年8月下旬",
+    "fee": "2027/28：澳门学生 MOP47,000／年，正常修读期全课程 MOP94,000；内地、香港及台湾学生 MOP85,000／年，全课程 MOP170,000；其他地区学生 MOP95,000／年，全课程 MOP190,000。费用按课程收取，减免学分或提前完成仍须缴全额；延期另收延读费及学分费，收费可按年调整。",
+    "deadline": "2027/28：2026-10-20 开放申请，2027-05-15 截止；2027年8月下旬开课。",
+    "ielts": "英文班 IELTS 6.0，单项≥5.5",
+    "toefl": "英文班 TOEFL iBT 80 或新版4.0（单项≥3.5）；亦接受纸笔550／机考213／Essentials 8.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "英文授课班：非英语授课学位持有人须提供以下任一成绩：IELTS 总分≥6.0、单项≥5.5；TOEFL 纸笔≥550／机考≥213／iBT≥80，或新版总分≥4.0且单项≥3.5／Essentials≥8.0；CET-6≥430。英语授课学位可豁免；成绩在递交申请时须仍在考试日起2年有效期内。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "学士学位或同等学历；全英文授课；往届内地毕业生须提交考研成绩且达国家A类线；提交研究计划书；面试。",
-    "official_url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/",
+    "official_url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
     "study_mode": "全日制",
     "curriculum": [
       "文化研究理论与方法",
@@ -147,7 +287,74 @@
       "继续攻读博士学位"
     ],
     "source_file": "schools/utm_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "9d499130d743e1594ffb",
+          "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+          "label": "招生处课程与授课语言表"
+        },
+        {
+          "key": "fa7ead30c140ecc6530c",
+          "url": "https://www.utm.edu.mo/shm/en/programmes/postgraduate-programmes/index.html",
+          "label": "创新款待管理学院课程目录"
+        },
+        {
+          "key": "ff4551dc47543a96c176",
+          "url": "https://www.utm.edu.mo/stm/en/programmes/postgraduate-programmes/index.html",
+          "label": "创意旅游与智慧科技学院课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "fc9abe35f370d878c9b0",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/master-degree/index.html",
+              "label": "2027/28 硕士申请及语言要求"
+            },
+            {
+              "key": "9d499130d743e1594ffb",
+              "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处课程与授课语言表"
+            }
+          ]
+        },
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "0757f06c72f5339719a9",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/fees/index.html",
+              "label": "2027/28 学费与脚注"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "fc9abe35f370d878c9b0",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/master-degree/index.html",
+              "label": "2027/28 硕士申请及语言要求"
+            },
+            {
+              "key": "9d499130d743e1594ffb",
+              "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处课程与授课语言表"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "utm-postgraduate-msc-in-premium-hospitality-and-wellness-service-management",
@@ -160,20 +367,20 @@
     "qs_ranking_2026": "未上榜（软科酒店与旅游管理51-75）",
     "college": "酒店管理学院",
     "major_cn": "高端款待与健康服务管理理学硕士",
-    "major_en": "MSc in Premium Hospitality and Wellness Service Management",
+    "major_en": "MSc in Luxury Hospitality and Health Service Management",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "8月/9月",
-    "fee": "MOP 181,200（约RMB 161,300）",
-    "deadline": "2025年10月20日-2026年4月30日",
-    "ielts": "无需强制提交（英/中文授课可选）",
-    "toefl": "无需强制提交（英/中文授课可选）",
+    "duration": "正常修读期2年，最长4年",
+    "intake": "2027年8月下旬",
+    "fee": "2027/28：澳门学生第一年 MOP58,200、第二年 MOP47,000；内地、香港及台湾学生第一年 MOP96,200、第二年 MOP85,000；其他地区学生第一年 MOP106,200、第二年 MOP95,000。延期另收延读费及学分费；费用可按年调整。",
+    "deadline": "2027/28：2026-10-20 开放申请，2027-05-15 截止；2027年8月下旬开课。",
+    "ielts": "中文班不适用统一英语考试要求",
+    "toefl": "中文班不适用统一英语考试要求",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "中文授课班：学校此项英语考试要求不适用。非中文授课学位持有人须申报中文能力；无证明者可能须语言面试，HSK六级≥180为可选证明。中文授课学位可豁免中文能力证明。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "学士学位或同等学历；往届内地毕业生须提交考研成绩且达国家A类线（首年MOP 96,200，第二年MOP 85,000）。",
-    "official_url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/",
+    "official_url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
     "study_mode": "全日制",
     "curriculum": [
       "高端款待服务管理",
@@ -197,7 +404,74 @@
       "康养产业创业"
     ],
     "source_file": "schools/utm_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "9d499130d743e1594ffb",
+          "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+          "label": "招生处课程与授课语言表"
+        },
+        {
+          "key": "fa7ead30c140ecc6530c",
+          "url": "https://www.utm.edu.mo/shm/en/programmes/postgraduate-programmes/index.html",
+          "label": "创新款待管理学院课程目录"
+        },
+        {
+          "key": "ff4551dc47543a96c176",
+          "url": "https://www.utm.edu.mo/stm/en/programmes/postgraduate-programmes/index.html",
+          "label": "创意旅游与智慧科技学院课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "fc9abe35f370d878c9b0",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/master-degree/index.html",
+              "label": "2027/28 硕士申请及语言要求"
+            },
+            {
+              "key": "9d499130d743e1594ffb",
+              "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处课程与授课语言表"
+            }
+          ]
+        },
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "0757f06c72f5339719a9",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/fees/index.html",
+              "label": "2027/28 学费与脚注"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "fc9abe35f370d878c9b0",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/master-degree/index.html",
+              "label": "2027/28 硕士申请及语言要求"
+            },
+            {
+              "key": "9d499130d743e1594ffb",
+              "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处课程与授课语言表"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "utm-postgraduate-msc-in-international-hotel-management",
@@ -214,12 +488,12 @@
     "degree": "MSc",
     "duration": "2年",
     "intake": "8月/9月",
-    "fee": "MOP 170,000（约RMB 151,300）",
-    "deadline": "2025年10月20日-2026年4月30日",
-    "ielts": "无需强制提交（英/中文授课可选）",
-    "toefl": "无需强制提交（英/中文授课可选）",
+    "fee": "项目身份未确认，不能直接套用创新酒店管理或其他课程的2027/28收费。",
+    "deadline": "旧库“国际酒店管理”名称未在当前招生目录中确认；2027/28 是否招收及截止日期待学校确认。",
+    "ielts": "项目身份待确认",
+    "toefl": "项目身份待确认",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "当前招生目录使用“创新酒店管理”；尚无足够证据确认与本旧记录的更名关系，请先确认项目身份及学制。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "学士学位或同等学历；往届内地毕业生须提交考研成绩且达国家A类线；中/英文授课可选（英文班夜间授课）。",
@@ -247,7 +521,77 @@
       "酒店开业筹备经理"
     ],
     "source_file": "schools/utm_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "unconfirmed",
+      "catalogue_sources": [
+        {
+          "key": "9d499130d743e1594ffb",
+          "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+          "label": "招生处课程与授课语言表"
+        },
+        {
+          "key": "3767005f8a5c01d8b452",
+          "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/study-plan-and-course-description/index.html",
+          "label": "招生处英文课程表"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "status": "unconfirmed",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "9d499130d743e1594ffb",
+              "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处课程与授课语言表"
+            },
+            {
+              "key": "3767005f8a5c01d8b452",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处英文课程表"
+            }
+          ],
+          "note": "另行补入官网明确列出的创新酒店管理课程，未据此宣称旧项目停办。"
+        },
+        "fee": {
+          "status": "unconfirmed",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "9d499130d743e1594ffb",
+              "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处课程与授课语言表"
+            },
+            {
+              "key": "3767005f8a5c01d8b452",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处英文课程表"
+            }
+          ],
+          "note": "另行补入官网明确列出的创新酒店管理课程，未据此宣称旧项目停办。"
+        },
+        "language": {
+          "status": "unconfirmed",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "9d499130d743e1594ffb",
+              "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处课程与授课语言表"
+            },
+            {
+              "key": "3767005f8a5c01d8b452",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处英文课程表"
+            }
+          ],
+          "note": "另行补入官网明确列出的创新酒店管理课程，未据此宣称旧项目停办。"
+        }
+      }
+    }
   },
   {
     "id": "utm-postgraduate-msc-in-international-food-and-beverage-management",
@@ -262,18 +606,18 @@
     "major_cn": "国际餐饮管理理学硕士",
     "major_en": "MSc in International Food and Beverage Management",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "8月/9月",
-    "fee": "MOP 170,000（约RMB 151,300）",
-    "deadline": "2025年10月20日-2026年4月30日",
-    "ielts": "无需强制提交（英/中文授课可选）",
-    "toefl": "无需强制提交（英/中文授课可选）",
+    "duration": "正常修读期2年，最长4年",
+    "intake": "2027年8月下旬",
+    "fee": "2027/28：澳门学生 MOP47,000／年，正常修读期全课程 MOP94,000；内地、香港及台湾学生 MOP85,000／年，全课程 MOP170,000；其他地区学生 MOP95,000／年，全课程 MOP190,000。费用按课程收取，减免学分或提前完成仍须缴全额；延期另收延读费及学分费，收费可按年调整。",
+    "deadline": "2027/28：2026-10-20 开放申请，2027-05-15 截止；2027年8月下旬开课。",
+    "ielts": "中文班不适用统一英语考试要求",
+    "toefl": "中文班不适用统一英语考试要求",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "中文授课班：学校此项英语考试要求不适用。非中文授课学位持有人须申报中文能力；无证明者可能须语言面试，HSK六级≥180为可选证明。中文授课学位可豁免中文能力证明。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "学士学位或同等学历；往届内地毕业生须提交考研成绩且达国家A类线；中/英文授课可选。",
-    "official_url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/",
+    "official_url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
     "study_mode": "全日制",
     "curriculum": [
       "餐饮运营管理",
@@ -297,7 +641,74 @@
       "酒店餐饮部经理"
     ],
     "source_file": "schools/utm_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "9d499130d743e1594ffb",
+          "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+          "label": "招生处课程与授课语言表"
+        },
+        {
+          "key": "fa7ead30c140ecc6530c",
+          "url": "https://www.utm.edu.mo/shm/en/programmes/postgraduate-programmes/index.html",
+          "label": "创新款待管理学院课程目录"
+        },
+        {
+          "key": "ff4551dc47543a96c176",
+          "url": "https://www.utm.edu.mo/stm/en/programmes/postgraduate-programmes/index.html",
+          "label": "创意旅游与智慧科技学院课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "fc9abe35f370d878c9b0",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/master-degree/index.html",
+              "label": "2027/28 硕士申请及语言要求"
+            },
+            {
+              "key": "9d499130d743e1594ffb",
+              "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处课程与授课语言表"
+            }
+          ]
+        },
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "0757f06c72f5339719a9",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/fees/index.html",
+              "label": "2027/28 学费与脚注"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "fc9abe35f370d878c9b0",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/master-degree/index.html",
+              "label": "2027/28 硕士申请及语言要求"
+            },
+            {
+              "key": "9d499130d743e1594ffb",
+              "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处课程与授课语言表"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "utm-postgraduate-msc-in-international-gastronomy-management",
@@ -312,18 +723,18 @@
     "major_cn": "国际美食学管理理学硕士",
     "major_en": "MSc in International Gastronomy Management",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "8月/9月",
-    "fee": "MOP 170,000（约RMB 151,300）",
-    "deadline": "2025年10月20日-2026年4月30日",
-    "ielts": "无需强制提交（英/中文授课可选）",
-    "toefl": "无需强制提交（英/中文授课可选）",
+    "duration": "正常修读期2年，最长4年",
+    "intake": "2027/28 是否招生待确认",
+    "fee": "本项目2027/28是否招生尚待确认。学校通用MSc收费表（仅供参考，不能代替本项目确认）：2027/28：澳门学生 MOP47,000／年，正常修读期全课程 MOP94,000；内地、香港及台湾学生 MOP85,000／年，全课程 MOP170,000；其他地区学生 MOP95,000／年，全课程 MOP190,000。费用按课程收取，减免学分或提前完成仍须缴全额；延期另收延读费及学分费，收费可按年调整。",
+    "deadline": "学院课程目录仍列有本项目，但当前招生处2027/28授课安排表未列出；本批次是否接受申请及截止日期待确认。",
+    "ielts": "本批次授课语言及要求待确认",
+    "toefl": "本批次授课语言及要求待确认",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "学院目录列有课程，招生处本批次未列授课语言。以下仅为大学通用规则，须先确认课程及授课班别：英文授课班：非英语授课学位持有人须提供以下任一成绩：IELTS 总分≥6.0、单项≥5.5；TOEFL 纸笔≥550／机考≥213／iBT≥80，或新版总分≥4.0且单项≥3.5／Essentials≥8.0；CET-6≥430。英语授课学位可豁免；成绩在递交申请时须仍在考试日起2年有效期内。\n中文授课班：学校此项英语考试要求不适用。非中文授课学位持有人须申报中文能力；无证明者可能须语言面试，HSK六级≥180为可选证明。中文授课学位可豁免中文能力证明。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "学士学位或同等学历；往届内地毕业生须提交考研成绩且达国家A类线；中/英文授课可选。",
-    "official_url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/",
+    "official_url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
     "study_mode": "全日制",
     "curriculum": [
       "国际美食文化",
@@ -347,7 +758,127 @@
       "美食产业创业"
     ],
     "source_file": "schools/utm_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "9d499130d743e1594ffb",
+          "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+          "label": "招生处课程与授课语言表"
+        },
+        {
+          "key": "fa7ead30c140ecc6530c",
+          "url": "https://www.utm.edu.mo/shm/en/programmes/postgraduate-programmes/index.html",
+          "label": "创新款待管理学院课程目录"
+        },
+        {
+          "key": "ff4551dc47543a96c176",
+          "url": "https://www.utm.edu.mo/stm/en/programmes/postgraduate-programmes/index.html",
+          "label": "创意旅游与智慧科技学院课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "status": "unconfirmed",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "9d499130d743e1594ffb",
+              "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处课程与授课语言表"
+            },
+            {
+              "key": "fa7ead30c140ecc6530c",
+              "url": "https://www.utm.edu.mo/shm/en/programmes/postgraduate-programmes/index.html",
+              "label": "创新款待管理学院课程目录"
+            },
+            {
+              "key": "ff4551dc47543a96c176",
+              "url": "https://www.utm.edu.mo/stm/en/programmes/postgraduate-programmes/index.html",
+              "label": "创意旅游与智慧科技学院课程目录"
+            },
+            {
+              "key": "fc9abe35f370d878c9b0",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/master-degree/index.html",
+              "label": "2027/28 硕士申请及语言要求"
+            },
+            {
+              "key": "0757f06c72f5339719a9",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/fees/index.html",
+              "label": "2027/28 学费与脚注"
+            }
+          ],
+          "note": "学院有课程不等于本申请季正在招生。"
+        },
+        "fee": {
+          "status": "unconfirmed",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "9d499130d743e1594ffb",
+              "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处课程与授课语言表"
+            },
+            {
+              "key": "fa7ead30c140ecc6530c",
+              "url": "https://www.utm.edu.mo/shm/en/programmes/postgraduate-programmes/index.html",
+              "label": "创新款待管理学院课程目录"
+            },
+            {
+              "key": "ff4551dc47543a96c176",
+              "url": "https://www.utm.edu.mo/stm/en/programmes/postgraduate-programmes/index.html",
+              "label": "创意旅游与智慧科技学院课程目录"
+            },
+            {
+              "key": "fc9abe35f370d878c9b0",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/master-degree/index.html",
+              "label": "2027/28 硕士申请及语言要求"
+            },
+            {
+              "key": "0757f06c72f5339719a9",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/fees/index.html",
+              "label": "2027/28 学费与脚注"
+            }
+          ],
+          "note": "学院有课程不等于本申请季正在招生。"
+        },
+        "language": {
+          "status": "unconfirmed",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "9d499130d743e1594ffb",
+              "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处课程与授课语言表"
+            },
+            {
+              "key": "fa7ead30c140ecc6530c",
+              "url": "https://www.utm.edu.mo/shm/en/programmes/postgraduate-programmes/index.html",
+              "label": "创新款待管理学院课程目录"
+            },
+            {
+              "key": "ff4551dc47543a96c176",
+              "url": "https://www.utm.edu.mo/stm/en/programmes/postgraduate-programmes/index.html",
+              "label": "创意旅游与智慧科技学院课程目录"
+            },
+            {
+              "key": "fc9abe35f370d878c9b0",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/master-degree/index.html",
+              "label": "2027/28 硕士申请及语言要求"
+            },
+            {
+              "key": "0757f06c72f5339719a9",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/fees/index.html",
+              "label": "2027/28 学费与脚注"
+            }
+          ],
+          "note": "学院有课程不等于本申请季正在招生。"
+        }
+      }
+    }
   },
   {
     "id": "utm-postgraduate-msc-in-international-convention-exhibition-and-event-management",
@@ -360,20 +891,20 @@
     "qs_ranking_2026": "未上榜（软科酒店与旅游管理51-75）",
     "college": "旅游管理学院",
     "major_cn": "国际会展及盛事管理理学硕士",
-    "major_en": "MSc in International Convention, Exhibition and Event Management",
+    "major_en": "MSc in International Events Management",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "8月/9月",
-    "fee": "MOP 170,000（约RMB 151,300）",
-    "deadline": "2025年10月20日-2026年4月30日",
-    "ielts": "无需强制提交（英/中文授课可选）",
-    "toefl": "无需强制提交（英/中文授课可选）",
+    "duration": "正常修读期2年，最长4年",
+    "intake": "2027年8月下旬",
+    "fee": "2027/28：澳门学生 MOP47,000／年，正常修读期全课程 MOP94,000；内地、香港及台湾学生 MOP85,000／年，全课程 MOP170,000；其他地区学生 MOP95,000／年，全课程 MOP190,000。费用按课程收取，减免学分或提前完成仍须缴全额；延期另收延读费及学分费，收费可按年调整。",
+    "deadline": "2027/28：2026-10-20 开放申请，2027-05-15 截止；2027年8月下旬开课。",
+    "ielts": "英文班 IELTS 6.0，单项≥5.5",
+    "toefl": "英文班 TOEFL iBT 80 或新版4.0（单项≥3.5）；亦接受纸笔550／机考213／Essentials 8.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "英文授课班：非英语授课学位持有人须提供以下任一成绩：IELTS 总分≥6.0、单项≥5.5；TOEFL 纸笔≥550／机考≥213／iBT≥80，或新版总分≥4.0且单项≥3.5／Essentials≥8.0；CET-6≥430。英语授课学位可豁免；成绩在递交申请时须仍在考试日起2年有效期内。\n中文授课班：学校此项英语考试要求不适用。非中文授课学位持有人须申报中文能力；无证明者可能须语言面试，HSK六级≥180为可选证明。中文授课学位可豁免中文能力证明。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "学士学位或同等学历；往届内地毕业生须提交考研成绩且达国家A类线；中/英文授课可选（英文班夜间授课）。",
-    "official_url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/",
+    "official_url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
     "study_mode": "全日制",
     "curriculum": [
       "会展管理概论",
@@ -397,7 +928,74 @@
       "会展市场营销经理"
     ],
     "source_file": "schools/utm_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "9d499130d743e1594ffb",
+          "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+          "label": "招生处课程与授课语言表"
+        },
+        {
+          "key": "fa7ead30c140ecc6530c",
+          "url": "https://www.utm.edu.mo/shm/en/programmes/postgraduate-programmes/index.html",
+          "label": "创新款待管理学院课程目录"
+        },
+        {
+          "key": "ff4551dc47543a96c176",
+          "url": "https://www.utm.edu.mo/stm/en/programmes/postgraduate-programmes/index.html",
+          "label": "创意旅游与智慧科技学院课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "fc9abe35f370d878c9b0",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/master-degree/index.html",
+              "label": "2027/28 硕士申请及语言要求"
+            },
+            {
+              "key": "9d499130d743e1594ffb",
+              "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处课程与授课语言表"
+            }
+          ]
+        },
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "0757f06c72f5339719a9",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/fees/index.html",
+              "label": "2027/28 学费与脚注"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "fc9abe35f370d878c9b0",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/master-degree/index.html",
+              "label": "2027/28 硕士申请及语言要求"
+            },
+            {
+              "key": "9d499130d743e1594ffb",
+              "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处课程与授课语言表"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "utm-postgraduate-msc-in-cultural-heritage-management",
@@ -410,20 +1008,20 @@
     "qs_ranking_2026": "未上榜（软科酒店与旅游管理51-75）",
     "college": "文化创意学院",
     "major_cn": "文化遗产管理理学硕士",
-    "major_en": "MSc in Cultural Heritage Management",
+    "major_en": "MSc in Heritage Management",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "8月/9月",
-    "fee": "MOP 170,000（约RMB 151,300）",
-    "deadline": "2025年10月20日-2026年4月30日",
-    "ielts": "无需强制提交（英/中文授课可选）",
-    "toefl": "无需强制提交（英/中文授课可选）",
+    "duration": "正常修读期2年，最长4年",
+    "intake": "2027年8月下旬",
+    "fee": "2027/28：澳门学生 MOP47,000／年，正常修读期全课程 MOP94,000；内地、香港及台湾学生 MOP85,000／年，全课程 MOP170,000；其他地区学生 MOP95,000／年，全课程 MOP190,000。费用按课程收取，减免学分或提前完成仍须缴全额；延期另收延读费及学分费，收费可按年调整。",
+    "deadline": "2027/28：2026-10-20 开放申请，2027-05-15 截止；2027年8月下旬开课。",
+    "ielts": "英文班 IELTS 6.0，单项≥5.5",
+    "toefl": "英文班 TOEFL iBT 80 或新版4.0（单项≥3.5）；亦接受纸笔550／机考213／Essentials 8.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "英文授课班：非英语授课学位持有人须提供以下任一成绩：IELTS 总分≥6.0、单项≥5.5；TOEFL 纸笔≥550／机考≥213／iBT≥80，或新版总分≥4.0且单项≥3.5／Essentials≥8.0；CET-6≥430。英语授课学位可豁免；成绩在递交申请时须仍在考试日起2年有效期内。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "学士学位或同等学历；往届内地毕业生须提交考研成绩且达国家A类线；中/英文授课可选。",
-    "official_url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/",
+    "official_url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
     "study_mode": "全日制",
     "curriculum": [
       "文化遗产管理理论",
@@ -447,7 +1045,74 @@
       "文化咨询顾问"
     ],
     "source_file": "schools/utm_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "9d499130d743e1594ffb",
+          "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+          "label": "招生处课程与授课语言表"
+        },
+        {
+          "key": "fa7ead30c140ecc6530c",
+          "url": "https://www.utm.edu.mo/shm/en/programmes/postgraduate-programmes/index.html",
+          "label": "创新款待管理学院课程目录"
+        },
+        {
+          "key": "ff4551dc47543a96c176",
+          "url": "https://www.utm.edu.mo/stm/en/programmes/postgraduate-programmes/index.html",
+          "label": "创意旅游与智慧科技学院课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "fc9abe35f370d878c9b0",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/master-degree/index.html",
+              "label": "2027/28 硕士申请及语言要求"
+            },
+            {
+              "key": "9d499130d743e1594ffb",
+              "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处课程与授课语言表"
+            }
+          ]
+        },
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "0757f06c72f5339719a9",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/fees/index.html",
+              "label": "2027/28 学费与脚注"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "fc9abe35f370d878c9b0",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/master-degree/index.html",
+              "label": "2027/28 硕士申请及语言要求"
+            },
+            {
+              "key": "9d499130d743e1594ffb",
+              "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处课程与授课语言表"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "utm-postgraduate-msc-in-cultural-and-creative-industries-management",
@@ -462,18 +1127,18 @@
     "major_cn": "文化创意产业管理理学硕士",
     "major_en": "MSc in Cultural and Creative Industries Management",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "8月/9月",
-    "fee": "MOP 170,000（约RMB 151,300）",
-    "deadline": "2025年10月20日-2026年4月30日",
-    "ielts": "无需强制提交（英/中文授课可选）",
-    "toefl": "无需强制提交（英/中文授课可选）",
+    "duration": "正常修读期2年，最长4年",
+    "intake": "2027年8月下旬",
+    "fee": "2027/28：澳门学生 MOP47,000／年，正常修读期全课程 MOP94,000；内地、香港及台湾学生 MOP85,000／年，全课程 MOP170,000；其他地区学生 MOP95,000／年，全课程 MOP190,000。费用按课程收取，减免学分或提前完成仍须缴全额；延期另收延读费及学分费，收费可按年调整。",
+    "deadline": "2027/28：2026-10-20 开放申请，2027-05-15 截止；2027年8月下旬开课。",
+    "ielts": "中文班不适用统一英语考试要求",
+    "toefl": "中文班不适用统一英语考试要求",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "中文授课班：学校此项英语考试要求不适用。非中文授课学位持有人须申报中文能力；无证明者可能须语言面试，HSK六级≥180为可选证明。中文授课学位可豁免中文能力证明。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "学士学位或同等学历；往届内地毕业生须提交考研成绩且达国家A类线；中/英文授课可选。",
-    "official_url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/",
+    "official_url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
     "study_mode": "全日制",
     "curriculum": [
       "文化创意产业概论",
@@ -497,7 +1162,74 @@
       "文创产业创业"
     ],
     "source_file": "schools/utm_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "9d499130d743e1594ffb",
+          "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+          "label": "招生处课程与授课语言表"
+        },
+        {
+          "key": "fa7ead30c140ecc6530c",
+          "url": "https://www.utm.edu.mo/shm/en/programmes/postgraduate-programmes/index.html",
+          "label": "创新款待管理学院课程目录"
+        },
+        {
+          "key": "ff4551dc47543a96c176",
+          "url": "https://www.utm.edu.mo/stm/en/programmes/postgraduate-programmes/index.html",
+          "label": "创意旅游与智慧科技学院课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "fc9abe35f370d878c9b0",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/master-degree/index.html",
+              "label": "2027/28 硕士申请及语言要求"
+            },
+            {
+              "key": "9d499130d743e1594ffb",
+              "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处课程与授课语言表"
+            }
+          ]
+        },
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "0757f06c72f5339719a9",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/fees/index.html",
+              "label": "2027/28 学费与脚注"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "fc9abe35f370d878c9b0",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/master-degree/index.html",
+              "label": "2027/28 硕士申请及语言要求"
+            },
+            {
+              "key": "9d499130d743e1594ffb",
+              "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处课程与授课语言表"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "utm-postgraduate-msc-in-international-tourism-management",
@@ -512,18 +1244,18 @@
     "major_cn": "国际旅游管理理学硕士",
     "major_en": "MSc in International Tourism Management",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "8月/9月",
-    "fee": "MOP 170,000（约RMB 151,300）",
-    "deadline": "2025年10月20日-2026年4月30日",
-    "ielts": "无需强制提交（英/中文授课可选）",
-    "toefl": "无需强制提交（英/中文授课可选）",
+    "duration": "正常修读期2年，最长4年",
+    "intake": "2027年8月下旬",
+    "fee": "2027/28：澳门学生 MOP47,000／年，正常修读期全课程 MOP94,000；内地、香港及台湾学生 MOP85,000／年，全课程 MOP170,000；其他地区学生 MOP95,000／年，全课程 MOP190,000。费用按课程收取，减免学分或提前完成仍须缴全额；延期另收延读费及学分费，收费可按年调整。",
+    "deadline": "2027/28：2026-10-20 开放申请，2027-05-15 截止；2027年8月下旬开课。",
+    "ielts": "英文班 IELTS 6.0，单项≥5.5",
+    "toefl": "英文班 TOEFL iBT 80 或新版4.0（单项≥3.5）；亦接受纸笔550／机考213／Essentials 8.0",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "英文授课班：非英语授课学位持有人须提供以下任一成绩：IELTS 总分≥6.0、单项≥5.5；TOEFL 纸笔≥550／机考≥213／iBT≥80，或新版总分≥4.0且单项≥3.5／Essentials≥8.0；CET-6≥430。英语授课学位可豁免；成绩在递交申请时须仍在考试日起2年有效期内。\n中文授课班：学校此项英语考试要求不适用。非中文授课学位持有人须申报中文能力；无证明者可能须语言面试，HSK六级≥180为可选证明。中文授课学位可豁免中文能力证明。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "学士学位或同等学历；往届内地毕业生须提交考研成绩且达国家A类线；中/英文授课可选（英文班夜间授课）。",
-    "official_url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/",
+    "official_url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
     "study_mode": "全日制",
     "curriculum": [
       "旅游管理原理",
@@ -547,7 +1279,74 @@
       "旅游创业"
     ],
     "source_file": "schools/utm_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "9d499130d743e1594ffb",
+          "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+          "label": "招生处课程与授课语言表"
+        },
+        {
+          "key": "fa7ead30c140ecc6530c",
+          "url": "https://www.utm.edu.mo/shm/en/programmes/postgraduate-programmes/index.html",
+          "label": "创新款待管理学院课程目录"
+        },
+        {
+          "key": "ff4551dc47543a96c176",
+          "url": "https://www.utm.edu.mo/stm/en/programmes/postgraduate-programmes/index.html",
+          "label": "创意旅游与智慧科技学院课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "fc9abe35f370d878c9b0",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/master-degree/index.html",
+              "label": "2027/28 硕士申请及语言要求"
+            },
+            {
+              "key": "9d499130d743e1594ffb",
+              "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处课程与授课语言表"
+            }
+          ]
+        },
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "0757f06c72f5339719a9",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/fees/index.html",
+              "label": "2027/28 学费与脚注"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "fc9abe35f370d878c9b0",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/master-degree/index.html",
+              "label": "2027/28 硕士申请及语言要求"
+            },
+            {
+              "key": "9d499130d743e1594ffb",
+              "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处课程与授课语言表"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "utm-postgraduate-msc-in-hospitality-and-tourism-smart-technology",
@@ -560,20 +1359,20 @@
     "qs_ranking_2026": "未上榜（软科酒店与旅游管理51-75）",
     "college": "管理学院",
     "major_cn": "酒店及旅游智慧科技理学硕士",
-    "major_en": "MSc in Hospitality and Tourism Smart Technology",
+    "major_en": "MSc in Smart Technologies in Hospitality and Tourism",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "8月/9月",
-    "fee": "MOP 170,000（约RMB 151,300）",
-    "deadline": "2025年10月20日-2026年4月30日",
-    "ielts": "无需强制提交（英/中文授课可选）",
-    "toefl": "无需强制提交（英/中文授课可选）",
+    "duration": "正常修读期2年，最长4年",
+    "intake": "2027/28 是否招生待确认",
+    "fee": "本项目2027/28是否招生尚待确认。学校通用MSc收费表（仅供参考，不能代替本项目确认）：2027/28：澳门学生 MOP47,000／年，正常修读期全课程 MOP94,000；内地、香港及台湾学生 MOP85,000／年，全课程 MOP170,000；其他地区学生 MOP95,000／年，全课程 MOP190,000。费用按课程收取，减免学分或提前完成仍须缴全额；延期另收延读费及学分费，收费可按年调整。",
+    "deadline": "学院课程目录仍列有本项目，但当前招生处2027/28授课安排表未列出；本批次是否接受申请及截止日期待确认。",
+    "ielts": "本批次授课语言及要求待确认",
+    "toefl": "本批次授课语言及要求待确认",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "学院目录列有课程，招生处本批次未列授课语言。以下仅为大学通用规则，须先确认课程及授课班别：英文授课班：非英语授课学位持有人须提供以下任一成绩：IELTS 总分≥6.0、单项≥5.5；TOEFL 纸笔≥550／机考≥213／iBT≥80，或新版总分≥4.0且单项≥3.5／Essentials≥8.0；CET-6≥430。英语授课学位可豁免；成绩在递交申请时须仍在考试日起2年有效期内。\n中文授课班：学校此项英语考试要求不适用。非中文授课学位持有人须申报中文能力；无证明者可能须语言面试，HSK六级≥180为可选证明。中文授课学位可豁免中文能力证明。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "学士学位或同等学历；往届内地毕业生须提交考研成绩且达国家A类线；中/英文授课可选。",
-    "official_url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/",
+    "official_url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
     "study_mode": "全日制",
     "curriculum": [
       "酒店与旅游科技概论",
@@ -597,7 +1396,127 @@
       "旅游科技创业"
     ],
     "source_file": "schools/utm_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "9d499130d743e1594ffb",
+          "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+          "label": "招生处课程与授课语言表"
+        },
+        {
+          "key": "fa7ead30c140ecc6530c",
+          "url": "https://www.utm.edu.mo/shm/en/programmes/postgraduate-programmes/index.html",
+          "label": "创新款待管理学院课程目录"
+        },
+        {
+          "key": "ff4551dc47543a96c176",
+          "url": "https://www.utm.edu.mo/stm/en/programmes/postgraduate-programmes/index.html",
+          "label": "创意旅游与智慧科技学院课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "status": "unconfirmed",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "9d499130d743e1594ffb",
+              "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处课程与授课语言表"
+            },
+            {
+              "key": "fa7ead30c140ecc6530c",
+              "url": "https://www.utm.edu.mo/shm/en/programmes/postgraduate-programmes/index.html",
+              "label": "创新款待管理学院课程目录"
+            },
+            {
+              "key": "ff4551dc47543a96c176",
+              "url": "https://www.utm.edu.mo/stm/en/programmes/postgraduate-programmes/index.html",
+              "label": "创意旅游与智慧科技学院课程目录"
+            },
+            {
+              "key": "fc9abe35f370d878c9b0",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/master-degree/index.html",
+              "label": "2027/28 硕士申请及语言要求"
+            },
+            {
+              "key": "0757f06c72f5339719a9",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/fees/index.html",
+              "label": "2027/28 学费与脚注"
+            }
+          ],
+          "note": "学院有课程不等于本申请季正在招生。"
+        },
+        "fee": {
+          "status": "unconfirmed",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "9d499130d743e1594ffb",
+              "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处课程与授课语言表"
+            },
+            {
+              "key": "fa7ead30c140ecc6530c",
+              "url": "https://www.utm.edu.mo/shm/en/programmes/postgraduate-programmes/index.html",
+              "label": "创新款待管理学院课程目录"
+            },
+            {
+              "key": "ff4551dc47543a96c176",
+              "url": "https://www.utm.edu.mo/stm/en/programmes/postgraduate-programmes/index.html",
+              "label": "创意旅游与智慧科技学院课程目录"
+            },
+            {
+              "key": "fc9abe35f370d878c9b0",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/master-degree/index.html",
+              "label": "2027/28 硕士申请及语言要求"
+            },
+            {
+              "key": "0757f06c72f5339719a9",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/fees/index.html",
+              "label": "2027/28 学费与脚注"
+            }
+          ],
+          "note": "学院有课程不等于本申请季正在招生。"
+        },
+        "language": {
+          "status": "unconfirmed",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "9d499130d743e1594ffb",
+              "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处课程与授课语言表"
+            },
+            {
+              "key": "fa7ead30c140ecc6530c",
+              "url": "https://www.utm.edu.mo/shm/en/programmes/postgraduate-programmes/index.html",
+              "label": "创新款待管理学院课程目录"
+            },
+            {
+              "key": "ff4551dc47543a96c176",
+              "url": "https://www.utm.edu.mo/stm/en/programmes/postgraduate-programmes/index.html",
+              "label": "创意旅游与智慧科技学院课程目录"
+            },
+            {
+              "key": "fc9abe35f370d878c9b0",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/master-degree/index.html",
+              "label": "2027/28 硕士申请及语言要求"
+            },
+            {
+              "key": "0757f06c72f5339719a9",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/fees/index.html",
+              "label": "2027/28 学费与脚注"
+            }
+          ],
+          "note": "学院有课程不等于本申请季正在招生。"
+        }
+      }
+    }
   },
   {
     "id": "utm-postgraduate-msc-in-digital-marketing-and-analytics",
@@ -612,18 +1531,18 @@
     "major_cn": "数码营销与分析理学硕士",
     "major_en": "MSc in Digital Marketing and Analytics",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "8月/9月",
-    "fee": "MOP 170,000（约RMB 151,300）",
-    "deadline": "2025年10月20日-2026年4月30日",
-    "ielts": "无需强制提交（英/中文授课可选）",
-    "toefl": "无需强制提交（英/中文授课可选）",
+    "duration": "正常修读期2年，最长4年",
+    "intake": "2027年8月下旬",
+    "fee": "2027/28：澳门学生 MOP47,000／年，正常修读期全课程 MOP94,000；内地、香港及台湾学生 MOP85,000／年，全课程 MOP170,000；其他地区学生 MOP95,000／年，全课程 MOP190,000。费用按课程收取，减免学分或提前完成仍须缴全额；延期另收延读费及学分费，收费可按年调整。",
+    "deadline": "2027/28：2026-10-20 开放申请，2027-05-15 截止；2027年8月下旬开课。",
+    "ielts": "中文班不适用统一英语考试要求",
+    "toefl": "中文班不适用统一英语考试要求",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "中文授课班：学校此项英语考试要求不适用。非中文授课学位持有人须申报中文能力；无证明者可能须语言面试，HSK六级≥180为可选证明。中文授课学位可豁免中文能力证明。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "学士学位或同等学历；往届内地毕业生须提交考研成绩且达国家A类线；中/英文授课可选。",
-    "official_url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/",
+    "official_url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
     "study_mode": "全日制",
     "curriculum": [
       "数字营销战略",
@@ -647,7 +1566,74 @@
       "数字营销咨询顾问"
     ],
     "source_file": "schools/utm_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "9d499130d743e1594ffb",
+          "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+          "label": "招生处课程与授课语言表"
+        },
+        {
+          "key": "fa7ead30c140ecc6530c",
+          "url": "https://www.utm.edu.mo/shm/en/programmes/postgraduate-programmes/index.html",
+          "label": "创新款待管理学院课程目录"
+        },
+        {
+          "key": "ff4551dc47543a96c176",
+          "url": "https://www.utm.edu.mo/stm/en/programmes/postgraduate-programmes/index.html",
+          "label": "创意旅游与智慧科技学院课程目录"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "fc9abe35f370d878c9b0",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/master-degree/index.html",
+              "label": "2027/28 硕士申请及语言要求"
+            },
+            {
+              "key": "9d499130d743e1594ffb",
+              "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处课程与授课语言表"
+            }
+          ]
+        },
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "0757f06c72f5339719a9",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/fees/index.html",
+              "label": "2027/28 学费与脚注"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "fc9abe35f370d878c9b0",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/master-degree/index.html",
+              "label": "2027/28 硕士申请及语言要求"
+            },
+            {
+              "key": "9d499130d743e1594ffb",
+              "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处课程与授课语言表"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "utm-undergraduate-bachelor-of-science-in-hotel-management",
@@ -1048,5 +2034,109 @@
     ],
     "source_file": "schools_undergraduate/utm_undergraduate_data.json",
     "last_updated": "2026-05-22"
+  },
+  {
+    "school_code": "UTM",
+    "school_name": "澳门旅游大学",
+    "school_name_en": "Macao University of Tourism",
+    "region_cn": "中国澳门",
+    "region_en": "Macao SAR",
+    "qs_ranking_2026": "未上榜（软科酒店与旅游管理51-75）",
+    "id": "utm-postgraduate-msc-in-innovative-hospitality-management",
+    "education_level": "postgraduate",
+    "major_cn": "创新酒店管理理学硕士",
+    "major_en": "MSc in Innovative Hospitality Management",
+    "degree": "MSc",
+    "college": "创新款待管理学院",
+    "curriculum": [],
+    "careers": [],
+    "objectives": "",
+    "req_detail": "持学士学位或同等学历；应届生须开课前取得学历。内地往届本科生及自考／网络课程本科生须提交2027考研成绩且达国家一区线。课程安排于氹仔及横琴两个校区。",
+    "source_file": "official-utm-2027-28",
+    "gaokao_requirement": null,
+    "subject_requirement": null,
+    "admission_route": null,
+    "deadline": "2027/28：2026-10-20 开放申请，2027-05-15 截止；2027年8月下旬开课。",
+    "intake": "2027年8月下旬",
+    "fee": "2027/28：澳门学生 MOP47,000／年，正常修读期全课程 MOP94,000；内地、香港及台湾学生 MOP85,000／年，全课程 MOP170,000；其他地区学生 MOP95,000／年，全课程 MOP190,000。费用按课程收取，减免学分或提前完成仍须缴全额；延期另收延读费及学分费，收费可按年调整。",
+    "ielts": "IELTS 6.0，单项≥5.5",
+    "toefl": "TOEFL iBT 80 或新版4.0（单项≥3.5）；亦接受纸笔550／机考213／Essentials 8.0",
+    "language_requirement": "英文授课班：非英语授课学位持有人须提供以下任一成绩：IELTS 总分≥6.0、单项≥5.5；TOEFL 纸笔≥550／机考≥213／iBT≥80，或新版总分≥4.0且单项≥3.5／Essentials≥8.0；CET-6≥430。英语授课学位可豁免；成绩在递交申请时须仍在考试日起2年有效期内。",
+    "official_url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+    "duration": "正常修读期2年，最长4年",
+    "study_mode": "英文授课，夜间上课",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "9d499130d743e1594ffb",
+          "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+          "label": "招生处课程与授课语言表"
+        },
+        {
+          "key": "3767005f8a5c01d8b452",
+          "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/study-plan-and-course-description/index.html",
+          "label": "招生处英文课程表"
+        },
+        {
+          "key": "fa7ead30c140ecc6530c",
+          "url": "https://www.utm.edu.mo/shm/en/programmes/postgraduate-programmes/index.html",
+          "label": "创新款待管理学院课程目录"
+        },
+        {
+          "key": "ff4551dc47543a96c176",
+          "url": "https://www.utm.edu.mo/stm/en/programmes/postgraduate-programmes/index.html",
+          "label": "创意旅游与智慧科技学院课程目录"
+        }
+      ],
+      "newness": "added_to_database",
+      "fields": {
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "fc9abe35f370d878c9b0",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/master-degree/index.html",
+              "label": "2027/28 硕士申请及语言要求"
+            },
+            {
+              "key": "9d499130d743e1594ffb",
+              "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处课程与授课语言表"
+            }
+          ]
+        },
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "0757f06c72f5339719a9",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/fees/index.html",
+              "label": "2027/28 学费与脚注"
+            }
+          ]
+        },
+        "language": {
+          "status": "verified",
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "fc9abe35f370d878c9b0",
+              "url": "https://www.utm.edu.mo/admission/en/postgraduate_programmes/master-degree/index.html",
+              "label": "2027/28 硕士申请及语言要求"
+            },
+            {
+              "key": "9d499130d743e1594ffb",
+              "url": "https://www.utm.edu.mo/admission/sc/postgraduate_programmes/study-plan-and-course-description/index.html",
+              "label": "招生处课程与授课语言表"
+            }
+          ]
+        }
+      }
+    },
+    "last_updated": "2026-10-22"
   }
 ]

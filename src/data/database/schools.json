@@ -473,10 +473,10 @@
     ],
     "program_counts": {
       "undergraduate": 49,
-      "postgraduate": 46,
-      "total": 95
+      "postgraduate": 48,
+      "total": 97
     },
-    "total_programs": 95,
+    "total_programs": 97,
     "last_updated": "2026-05-21",
     "data_source": [
       "https://join.hkust.edu.hk/zh-hans/our-programs",
@@ -1578,10 +1578,10 @@
     ],
     "program_counts": {
       "undergraduate": 32,
-      "postgraduate": 54,
-      "total": 86
+      "postgraduate": 62,
+      "total": 94
     },
-    "total_programs": 86,
+    "total_programs": 94,
     "last_updated": "2026-05-21",
     "data_source": "澳门大学研究生院官网 (grs.um.edu.mo) 及各学院官方页面",
     "source_file": "schools/um_data.json",
@@ -1795,10 +1795,10 @@
     ],
     "program_counts": {
       "undergraduate": 22,
-      "postgraduate": 47,
-      "total": 69
+      "postgraduate": 51,
+      "total": 73
     },
-    "total_programs": 69,
+    "total_programs": 73,
     "last_updated": "2026-05-21",
     "data_source": [
       "https://admissions.hkbu.edu.hk/admissions/mainland-jee (内地高考生招生首页)",
@@ -1870,10 +1870,10 @@
     ],
     "program_counts": {
       "undergraduate": 26,
-      "postgraduate": 22,
-      "total": 48
+      "postgraduate": 25,
+      "total": 51
     },
-    "total_programs": 48,
+    "total_programs": 51,
     "last_updated": "2026-05-21",
     "data_source": "香港恒生大学官网 (hsu.edu.hk / gs.hsu.edu.hk)",
     "source_file": "hsuhk_data.json",
@@ -1920,10 +1920,10 @@
     ],
     "program_counts": {
       "undergraduate": 33,
-      "postgraduate": 37,
-      "total": 70
+      "postgraduate": 46,
+      "total": 79
     },
-    "total_programs": 70,
+    "total_programs": 79,
     "last_updated": "2026-05-21",
     "data_source": "岭南大学官网 (ln.edu.hk)",
     "source_file": "lingnan_data.json",
@@ -1970,10 +1970,10 @@
     ],
     "program_counts": {
       "undergraduate": 12,
-      "postgraduate": 18,
-      "total": 30
+      "postgraduate": 23,
+      "total": 35
     },
-    "total_programs": 30,
+    "total_programs": 35,
     "last_updated": "2026-05-22",
     "data_source": "澳门城市大学研究生院官网及各学院官方页面",
     "source_file": "schools/cityu_macau_data.json",
@@ -2020,10 +2020,10 @@
     ],
     "program_counts": {
       "undergraduate": 20,
-      "postgraduate": 10,
-      "total": 30
+      "postgraduate": 16,
+      "total": 36
     },
-    "total_programs": 30,
+    "total_programs": 36,
     "last_updated": "2026-05-21",
     "data_source": "香港树仁大学官网 (hksyu.edu)",
     "source_file": "hksyu_data.json",
@@ -2045,10 +2045,10 @@
     ],
     "program_counts": {
       "undergraduate": 18,
-      "postgraduate": 11,
-      "total": 29
+      "postgraduate": 12,
+      "total": 30
     },
-    "total_programs": 29,
+    "total_programs": 30,
     "last_updated": "2026-05-22",
     "data_source": "澳门理工大学内地招生官网 (mpu.edu.mo/admission_mainland) 及各课程页面",
     "source_file": "schools/mpu_data.json",
@@ -2070,10 +2070,10 @@
     ],
     "program_counts": {
       "undergraduate": 8,
-      "postgraduate": 13,
-      "total": 21
+      "postgraduate": 14,
+      "total": 22
     },
-    "total_programs": 21,
+    "total_programs": 22,
     "last_updated": "2026-05-22",
     "data_source": "澳门旅游大学研究生院官网 (utm.edu.mo/admission) 及各课程官方页面",
     "source_file": "schools/utm_data.json",
@@ -2095,10 +2095,10 @@
     ],
     "program_counts": {
       "undergraduate": 24,
-      "postgraduate": 44,
-      "total": 68
+      "postgraduate": 50,
+      "total": 74
     },
-    "total_programs": 68,
+    "total_programs": 74,
     "last_updated": "2026-05-21",
     "data_source": "澳门科技大学研究生院官网 (sgs.must.edu.mo) 及各学院官方页面",
     "source_file": "schools/must_data.json",
@@ -2120,10 +2120,10 @@
     ],
     "program_counts": {
       "undergraduate": 25,
-      "postgraduate": 49,
-      "total": 74
+      "postgraduate": 60,
+      "total": 85
     },
-    "total_programs": 74,
+    "total_programs": 85,
     "last_updated": "2026-05-21",
     "data_source": "EdUHK官网 (eduhk.hk)",
     "source_file": "eduhk_data.json",
@@ -2145,10 +2145,10 @@
     ],
     "program_counts": {
       "undergraduate": 7,
-      "postgraduate": 6,
-      "total": 13
+      "postgraduate": 7,
+      "total": 14
     },
-    "total_programs": 13,
+    "total_programs": 14,
     "last_updated": "2026-05-21",
     "data_source": "香港东华学院官网 (twc.edu.hk) 及教育信息平台",
     "source_file": "twc_data.json",

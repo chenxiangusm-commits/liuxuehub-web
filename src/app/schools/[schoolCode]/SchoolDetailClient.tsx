@@ -1,10 +1,14 @@
 "use client";
 
+import { getQSRank, getQSYear, getQSLabel } from "@/lib/qs-ranking";
+
+
 import { useState, useMemo, useEffect } from "react";
-import Link from "next/link";
-import { getFavorites, toggleFavorite as toggleStoredFavorite } from "@/lib/storage";
-import { formatCollegeDisplayName, formatFee, formatLanguageRequirement, formatDeadline } from "@/lib/displayFormat";
+import { formatCollegeDisplayName } from "@/lib/displayFormat";
 import type { Program } from "@/types";
+import { admissionsState } from "@/lib/admissions-state";
+import CatalogCard from "@/components/CatalogCard";
+import {languageFromRecords} from "@/lib/presentation";
 import Card from "@/components/ui/Card";
 
 interface SchoolDetailClientProps {
@@ -28,24 +32,6 @@ const MAJOR_DIRECTIONS = [
   { label: '社科人文', keywords: ['social', '社科', 'humanities', '国际关系', '政治', '历史', '哲学'] },
 ];
 
-// 获取录取难度标签
-function getAdmissionLevel(ranking?: number): { label: string; className: string } {
-  if (!ranking || ranking <= 0) {
-    return { label: '匹配', className: 'bg-yellow-100 text-yellow-700' };
-  }
-  if (ranking <= 30) {
-    return { label: '冲刺', className: 'bg-red-100 text-red-700' };
-  }
-  if (ranking <= 100) {
-    return { label: '冲刺', className: 'bg-red-100 text-red-700' };
-  }
-  if (ranking <= 200) {
-    return { label: '匹配', className: 'bg-yellow-100 text-yellow-700' };
-  }
-  return { label: '保底', className: 'bg-green-100 text-green-700' };
-}
-
-// 获取学院列表
 function getColleges(programs: Program[]): string[] {
   const colleges = new Set<string>();
   programs.forEach(p => {
@@ -57,26 +43,17 @@ function getColleges(programs: Program[]): string[] {
 }
 
 
-export default function SchoolDetailClient({ programs, schoolName, region }: SchoolDetailClientProps) {
+export default function SchoolDetailClient({ programs }: SchoolDetailClientProps) {
   const [searchKeyword, setSearchKeyword] = useState("");
   const [selectedLevel, setSelectedLevel] = useState<string>("postgraduate");
   const [selectedDirection, setSelectedDirection] = useState<string>("");
   const [selectedCollege, setSelectedCollege] = useState<string>("");
-  const [favorites, setFavorites] = useState<string[]>([]);
   const [displayCount, setDisplayCount] = useState(12);
-  const [showMoreFilters, setShowMoreFilters] = useState(false);
-
-  useEffect(() => {
-    setFavorites(getFavorites());
-  }, []);
-
-  const toggleFavorite = (id: string) => {
-    toggleStoredFavorite(id);
-    setFavorites(getFavorites());
-  };
+  const [showHistory, setShowHistory] = useState(false);
 
   const programsForCollegeOptions = useMemo(() => {
     return programs.filter(program => {
+      if (!showHistory && ["archived","closed"].includes(admissionsState(program).code)) return false;
       if (selectedLevel && program.education_level !== selectedLevel) {
         return false;
       }
@@ -99,7 +76,7 @@ export default function SchoolDetailClient({ programs, schoolName, region }: Sch
 
       return true;
     });
-  }, [programs, selectedLevel, selectedDirection, searchKeyword]);
+  }, [programs, selectedLevel, selectedDirection, searchKeyword, showHistory]);
 
   const colleges = useMemo(
     () => getColleges(programsForCollegeOptions),
@@ -115,6 +92,7 @@ export default function SchoolDetailClient({ programs, schoolName, region }: Sch
 
   const filteredPrograms = useMemo(() => {
     return programs.filter(program => {
+      if (!showHistory && ["archived","closed"].includes(admissionsState(program).code)) return false;
       if (selectedLevel && program.education_level !== selectedLevel) {
         return false;
       }
@@ -138,7 +116,7 @@ export default function SchoolDetailClient({ programs, schoolName, region }: Sch
       }
       return true;
     });
-  }, [programs, searchKeyword, selectedLevel, selectedDirection, selectedCollege]);
+  }, [programs, searchKeyword, selectedLevel, selectedDirection, selectedCollege, showHistory]);
 
   const undergradCount = programs.filter(p => p.education_level === "undergraduate").length;
   const postgradCount = programs.filter(p => p.education_level === "postgraduate").length;
@@ -154,114 +132,14 @@ export default function SchoolDetailClient({ programs, schoolName, region }: Sch
     setDisplayCount(12);
   };
 
-  const resetFilters = () => {
-    setSelectedCollege("");
-    setDisplayCount(12);
-  };
-
   const renderProgramCards = () => {
     const displayedPrograms = filteredPrograms.slice(0, displayCount);
     
     return (
-      <div className="space-y-3">
-        {displayedPrograms.map((program) => {
-          const feeInfo = formatFee(program.fee);
-          const admissionLevel = getAdmissionLevel(program.qs_ranking_2026);
-          
-          return (
-            <div
-              key={program.id}
-              className="bg-white rounded-xl border border-gray-200 p-4 hover:border-blue-500 hover:shadow-md transition-all duration-200"
-            >
-              {/* 上半部分 */}
-              <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-3">
-                {/* 左侧：专业信息 */}
-                <div className="flex-1 min-w-0">
-                  <div className="flex items-start justify-between gap-3">
-                    <div>
-                      <h3 className="font-semibold text-gray-900 text-base leading-tight">
-                        {program.major_cn || program.major_en || "官网暂未明确"}
-                      </h3>
-                      <p className="text-sm text-gray-500 mt-0.5">
-                        {program.major_en || "-"}
-                      </p>
-                    </div>
-                    {/* 右侧：录取难度标签 + 收藏 */}
-                    <div className="flex items-center gap-2 flex-shrink-0">
-                      <span className={`px-3 py-1 rounded-full text-xs font-medium ${admissionLevel.className}`}>
-                        {admissionLevel.label}
-                      </span>
-                      <button
-                        onClick={() => toggleFavorite(program.id)}
-                        className={`p-2 rounded-lg transition-colors ${
-                          favorites.includes(program.id)
-                            ? "text-red-500 hover:bg-red-50"
-                            : "text-gray-400 hover:text-red-500 hover:bg-gray-50"
-                        }`}
-                        title={favorites.includes(program.id) ? "取消收藏" : "收藏"}
-                      >
-                        <svg className="w-5 h-5" fill={favorites.includes(program.id) ? "currentColor" : "none"} viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                        </svg>
-                      </button>
-                    </div>
-                  </div>
-                  
-                  {/* 学院名（中文） */}
-                  {program.college ? (
-                    <span className="inline-block mt-2 px-2.5 py-1 bg-blue-50 text-blue-600 rounded-full text-xs">
-                      {formatCollegeDisplayName(program.college)}
-                    </span>
-                  ) : (
-                    <span className="inline-block mt-2 px-2.5 py-1 bg-gray-100 text-gray-400 rounded-full text-xs">
-                      学院信息暂未明确
-                    </span>
-                  )}
-                </div>
-              </div>
-              
-              {/* 信息行 */}
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-4 pt-3 border-t border-gray-100">
-                <div className="flex items-start gap-1.5">
-                  <span className="text-gray-400 text-sm">💰</span>
-                  <div className="text-sm text-gray-600">
-                    <span className="font-medium text-blue-600">{feeInfo.primary}</span>
-                    {feeInfo.secondary && (
-                      <span className="text-gray-400 text-xs ml-1">{feeInfo.secondary}</span>
-                    )}
-                  </div>
-                </div>
-                <div className="flex items-start gap-1.5">
-                  <span className="text-gray-400 text-sm">🌐</span>
-                  <span className="text-sm text-gray-600">{formatLanguageRequirement(program.ielts, program.toefl)}</span>
-                </div>
-                <div className="flex items-start gap-1.5">
-                  <span className="text-gray-400 text-sm">⏰</span>
-                  <span className="text-sm text-gray-600">{formatDeadline(program.deadline || "")}</span>
-                </div>
-              </div>
-              
-              {/* 底部按钮 */}
-              <div className="flex flex-wrap items-center gap-2 mt-4 pt-3 border-t border-gray-100">
-                <Link
-                  href={`/ai/school-match?school=${encodeURIComponent(schoolName || program.school_name || '')}&program=${encodeURIComponent(program.major_cn || program.major_en || '')}&region=${encodeURIComponent(region || program.region_cn || '')}`}
-                  className="px-3 py-1.5 text-xs font-medium text-blue-600 hover:text-blue-700 hover:bg-blue-50 rounded-lg transition-colors"
-                >
-                  AI录取率
-                </Link>
-                <Link
-                  href={`/programs/${program.id}`}
-                  className="px-4 py-1.5 bg-blue-600 text-white rounded-lg text-xs font-medium hover:bg-blue-700 transition-colors"
-                >
-                  查看详情
-                </Link>
-              </div>
-            </div>
-          );
-        })}
-        
+      <div className="catalog-grid">
+        {displayedPrograms.map(program=>{const a=program.admissions_preview;return <CatalogCard key={program.id} item={{id:program.id,schoolCode:program.school_code,school:program.school_name,name:program.major_cn||program.major_en,nameEn:program.major_en,region:program.region_cn,degree:program.degree,level:program.education_level,duration:program.duration||'官网未明确',fee:a?.feeShort||program.fee||'官网未明确',feeNote:a?.feeNote,language:a?.languageShort||program.language_requirement||languageFromRecords(program.ielts,program.toefl)||'官网未明确',deadline:a?.deadlineSummary||program.deadline||'官网未明确',cycle:a?.cycle||'历史资料，当前批次待确认',year:a?.entryYear??null,updated:a?.updatedOn||program.last_updated||'',rank:getQSRank(program)>0?`QS ${getQSYear(program)} · ${getQSLabel(program)}`:'',officialUrl:program.official_url||'',state:admissionsState(program),hasCurrentPresentation:Boolean(a)}}>{a?.notices.map(note=><p key={note} className="mb-3 text-xs leading-6 text-amber-800">{note}</p>)}</CatalogCard>;})}
         {filteredPrograms.length > displayCount && (
-          <div className="mt-4 text-center">
+          <div className="mt-4 text-center col-span-full">
             <button
               onClick={() => setDisplayCount(prev => prev + 12)}
               className="inline-flex items-center px-5 py-2.5 bg-white border border-gray-200 text-gray-700 rounded-xl text-sm font-medium hover:bg-gray-50 hover:border-gray-300 transition-colors"
@@ -278,152 +156,10 @@ export default function SchoolDetailClient({ programs, schoolName, region }: Sch
   };
 
   return (
-    <div id="programs">
-      <Card className="p-4 mb-6">
-        {/* 学历筛选 */}
-        <div className="mb-4">
-          <div className="flex flex-wrap gap-2">
-            <button
-              onClick={() => handleLevelChange("")}
-              className={`px-4 py-1.5 rounded-full text-sm font-medium transition-colors ${
-                selectedLevel === "" || selectedLevel === "all"
-                  ? "bg-blue-600 text-white"
-                  : "bg-gray-100 text-gray-600 hover:bg-gray-200"
-              }`}
-            >
-              全部
-            </button>
-            <button
-              onClick={() => handleLevelChange("undergraduate")}
-              className={`px-4 py-1.5 rounded-full text-sm font-medium transition-colors ${
-                selectedLevel === "undergraduate"
-                  ? "bg-blue-600 text-white"
-                  : "bg-gray-100 text-gray-600 hover:bg-gray-200"
-              }`}
-            >
-              本科 ({undergradCount})
-            </button>
-            <button
-              onClick={() => handleLevelChange("postgraduate")}
-              className={`px-4 py-1.5 rounded-full text-sm font-medium transition-colors ${
-                selectedLevel === "postgraduate"
-                  ? "bg-blue-600 text-white"
-                  : "bg-gray-100 text-gray-600 hover:bg-gray-200"
-              }`}
-            >
-              硕士 ({postgradCount})
-            </button>
-          </div>
-        </div>
-
-        {/* 专业搜索框 */}
-        <div className="mb-4">
-          <input
-            type="text"
-            placeholder="搜索专业名称"
-            value={searchKeyword}
-            onChange={(e) => {
-              setSearchKeyword(e.target.value);
-              setDisplayCount(12);
-            }}
-            className="w-full px-4 py-2.5 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500"
-          />
-        </div>
-
-        {/* 专业方向筛选 */}
-        <div className="mb-4">
-          <label className="block text-sm font-medium text-gray-700 mb-2">专业方向</label>
-          <div className="flex flex-wrap gap-2">
-            <button
-              onClick={() => handleDirectionChange("")}
-              className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
-                selectedDirection === ""
-                  ? "bg-blue-600 text-white"
-                  : "bg-gray-100 text-gray-600 hover:bg-gray-200"
-              }`}
-            >
-              全部
-            </button>
-            {MAJOR_DIRECTIONS.map(direction => (
-              <button
-                key={direction.label}
-                onClick={() => handleDirectionChange(selectedDirection === direction.label ? '' : direction.label)}
-                className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
-                  selectedDirection === direction.label
-                    ? "bg-blue-600 text-white"
-                    : "bg-gray-100 text-gray-600 hover:bg-gray-200"
-                }`}
-              >
-                {direction.label}
-              </button>
-            ))}
-          </div>
-        </div>
-
-        {/* 展开更多筛选 */}
-        <div>
-          <button
-            onClick={() => setShowMoreFilters(!showMoreFilters)}
-            className="flex items-center gap-2 text-sm text-blue-600 hover:text-blue-700"
-          >
-            {showMoreFilters ? (
-              <>
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
-                </svg>
-                收起筛选
-              </>
-            ) : (
-              <>
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-                展开学院筛选
-              </>
-            )}
-          </button>
-
-          {showMoreFilters && colleges.length > 0 && (
-            <div className="mt-4 pt-4 border-t border-gray-100 space-y-4">
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">学院</label>
-                <div className="flex flex-wrap gap-2">
-                  <button
-                    onClick={() => { setSelectedCollege(""); setDisplayCount(12); }}
-                    className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
-                      selectedCollege === ""
-                        ? "bg-blue-600 text-white"
-                        : "bg-gray-100 text-gray-600 hover:bg-gray-200"
-                    }`}
-                  >
-                    全部
-                  </button>
-                  {colleges.map(college => (
-                    <button
-                      key={college}
-                      onClick={() => { setSelectedCollege(college); setDisplayCount(12); }}
-                      className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
-                        selectedCollege === college
-                          ? "bg-blue-600 text-white"
-                          : "bg-gray-100 text-gray-600 hover:bg-gray-200"
-                      }`}
-                    >
-                      {college}
-                    </button>
-                  ))}
-                </div>
-              </div>
-              {selectedCollege && (
-                <button
-                  onClick={resetFilters}
-                  className="text-sm text-gray-500 hover:text-gray-700"
-                >
-                  重置筛选条件
-                </button>
-              )}
-            </div>
-          )}
-        </div>
+    <div id="programs" className="school-program-browser">
+      <Card className="p-4 mb-5">
+        <div className="mb-3 flex flex-wrap items-center justify-between gap-3"><div className="flex gap-2">{[{value:'',label:'全部'},{value:'undergraduate',label:`本科 (${undergradCount})`},{value:'postgraduate',label:`硕士 (${postgradCount})`}].map(level=><button key={level.value} onClick={()=>handleLevelChange(level.value)} aria-pressed={selectedLevel===level.value} className={selectedLevel===level.value?'rounded-lg bg-blue-600 px-3 py-2 text-sm text-white':'rounded-lg bg-slate-50 px-3 py-2 text-sm text-slate-600'}>{level.label}</button>)}</div><label className="flex items-center gap-2 text-xs text-slate-500"><input type="checkbox" checked={showHistory} onChange={e=>{setShowHistory(e.target.checked);setDisplayCount(12);}}/>包含已截止与历史项目</label></div>
+        <div className="grid grid-cols-2 gap-3 md:grid-cols-[minmax(0,1fr)_180px_180px]"><label className="col-span-2 md:col-span-1"><span className="sr-only">搜索专业名称</span><input className="ui-input" placeholder="搜索专业名称" value={searchKeyword} onChange={e=>{setSearchKeyword(e.target.value);setDisplayCount(12);}}/></label><label><span className="sr-only">专业方向</span><select className="ui-input" value={selectedDirection} onChange={e=>handleDirectionChange(e.target.value)}><option value="">全部专业方向</option>{MAJOR_DIRECTIONS.map(d=><option value={d.label} key={d.label}>{d.label}</option>)}</select></label><label><span className="sr-only">学院</span><select className="ui-input" value={selectedCollege} onChange={e=>{setSelectedCollege(e.target.value);setDisplayCount(12);}}><option value="">全部学院</option>{colleges.map(c=><option key={c}>{c}</option>)}</select></label></div>
       </Card>
 
       {filteredPrograms.length === 0 ? (

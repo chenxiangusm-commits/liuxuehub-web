@@ -5,6 +5,7 @@ import { Program } from "@/types";
 import { isFavorite, toggleFavorite } from "@/lib/storage";
 import { useState, useEffect } from "react";
 import { formatDisplayValue, formatFee } from "@/lib/displayFormat";
+import { isHKMOMasters } from "@/components/AdmissionsFacts";
 
 interface ProgramCardProps {
   program: Program;
@@ -23,7 +24,8 @@ export default function ProgramCard({ program }: ProgramCardProps) {
     setFavorited(toggleFavorite(program.id));
   };
 
-  const feeInfo = formatFee(program.fee);
+  const auditedScope = isHKMOMasters(program);
+  const feeInfo = program.admissions_preview ? { primary: program.admissions_preview.feeShort, secondary: program.admissions_preview.feeNote } : auditedScope ? { primary: program.fee || "尚待核对", secondary: "" } : formatFee(program.fee);
 
   return (
     <Link href={`/programs/${program.id}`} className="block">
@@ -76,8 +78,8 @@ export default function ProgramCard({ program }: ProgramCardProps) {
             <p className="font-medium text-gray-800">{formatDisplayValue(program.duration)}</p>
           </div>
           <div>
-            <p className="text-gray-500 text-xs mb-0.5">语言要求</p>
-            <p className="font-medium text-gray-800">{formatDisplayValue(program.ielts)}</p>
+            <p className="text-gray-500 text-xs mb-0.5">{program.admissions_preview ? '语言条件' : '语言要求'}</p>
+            <p className="font-medium text-gray-800">{program.admissions_preview?.languageShort || (auditedScope ? (program.language_requirement || [program.ielts, program.toefl].filter(Boolean).join('；')) : formatDisplayValue(program.ielts))}</p>
           </div>
         </div>
 
@@ -91,6 +93,11 @@ export default function ProgramCard({ program }: ProgramCardProps) {
         </div>
 
         {/* 查看详情 */}
+        {program.admissions_preview && <div className="mt-3 space-y-1 text-xs leading-5 text-gray-600">
+          <p className="font-medium text-gray-900">申请截止时间</p><p>{program.admissions_preview.deadlineSummary}</p>
+          <p className="text-blue-700">{program.admissions_preview.cycle} · {program.admissions_preview.mode}</p>
+          {program.admissions_preview.notices.map(note => <p key={note} className="text-amber-800">{note}</p>)}
+        </div>}
         <div className="mt-3 pt-3 border-t border-gray-100">
           <span className="text-sm text-blue-600 font-medium hover:text-blue-800">
             查看详情 &rarr;

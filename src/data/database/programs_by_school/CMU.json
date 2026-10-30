@@ -9,21 +9,21 @@
     "region_en": "Macao SAR",
     "qs_ranking_2026": "未上榜",
     "college": "商学院",
-    "major_cn": "工商管理硕士",
+    "major_cn": "工商管理硕士（中文学制）",
     "major_en": "Master of Business Administration (MBA)",
     "degree": "MBA",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 247,000（约RMB 220,000）",
-    "deadline": "2025年11月1日-2026年3月31日",
-    "ielts": "无需提交（中/英文授课，面试测试英文）",
-    "toefl": "无需提交（中/英文授课，面试测试英文）",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "fee": "2027/28 内地生：HK$125,000／每学年；正常修读期2年。此数字为年费。注册后正常就读年期学费不因大学调价而变动；不含书本、讲义、住宿及其他费用。",
+    "deadline": "2027/28 内地生：2026-09-01 开放申请；2027-04-30 截止。专业面试于2026年9月至2027年5月分批进行。",
+    "ielts": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
+    "toefl": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "2027/28 内地生简章未列本课程统一 IELTS／TOEFL 最低分，也未声明一律免交语言成绩。学校以中／英文专业面试及英文能力等综合评审；如有英语成绩，应按申请系统要求提交并向招生处确认项目要求。 简章说明，英文学制以外课程采用中／英文授课。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "学士学位（学信网可查）；往届毕业生不受考研限制；应届毕业生均可报考；面试（专业+英文）。",
-    "official_url": "https://www.cityu.edu.mo/gs/programmes/",
+    "official_url": "https://ado.cityu.edu.mo/en/list-26/57",
     "study_mode": "全日制",
     "curriculum": [
       "管理经济学",
@@ -47,7 +47,60 @@
       "市场营销总监"
     ],
     "source_file": "schools/cityu_macau_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ff643f9fa5dff011c30d",
+          "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+          "label": "2027/28 官方内地生简章第3–5页"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "dca9bcb695b3547c4a7a",
+              "url": "https://ado.cityu.edu.mo/en/list-26/57",
+              "label": "官方2027/28内地生申请时间"
+            },
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "language": {
+          "status": "not_published",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ],
+          "note": "已查官方简章：没有最低分表，不等于无语言要求。"
+        }
+      }
+    }
   },
   {
     "id": "cmu-postgraduate-msc-in-data-science",
@@ -59,21 +112,21 @@
     "region_en": "Macao SAR",
     "qs_ranking_2026": "未上榜",
     "college": "数据科学学院",
-    "major_cn": "数据科学硕士",
+    "major_cn": "数据科学硕士（中文学制）",
     "major_en": "MSc in Data Science",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 247,000（约RMB 220,000）",
-    "deadline": "2025年11月1日-2026年3月31日",
-    "ielts": "无需提交（中/英文授课，面试测试英文）",
-    "toefl": "无需提交（中/英文授课，面试测试英文）",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "fee": "2027/28 内地生：HK$125,000／每学年；正常修读期2年。此数字为年费。注册后正常就读年期学费不因大学调价而变动；不含书本、讲义、住宿及其他费用。",
+    "deadline": "2027/28 内地生：2026-09-01 开放申请；2027-04-30 截止。专业面试于2026年9月至2027年5月分批进行。",
+    "ielts": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
+    "toefl": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "2027/28 内地生简章未列本课程统一 IELTS／TOEFL 最低分，也未声明一律免交语言成绩。学校以中／英文专业面试及英文能力等综合评审；如有英语成绩，应按申请系统要求提交并向招生处确认项目要求。 简章说明，英文学制以外课程采用中／英文授课。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "学士学位（学信网可查）；往届毕业生须过考研国家A类线；应届毕业生均可报考；面试（专业+英文）。",
-    "official_url": "https://www.cityu.edu.mo/gs/programmes/",
+    "official_url": "https://ado.cityu.edu.mo/en/list-26/57",
     "study_mode": "全日制",
     "curriculum": [
       "数据科学基础",
@@ -97,7 +150,65 @@
       "AI产品经理"
     ],
     "source_file": "schools/cityu_macau_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ff643f9fa5dff011c30d",
+          "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+          "label": "2027/28 官方内地生简章第3–5页"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "dca9bcb695b3547c4a7a",
+              "url": "https://ado.cityu.edu.mo/en/list-26/57",
+              "label": "官方2027/28内地生申请时间"
+            },
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "language": {
+          "status": "not_published",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            },
+            {
+              "key": "a0d3ec040a7ddbb8cdf2",
+              "url": "https://www.compassedu.hk/majr_63230",
+              "label": "指南者语言要求（辅助参考）"
+            }
+          ],
+          "note": "官方简章及指南者均未提供本课程统一IELTS/TOEFL分数；指南者称英语证明如有可提供，不能扩展为所有语言材料均获豁免。"
+        }
+      }
+    }
   },
   {
     "id": "cmu-postgraduate-msc-in-computer-science",
@@ -112,18 +223,18 @@
     "major_cn": "计算机科学硕士",
     "major_en": "MSc in Computer Science",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 227,000（约RMB 202,000）",
-    "deadline": "2025年11月1日-2026年3月31日",
-    "ielts": "无需提交（中/英文授课，面试测试英文）",
-    "toefl": "无需提交（中/英文授课，面试测试英文）",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "fee": "2027/28 内地生：HK$125,000／每学年；正常修读期2年。此数字为年费。注册后正常就读年期学费不因大学调价而变动；不含书本、讲义、住宿及其他费用。",
+    "deadline": "2027/28 内地生：2026-09-01 开放申请；2027-04-30 截止。专业面试于2026年9月至2027年5月分批进行。",
+    "ielts": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
+    "toefl": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "2027/28 内地生简章未列本课程统一 IELTS／TOEFL 最低分，也未声明一律免交语言成绩。学校以中／英文专业面试及英文能力等综合评审；如有英语成绩，应按申请系统要求提交并向招生处确认项目要求。 简章说明，英文学制以外课程采用中／英文授课。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "学士学位（学信网可查）；往届毕业生须过考研国家A类线；应届毕业生均可报考；面试（专业+英文）。",
-    "official_url": "https://www.cityu.edu.mo/gs/programmes/",
+    "official_url": "https://ado.cityu.edu.mo/en/list-26/57",
     "study_mode": "全日制",
     "curriculum": [
       "高级程序设计",
@@ -147,7 +258,60 @@
       "技术研发主管"
     ],
     "source_file": "schools/cityu_macau_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ff643f9fa5dff011c30d",
+          "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+          "label": "2027/28 官方内地生简章第3–5页"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "dca9bcb695b3547c4a7a",
+              "url": "https://ado.cityu.edu.mo/en/list-26/57",
+              "label": "官方2027/28内地生申请时间"
+            },
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "language": {
+          "status": "not_published",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ],
+          "note": "已查官方简章：没有最低分表，不等于无语言要求。"
+        }
+      }
+    }
   },
   {
     "id": "cmu-postgraduate-msc-in-finance",
@@ -159,21 +323,21 @@
     "region_en": "Macao SAR",
     "qs_ranking_2026": "未上榜",
     "college": "金融学院",
-    "major_cn": "金融学硕士",
+    "major_cn": "金融学硕士（中文学制）",
     "major_en": "MSc in Finance",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 227,000（约RMB 202,000）",
-    "deadline": "2025年11月1日-2026年3月31日",
-    "ielts": "无需提交（中/英文授课，面试测试英文）",
-    "toefl": "无需提交（中/英文授课，面试测试英文）",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "fee": "2027/28 内地生：HK$115,000／每学年；正常修读期2年。此数字为年费。注册后正常就读年期学费不因大学调价而变动；不含书本、讲义、住宿及其他费用。",
+    "deadline": "2027/28 内地生：2026-09-01 开放申请；2027-04-30 截止。专业面试于2026年9月至2027年5月分批进行。",
+    "ielts": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
+    "toefl": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "2027/28 内地生简章未列本课程统一 IELTS／TOEFL 最低分，也未声明一律免交语言成绩。学校以中／英文专业面试及英文能力等综合评审；如有英语成绩，应按申请系统要求提交并向招生处确认项目要求。 简章说明，英文学制以外课程采用中／英文授课。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "学士学位（学信网可查）；往届毕业生须过考研国家A类线；应届毕业生均可报考；面试（专业+英文）。",
-    "official_url": "https://www.cityu.edu.mo/gs/programmes/",
+    "official_url": "https://ado.cityu.edu.mo/en/list-26/57",
     "study_mode": "全日制",
     "curriculum": [
       "高级财务管理",
@@ -197,7 +361,60 @@
       "证券分析师"
     ],
     "source_file": "schools/cityu_macau_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ff643f9fa5dff011c30d",
+          "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+          "label": "2027/28 官方内地生简章第3–5页"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "dca9bcb695b3547c4a7a",
+              "url": "https://ado.cityu.edu.mo/en/list-26/57",
+              "label": "官方2027/28内地生申请时间"
+            },
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "language": {
+          "status": "not_published",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ],
+          "note": "已查官方简章：没有最低分表，不等于无语言要求。"
+        }
+      }
+    }
   },
   {
     "id": "cmu-postgraduate-msc-in-financial-technology-fintech",
@@ -212,18 +429,18 @@
     "major_cn": "金融科技硕士",
     "major_en": "MSc in Financial Technology (FinTech)",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 237,000（约RMB 211,000）",
-    "deadline": "2025年11月1日-2026年3月31日",
-    "ielts": "无需提交（中/英文授课，面试测试英文）",
-    "toefl": "无需提交（中/英文授课，面试测试英文）",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "fee": "2027/28 内地生：HK$120,000／每学年；正常修读期2年。此数字为年费。注册后正常就读年期学费不因大学调价而变动；不含书本、讲义、住宿及其他费用。",
+    "deadline": "2027/28 内地生：2026-09-01 开放申请；2027-04-30 截止。专业面试于2026年9月至2027年5月分批进行。",
+    "ielts": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
+    "toefl": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "2027/28 内地生简章未列本课程统一 IELTS／TOEFL 最低分，也未声明一律免交语言成绩。学校以中／英文专业面试及英文能力等综合评审；如有英语成绩，应按申请系统要求提交并向招生处确认项目要求。 简章说明，英文学制以外课程采用中／英文授课。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "学士学位（学信网可查）；往届毕业生须过考研国家A类线；应届毕业生均可报考；面试（专业+英文）。",
-    "official_url": "https://www.cityu.edu.mo/gs/programmes/",
+    "official_url": "https://ado.cityu.edu.mo/en/list-26/57",
     "study_mode": "全日制",
     "curriculum": [
       "金融科技概论",
@@ -247,7 +464,60 @@
       "金融数据分析师"
     ],
     "source_file": "schools/cityu_macau_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ff643f9fa5dff011c30d",
+          "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+          "label": "2027/28 官方内地生简章第3–5页"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "dca9bcb695b3547c4a7a",
+              "url": "https://ado.cityu.edu.mo/en/list-26/57",
+              "label": "官方2027/28内地生申请时间"
+            },
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "language": {
+          "status": "not_published",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ],
+          "note": "已查官方简章：没有最低分表，不等于无语言要求。"
+        }
+      }
+    }
   },
   {
     "id": "cmu-postgraduate-msc-in-cultural-industries-management",
@@ -259,21 +529,21 @@
     "region_en": "Macao SAR",
     "qs_ranking_2026": "未上榜",
     "college": "人文社会科学学院",
-    "major_cn": "文化产业管理硕士",
+    "major_cn": "文化产业管理硕士（中文学制）",
     "major_en": "MSc in Cultural Industries Management",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 247,000（约RMB 220,000）",
-    "deadline": "2025年11月1日-2026年3月31日",
-    "ielts": "无需提交（中/英文授课，面试测试英文）",
-    "toefl": "无需提交（中/英文授课，面试测试英文）",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "fee": "2027/28 内地生：HK$125,000／每学年；正常修读期2年。此数字为年费。注册后正常就读年期学费不因大学调价而变动；不含书本、讲义、住宿及其他费用。",
+    "deadline": "2027/28 内地生：2026-09-01 开放申请；2027-04-30 截止。专业面试于2026年9月至2027年5月分批进行。",
+    "ielts": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
+    "toefl": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "2027/28 内地生简章未列本课程统一 IELTS／TOEFL 最低分，也未声明一律免交语言成绩。学校以中／英文专业面试及英文能力等综合评审；如有英语成绩，应按申请系统要求提交并向招生处确认项目要求。 简章说明，英文学制以外课程采用中／英文授课。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "学士学位（学信网可查）；往届毕业生须过考研国家A类线；应届毕业生均可报考；面试（专业+英文）。",
-    "official_url": "https://www.cityu.edu.mo/gs/programmes/",
+    "official_url": "https://ado.cityu.edu.mo/en/list-26/57",
     "study_mode": "全日制",
     "curriculum": [
       "文化产业理论",
@@ -297,7 +567,60 @@
       "文化市场营销经理"
     ],
     "source_file": "schools/cityu_macau_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ff643f9fa5dff011c30d",
+          "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+          "label": "2027/28 官方内地生简章第3–5页"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "dca9bcb695b3547c4a7a",
+              "url": "https://ado.cityu.edu.mo/en/list-26/57",
+              "label": "官方2027/28内地生申请时间"
+            },
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "language": {
+          "status": "not_published",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ],
+          "note": "已查官方简章：没有最低分表，不等于无语言要求。"
+        }
+      }
+    }
   },
   {
     "id": "cmu-postgraduate-ma-in-applied-linguistics",
@@ -312,18 +635,18 @@
     "major_cn": "应用语言学硕士",
     "major_en": "MA in Applied Linguistics",
     "degree": "MA",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 206,000（约RMB 183,000）",
-    "deadline": "2025年11月1日-2026年3月31日",
-    "ielts": "无需提交（中/英文授课，面试测试英文）",
-    "toefl": "无需提交（中/英文授课，面试测试英文）",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "fee": "2027/28 内地生：HK$100,000／每学年；正常修读期2年。此数字为年费。注册后正常就读年期学费不因大学调价而变动；不含书本、讲义、住宿及其他费用。",
+    "deadline": "2027/28 内地生：2026-09-01 开放申请；2027-04-30 截止。专业面试于2026年9月至2027年5月分批进行。",
+    "ielts": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
+    "toefl": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "2027/28 内地生简章未列本课程统一 IELTS／TOEFL 最低分，也未声明一律免交语言成绩。学校以中／英文专业面试及英文能力等综合评审；如有英语成绩，应按申请系统要求提交并向招生处确认项目要求。 简章说明，英文学制以外课程采用中／英文授课。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "学士学位（学信网可查）；往届毕业生须过考研国家A类线；应届毕业生均可报考；面试（专业+英文）。",
-    "official_url": "https://www.cityu.edu.mo/gs/programmes/",
+    "official_url": "https://ado.cityu.edu.mo/en/list-26/57",
     "study_mode": "全日制",
     "curriculum": [
       "应用语言学理论",
@@ -347,7 +670,60 @@
       "语言服务行业管理"
     ],
     "source_file": "schools/cityu_macau_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ff643f9fa5dff011c30d",
+          "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+          "label": "2027/28 官方内地生简章第3–5页"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "dca9bcb695b3547c4a7a",
+              "url": "https://ado.cityu.edu.mo/en/list-26/57",
+              "label": "官方2027/28内地生申请时间"
+            },
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "language": {
+          "status": "not_published",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ],
+          "note": "已查官方简章：没有最低分表，不等于无语言要求。"
+        }
+      }
+    }
   },
   {
     "id": "cmu-postgraduate-msc-in-urban-planning-and-design",
@@ -358,22 +734,22 @@
     "region_cn": "中国澳门",
     "region_en": "Macao SAR",
     "qs_ranking_2026": "未上榜",
-    "college": "创新设计学院",
-    "major_cn": "城市规划与设计硕士",
+    "college": "城市与可持续发展研究院",
+    "major_cn": "城市规划与设计硕士（中文学制）",
     "major_en": "MSc in Urban Planning and Design",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 227,000（约RMB 202,000）",
-    "deadline": "2025年11月1日-2026年3月31日",
-    "ielts": "无需提交（中/英文授课，面试测试英文）",
-    "toefl": "无需提交（中/英文授课，面试测试英文）",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "fee": "2027/28 内地生：HK$115,000／每学年；正常修读期2年。此数字为年费。注册后正常就读年期学费不因大学调价而变动；不含书本、讲义、住宿及其他费用。",
+    "deadline": "2027/28 内地生：2026-09-01 开放申请；2027-04-30 截止。专业面试于2026年9月至2027年5月分批进行。",
+    "ielts": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
+    "toefl": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "2027/28 内地生简章未列本课程统一 IELTS／TOEFL 最低分，也未声明一律免交语言成绩。学校以中／英文专业面试及英文能力等综合评审；如有英语成绩，应按申请系统要求提交并向招生处确认项目要求。 简章说明，英文学制以外课程采用中／英文授课。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "学士学位（学信网可查）；往届毕业生须过考研国家A类线；应届毕业生均可报考；面试（专业+英文）。",
-    "official_url": "https://www.cityu.edu.mo/gs/programmes/",
+    "official_url": "https://ado.cityu.edu.mo/en/list-26/57",
     "study_mode": "全日制",
     "curriculum": [
       "城市规划理论与方法",
@@ -397,7 +773,60 @@
       "智慧城市项目顾问"
     ],
     "source_file": "schools/cityu_macau_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ff643f9fa5dff011c30d",
+          "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+          "label": "2027/28 官方内地生简章第3–5页"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "dca9bcb695b3547c4a7a",
+              "url": "https://ado.cityu.edu.mo/en/list-26/57",
+              "label": "官方2027/28内地生申请时间"
+            },
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "language": {
+          "status": "not_published",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ],
+          "note": "已查官方简章：没有最低分表，不等于无语言要求。"
+        }
+      }
+    }
   },
   {
     "id": "cmu-postgraduate-ma-in-fine-arts",
@@ -409,21 +838,21 @@
     "region_en": "Macao SAR",
     "qs_ranking_2026": "未上榜",
     "college": "创新设计学院",
-    "major_cn": "艺术学硕士",
+    "major_cn": "艺术学硕士（中文学制）",
     "major_en": "MA in Fine Arts",
     "degree": "MA",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 247,000（约RMB 220,000）",
-    "deadline": "2025年11月1日-2026年3月31日",
-    "ielts": "无需提交（中/英文授课，面试测试英文）",
-    "toefl": "无需提交（中/英文授课，面试测试英文）",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "fee": "2027/28 内地生：HK$125,000／每学年；正常修读期2年。此数字为年费。注册后正常就读年期学费不因大学调价而变动；不含书本、讲义、住宿及其他费用。",
+    "deadline": "2027/28 内地生：2026-09-01 开放申请；2027-04-30 截止。专业面试于2026年9月至2027年5月分批进行。",
+    "ielts": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
+    "toefl": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "2027/28 内地生简章未列本课程统一 IELTS／TOEFL 最低分，也未声明一律免交语言成绩。学校以中／英文专业面试及英文能力等综合评审；如有英语成绩，应按申请系统要求提交并向招生处确认项目要求。 简章说明，英文学制以外课程采用中／英文授课。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "学士学位（学信网可查）；往届毕业生须过考研国家A类线；应届毕业生均可报考；须另缴材料费HKD 5,000；面试（专业+英文）。",
-    "official_url": "https://www.cityu.edu.mo/gs/programmes/",
+    "req_detail": "学士学位（学信网可查）；往届毕业生须过考研国家A类线；应届毕业生均可报考；面试（专业+英文）。",
+    "official_url": "https://ado.cityu.edu.mo/en/list-26/57",
     "study_mode": "全日制",
     "curriculum": [
       "艺术理论与批评",
@@ -447,7 +876,60 @@
       "艺术评论与媒体"
     ],
     "source_file": "schools/cityu_macau_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ff643f9fa5dff011c30d",
+          "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+          "label": "2027/28 官方内地生简章第3–5页"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "dca9bcb695b3547c4a7a",
+              "url": "https://ado.cityu.edu.mo/en/list-26/57",
+              "label": "官方2027/28内地生申请时间"
+            },
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "language": {
+          "status": "not_published",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ],
+          "note": "已查官方简章：没有最低分表，不等于无语言要求。"
+        }
+      }
+    }
   },
   {
     "id": "cmu-postgraduate-master-of-design",
@@ -459,21 +941,21 @@
     "region_en": "Macao SAR",
     "qs_ranking_2026": "未上榜",
     "college": "创新设计学院",
-    "major_cn": "设计学硕士",
+    "major_cn": "设计学硕士（中文学制）",
     "major_en": "Master of Design",
     "degree": "MDes",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 247,000（约RMB 220,000）",
-    "deadline": "2025年11月1日-2026年3月31日",
-    "ielts": "无需提交（中/英文授课，面试测试英文）",
-    "toefl": "无需提交（中/英文授课，面试测试英文）",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "fee": "2027/28 内地生：HK$125,000／每学年；正常修读期2年。此数字为年费。注册后正常就读年期学费不因大学调价而变动；不含书本、讲义、住宿及其他费用。",
+    "deadline": "2027/28 内地生：2026-09-01 开放申请；2027-04-30 截止。专业面试于2026年9月至2027年5月分批进行。",
+    "ielts": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
+    "toefl": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "2027/28 内地生简章未列本课程统一 IELTS／TOEFL 最低分，也未声明一律免交语言成绩。学校以中／英文专业面试及英文能力等综合评审；如有英语成绩，应按申请系统要求提交并向招生处确认项目要求。 简章说明，英文学制以外课程采用中／英文授课。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "学士学位（学信网可查）；往届毕业生须过考研国家A类线；应届毕业生均可报考；面试（专业+英文）。",
-    "official_url": "https://www.cityu.edu.mo/gs/programmes/",
+    "official_url": "https://ado.cityu.edu.mo/en/list-26/57",
     "study_mode": "全日制",
     "curriculum": [
       "设计理论与方法",
@@ -497,7 +979,60 @@
       "视觉设计师"
     ],
     "source_file": "schools/cityu_macau_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ff643f9fa5dff011c30d",
+          "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+          "label": "2027/28 官方内地生简章第3–5页"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "dca9bcb695b3547c4a7a",
+              "url": "https://ado.cityu.edu.mo/en/list-26/57",
+              "label": "官方2027/28内地生申请时间"
+            },
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "language": {
+          "status": "not_published",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ],
+          "note": "已查官方简章：没有最低分表，不等于无语言要求。"
+        }
+      }
+    }
   },
   {
     "id": "cmu-postgraduate-msc-in-international-hospitality-and-tourism-management",
@@ -509,21 +1044,21 @@
     "region_en": "Macao SAR",
     "qs_ranking_2026": "未上榜",
     "college": "国际旅游与管理学院",
-    "major_cn": "国际款待与旅游业管理硕士",
+    "major_cn": "国际款待与旅游业管理硕士（中文学制／英文学制）",
     "major_en": "MSc in International Hospitality and Tourism Management",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 206,000（约RMB 183,000）",
-    "deadline": "2025年11月1日-2026年3月31日",
-    "ielts": "无需提交（中/英文授课，面试测试英文）",
-    "toefl": "无需提交（中/英文授课，面试测试英文）",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "fee": "2027/28 内地生：HK$100,000／每学年；正常修读期2年。此数字为年费。注册后正常就读年期学费不因大学调价而变动；不含书本、讲义、住宿及其他费用。",
+    "deadline": "2027/28 内地生：2026-09-01 开放申请；2027-04-30 截止。专业面试于2026年9月至2027年5月分批进行。",
+    "ielts": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
+    "toefl": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "2027/28 内地生简章未列本课程统一 IELTS／TOEFL 最低分，也未声明一律免交语言成绩。学校以中／英文专业面试及英文能力等综合评审；如有英语成绩，应按申请系统要求提交并向招生处确认项目要求。 本课程分中文学制和全英文授课学制，须按所报班别确认。 指南者页面同时写有“英语证明如有可提供”和“CET-6 430”，两处表述未明确必交关系，不能据此认定统一门槛。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "学士学位（学信网可查）；往届毕业生须过考研国家A类线；应届毕业生均可报考；面试（专业+英文）；中文制/英文制可选。",
-    "official_url": "https://www.cityu.edu.mo/gs/programmes/",
+    "official_url": "https://ado.cityu.edu.mo/en/list-26/57",
     "study_mode": "全日制",
     "curriculum": [
       "旅游与款待业管理",
@@ -547,7 +1082,65 @@
       "航空与邮轮业管理"
     ],
     "source_file": "schools/cityu_macau_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ff643f9fa5dff011c30d",
+          "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+          "label": "2027/28 官方内地生简章第3–5页"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "dca9bcb695b3547c4a7a",
+              "url": "https://ado.cityu.edu.mo/en/list-26/57",
+              "label": "官方2027/28内地生申请时间"
+            },
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "language": {
+          "status": "conflict",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            },
+            {
+              "key": "c0e5899b4c238160999d",
+              "url": "https://m.compassedu.hk/majr/63201",
+              "label": "指南者：英文学制语言要求（辅助参考）"
+            }
+          ],
+          "note": "官方简章未列数值；指南者文字与分数表的必交关系不明确，待学校确认。"
+        }
+      }
+    }
   },
   {
     "id": "cmu-postgraduate-msc-in-international-hotel-management",
@@ -559,21 +1152,21 @@
     "region_en": "Macao SAR",
     "qs_ranking_2026": "未上榜",
     "college": "国际旅游与管理学院",
-    "major_cn": "国际酒店管理硕士",
+    "major_cn": "国际酒店管理硕士（中文学制／英文学制）",
     "major_en": "MSc in International Hotel Management",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 206,000（约RMB 183,000）",
-    "deadline": "2025年11月1日-2026年3月31日",
-    "ielts": "无需提交（中/英文授课，面试测试英文）",
-    "toefl": "无需提交（中/英文授课，面试测试英文）",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "fee": "2027/28 内地生：HK$100,000／每学年；正常修读期2年。此数字为年费。注册后正常就读年期学费不因大学调价而变动；不含书本、讲义、住宿及其他费用。",
+    "deadline": "2027/28 内地生：2026-09-01 开放申请；2027-04-30 截止。专业面试于2026年9月至2027年5月分批进行。",
+    "ielts": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
+    "toefl": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "2027/28 内地生简章未列本课程统一 IELTS／TOEFL 最低分，也未声明一律免交语言成绩。学校以中／英文专业面试及英文能力等综合评审；如有英语成绩，应按申请系统要求提交并向招生处确认项目要求。 本课程分中文学制和全英文授课学制，须按所报班别确认。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "学士学位（学信网可查）；往届毕业生须过考研国家A类线；应届毕业生均可报考；面试（专业+英文）；中文制/英文制可选。",
-    "official_url": "https://www.cityu.edu.mo/gs/programmes/",
+    "official_url": "https://ado.cityu.edu.mo/en/list-26/57",
     "study_mode": "全日制",
     "curriculum": [
       "酒店运营管理",
@@ -597,7 +1190,60 @@
       "酒店咨询顾问"
     ],
     "source_file": "schools/cityu_macau_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ff643f9fa5dff011c30d",
+          "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+          "label": "2027/28 官方内地生简章第3–5页"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "dca9bcb695b3547c4a7a",
+              "url": "https://ado.cityu.edu.mo/en/list-26/57",
+              "label": "官方2027/28内地生申请时间"
+            },
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "language": {
+          "status": "not_published",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ],
+          "note": "已查官方简章：没有最低分表，不等于无语言要求。"
+        }
+      }
+    }
   },
   {
     "id": "cmu-postgraduate-master-of-education",
@@ -609,21 +1255,21 @@
     "region_en": "Macao SAR",
     "qs_ranking_2026": "未上榜",
     "college": "教育学院",
-    "major_cn": "教育学硕士",
+    "major_cn": "教育学硕士（中文学制）",
     "major_en": "Master of Education",
     "degree": "MEd",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 247,000（约RMB 220,000）",
-    "deadline": "2025年11月1日-2026年3月31日",
-    "ielts": "无需提交（中/英文授课，面试测试英文）",
-    "toefl": "无需提交（中/英文授课，面试测试英文）",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "fee": "2027/28 内地生：HK$125,000／每学年；正常修读期2年。此数字为年费。注册后正常就读年期学费不因大学调价而变动；不含书本、讲义、住宿及其他费用。",
+    "deadline": "2027/28 内地生：2026-09-01 开放申请；2027-04-30 截止。专业面试于2026年9月至2027年5月分批进行。",
+    "ielts": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
+    "toefl": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "2027/28 内地生简章未列本课程统一 IELTS／TOEFL 最低分，也未声明一律免交语言成绩。学校以中／英文专业面试及英文能力等综合评审；如有英语成绩，应按申请系统要求提交并向招生处确认项目要求。 简章说明，英文学制以外课程采用中／英文授课。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "学士学位（学信网可查）；往届毕业生须过考研国家A类线；应届毕业生均可报考；面试（专业+英文）。",
-    "official_url": "https://www.cityu.edu.mo/gs/programmes/",
+    "official_url": "https://ado.cityu.edu.mo/en/list-26/57",
     "study_mode": "全日制",
     "curriculum": [
       "教育哲学与理论",
@@ -647,7 +1293,60 @@
       "学校中层管理人员"
     ],
     "source_file": "schools/cityu_macau_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ff643f9fa5dff011c30d",
+          "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+          "label": "2027/28 官方内地生简章第3–5页"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "dca9bcb695b3547c4a7a",
+              "url": "https://ado.cityu.edu.mo/en/list-26/57",
+              "label": "官方2027/28内地生申请时间"
+            },
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "language": {
+          "status": "not_published",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ],
+          "note": "已查官方简章：没有最低分表，不等于无语言要求。"
+        }
+      }
+    }
   },
   {
     "id": "cmu-postgraduate-msc-in-teaching-studies",
@@ -659,21 +1358,21 @@
     "region_en": "Macao SAR",
     "qs_ranking_2026": "未上榜",
     "college": "教育学院",
-    "major_cn": "教学研究硕士",
+    "major_cn": "教学研究硕士（中文学制）",
     "major_en": "MSc in Teaching Studies",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 227,000（约RMB 202,000）",
-    "deadline": "2025年11月1日-2026年3月31日",
-    "ielts": "无需提交（中/英文授课，面试测试英文）",
-    "toefl": "无需提交（中/英文授课，面试测试英文）",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "fee": "2027/28 内地生：HK$110,000／每学年；正常修读期2年。此数字为年费。注册后正常就读年期学费不因大学调价而变动；不含书本、讲义、住宿及其他费用。",
+    "deadline": "2027/28 内地生：2026-09-01 开放申请；2027-04-30 截止。专业面试于2026年9月至2027年5月分批进行。",
+    "ielts": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
+    "toefl": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "2027/28 内地生简章未列本课程统一 IELTS／TOEFL 最低分，也未声明一律免交语言成绩。学校以中／英文专业面试及英文能力等综合评审；如有英语成绩，应按申请系统要求提交并向招生处确认项目要求。 简章说明，英文学制以外课程采用中／英文授课。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "学士学位（学信网可查）；往届毕业生须过考研国家A类线；应届毕业生均可报考；面试（专业+英文）。",
-    "official_url": "https://www.cityu.edu.mo/gs/programmes/",
+    "official_url": "https://ado.cityu.edu.mo/en/list-26/57",
     "study_mode": "全日制",
     "curriculum": [
       "教学理论与方法",
@@ -697,7 +1396,65 @@
       "学校教学管理"
     ],
     "source_file": "schools/cityu_macau_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ff643f9fa5dff011c30d",
+          "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+          "label": "2027/28 官方内地生简章第3–5页"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "dca9bcb695b3547c4a7a",
+              "url": "https://ado.cityu.edu.mo/en/list-26/57",
+              "label": "官方2027/28内地生申请时间"
+            },
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "language": {
+          "status": "not_published",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            },
+            {
+              "key": "c00e7b02b35fcde146e9",
+              "url": "https://m.compassedu.hk/majr/72457",
+              "label": "指南者语言要求（辅助参考）"
+            }
+          ],
+          "note": "官方简章及指南者均未提供本课程统一IELTS/TOEFL分数；指南者称英语证明如有可提供，不能扩展为所有语言材料均获豁免。"
+        }
+      }
+    }
   },
   {
     "id": "cmu-postgraduate-master-of-law-llm",
@@ -709,21 +1466,21 @@
     "region_en": "Macao SAR",
     "qs_ranking_2026": "未上榜",
     "college": "法学院",
-    "major_cn": "法学硕士",
+    "major_cn": "法学硕士（中文学制）",
     "major_en": "Master of Law (LLM)",
     "degree": "LLM",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 247,000（约RMB 220,000）",
-    "deadline": "2025年11月1日-2026年3月31日",
-    "ielts": "无需提交（中/英文授课，面试测试英文）",
-    "toefl": "无需提交（中/英文授课，面试测试英文）",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "fee": "2027/28 内地生：HK$125,000／每学年；正常修读期2年。此数字为年费。注册后正常就读年期学费不因大学调价而变动；不含书本、讲义、住宿及其他费用。",
+    "deadline": "2027/28 内地生：2026-09-01 开放申请；2027-04-30 截止。专业面试于2026年9月至2027年5月分批进行。",
+    "ielts": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
+    "toefl": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "2027/28 内地生简章未列本课程统一 IELTS／TOEFL 最低分，也未声明一律免交语言成绩。学校以中／英文专业面试及英文能力等综合评审；如有英语成绩，应按申请系统要求提交并向招生处确认项目要求。 简章说明，英文学制以外课程采用中／英文授课。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "学士学位（法学背景优先）；往届毕业生须过考研国家A类线；应届毕业生均可报考；面试（专业+英文）。",
-    "official_url": "https://www.cityu.edu.mo/gs/programmes/",
+    "official_url": "https://ado.cityu.edu.mo/en/list-26/57",
     "study_mode": "全日制",
     "curriculum": [
       "法理学专题",
@@ -747,7 +1504,60 @@
       "合规管理专员"
     ],
     "source_file": "schools/cityu_macau_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ff643f9fa5dff011c30d",
+          "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+          "label": "2027/28 官方内地生简章第3–5页"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "dca9bcb695b3547c4a7a",
+              "url": "https://ado.cityu.edu.mo/en/list-26/57",
+              "label": "官方2027/28内地生申请时间"
+            },
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "language": {
+          "status": "not_published",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ],
+          "note": "已查官方简章：没有最低分表，不等于无语言要求。"
+        }
+      }
+    }
   },
   {
     "id": "cmu-postgraduate-ma-in-portuguese-speaking-countries-studies",
@@ -759,21 +1569,21 @@
     "region_en": "Macao SAR",
     "qs_ranking_2026": "未上榜",
     "college": "葡语国家研究院",
-    "major_cn": "葡语国家研究硕士",
+    "major_cn": "葡语国家研究硕士（中文学制）",
     "major_en": "MA in Portuguese-speaking Countries Studies",
     "degree": "MA",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 206,000（约RMB 183,000）",
-    "deadline": "2025年11月1日-2026年3月31日",
-    "ielts": "无需提交（中/英文授课，面试测试英文）",
-    "toefl": "无需提交（中/英文授课，面试测试英文）",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "fee": "2027/28 内地生：HK$100,000／每学年；正常修读期2年。此数字为年费。注册后正常就读年期学费不因大学调价而变动；不含书本、讲义、住宿及其他费用。",
+    "deadline": "2027/28 内地生：2026-09-01 开放申请；2027-04-30 截止。专业面试于2026年9月至2027年5月分批进行。",
+    "ielts": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
+    "toefl": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "2027/28 内地生简章未列本课程统一 IELTS／TOEFL 最低分，也未声明一律免交语言成绩。学校以中／英文专业面试及英文能力等综合评审；如有英语成绩，应按申请系统要求提交并向招生处确认项目要求。 简章说明，英文学制以外课程采用中／英文授课。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "学士学位（学信网可查）；往届毕业生须过考研国家A类线；应届毕业生均可报考；面试（专业+英文）。",
-    "official_url": "https://www.cityu.edu.mo/gs/programmes/",
+    "official_url": "https://ado.cityu.edu.mo/en/list-26/57",
     "study_mode": "全日制",
     "curriculum": [
       "葡语国家政治与外交",
@@ -797,7 +1607,60 @@
       "文化交流项目协调员"
     ],
     "source_file": "schools/cityu_macau_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ff643f9fa5dff011c30d",
+          "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+          "label": "2027/28 官方内地生简章第3–5页"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "dca9bcb695b3547c4a7a",
+              "url": "https://ado.cityu.edu.mo/en/list-26/57",
+              "label": "官方2027/28内地生申请时间"
+            },
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "language": {
+          "status": "not_published",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ],
+          "note": "已查官方简章：没有最低分表，不等于无语言要求。"
+        }
+      }
+    }
   },
   {
     "id": "cmu-postgraduate-master-of-social-work-msw",
@@ -809,21 +1672,21 @@
     "region_en": "Macao SAR",
     "qs_ranking_2026": "未上榜",
     "college": "大健康学院",
-    "major_cn": "社会工作学硕士",
+    "major_cn": "社会工作学硕士（中文学制）",
     "major_en": "Master of Social Work (MSW)",
     "degree": "MSW",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 227,000（约RMB 202,000）",
-    "deadline": "2025年11月1日-2026年3月31日",
-    "ielts": "无需提交（中/英文授课，面试测试英文）",
-    "toefl": "无需提交（中/英文授课，面试测试英文）",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "fee": "2027/28 内地生：HK$115,000／每学年；正常修读期2年。此数字为年费。注册后正常就读年期学费不因大学调价而变动；不含书本、讲义、住宿及其他费用。",
+    "deadline": "2027/28 内地生：2026-09-01 开放申请；2027-04-30 截止。专业面试于2026年9月至2027年5月分批进行。",
+    "ielts": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
+    "toefl": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "2027/28 内地生简章未列本课程统一 IELTS／TOEFL 最低分，也未声明一律免交语言成绩。学校以中／英文专业面试及英文能力等综合评审；如有英语成绩，应按申请系统要求提交并向招生处确认项目要求。 简章说明，英文学制以外课程采用中／英文授课。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "学士学位（学信网可查）；往届毕业生须过考研国家A类线；应届毕业生均可报考；面试（专业+英文）。",
-    "official_url": "https://www.cityu.edu.mo/gs/programmes/",
+    "official_url": "https://ado.cityu.edu.mo/en/list-26/57",
     "study_mode": "全日制",
     "curriculum": [
       "社会工作理论",
@@ -847,7 +1710,60 @@
       "企业社会责任(CSR)专员"
     ],
     "source_file": "schools/cityu_macau_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ff643f9fa5dff011c30d",
+          "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+          "label": "2027/28 官方内地生简章第3–5页"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "dca9bcb695b3547c4a7a",
+              "url": "https://ado.cityu.edu.mo/en/list-26/57",
+              "label": "官方2027/28内地生申请时间"
+            },
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "language": {
+          "status": "not_published",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ],
+          "note": "已查官方简章：没有最低分表，不等于无语言要求。"
+        }
+      }
+    }
   },
   {
     "id": "cmu-postgraduate-msc-in-applied-psychology",
@@ -862,18 +1778,18 @@
     "major_cn": "应用心理学硕士",
     "major_en": "MSc in Applied Psychology",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "9月",
-    "fee": "MOP 227,000（约RMB 202,000）",
-    "deadline": "2025年11月1日-2026年3月31日",
-    "ielts": "无需提交（中/英文授课，面试测试英文）",
-    "toefl": "无需提交（中/英文授课，面试测试英文）",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "fee": "2027/28 内地生：HK$115,000／每学年；正常修读期2年。此数字为年费。注册后正常就读年期学费不因大学调价而变动；不含书本、讲义、住宿及其他费用。",
+    "deadline": "2027/28 内地生：2026-09-01 开放申请；2027-04-30 截止。专业面试于2026年9月至2027年5月分批进行。",
+    "ielts": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
+    "toefl": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "2027/28 内地生简章未列本课程统一 IELTS／TOEFL 最低分，也未声明一律免交语言成绩。学校以中／英文专业面试及英文能力等综合评审；如有英语成绩，应按申请系统要求提交并向招生处确认项目要求。 简章说明，英文学制以外课程采用中／英文授课。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "学士学位（学信网可查）；往届毕业生须过考研国家A类线；应届毕业生均可报考；面试（专业+英文）。",
-    "official_url": "https://www.cityu.edu.mo/gs/programmes/",
+    "official_url": "https://ado.cityu.edu.mo/en/list-26/57",
     "study_mode": "全日制",
     "curriculum": [
       "心理学研究方法",
@@ -897,7 +1813,60 @@
       "学校心理辅导员"
     ],
     "source_file": "schools/cityu_macau_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ff643f9fa5dff011c30d",
+          "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+          "label": "2027/28 官方内地生简章第3–5页"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "dca9bcb695b3547c4a7a",
+              "url": "https://ado.cityu.edu.mo/en/list-26/57",
+              "label": "官方2027/28内地生申请时间"
+            },
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "language": {
+          "status": "not_published",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ],
+          "note": "已查官方简章：没有最低分表，不等于无语言要求。"
+        }
+      }
+    }
   },
   {
     "id": "cmu-undergraduate-bachelor-of-business-administration-bba",
@@ -1498,5 +2467,430 @@
     ],
     "source_file": "schools_undergraduate/cmu_undergraduate_data.json",
     "last_updated": "2026-05-22"
+  },
+  {
+    "school_code": "CMU",
+    "school_name": "澳门城市大学",
+    "school_name_en": "City University of Macau",
+    "region_cn": "中国澳门",
+    "region_en": "Macao SAR",
+    "qs_ranking_2026": "未上榜",
+    "id": "cmu-postgraduate-master-of-management-analytics",
+    "education_level": "postgraduate",
+    "major_en": "Master of Management Analytics",
+    "degree": "硕士",
+    "study_mode": "全日制",
+    "curriculum": [],
+    "careers": [],
+    "objectives": "",
+    "req_detail": "内地生须具教育部认证本科学历；往届本科毕业生报考本课程须参加2027考研且初试总分过国家A类线，应届本科毕业生不受考研限制。须通过学校综合评审。",
+    "source_file": "official-cmu-2027-28",
+    "gaokao_requirement": null,
+    "subject_requirement": null,
+    "admission_route": null,
+    "major_cn": "管理分析硕士",
+    "college": "商学院",
+    "fee": "2027/28 内地生：HK$125,000／每学年；正常修读期2年。此数字为年费。注册后正常就读年期学费不因大学调价而变动；不含书本、讲义、住宿及其他费用。",
+    "deadline": "2027/28 内地生：2026-09-01 开放申请；2027-04-30 截止。专业面试于2026年9月至2027年5月分批进行。",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "official_url": "https://ado.cityu.edu.mo/en/list-26/57",
+    "ielts": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
+    "toefl": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
+    "language_requirement": "2027/28 内地生简章未列本课程统一 IELTS／TOEFL 最低分，也未声明一律免交语言成绩。学校以中／英文专业面试及英文能力等综合评审；如有英语成绩，应按申请系统要求提交并向招生处确认项目要求。 简章说明，英文学制以外课程采用中／英文授课。",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ff643f9fa5dff011c30d",
+          "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+          "label": "2027/28 官方内地生简章第3–5页"
+        }
+      ],
+      "newness": "added_to_database",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "dca9bcb695b3547c4a7a",
+              "url": "https://ado.cityu.edu.mo/en/list-26/57",
+              "label": "官方2027/28内地生申请时间"
+            },
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "language": {
+          "status": "not_published",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ],
+          "note": "已查官方简章：没有最低分表，不等于无语言要求。"
+        }
+      }
+    },
+    "last_updated": "2026-10-22"
+  },
+  {
+    "school_code": "CMU",
+    "school_name": "澳门城市大学",
+    "school_name_en": "City University of Macau",
+    "region_cn": "中国澳门",
+    "region_en": "Macao SAR",
+    "qs_ranking_2026": "未上榜",
+    "id": "cmu-postgraduate-master-of-artificial-intelligence",
+    "education_level": "postgraduate",
+    "major_en": "Master of Artificial Intelligence",
+    "degree": "硕士",
+    "study_mode": "全日制",
+    "curriculum": [],
+    "careers": [],
+    "objectives": "",
+    "req_detail": "内地生须具教育部认证本科学历；往届本科毕业生报考本课程须参加2027考研且初试总分过国家A类线，应届本科毕业生不受考研限制。须通过学校综合评审。",
+    "source_file": "official-cmu-2027-28",
+    "gaokao_requirement": null,
+    "subject_requirement": null,
+    "admission_route": null,
+    "major_cn": "人工智能硕士",
+    "college": "数据科学学院",
+    "fee": "2027/28 内地生：HK$125,000／每学年；正常修读期2年。此数字为年费。注册后正常就读年期学费不因大学调价而变动；不含书本、讲义、住宿及其他费用。",
+    "deadline": "2027/28 内地生：2026-09-01 开放申请；2027-04-30 截止。专业面试于2026年9月至2027年5月分批进行。",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "official_url": "https://ado.cityu.edu.mo/en/list-26/57",
+    "ielts": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
+    "toefl": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
+    "language_requirement": "2027/28 内地生简章未列本课程统一 IELTS／TOEFL 最低分，也未声明一律免交语言成绩。学校以中／英文专业面试及英文能力等综合评审；如有英语成绩，应按申请系统要求提交并向招生处确认项目要求。 简章说明，英文学制以外课程采用中／英文授课。",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ff643f9fa5dff011c30d",
+          "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+          "label": "2027/28 官方内地生简章第3–5页"
+        }
+      ],
+      "newness": "added_to_database",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "dca9bcb695b3547c4a7a",
+              "url": "https://ado.cityu.edu.mo/en/list-26/57",
+              "label": "官方2027/28内地生申请时间"
+            },
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "language": {
+          "status": "not_published",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ],
+          "note": "已查官方简章：没有最低分表，不等于无语言要求。"
+        }
+      }
+    },
+    "last_updated": "2026-10-22"
+  },
+  {
+    "school_code": "CMU",
+    "school_name": "澳门城市大学",
+    "school_name_en": "City University of Macau",
+    "region_cn": "中国澳门",
+    "region_en": "Macao SAR",
+    "qs_ranking_2026": "未上榜",
+    "id": "cmu-postgraduate-master-of-chinese-cultural-studies",
+    "education_level": "postgraduate",
+    "major_en": "Master of Chinese Cultural Studies",
+    "degree": "硕士",
+    "study_mode": "全日制",
+    "curriculum": [],
+    "careers": [],
+    "objectives": "",
+    "req_detail": "内地生须具教育部认证本科学历；往届本科毕业生报考本课程须参加2027考研且初试总分过国家A类线，应届本科毕业生不受考研限制。须通过学校综合评审。",
+    "source_file": "official-cmu-2027-28",
+    "gaokao_requirement": null,
+    "subject_requirement": null,
+    "admission_route": null,
+    "major_cn": "中国文化研究硕士",
+    "college": "人文社会科学学院",
+    "fee": "2027/28 内地生：HK$115,000／每学年；正常修读期2年。此数字为年费。注册后正常就读年期学费不因大学调价而变动；不含书本、讲义、住宿及其他费用。",
+    "deadline": "2027/28 内地生：2026-09-01 开放申请；2027-04-30 截止。专业面试于2026年9月至2027年5月分批进行。",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "official_url": "https://ado.cityu.edu.mo/en/list-26/57",
+    "ielts": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
+    "toefl": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
+    "language_requirement": "2027/28 内地生简章未列本课程统一 IELTS／TOEFL 最低分，也未声明一律免交语言成绩。学校以中／英文专业面试及英文能力等综合评审；如有英语成绩，应按申请系统要求提交并向招生处确认项目要求。 简章说明，英文学制以外课程采用中／英文授课。",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ff643f9fa5dff011c30d",
+          "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+          "label": "2027/28 官方内地生简章第3–5页"
+        }
+      ],
+      "newness": "added_to_database",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "dca9bcb695b3547c4a7a",
+              "url": "https://ado.cityu.edu.mo/en/list-26/57",
+              "label": "官方2027/28内地生申请时间"
+            },
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "language": {
+          "status": "not_published",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ],
+          "note": "已查官方简章：没有最低分表，不等于无语言要求。"
+        }
+      }
+    },
+    "last_updated": "2026-10-22"
+  },
+  {
+    "school_code": "CMU",
+    "school_name": "澳门城市大学",
+    "school_name_en": "City University of Macau",
+    "region_cn": "中国澳门",
+    "region_en": "Macao SAR",
+    "qs_ranking_2026": "未上榜",
+    "id": "cmu-postgraduate-master-of-international-relations-and-governance",
+    "education_level": "postgraduate",
+    "major_en": "Master of International Relations and Governance",
+    "degree": "硕士",
+    "study_mode": "全日制",
+    "curriculum": [],
+    "careers": [],
+    "objectives": "",
+    "req_detail": "内地生须具教育部认证本科学历；往届本科毕业生报考本课程须参加2027考研且初试总分过国家A类线，应届本科毕业生不受考研限制。须通过学校综合评审。",
+    "source_file": "official-cmu-2027-28",
+    "gaokao_requirement": null,
+    "subject_requirement": null,
+    "admission_route": null,
+    "major_cn": "国际关系与政府治理硕士",
+    "college": "葡语国家研究院",
+    "fee": "2027/28 内地生：HK$105,000／每学年；正常修读期2年。此数字为年费。注册后正常就读年期学费不因大学调价而变动；不含书本、讲义、住宿及其他费用。",
+    "deadline": "2027/28 内地生：2026-09-01 开放申请；2027-04-30 截止。专业面试于2026年9月至2027年5月分批进行。",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "official_url": "https://ado.cityu.edu.mo/en/list-26/57",
+    "ielts": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
+    "toefl": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
+    "language_requirement": "2027/28 内地生简章未列本课程统一 IELTS／TOEFL 最低分，也未声明一律免交语言成绩。学校以中／英文专业面试及英文能力等综合评审；如有英语成绩，应按申请系统要求提交并向招生处确认项目要求。 简章说明，英文学制以外课程采用中／英文授课。",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ff643f9fa5dff011c30d",
+          "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+          "label": "2027/28 官方内地生简章第3–5页"
+        }
+      ],
+      "newness": "added_to_database",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "dca9bcb695b3547c4a7a",
+              "url": "https://ado.cityu.edu.mo/en/list-26/57",
+              "label": "官方2027/28内地生申请时间"
+            },
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "language": {
+          "status": "not_published",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ],
+          "note": "已查官方简章：没有最低分表，不等于无语言要求。"
+        }
+      }
+    },
+    "last_updated": "2026-10-22"
+  },
+  {
+    "school_code": "CMU",
+    "school_name": "澳门城市大学",
+    "school_name_en": "City University of Macau",
+    "region_cn": "中国澳门",
+    "region_en": "Macao SAR",
+    "qs_ranking_2026": "未上榜",
+    "id": "cmu-postgraduate-master-of-smart-ageing-and-health-management",
+    "education_level": "postgraduate",
+    "major_en": "Master of Smart Ageing and Health Management",
+    "degree": "硕士",
+    "study_mode": "全日制",
+    "curriculum": [],
+    "careers": [],
+    "objectives": "",
+    "req_detail": "内地生须具教育部认证本科学历；往届本科毕业生报考本课程须参加2027考研且初试总分过国家A类线，应届本科毕业生不受考研限制。须通过学校综合评审。",
+    "source_file": "official-cmu-2027-28",
+    "gaokao_requirement": null,
+    "subject_requirement": null,
+    "admission_route": null,
+    "major_cn": "智慧养老与健康管理硕士",
+    "college": "大健康学院",
+    "fee": "2027/28 内地生：HK$125,000／每学年；正常修读期2年。此数字为年费。注册后正常就读年期学费不因大学调价而变动；不含书本、讲义、住宿及其他费用。",
+    "deadline": "2027/28 内地生：2026-09-01 开放申请；2027-04-30 截止。专业面试于2026年9月至2027年5月分批进行。",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "official_url": "https://ado.cityu.edu.mo/en/list-26/57",
+    "ielts": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
+    "toefl": "2027/28官方简章未列最低分；须确认所报项目及授课班别",
+    "language_requirement": "2027/28 内地生简章未列本课程统一 IELTS／TOEFL 最低分，也未声明一律免交语言成绩。学校以中／英文专业面试及英文能力等综合评审；如有英语成绩，应按申请系统要求提交并向招生处确认项目要求。 简章说明，英文学制以外课程采用中／英文授课。",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "ff643f9fa5dff011c30d",
+          "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+          "label": "2027/28 官方内地生简章第3–5页"
+        }
+      ],
+      "newness": "added_to_database",
+      "fields": {
+        "fee": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "deadline": {
+          "status": "verified",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "dca9bcb695b3547c4a7a",
+              "url": "https://ado.cityu.edu.mo/en/list-26/57",
+              "label": "官方2027/28内地生申请时间"
+            },
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ]
+        },
+        "language": {
+          "status": "not_published",
+          "cycle": "2027/28 内地生招生",
+          "sources": [
+            {
+              "key": "ff643f9fa5dff011c30d",
+              "url": "https://ado.cityu.edu.mo/en/uploads/userfiles/%E6%BE%B3%E9%97%A8%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A0%94%E7%A9%B6%E7%94%9F%EF%BC%88%E5%86%85%E5%9C%B0%E7%94%9F%EF%BC%89%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%20(3).pdf",
+              "label": "2027/28 官方内地生简章第3–5页"
+            }
+          ],
+          "note": "已查官方简章：没有最低分表，不等于无语言要求。"
+        }
+      }
+    },
+    "last_updated": "2026-10-22"
   }
 ]

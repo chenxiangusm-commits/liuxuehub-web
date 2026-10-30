@@ -1,15 +1,18 @@
-import { notFound } from "next/navigation";
+import { getQSRank, getQSYear, getQSLabel, getQSSource } from "@/lib/qs-ranking";
+import { notFound, permanentRedirect } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { getAllSchools, getSchoolByCode, getProgramsBySchoolCode } from "@/lib/data.server";
 import { getSchoolChineseName } from "@/lib/school-names";
 import { getSchoolLogo, getSchoolLogoAlt } from "@/lib/schoolLogos";
 import { getSchoolTags } from "@/lib/schoolTags";
-import { formatLanguageRequirement } from "@/lib/displayFormat";
 import SchoolDetailClient from "./SchoolDetailClient";
-import Container from "@/components/ui/Container";
-import Card from "@/components/ui/Card";
-import Badge from "@/components/ui/Badge";
+import AuApplicantProfile from "@/components/AuApplicantProfile";
+import { getAuSchoolProfile } from "@/lib/au-applicant-profile.server";
+import HkApplicantProfile from "@/components/HkApplicantProfile";
+import { getHkSchoolProfile } from "@/lib/hk-applicant-profile.server";
+import { getSgSchoolProfile } from "@/lib/sg-applicant-profile.server";
+import { getUkSchoolProfile } from "@/lib/uk-applicant-profile.server";
 
 function generateSchoolIntro(chineseName: string, schoolCode: string): string {
   const code = schoolCode.toUpperCase();
@@ -294,7 +297,7 @@ function generateSchoolIntro(chineseName: string, schoolCode: string): string {
   
   // 马来亚大学
   if (code === "UM") {
-    return "马来亚大学（University of Malaya）创立于1949年，是马来西亚历史最悠久、排名第一的国立大学，也是亚洲大学联盟成员。学校在医学、工程学、法律、商业与会计、社会科学等领域具有卓越声誉，是马来西亚高等教育的旗舰学府。";
+    return "澳门大学（University of Macau）位于中国澳门。此页汇集其本科与研究生项目；具体课程、授课语言及内地申请人的招生条件，请查看项目详情与澳门大学官网。";
   }
   
   // 博特拉大学
@@ -471,132 +474,6 @@ function fixRegion(region: string): string {
   return region;
 }
 
-function formatSchoolFee(fees: string[]): { local: string; rmb: string } {
-  if (fees.length === 0) {
-    return { local: "官网确认", rmb: "" };
-  }
-
-  const validFees = fees.filter(f => f && f !== "待确认" && f !== "官网暂未明确" && !String(f).toLowerCase().includes("see official"));
-  if (validFees.length === 0) {
-    return { local: "官网确认", rmb: "" };
-  }
-
-  const exchangeRates: Record<string, number> = {
-    "£": 9.2,
-    "GBP": 9.2,
-    "HKD": 0.92,
-    "SGD": 5.35,
-    "AUD": 4.75,
-    "NZD": 4.4,
-    "$": 7.2,
-    "USD": 7.2,
-    "€": 7.8,
-    "EUR": 7.8,
-  };
-
-  const formatMoney = (currency: string, amount: number) => {
-    const symbol = currency === "GBP" ? "£" : currency === "USD" ? "$" : currency === "EUR" ? "€" : currency;
-    return `${symbol}${amount.toLocaleString("en-US", { maximumFractionDigits: 0 })}`;
-  };
-
-  const extractFeeParts = (fee: string): { currency: string; amount: number } | null => {
-    const feeLower = fee.toLowerCase();
-    
-    // 过滤掉 Home fee，只保留 Overseas/国际生
-    if (feeLower.includes('home') && !feeLower.includes('overseas')) {
-      return null;
-    }
-    if (feeLower.includes("band") || feeLower.includes("see official") || fee.includes("待确认")) {
-      return null;
-    }
-    
-    // 提取金额（支持 £、HKD、SGD、AUD 等）
-    const amountMatch = fee.match(/(£|€|\$|GBP|HKD|SGD|AUD|NZD|USD|EUR)?\s*([0-9,]+(?:\.[0-9]+)?)/i);
-    if (!amountMatch) return null;
-    
-    const currency = (amountMatch[1] || "").toUpperCase();
-    const amount = Number(amountMatch[2].replace(/,/g, ""));
-    if (!amount || amount < 1000) return null;
-    
-    return {
-      currency,
-      amount,
-    };
-  };
-
-  const extractedFees = validFees
-    .map(extractFeeParts)
-    .filter((f): f is { currency: string; amount: number } => f !== null);
-
-  if (extractedFees.length === 0) {
-    return { local: "官网确认", rmb: "" };
-  }
-
-  // 按金额排序
-  const sortedFees = extractedFees.sort((a, b) => a.amount - b.amount);
-
-  const minFee = sortedFees[0];
-  const maxFee = sortedFees[sortedFees.length - 1];
-  const currency = minFee.currency || maxFee.currency;
-  const rate = exchangeRates[currency];
-
-  const local = minFee.amount === maxFee.amount
-    ? `${formatMoney(currency, minFee.amount)}/年`
-    : `${formatMoney(currency, minFee.amount)}–${formatMoney(currency, maxFee.amount)}/年`;
-
-  const rmb = rate
-    ? minFee.amount === maxFee.amount
-      ? `约${(minFee.amount * rate / 10000).toFixed(1)}万元人民币`
-      : `约${(minFee.amount * rate / 10000).toFixed(1)}–${(maxFee.amount * rate / 10000).toFixed(1)}万元人民币`
-    : "";
-
-  return { local, rmb };
-}
-
-function getApplicationDifficulty(ranking: number | undefined): { level: string; stars: string } {
-  if (!ranking || ranking <= 0) {
-    return { level: "中等竞争", stars: "⭐⭐⭐☆☆" };
-  }
-  if (ranking <= 30) {
-    return { level: "高竞争", stars: "⭐⭐⭐⭐⭐" };
-  }
-  if (ranking <= 100) {
-    return { level: "高竞争", stars: "⭐⭐⭐⭐☆" };
-  }
-  if (ranking <= 200) {
-    return { level: "中等竞争", stars: "⭐⭐⭐☆☆" };
-  }
-  return { level: "相对友好", stars: "⭐⭐☆☆☆" };
-}
-
-function getSuggestedBackground(ranking?: number, schoolCode?: string) {
-  const code = (schoolCode || "").toUpperCase();
-  const priorityCodes = new Set([
-    "IC", "OXFORD", "CAMBRIDGE", "UCL", "LSE",
-    "HKU", "CUHK", "HKUST",
-    "NUS", "NTU",
-    "UNIMELB", "MELBOURNE", "UNSW", "USYD", "SYDNEY", "ANU", "MONASH", "UQ", "UWA", "ADELAIDE",
-  ]);
-
-  const isPriority = priorityCodes.has(code) || (!!ranking && ranking > 0 && ranking <= 100);
-
-  if (isPriority) {
-    return [
-      { label: "C9", value: "80–85+" },
-      { label: "985/211", value: "82–87+" },
-      { label: "双非", value: "87–90+" },
-      { label: "海本", value: "GPA 3.3–3.7+" },
-    ];
-  }
-
-  return [
-    { label: "985/211", value: "78–83+" },
-    { label: "双非", value: "83–87+" },
-    { label: "相关背景", value: "更有优势" },
-    { label: "海本", value: "GPA 3.0–3.4+" },
-  ];
-}
-
 export async function generateMetadata({ params }: PageProps) {
   const { schoolCode } = await params;
   const school = await getSchoolByCode(schoolCode);
@@ -607,9 +484,11 @@ export async function generateMetadata({ params }: PageProps) {
     };
   }
 
-  const chineseName = getSchoolChineseName(school.school_code);
+  if (schoolCode !== school.school_code) permanentRedirect(`/schools/${school.school_code}`);
+  const chineseName = getSchoolChineseName(school.school_code, school.school_name);
 
   return {
+    alternates: {canonical: `/schools/${school.school_code}`},
     title: `${chineseName} 硕士/本科申请条件｜留学Hub`,
     description: `查看${chineseName}的院校排名、专业设置、国际生学费、语言要求和申请参考。`,
   };
@@ -627,223 +506,33 @@ export default async function SchoolDetailPage({ params }: PageProps) {
     notFound();
   }
 
-  const chineseName = getSchoolChineseName(school.school_code);
+  if (schoolCode !== school.school_code) permanentRedirect(`/schools/${school.school_code}`);
+  const chineseName = getSchoolChineseName(school.school_code, school.school_name);
   const logoPath = getSchoolLogo(school.school_code);
 
   const schoolPrograms = programs;
   const programCount = schoolPrograms.length;
 
-  // 提取学费信息
-  const fees = schoolPrograms
-    .map(p => p.fee == null ? "" : String(p.fee))
-    .filter(f => f && f !== "待确认");
-  const feeRangeInfo = formatSchoolFee(fees);
+  const auProfile = school.region_cn === "澳大利亚" ? getAuSchoolProfile(school.school_code) : undefined;
+  const isHongKong = school.region_cn === "中国香港";
+  const isSingapore = school.region_cn === "新加坡";
+  const isUnitedKingdom = school.region_cn === "英国";
+  const programsAnchor = isHongKong ? "hongkong-programs" : isSingapore ? "singapore-programs" : isUnitedKingdom ? "uk-programs" : "australia-programs";
+  const hkProfile = isHongKong ? getHkSchoolProfile(school.school_code) : undefined;
+  const sgProfile = isSingapore ? getSgSchoolProfile(school.school_code) : undefined;
+  const ukProfile = isUnitedKingdom ? getUkSchoolProfile(school.school_code) : undefined;
+  const languageRequirement="各专业、授课语言及申请批次要求不同，请查看具体课程的语言成绩、单项要求及豁免条件。";
 
-
-  // 计算申请难度
-  const difficulty = getApplicationDifficulty(school.qs_ranking_2026);
-
-  // 获取语言要求（从第一个有数据的项目获取）
-  const sampleProgram = schoolPrograms.find(p => p.ielts || p.toefl);
-  const languageRequirement = sampleProgram 
-    ? formatLanguageRequirement(sampleProgram.ielts, sampleProgram.toefl)
-    : "官网暂未明确，请以官网为准";
-  const suggestedBackground = getSuggestedBackground(school.qs_ranking_2026, school.school_code);
-
-  return (
-    <div className="min-h-screen bg-gray-50">
-      <Container className="py-8">
-        {/* 返回按钮 + 面包屑 */}
-        <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-          <Link
-            href="/schools"
-            className="back-to-schools-btn"
-          >
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-            </svg>
-            <span>返回院校库</span>
-          </Link>
-
-          <nav className="flex items-center space-x-2 text-sm flex-wrap">
-            <Link href="/" className="text-blue-600 hover:text-blue-800">首页</Link>
-            <span className="text-gray-400">/</span>
-            <Link href="/schools" className="text-blue-600 hover:text-blue-800">院校库</Link>
-            <span className="text-gray-400">/</span>
-            <span className="text-gray-600 truncate max-w-[200px]" title={chineseName}>{chineseName}</span>
-          </nav>
-        </div>
-
-        {/* 学校头部信息区域 */}
-        <div className="bg-gradient-to-br from-blue-50 via-blue-100/50 to-indigo-50 rounded-2xl p-6 mb-5 shadow-sm">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
-            {/* 左侧：Logo + 学校信息 */}
-            <div className="lg:col-span-5">
-              <div className="flex items-start gap-4">
-                <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center flex-shrink-0 p-2 shadow-sm ring-1 ring-blue-100">
-                  {logoPath ? (
-                    <Image
-                      src={logoPath}
-                      alt={getSchoolLogoAlt(chineseName)}
-                      width={64}
-                      height={64}
-                      className="h-full w-full object-contain"
-                      priority
-                    />
-                  ) : (
-                    <span className="text-blue-600 font-bold text-lg">
-                      {school.school_code?.toUpperCase() || "?"}
-                    </span>
-                  )}
-                </div>
-                <div className="flex-1 min-w-0">
-                  <h1 className="text-xl font-bold text-gray-900 mb-1 truncate">
-                    {chineseName}
-                  </h1>
-                  <p className="text-sm text-gray-500 mb-2 truncate">
-                    {school.school_name_en || school.school_name || "待确认"}
-                  </p>
-                  <div className="flex flex-wrap gap-2">
-                    <Badge className="bg-blue-100 text-blue-700 border-blue-200">
-                      {fixRegion(school.region_cn) || "待确认"}
-                    </Badge>
-                    {school.qs_ranking_2026 && school.qs_ranking_2026 > 0 && (
-                      <Badge className="bg-amber-100 text-amber-700 border-amber-200">
-                        QS #{school.qs_ranking_2026}
-                      </Badge>
-                    )}
-                  </div>
-                </div>
-              </div>
-              {/* 学校标签 */}
-              <div className="flex flex-wrap gap-2 mt-4">
-                {getSchoolTags(school.school_code).map((tag: string) => (
-                  <span 
-                    key={tag} 
-                    className="px-3 py-1 text-xs font-medium text-blue-700 bg-blue-100 border border-blue-200 rounded-full"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
-            </div>
-
-            <div className="lg:col-span-7">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-100">
-                  <div className="text-xs text-gray-500 mb-1">国际生学费</div>
-                  <div className="text-base font-bold text-blue-600">
-                    {feeRangeInfo.local}
-                  </div>
-                  {feeRangeInfo.rmb && (
-                    <div className="text-sm text-blue-500 mt-1">
-                      {feeRangeInfo.rmb}
-                    </div>
-                  )}
-                </div>
-                <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-100">
-                  <div className="text-xs text-gray-500 mb-1">项目数量</div>
-                  <div className="text-2xl font-bold text-blue-600">
-                    {programCount}
-                  </div>
-                  <div className="text-xs text-gray-500 mt-1">
-                    本科{schoolPrograms.filter(p => p.education_level === "undergraduate").length} / 硕士{schoolPrograms.filter(p => p.education_level === "postgraduate").length}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* 学校简介 */}
-        <Card className="p-5 mb-5">
-          <h2 className="text-base font-bold text-gray-900 mb-2">学校简介</h2>
-          <p className="text-sm text-gray-600 leading-relaxed">
-            {school.intro || generateSchoolIntro(chineseName, school.school_code)}
-          </p>
-        </Card>
-
-        {/* 申请概览模块 */}
-        <Card className="p-5 mb-5">
-          <h2 className="text-base font-bold text-gray-900 mb-4">申请概览</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
-            {/* 申请难度 */}
-            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-4">
-              <div className="text-xs text-gray-500 mb-2">申请难度</div>
-              <div className="text-lg font-bold text-gray-900 mb-1">{difficulty.stars}</div>
-              <div className={`text-sm font-medium ${
-                difficulty.level === '高竞争' ? 'text-red-600' :
-                difficulty.level === '中等竞争' ? 'text-orange-600' : 'text-green-600'
-              }`}>
-                {difficulty.level}
-              </div>
-            </div>
-            {/* 语言要求 */}
-            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-4">
-              <div className="text-xs text-gray-500 mb-2">语言要求</div>
-              <div className="text-sm font-medium text-gray-900 leading-relaxed">
-                {languageRequirement}
-              </div>
-            </div>
-            {/* 录取偏好 */}
-            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-4">
-              <div className="text-xs text-gray-500 mb-2">录取偏好</div>
-              <div className="flex flex-wrap gap-1.5">
-                <span className="px-2 py-1 bg-white text-xs text-gray-700 rounded-full">偏好985/211</span>
-                <span className="px-2 py-1 bg-white text-xs text-gray-700 rounded-full">偏好相关背景</span>
-                <span className="px-2 py-1 bg-white text-xs text-gray-700 rounded-full">偏好实习科研</span>
-              </div>
-            </div>
-            {/* 截止时间 */}
-            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-4">
-              <div className="text-xs text-gray-500 mb-2">截止时间</div>
-              <div className="text-sm font-medium text-gray-900">滚动录取</div>
-              <div className="text-xs text-gray-500 mt-1">建议尽早申请</div>
-            </div>
-            {/* AI录取率评估 */}
-            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-4">
-              <div className="text-xs text-gray-500 mb-2">AI录取率评估</div>
-              <Link
-                href={`/ai/school-match?school=${encodeURIComponent(chineseName)}&region=${encodeURIComponent(fixRegion(school.region_cn) || '')}`}
-                className="block w-full py-2 bg-blue-600 text-white text-sm font-medium text-center rounded-lg hover:bg-blue-700 transition-colors"
-              >
-                立即评估
-              </Link>
-              <div className="text-xs text-gray-500 mt-2 text-center">
-                基于历史项目数据推测，仅供参考
-              </div>
-            </div>
-          </div>
-          <div className="mt-4 rounded-xl border border-blue-100 bg-blue-50/60 p-4">
-            <div className="mb-3 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
-              <div>
-                <div className="text-sm font-semibold text-gray-900">中国学生参考画像</div>
-                <p className="text-xs text-gray-500">适合快速判断申请门槛，具体专业会有差异。</p>
-              </div>
-              <Link
-                href={`/ai/study-plan?school=${encodeURIComponent(chineseName)}&region=${encodeURIComponent(fixRegion(school.region_cn) || '')}`}
-                className="inline-flex items-center justify-center rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-blue-700"
-              >
-                生成我的选校规划
-              </Link>
-            </div>
-            <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
-              {suggestedBackground.map(item => (
-                <div key={item.label} className="rounded-lg bg-white px-3 py-2">
-                  <div className="text-xs text-gray-500">{item.label}</div>
-                  <div className="text-sm font-semibold text-gray-900">{item.value}</div>
-                </div>
-              ))}
-            </div>
-            <p className="mt-3 text-xs leading-relaxed text-gray-500">
-              基于历史项目数据与申请经验推测，仅供参考，最终以学校官网和实际审核为准。
-            </p>
-          </div>
-        </Card>
-
-        {/* 专业列表 */}
-        <SchoolDetailClient programs={schoolPrograms} schoolName={chineseName} region={fixRegion(school.region_cn) || ''} />
-      </Container>
-    </div>
-  );
+  const postgraduateCount=schoolPrograms.filter(p=>p.education_level==='postgraduate').length;
+  const undergraduateCount=schoolPrograms.filter(p=>p.education_level==='undergraduate').length;
+  const intro=school.intro||generateSchoolIntro(chineseName,school.school_code);
+  return <main className="design-container school-detail py-6">
+    <nav aria-label="面包屑" className="mb-5 flex flex-wrap items-center gap-2 text-xs text-slate-500"><Link href="/schools">院校库</Link><span>/</span><span>{chineseName}</span></nav>
+    <section className="school-hero"><div className="flex items-center gap-4"><div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-2xl border border-slate-100 bg-white p-3"><Image src={logoPath} alt={getSchoolLogoAlt(chineseName)} width={64} height={64} className="max-h-14 object-contain" priority/></div><div className="min-w-0"><h1>{chineseName}</h1><p className="mt-1 text-sm text-slate-500">{school.school_name_en||school.school_name}</p><div className="mt-3 flex flex-wrap gap-2"><span className="meta-chip">{fixRegion(school.region_cn)}</span>{getQSRank(school)>0&&<a href={getQSSource(school)} target="_blank" rel="noopener noreferrer" className="meta-chip">QS {getQSYear(school)} · {getQSLabel(school)}</a>}{getSchoolTags(school.school_code).map(tag=><span key={tag} className="meta-chip">{tag}</span>)}</div></div></div><div className="school-hero-actions"><p className="mb-3 text-sm text-slate-500">收录 <strong className="text-2xl font-semibold text-slate-900">{programCount}</strong> 个项目</p><a href={`#${programsAnchor}`} className="ui-primary">查看硕士项目 <span className="font-normal opacity-80">{postgraduateCount}</span> ↓</a></div></section>
+    <div className="school-intro"><p>{intro}</p><details><summary>展开学校简介</summary><div className="mt-2">{intro}</div></details></div>
+    <nav className="detail-subnav" aria-label="院校详情导航"><a href={`#${programsAnchor}`}>专业列表 <span className="ml-2 text-xs text-slate-500">{programCount}</span></a><a href="#application-reference">硕士申请参考</a><a href="#school-application-notes">申请说明</a></nav>
+    <section id={programsAnchor} className="school-program-list"><div className="mb-4 flex items-end justify-between gap-4"><div><h2 className="text-xl font-semibold text-slate-900">找到你的目标专业</h2><p className="mt-1 text-xs text-slate-500">本科 {undergraduateCount} · 研究生 {postgraduateCount} · 学费与申请条件按具体批次查看</p></div><Link href={`/programs?school=${encodeURIComponent(school.school_code)}`} className="hidden text-sm text-blue-700 sm:inline">进入专业库筛选 →</Link></div><SchoolDetailClient programs={schoolPrograms} schoolName={chineseName} region={fixRegion(school.region_cn)||''}/></section>
+    <section id="application-reference" className="mt-8 rounded-2xl border border-slate-200 bg-white p-5 sm:p-6"><div className="mb-5 flex flex-wrap items-center justify-between gap-3"><div><p className="eyebrow">中国学生申请参考</p><h2 className="mt-1 text-xl font-semibold">先看区间，再对照专业要求</h2><p className="mt-2 text-sm text-slate-500">按专业方向、本科背景与原成绩制式查看。</p></div><a href={`#${programsAnchor}`} className="ui-secondary">选择目标专业 ↑</a></div>{auProfile?<AuApplicantProfile profile={auProfile}/>:<HkApplicantProfile profile={isHongKong?hkProfile:isSingapore?sgProfile:ukProfile}/>}</section>
+    <section id="school-application-notes" className="mt-5 rounded-2xl border border-slate-200 bg-white p-5 sm:p-6"><h2 className="text-lg font-semibold">申请说明</h2><div className="mt-4 grid gap-5 text-sm leading-7 text-slate-600 sm:grid-cols-3"><div><h3 className="font-medium text-slate-900">学历与专业背景</h3><p>按课程查看学历、先修知识、工作经验及国际生路径。</p></div><div><h3 className="font-medium text-slate-900">学费与语言条件</h3><p>{languageRequirement}</p><p>学费按项目区分全程、每年及其他收费口径。</p></div><div><h3 className="font-medium text-slate-900">申请轮次</h3><p>进入专业查看具体入学批次、截止时间与官网来源。未明确的信息保留标注。</p></div></div></section>
+  </main>;
 }

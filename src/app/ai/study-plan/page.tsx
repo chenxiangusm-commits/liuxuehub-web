@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import {ResultView} from "@/components/StudyPlanResultView";
+import { useState, useEffect } from "react";
 import Card from "@/components/ui/Card";
 import Container from "@/components/ui/Container";
 import Badge from "@/components/ui/Badge";
@@ -10,30 +11,12 @@ import {
   StudyPlanResult,
   StudyPlanStage,
   normalizeStudyPlanTimeline,
-  studyPlanMockResult,
 } from "@/lib/ai/studyPlanMock";
 
-const regions = ["英国", "中国香港", "新加坡", "澳大利亚", "美国", "加拿大"];
+const regions = ["英国", "中国香港", "新加坡", "澳大利亚", "中国澳门", "新西兰"];
 const directions = ["金融", "商科", "计算机", "AI", "数据科学", "工程", "教育", "传媒", "法律", "其它"];
 const backgrounds = ["985", "211", "双一流", "海外本科", "普通一本", "普通二本", "独立学院", "其他"];
 const curriculumTypes = ["普高", "A-level", "IB", "AP", "OSSD", "HKDSE", "SAT/ACT", "国际学校", "其他"];
-
-type BetaMetricEvent = "generate_click" | "generate_failure" | "json_fallback" | "lead_submit";
-
-function trackBetaMetric(event: BetaMetricEvent) {
-  if (typeof window === "undefined") return;
-  const key = "studyPlanBetaMetrics";
-  const current = JSON.parse(localStorage.getItem(key) || "{}") as Record<string, number>;
-  localStorage.setItem(
-    key,
-    JSON.stringify({
-      ...current,
-      [event]: (current[event] || 0) + 1,
-      lastEvent: event,
-      lastEventAt: new Date().toISOString(),
-    })
-  );
-}
 
 function OptionButton({
   active,
@@ -98,211 +81,14 @@ function Field({
   );
 }
 
-function ListBlock({ title, items }: { title: string; items: string[] }) {
-  return (
-    <div className="rounded-2xl bg-slate-50 p-4">
-      <h4 className="font-bold text-slate-900">{title}</h4>
-      <ul className="mt-3 space-y-2 text-sm leading-6 text-slate-600">
-        {(items.length ? items : ["建议补充确认"]).map((item) => (
-          <li key={item} className="flex gap-2">
-            <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-600" />
-            <span>{item}</span>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-}
-
-function ResultView({ result }: { result: StudyPlanResult }) {
-  const [betaMessage, setBetaMessage] = useState("");
-  const [leadSubmitted, setLeadSubmitted] = useState(false);
-  const [leadForm, setLeadForm] = useState({ name: "", contact: "", note: "" });
-  const timeline = normalizeStudyPlanTimeline(result.timeline);
-  const strategies = [
-    ["冲刺", result.schoolStrategy.reach, "border-red-100 bg-red-50/50"],
-    ["匹配", result.schoolStrategy.match, "border-blue-100 bg-blue-50/50"],
-    ["保底", result.schoolStrategy.safe, "border-emerald-100 bg-emerald-50/50"],
-  ] as const;
-
-  const showBetaMessage = () => {
-    setBetaMessage("正式版开放，当前可先提交内测申请。");
-  };
-
-  return (
-    <div className="mt-10 space-y-6">
-      <Card className="p-6 shadow-sm">
-        <div className="flex flex-col gap-5 md:flex-row md:items-start md:justify-between">
-          <div>
-            <Badge variant="primary">AI生成结果</Badge>
-            <h2 className="mt-3 text-2xl font-black text-slate-950">学生画像</h2>
-            <p className="mt-3 max-w-3xl text-sm leading-7 text-slate-600">{result.studentProfile.summary}</p>
-          </div>
-          <div className="rounded-2xl bg-blue-50 px-6 py-5 text-center">
-            <div className="text-4xl font-black text-blue-600">{result.studentProfile.competitivenessScore}</div>
-            <div className="mt-1 text-xs font-bold text-blue-700">竞争力评分</div>
-          </div>
-        </div>
-        <div className="mt-6 grid gap-4 md:grid-cols-2">
-          <ListBlock title="优势" items={result.studentProfile.strengths} />
-          <ListBlock title="短板" items={result.studentProfile.weaknesses} />
-        </div>
-      </Card>
-
-      <div className="grid gap-4 lg:grid-cols-3">
-        {strategies.map(([label, list, style]) => (
-          <Card key={label} className={`p-5 shadow-sm ${style}`}>
-            <h3 className="text-xl font-black text-slate-950">{label}方案</h3>
-            <div className="mt-4 space-y-3">
-              {(list.length ? list : [{ school: "建议补充确认", program: "建议补充确认", reason: "需要更多学生背景后细化。", risk: "信息不足。" }]).map((item) => (
-                <div key={`${label}-${item.school}-${item.program}`} className="rounded-2xl bg-white p-4 shadow-sm">
-                  <div className="font-bold text-slate-950">{item.school}</div>
-                  <div className="mt-1 text-sm font-semibold text-blue-600">{item.program}</div>
-                  <p className="mt-2 text-sm leading-6 text-slate-600">{item.reason}</p>
-                  <p className="mt-2 text-xs leading-5 text-red-600">风险：{item.risk}</p>
-                </div>
-              ))}
-            </div>
-          </Card>
-        ))}
-      </div>
-
-      <Card className="p-6 shadow-sm">
-        <h2 className="text-2xl font-black text-slate-950">SWOT分析</h2>
-        <div className="mt-5 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
-          <ListBlock title="优势" items={result.swot.strengths} />
-          <ListBlock title="劣势" items={result.swot.weaknesses} />
-          <ListBlock title="机会" items={result.swot.opportunities} />
-          <ListBlock title="风险" items={result.swot.threats} />
-        </div>
-      </Card>
-
-      <Card className="p-6 shadow-sm">
-        <h2 className="text-2xl font-black text-slate-950">申请时间线</h2>
-        <div className="mt-5 space-y-4">
-          {timeline.map((item) => (
-            <div key={`${item.time}-${item.stage}`} className="rounded-2xl border border-slate-100 bg-white p-5">
-              <div className="flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between">
-                <h3 className="font-bold text-slate-950">{item.stage}</h3>
-                <span className="text-sm font-bold text-blue-600">{item.time}</span>
-              </div>
-              <ul className="mt-3 grid gap-2 text-sm text-slate-600 md:grid-cols-2">
-                {(item.tasks.length ? item.tasks : ["建议补充确认"]).map((task) => (
-                  <li key={task}>✓ {task}</li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-      </Card>
-
-      <div className="grid gap-4 lg:grid-cols-[1.1fr_0.9fr]">
-        <Card className="p-6 shadow-sm">
-          <h2 className="text-2xl font-black text-slate-950">行动建议</h2>
-          <div className="mt-5 space-y-3">
-            {result.actionPlan.map((item) => (
-              <div key={`${item.priority}-${item.action}`} className="rounded-2xl bg-slate-50 p-4">
-                <span className="rounded-full bg-blue-100 px-3 py-1 text-xs font-bold text-blue-700">优先级：{item.priority}</span>
-                <h3 className="mt-3 font-bold text-slate-950">{item.action}</h3>
-                <p className="mt-2 text-sm leading-6 text-slate-600">{item.reason}</p>
-              </div>
-            ))}
-          </div>
-        </Card>
-        <Card className="p-6 shadow-sm">
-          <h2 className="text-2xl font-black text-slate-950">顾问备注与风险提示</h2>
-          <div className="mt-5 space-y-4">
-            <ListBlock title="顾问备注" items={result.advisorNotes} />
-            <ListBlock title="风险提示" items={result.riskNotes} />
-          </div>
-        </Card>
-      </div>
-
-      <Card className="p-6 shadow-sm">
-        <p className="text-sm leading-6 text-slate-500">{result.disclaimer}</p>
-        <div className="mt-5 flex flex-col gap-3 sm:flex-row">
-          {["保存方案", "导出PDF", "发给学生"].map((label) => (
-            <button
-              key={label}
-              type="button"
-              onClick={showBetaMessage}
-              title="正式版开放，当前可先提交内测申请。"
-              className="rounded-xl border border-blue-100 bg-blue-50 px-5 py-3 text-sm font-bold text-blue-700 transition hover:border-blue-200 hover:bg-blue-100"
-            >
-              {label}（Beta）
-            </button>
-          ))}
-        </div>
-        {betaMessage && (
-          <div className="mt-4 rounded-2xl border border-blue-100 bg-blue-50 px-4 py-3 text-sm font-semibold text-blue-700">
-            {betaMessage}
-          </div>
-        )}
-      </Card>
-
-      <Card className="overflow-hidden shadow-sm">
-        <div className="bg-gradient-to-r from-blue-600 to-blue-500 p-6 text-white">
-          <Badge variant="default">Beta 内测</Badge>
-          <h2 className="mt-3 text-2xl font-black">保存这份学生规划方案</h2>
-          <p className="mt-3 max-w-2xl text-sm leading-6 text-blue-50">
-            当前为 Beta 版本。你可以留下联系方式，我们将在正式版开放方案保存、PDF导出和发送给学生功能。
-          </p>
-        </div>
-        <form
-          className="grid gap-4 p-6 md:grid-cols-2"
-          onSubmit={(event) => {
-            event.preventDefault();
-            trackBetaMetric("lead_submit");
-            setLeadSubmitted(true);
-            setBetaMessage("");
-          }}
-        >
-          <Field
-            label="姓名/机构名"
-            value={leadForm.name}
-            placeholder="例如：王老师 / 某某留学"
-            onChange={(value) => setLeadForm((current) => ({ ...current, name: value }))}
-          />
-          <Field
-            label="微信号或手机号"
-            value={leadForm.contact}
-            placeholder="方便我们联系你开通内测"
-            onChange={(value) => setLeadForm((current) => ({ ...current, contact: value }))}
-          />
-          <div className="md:col-span-2">
-            <Field
-              label="备注（可选）"
-              value={leadForm.note}
-              placeholder="例如：机构规模、希望优先体验的功能、学生数量等"
-              onChange={(value) => setLeadForm((current) => ({ ...current, note: value }))}
-              multiline
-            />
-          </div>
-          <div className="flex flex-col gap-3 md:col-span-2 sm:flex-row sm:items-center">
-            <button
-              type="submit"
-              className="rounded-xl bg-blue-600 px-6 py-3 text-sm font-bold text-white shadow-lg shadow-blue-600/20 transition hover:bg-blue-700"
-            >
-              提交内测申请
-            </button>
-            {leadSubmitted && (
-              <span className="rounded-xl bg-emerald-50 px-4 py-3 text-sm font-semibold text-emerald-700">
-                已收到内测申请，我们会尽快联系你。
-              </span>
-            )}
-          </div>
-        </form>
-      </Card>
-    </div>
-  );
-}
-
 export default function StudyPlanPage() {
   const [form, setForm] = useState<StudyPlanForm>(defaultStudyPlanForm);
   const [result, setResult] = useState<StudyPlanResult | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-  const [usedFallback, setUsedFallback] = useState(false);
+  const [draftReady,setDraftReady]=useState(false);
+  useEffect(()=>{try{const raw=localStorage.getItem('studyPlanDraft');if(raw){const d=JSON.parse(raw);if(Array.isArray(d.regions))setForm({...defaultStudyPlanForm,...d});}}catch{}setDraftReady(true);},[]);
+  useEffect(()=>{if(draftReady)try{localStorage.setItem('studyPlanDraft',JSON.stringify(form));}catch{}},[form,draftReady]);
 
   const updateForm = <K extends keyof StudyPlanForm>(key: K, value: StudyPlanForm[K]) => {
     setForm((current) => ({ ...current, [key]: value }));
@@ -319,10 +105,9 @@ export default function StudyPlanPage() {
   };
 
   const submit = async () => {
-    trackBetaMetric("generate_click");
     setLoading(true);
     setError("");
-    setUsedFallback(false);
+    setResult(null);
 
     const payload = {
       degreeLevel: form.stage === "postgraduate" ? "硕士" : "本科",
@@ -351,13 +136,9 @@ export default function StudyPlanPage() {
         timeline: normalizeStudyPlanTimeline((data.data as StudyPlanResult).timeline),
       };
       setResult(nextResult);
-      localStorage.setItem("studyPlanResult", JSON.stringify(nextResult));
+      try {localStorage.setItem("studyPlanResult", JSON.stringify(nextResult));} catch {setError("方案已生成，但浏览器空间不足，请下载保存。");}
     } catch (err) {
-      trackBetaMetric("generate_failure");
-      setError(err instanceof Error ? err.message : "AI服务暂时不可用，已展示样例结果。");
-      setResult(studyPlanMockResult);
-      setUsedFallback(true);
-      trackBetaMetric("json_fallback");
+      setError(err instanceof Error ? err.message : "AI服务暂时不可用，你填写的资料已保留，请稍后重试。");
     } finally {
       setLoading(false);
     }
@@ -475,7 +256,7 @@ export default function StudyPlanPage() {
 
               {error && (
                 <div className="rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm leading-6 text-amber-800">
-                  {error.includes("AI服务暂未配置") ? error : usedFallback ? "AI服务暂时不可用，当前展示样例规划书。" : error}
+                  {error}
                 </div>
               )}
 
@@ -492,9 +273,9 @@ export default function StudyPlanPage() {
 
           <aside className="space-y-4">
             <Card className="p-6 shadow-sm">
-              <h3 className="text-lg font-bold text-gray-950">Beta真实AI闭环</h3>
+              <h3 className="text-lg font-bold text-gray-950">规划使用说明</h3>
               <p className="mt-3 text-sm leading-6 text-gray-600">
-                本页会调用后端AI接口生成结构化JSON规划书。不会写入数据库，不接登录、支付或PDF导出。
+                依据你的背景和院校库现有资料整理方案。资料不足会明确说明；生成后可下载或打印，详细录取要求请查看专业页面。
               </p>
             </Card>
             <Card className="p-6 shadow-sm">

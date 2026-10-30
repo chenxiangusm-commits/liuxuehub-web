@@ -62,6 +62,8 @@ interface ProgramSearchResult {
   schoolNameEn: string;
   region: string;
   qsRanking: number | null;
+  qsRankingYear?: number;
+  qsRankingLabel?: string;
   majorCn: string;
   majorEn: string;
   degree: string;
@@ -244,6 +246,8 @@ export default function ResumeBuilderClient() {
         schoolNameEn: selectedProgram.schoolNameEn,
         region: selectedProgram.region,
         qsRanking: selectedProgram.qsRanking,
+        qsRankingYear: selectedProgram.qsRankingYear,
+        qsRankingLabel: selectedProgram.qsRankingLabel,
         majorCn: selectedProgram.majorCn,
         majorEn: selectedProgram.majorEn,
         degree: selectedProgram.degree,
@@ -351,28 +355,9 @@ export default function ResumeBuilderClient() {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <button className="px-4 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors flex items-center justify-center">
-              <svg className="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-6m-6 6h6" />
-              </svg>
-              下载PDF（预览版有水印）
-            </button>
-            <button className="px-4 py-3 bg-white border border-gray-300 text-gray-700 rounded-lg font-medium hover:bg-gray-50 transition-colors flex items-center justify-center relative overflow-hidden">
-              <svg className="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-              </svg>
-              下载Word
-              <span className="absolute top-0 right-0 bg-yellow-400 text-yellow-800 text-xs px-2 py-0.5 rounded-bl-lg font-medium">
-                会员
-              </span>
-            </button>
-            <button className="px-4 py-3 bg-white border border-gray-300 text-gray-700 rounded-lg font-medium hover:bg-gray-50 transition-colors flex items-center justify-center">
-              <svg className="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
-              </svg>
-              生成新版本
-            </button>
+          <div className="flex flex-wrap gap-3">
+            <button className="rounded-lg bg-blue-600 px-4 py-3 text-white" onClick={()=>window.print()}>打印 / 保存 PDF</button>
+            <button className="rounded-lg border px-4 py-3" onClick={()=>{const url=URL.createObjectURL(new Blob([result.draft?.finalDraft||''],{type:'text/plain;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='申请简历.txt';a.click();URL.revokeObjectURL(url);}}>下载可编辑文本</button>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
@@ -450,47 +435,7 @@ export default function ResumeBuilderClient() {
             </div>
           </div>
 
-          <div className="bg-white rounded-xl border border-gray-200 p-6">
-            <h3 className="text-lg font-semibold text-gray-800 mb-4 flex items-center">
-              <svg className="w-5 h-5 mr-2 text-amber-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-              招生官视角简评
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              {result.review?.admissionsOfficerPerspective?.map((comment, index) => (
-                <div key={index} className="bg-gray-50 rounded-lg p-4">
-                  <div className="flex items-center justify-between mb-2">
-                    <span className="text-sm font-medium text-gray-700">{comment.category}</span>
-                    <div className="flex">
-                      {Array.from({ length: 5 }).map((_, i) => (
-                        <svg
-                          key={i}
-                          className={`w-4 h-4 ${i < Math.floor(comment.rating / 2) ? 'text-yellow-500 fill-current' : 'text-gray-300'}`}
-                          viewBox="0 0 20 20"
-                        >
-                          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                        </svg>
-                      ))}
-                    </div>
-                  </div>
-                  <p className="text-sm text-gray-600">{comment.comment}</p>
-                  <p className="text-xs text-gray-500 mt-1">{comment.explanation}</p>
-                </div>
-              ))}
-            </div>
-            <div className="mt-4 flex items-center justify-center">
-              <div className="flex items-center bg-blue-50 px-4 py-2 rounded-full">
-                <svg className="w-4 h-4 text-blue-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                </svg>
-                <span className="text-sm text-blue-700">
-                  综合评分: {result.review?.overallRating || 0}/10 | 置信度: {result.review?.confidenceScore || 0}%
-                </span>
-              </div>
-            </div>
-          </div>
-
+          <div className="rounded-xl border bg-white p-6"><h3 className="font-semibold">简历核对</h3><p className="mt-3 text-sm text-gray-600">请核对学校、日期、成绩和经历，再结合目标项目调整内容。当前不提供招生官评分或匹配概率。</p></div>
           <div className="bg-amber-50 rounded-xl border border-amber-200 p-6">
             <h3 className="text-lg font-semibold text-amber-800 mb-4 flex items-center">
               <svg className="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -538,23 +483,7 @@ export default function ResumeBuilderClient() {
             </div>
           </div>
 
-          <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl p-6 text-white">
-            <h3 className="font-semibold mb-3">{result.membershipCta?.title || "解锁完整功能"}</h3>
-            <p className="text-sm text-blue-100 mb-4">{result.membershipCta?.description}</p>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-              {result.membershipCta?.features.map((feature, index) => (
-                <div key={index} className="flex items-center bg-white/10 rounded-lg px-3 py-2">
-                  <svg className="w-4 h-4 text-blue-300 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span className="text-sm">{feature}</span>
-                </div>
-              ))}
-            </div>
-            <button className="w-full mt-4 px-4 py-2.5 bg-white text-blue-700 rounded-lg font-medium hover:bg-blue-50 transition-colors">
-              升级会员
-            </button>
-          </div>
+
         </div>
       </div>
     );
@@ -598,7 +527,7 @@ export default function ResumeBuilderClient() {
           <div className="mb-6 p-4 bg-gradient-to-r from-purple-50 to-blue-50 rounded-lg border border-purple-200">
             <div className="flex items-center justify-between mb-3">
               <h3 className="text-sm font-medium text-purple-700">从专业库选择目标项目（增强功能）</h3>
-              <span className="text-xs bg-purple-100 text-purple-700 px-2 py-1 rounded-full">会员功能预览</span>
+              <span className="text-xs bg-purple-100 text-purple-700 px-2 py-1 rounded-full">材料辅助整理</span>
             </div>
             <p className="text-xs text-gray-600 mb-3">
               选择目标项目后，AI将根据项目要求为您定制CV，突出匹配的经历和技能
@@ -612,7 +541,7 @@ export default function ResumeBuilderClient() {
                       <span className="font-medium text-gray-800">{selectedProgram.schoolName}</span>
                       {selectedProgram.qsRanking && (
                         <span className="text-xs bg-blue-100 text-blue-700 px-2 py-0.5 rounded">
-                          QS #{selectedProgram.qsRanking}
+                          QS {selectedProgram.qsRankingYear || 2026} · {selectedProgram.qsRankingLabel || selectedProgram.qsRanking}
                         </span>
                       )}
                     </div>
@@ -681,7 +610,7 @@ export default function ResumeBuilderClient() {
                             <div className="flex items-center gap-2">
                               <span className="font-medium text-gray-800">{program.schoolName}</span>
                               {program.qsRanking && (
-                                <span className="text-xs bg-blue-100 text-blue-700 px-1.5 py-0.5 rounded">QS #{program.qsRanking}</span>
+                                <span className="text-xs bg-blue-100 text-blue-700 px-1.5 py-0.5 rounded">QS {program.qsRankingYear || 2026} · {program.qsRankingLabel || program.qsRanking}</span>
                               )}
                             </div>
                             <p className="text-sm text-gray-600">{program.majorCn}</p>

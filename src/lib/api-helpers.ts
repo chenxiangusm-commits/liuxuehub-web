@@ -25,6 +25,11 @@ export async function withApiProtection(
   request: NextRequest,
   handler: () => Promise<NextResponse>
 ): Promise<NextResponse> {
+  // Until real identity and persistent per-account quotas are configured,
+  // production endpoints must not incur unauthenticated model charges.
+  if (process.env.NODE_ENV === 'production') return applySecurityHeaders(NextResponse.json({success:false,error:'AI账户服务尚未开放，请先使用院校与专业查询。'}, {status:503}));
+  const length=Number(request.headers.get('content-length')||0);
+  if(length>64000)return NextResponse.json({success:false,error:'输入内容过长，请分段处理。'},{status:413});
   const clientIp = getClientIp(request);
   const rateLimit = checkRateLimit(clientIp);
 

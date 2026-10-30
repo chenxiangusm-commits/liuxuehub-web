@@ -42843,5 +42843,290 @@
     "school_code": "UWA",
     "education_level": "undergraduate",
     "source_file": "schools_undergraduate/uwa_undergraduate_data.json"
+  },
+  "cmu-postgraduate-master-of-artificial-intelligence": {
+    "school_code": "CMU",
+    "education_level": "postgraduate",
+    "source_file": "official-cmu-2027-28"
+  },
+  "cmu-postgraduate-master-of-chinese-cultural-studies": {
+    "school_code": "CMU",
+    "education_level": "postgraduate",
+    "source_file": "official-cmu-2027-28"
+  },
+  "cmu-postgraduate-master-of-international-relations-and-governance": {
+    "school_code": "CMU",
+    "education_level": "postgraduate",
+    "source_file": "official-cmu-2027-28"
+  },
+  "cmu-postgraduate-master-of-management-analytics": {
+    "school_code": "CMU",
+    "education_level": "postgraduate",
+    "source_file": "official-cmu-2027-28"
+  },
+  "cmu-postgraduate-master-of-smart-ageing-and-health-management": {
+    "school_code": "CMU",
+    "education_level": "postgraduate",
+    "source_file": "official-cmu-2027-28"
+  },
+  "hksyu-postgraduate-mphil-in-chinese": {
+    "school_code": "HKSYU",
+    "education_level": "postgraduate",
+    "source_file": "official-hksyu-2027-28"
+  },
+  "hksyu-postgraduate-mphil-in-economics": {
+    "school_code": "HKSYU",
+    "education_level": "postgraduate",
+    "source_file": "official-hksyu-2027-28"
+  },
+  "hksyu-postgraduate-mphil-in-english": {
+    "school_code": "HKSYU",
+    "education_level": "postgraduate",
+    "source_file": "official-hksyu-2027-28"
+  },
+  "hksyu-postgraduate-mphil-in-history": {
+    "school_code": "HKSYU",
+    "education_level": "postgraduate",
+    "source_file": "official-hksyu-2027-28"
+  },
+  "hksyu-postgraduate-mphil-in-psychology": {
+    "school_code": "HKSYU",
+    "education_level": "postgraduate",
+    "source_file": "official-hksyu-2027-28"
+  },
+  "hksyu-postgraduate-mphil-in-sociology": {
+    "school_code": "HKSYU",
+    "education_level": "postgraduate",
+    "source_file": "official-hksyu-2027-28"
+  },
+  "hkust-postgraduate-meng-di": {
+    "school_code": "HKUST",
+    "education_level": "postgraduate",
+    "source_file": "official-hkust-2027-28"
+  },
+  "hkust-postgraduate-msc-elbt": {
+    "school_code": "HKUST",
+    "education_level": "postgraduate",
+    "source_file": "official-hkust-2027-28"
+  },
+  "hsuhk-postgraduate-master-of-science-in-global-finance-and-fintech": {
+    "school_code": "HSUHK",
+    "education_level": "postgraduate",
+    "source_file": "official-hsuhk-2027-28-catalogue"
+  },
+  "hsuhk-postgraduate-master-of-science-in-global-strategic-management-in-chinese": {
+    "school_code": "HSUHK",
+    "education_level": "postgraduate",
+    "source_file": "official-hsuhk-2027-28-catalogue"
+  },
+  "hsuhk-postgraduate-master-of-science-in-international-corporate-governance-with-sustainability": {
+    "school_code": "HSUHK",
+    "education_level": "postgraduate",
+    "source_file": "official-hsuhk-2027-28-catalogue"
+  },
+  "mpu-postgraduate-mba-in-gaming-management": {
+    "school_code": "MPU",
+    "education_level": "postgraduate",
+    "source_file": "official-mpu-current-catalogue"
+  },
+  "must-postgraduate-master-of-artificial-intelligence-law": {
+    "school_code": "MUST",
+    "education_level": "postgraduate",
+    "source_file": "official-must-2027-catalogue"
+  },
+  "must-postgraduate-master-of-clinical-medicine": {
+    "school_code": "MUST",
+    "education_level": "postgraduate",
+    "source_file": "official-must-2027-catalogue"
+  },
+  "must-postgraduate-master-of-fine-arts-in-game-art-design": {
+    "school_code": "MUST",
+    "education_level": "postgraduate",
+    "source_file": "official-must-2027-catalogue"
+  },
+  "must-postgraduate-master-of-intelligent-supply-chain-management": {
+    "school_code": "MUST",
+    "education_level": "postgraduate",
+    "source_file": "official-must-2027-catalogue"
+  },
+  "must-postgraduate-master-of-science-in-artificial-intelligence": {
+    "school_code": "MUST",
+    "education_level": "postgraduate",
+    "source_file": "official-must-2027-catalogue"
+  },
+  "must-postgraduate-master-of-science-in-low-altitude-economy-and-technology": {
+    "school_code": "MUST",
+    "education_level": "postgraduate",
+    "source_file": "official-must-2027-catalogue"
+  },
+  "um-postgraduate-ma-in-portuguese": {
+    "school_code": "UM",
+    "education_level": "postgraduate",
+    "source_file": "official-um-2027-28-catalogue"
+  },
+  "um-postgraduate-master-of-fine-arts": {
+    "school_code": "UM",
+    "education_level": "postgraduate",
+    "source_file": "official-um-2027-28-catalogue"
+  },
+  "um-postgraduate-master-of-law-in-juridical-political-sciences": {
+    "school_code": "UM",
+    "education_level": "postgraduate",
+    "source_file": "official-um-2027-28-catalogue"
+  },
+  "um-postgraduate-master-of-law-in-juridical-sciences": {
+    "school_code": "UM",
+    "education_level": "postgraduate",
+    "source_file": "official-um-2027-28-catalogue"
+  },
+  "um-postgraduate-master-of-law-in-law-and-technology": {
+    "school_code": "UM",
+    "education_level": "postgraduate",
+    "source_file": "official-um-2027-28-catalogue"
+  },
+  "um-postgraduate-mdes-in-industrial-design": {
+    "school_code": "UM",
+    "education_level": "postgraduate",
+    "source_file": "official-um-2027-28-catalogue"
+  },
+  "um-postgraduate-mphil-in-medicinal-food-and-nutrition-sciences": {
+    "school_code": "UM",
+    "education_level": "postgraduate",
+    "source_file": "official-um-2027-28-catalogue"
+  },
+  "um-postgraduate-mphil-in-microelectronics": {
+    "school_code": "UM",
+    "education_level": "postgraduate",
+    "source_file": "official-um-2027-28-catalogue"
+  },
+  "utm-postgraduate-msc-in-innovative-hospitality-management": {
+    "school_code": "UTM",
+    "education_level": "postgraduate",
+    "source_file": "official-utm-2027-28"
+  },
+  "hkbu-postgraduate-executive-master-of-business-administration-business-communication-in-the-ai-age": {
+    "school_code": "HKBU",
+    "education_level": "postgraduate",
+    "source_file": "official-hkbu-2027-28-catalogue"
+  },
+  "hkbu-postgraduate-master-of-arts-in-ai-for-media-entrepreneurship": {
+    "school_code": "HKBU",
+    "education_level": "postgraduate",
+    "source_file": "official-hkbu-2027-28-catalogue"
+  },
+  "hkbu-postgraduate-master-of-business-administration": {
+    "school_code": "HKBU",
+    "education_level": "postgraduate",
+    "source_file": "official-hkbu-2027-28-catalogue"
+  },
+  "hkbu-postgraduate-master-of-social-sciences-in-digital-humanities-and-social-sciences": {
+    "school_code": "HKBU",
+    "education_level": "postgraduate",
+    "source_file": "official-hkbu-2027-28-catalogue"
+  },
+  "twc-postgraduate-master-of-smart-health-services-management": {
+    "school_code": "TWC",
+    "education_level": "postgraduate",
+    "source_file": "official-twc-mshsm-catalogue"
+  },
+  "lingnanu-postgraduate-ma-in-digital-english-studies": {
+    "school_code": "LingnanU",
+    "education_level": "postgraduate",
+    "source_file": "official-lingnan-2027-catalogue"
+  },
+  "lingnanu-postgraduate-ma-in-digital-history-in-global-asia": {
+    "school_code": "LingnanU",
+    "education_level": "postgraduate",
+    "source_file": "official-lingnan-2027-catalogue"
+  },
+  "lingnanu-postgraduate-master-of-cultural-studies": {
+    "school_code": "LingnanU",
+    "education_level": "postgraduate",
+    "source_file": "official-lingnan-2027-catalogue"
+  },
+  "lingnanu-postgraduate-master-of-liberal-sciences": {
+    "school_code": "LingnanU",
+    "education_level": "postgraduate",
+    "source_file": "official-lingnan-2027-catalogue"
+  },
+  "lingnanu-postgraduate-master-of-research-in-advanced-data-science": {
+    "school_code": "LingnanU",
+    "education_level": "postgraduate",
+    "source_file": "official-lingnan-2027-catalogue"
+  },
+  "lingnanu-postgraduate-msc-in-agentic-ai-systems": {
+    "school_code": "LingnanU",
+    "education_level": "postgraduate",
+    "source_file": "official-lingnan-2027-catalogue"
+  },
+  "lingnanu-postgraduate-msc-in-cross-disciplinary-technologies-plus": {
+    "school_code": "LingnanU",
+    "education_level": "postgraduate",
+    "source_file": "official-lingnan-2027-catalogue"
+  },
+  "lingnanu-postgraduate-msc-in-innovative-design-and-artificial-intelligence": {
+    "school_code": "LingnanU",
+    "education_level": "postgraduate",
+    "source_file": "official-lingnan-2027-catalogue"
+  },
+  "lingnanu-postgraduate-msc-in-sustainability-and-environmental-analytics": {
+    "school_code": "LingnanU",
+    "education_level": "postgraduate",
+    "source_file": "official-lingnan-2027-catalogue"
+  },
+  "eduhk-postgraduate-master-of-arts-in-beauty-and-lifestyle-organisational-operations-and-management": {
+    "school_code": "EdUHK",
+    "education_level": "postgraduate",
+    "source_file": "official-eduhk-2027-catalogue"
+  },
+  "eduhk-postgraduate-master-of-arts-in-chinas-global-diplomacy-and-international-relations": {
+    "school_code": "EdUHK",
+    "education_level": "postgraduate",
+    "source_file": "official-eduhk-2027-catalogue"
+  },
+  "eduhk-postgraduate-master-of-arts-in-chinese-art-business-and-cultural-heritage-management": {
+    "school_code": "EdUHK",
+    "education_level": "postgraduate",
+    "source_file": "official-eduhk-2027-catalogue"
+  },
+  "eduhk-postgraduate-master-of-arts-in-healthy-ageing-and-silver-economy": {
+    "school_code": "EdUHK",
+    "education_level": "postgraduate",
+    "source_file": "official-eduhk-2027-catalogue"
+  },
+  "eduhk-postgraduate-master-of-arts-in-higher-education-management": {
+    "school_code": "EdUHK",
+    "education_level": "postgraduate",
+    "source_file": "official-eduhk-2027-catalogue"
+  },
+  "eduhk-postgraduate-master-of-arts-in-tourism-and-hospitality-management": {
+    "school_code": "EdUHK",
+    "education_level": "postgraduate",
+    "source_file": "official-eduhk-2027-catalogue"
+  },
+  "eduhk-postgraduate-master-of-arts-in-womens-studies-and-sustainable-development-in-the-chinese-context": {
+    "school_code": "EdUHK",
+    "education_level": "postgraduate",
+    "source_file": "official-eduhk-2027-catalogue"
+  },
+  "eduhk-postgraduate-master-of-global-management": {
+    "school_code": "EdUHK",
+    "education_level": "postgraduate",
+    "source_file": "official-eduhk-2027-catalogue"
+  },
+  "eduhk-postgraduate-master-of-management": {
+    "school_code": "EdUHK",
+    "education_level": "postgraduate",
+    "source_file": "official-eduhk-2027-catalogue"
+  },
+  "eduhk-postgraduate-master-of-science-in-digital-economy": {
+    "school_code": "EdUHK",
+    "education_level": "postgraduate",
+    "source_file": "official-eduhk-2027-catalogue"
+  },
+  "eduhk-postgraduate-master-of-science-in-low-altitude-economy-and-management": {
+    "school_code": "EdUHK",
+    "education_level": "postgraduate",
+    "source_file": "official-eduhk-2027-catalogue"
   }
 }

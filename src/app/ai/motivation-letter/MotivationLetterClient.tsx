@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import AIProductIntro from '@/components/AIProductIntro';
-import MembershipModal from '@/components/MembershipModal';
+import DraftActions from '@/components/DraftActions';
 import type {
   MotivationLetterInput,
   MotivationLetterOutput,
@@ -18,7 +18,6 @@ export default function MotivationLetterPage() {
   const [result, setResult] = useState<MotivationLetterOutput | null>(null);
   const [isGenerating, setIsGenerating] = useState(false);
   const [error, setError] = useState('');
-  const [showMembershipModal, setShowMembershipModal] = useState(false);
 
   // Form states
   const [stage, setStage] = useState('硕士');
@@ -115,7 +114,6 @@ export default function MotivationLetterPage() {
   if (showResult && result) {
     return (
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <MembershipModal isOpen={showMembershipModal} onClose={() => setShowMembershipModal(false)} />
         <AIProductIntro product="motivation" />
         <button
           onClick={handleBackToEdit}
@@ -152,35 +150,7 @@ export default function MotivationLetterPage() {
           </div>
 
           {/* 下载按钮 */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <button
-              onClick={() => setShowMembershipModal(true)}
-              className="px-4 py-3 bg-white border border-gray-300 text-gray-700 rounded-lg font-medium hover:bg-gray-50 transition-colors flex items-center justify-center"
-            >
-              <svg className="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-6m-6 6h6" />
-              </svg>
-              下载PDF
-            </button>
-            <button
-              onClick={() => setShowMembershipModal(true)}
-              className="px-4 py-3 bg-white border border-gray-300 text-gray-700 rounded-lg font-medium hover:bg-gray-50 transition-colors flex items-center justify-center"
-            >
-              <svg className="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-              </svg>
-              下载Word
-            </button>
-            <button
-              onClick={() => setShowMembershipModal(true)}
-              className="px-4 py-3 bg-white border border-gray-300 text-gray-700 rounded-lg font-medium hover:bg-gray-50 transition-colors flex items-center justify-center"
-            >
-              <svg className="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
-              </svg>
-              生成新版本
-            </button>
-          </div>
+          <DraftActions text={result.finalDraft} onEdit={handleBackToEdit}/>
 
           {/* 中文说明 */}
           <div className="bg-blue-50 rounded-xl border border-blue-200 p-6">
@@ -206,10 +176,10 @@ export default function MotivationLetterPage() {
             </ul>
           </div>
 
-          {/* 招生官视角简评 */}
+          {/* 模板使用提示 */}
           <div className="bg-white rounded-xl border border-gray-200 p-6">
-            <h3 className="text-lg font-semibold text-gray-800 mb-3">招生官视角简评</h3>
-            <p className="text-sm text-gray-700 whitespace-pre-wrap">{result.admissionsReview}</p>
+            <h3 className="text-lg font-semibold text-gray-800 mb-3">模板使用提示</h3>
+            <p className="text-sm text-gray-700 whitespace-pre-wrap">请逐项核对事实、学校题目与字数要求，补充具体事例；此处不代表招生官评价。</p>
           </div>
 
           {/* 风险提醒 */}
@@ -253,9 +223,9 @@ export default function MotivationLetterPage() {
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <AIProductIntro product="motivation" />
       <div className="mb-8">
-        <h1 className="text-2xl font-bold text-gray-900">AI 动机信参考草稿</h1>
+        <h1 className="text-2xl font-bold text-gray-900">动机信模板草稿</h1>
         <p className="mt-2 text-gray-600">
-          针对目标院校和专业生成 Motivation Letter 成稿
+          按固定结构整理动机信草稿，需自行核对院校要求
         </p>
         <div className="mt-4 bg-blue-50 border border-blue-200 rounded-lg p-4">
           <div className="flex items-start">

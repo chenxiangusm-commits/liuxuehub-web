@@ -1,3 +1,4 @@
+import { getQSRank, getQSYear, getQSLabel } from "@/lib/qs-ranking";
 import { NextRequest, NextResponse } from "next/server";
 import { searchProgramIndex } from "@/lib/data.server";
 
@@ -43,7 +44,9 @@ export async function GET(request: NextRequest) {
       schoolName: program.school_name,
       schoolNameEn: program.school_name_en,
       region: program.region_cn,
-      qsRanking: program.qs_ranking_2026,
+      qsRanking: getQSRank(program),
+      qsRankingYear: getQSYear(program),
+      qsRankingLabel: getQSLabel(program),
       majorCn: program.major_cn,
       majorEn: program.major_en,
       degree: program.degree,

@@ -1,5 +1,8 @@
 "use client";
 
+import { getQSRank, getQSYear, getQSLabel } from "@/lib/qs-ranking";
+
+
 import { MouseEvent, useEffect, useMemo, useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
@@ -30,8 +33,6 @@ const REGIONS = [
   "新加坡",
   "英国",
   "新西兰",
-  "加拿大",
-  "更多地区...",
 ];
 
 const HK_MACAU_REGION_KEYWORDS = ["中国香港", "香港", "Hong Kong", "中国澳门", "澳门", "Macau", "Macao"];
@@ -54,7 +55,7 @@ const SORT_OPTIONS = [
 
 function normalizeRegionFilter(value?: string | null) {
   if (!value) return ALL_REGIONS;
-  const decoded = decodeURIComponent(value);
+  const decoded = (()=>{try{return decodeURIComponent(value);}catch{return value;}})();
   if (["中国香港", "香港", "Hong Kong", "中国澳门", "澳门", "Macau", "Macao"].includes(decoded)) {
     return HONG_KONG_MACAU;
   }
@@ -104,7 +105,7 @@ function SchoolListCard({
   const href = `/schools/${school.school_code}`;
   const schoolTags = getSchoolTags(school.school_code).slice(0, 2);
   const programCount = getProgramCount(school, educationLevel);
-  const qsRanking = school.qs_ranking_2026;
+  const qsRanking = getQSRank(school);
 
   useEffect(() => {
     setLogoSrc(getSchoolLogo(school.school_code));
@@ -160,10 +161,10 @@ function SchoolListCard({
         </div>
       </div>
 
-      <div className="absolute right-5 top-5 flex min-h-14 min-w-16 flex-col items-center justify-center rounded-2xl border border-red-100 bg-red-50 px-3 py-2 text-red-600">
-        <span className="text-[10px] font-black uppercase leading-none tracking-wide">QS</span>
+      <div title={getQSRank(school) ? `QS ${getQSYear(school)} 世界大学排名 ${getQSLabel(school)}` : "暂无已确认的QS世界综合排名"} className="absolute right-5 top-5 flex min-h-14 min-w-16 flex-col items-center justify-center rounded-2xl border border-red-100 bg-red-50 px-3 py-2 text-red-600">
+        <span className="text-[10px] font-black uppercase leading-none tracking-wide">QS {getQSYear(school)}</span>
         <span className="mt-1 text-xl font-black leading-none">
-          {typeof qsRanking === "number" && qsRanking > 0 ? qsRanking : "--"}
+          {qsRanking > 0 ? getQSLabel(school) : "暂无"}
         </span>
       </div>
 
@@ -328,7 +329,7 @@ export default function SchoolsClient({ schools }: SchoolsClientProps) {
               className="w-full rounded-xl border border-gray-200 px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
-          <select
+          <select aria-label="院校排序"
             value={sortBy}
             onChange={(event) => {
               setSortBy(event.target.value);
@@ -387,7 +388,7 @@ export default function SchoolsClient({ schools }: SchoolsClientProps) {
         </div>
 
         <div>
-          <label className="mb-2 block text-xs text-gray-500">QS排名</label>
+          <label className="mb-2 block text-xs text-gray-500">QS {getQSYear(schools[0] || {})} 世界排名</label>
           <div className="flex flex-wrap gap-2">
             {QS_RANKINGS.map(item => (
               <button

@@ -8343,7 +8343,43 @@
       "twc-undergraduate-bachelor-of-business-administration-hons-in-social-and-business-sustainability",
       "twc-undergraduate-bachelor-hons-in-health-information-and-services-management",
       "twc-undergraduate-bachelor-of-science-hons-in-biomedical-science",
-      "twc-undergraduate-bachelor-of-science-hons-in-forensic-biomedical-science"
+      "twc-undergraduate-bachelor-of-science-hons-in-forensic-biomedical-science",
+      "hkust-postgraduate-meng-di",
+      "hkust-postgraduate-msc-elbt",
+      "hksyu-postgraduate-mphil-in-chinese",
+      "hksyu-postgraduate-mphil-in-economics",
+      "hksyu-postgraduate-mphil-in-english",
+      "hksyu-postgraduate-mphil-in-history",
+      "hksyu-postgraduate-mphil-in-psychology",
+      "hksyu-postgraduate-mphil-in-sociology",
+      "hsuhk-postgraduate-master-of-science-in-global-finance-and-fintech",
+      "hsuhk-postgraduate-master-of-science-in-global-strategic-management-in-chinese",
+      "hsuhk-postgraduate-master-of-science-in-international-corporate-governance-with-sustainability",
+      "hkbu-postgraduate-executive-master-of-business-administration-business-communication-in-the-ai-age",
+      "hkbu-postgraduate-master-of-arts-in-ai-for-media-entrepreneurship",
+      "hkbu-postgraduate-master-of-business-administration",
+      "hkbu-postgraduate-master-of-social-sciences-in-digital-humanities-and-social-sciences",
+      "twc-postgraduate-master-of-smart-health-services-management",
+      "lingnanu-postgraduate-ma-in-digital-english-studies",
+      "lingnanu-postgraduate-ma-in-digital-history-in-global-asia",
+      "lingnanu-postgraduate-master-of-cultural-studies",
+      "lingnanu-postgraduate-master-of-liberal-sciences",
+      "lingnanu-postgraduate-master-of-research-in-advanced-data-science",
+      "lingnanu-postgraduate-msc-in-agentic-ai-systems",
+      "lingnanu-postgraduate-msc-in-cross-disciplinary-technologies-plus",
+      "lingnanu-postgraduate-msc-in-innovative-design-and-artificial-intelligence",
+      "lingnanu-postgraduate-msc-in-sustainability-and-environmental-analytics",
+      "eduhk-postgraduate-master-of-arts-in-beauty-and-lifestyle-organisational-operations-and-management",
+      "eduhk-postgraduate-master-of-arts-in-chinas-global-diplomacy-and-international-relations",
+      "eduhk-postgraduate-master-of-arts-in-chinese-art-business-and-cultural-heritage-management",
+      "eduhk-postgraduate-master-of-arts-in-healthy-ageing-and-silver-economy",
+      "eduhk-postgraduate-master-of-arts-in-higher-education-management",
+      "eduhk-postgraduate-master-of-arts-in-tourism-and-hospitality-management",
+      "eduhk-postgraduate-master-of-arts-in-womens-studies-and-sustainable-development-in-the-chinese-context",
+      "eduhk-postgraduate-master-of-global-management",
+      "eduhk-postgraduate-master-of-management",
+      "eduhk-postgraduate-master-of-science-in-digital-economy",
+      "eduhk-postgraduate-master-of-science-in-low-altitude-economy-and-management"
     ],
     "中国澳门": [
       "um-postgraduate-ma-in-english-studies",
@@ -8579,7 +8615,28 @@
       "utm-undergraduate-bachelor-of-science-in-tourism-business-management",
       "utm-undergraduate-bachelor-of-science-in-marketing-and-brand-management",
       "utm-undergraduate-bachelor-of-science-in-international-business-and-innovative-communication",
-      "utm-undergraduate-bachelor-of-science-in-management-and-data-science"
+      "utm-undergraduate-bachelor-of-science-in-management-and-data-science",
+      "cmu-postgraduate-master-of-artificial-intelligence",
+      "cmu-postgraduate-master-of-chinese-cultural-studies",
+      "cmu-postgraduate-master-of-international-relations-and-governance",
+      "cmu-postgraduate-master-of-management-analytics",
+      "cmu-postgraduate-master-of-smart-ageing-and-health-management",
+      "utm-postgraduate-msc-in-innovative-hospitality-management",
+      "must-postgraduate-master-of-artificial-intelligence-law",
+      "must-postgraduate-master-of-clinical-medicine",
+      "must-postgraduate-master-of-fine-arts-in-game-art-design",
+      "must-postgraduate-master-of-intelligent-supply-chain-management",
+      "must-postgraduate-master-of-science-in-artificial-intelligence",
+      "must-postgraduate-master-of-science-in-low-altitude-economy-and-technology",
+      "mpu-postgraduate-mba-in-gaming-management",
+      "um-postgraduate-ma-in-portuguese",
+      "um-postgraduate-master-of-fine-arts",
+      "um-postgraduate-master-of-law-in-juridical-political-sciences",
+      "um-postgraduate-master-of-law-in-juridical-sciences",
+      "um-postgraduate-master-of-law-in-law-and-technology",
+      "um-postgraduate-mdes-in-industrial-design",
+      "um-postgraduate-mphil-in-medicinal-food-and-nutrition-sciences",
+      "um-postgraduate-mphil-in-microelectronics"
     ]
   },
   "education_level": {
@@ -15265,7 +15322,64 @@
       "utm-postgraduate-msc-in-cultural-and-creative-industries-management",
       "utm-postgraduate-msc-in-international-tourism-management",
       "utm-postgraduate-msc-in-hospitality-and-tourism-smart-technology",
-      "utm-postgraduate-msc-in-digital-marketing-and-analytics"
+      "utm-postgraduate-msc-in-digital-marketing-and-analytics",
+      "hkust-postgraduate-meng-di",
+      "hkust-postgraduate-msc-elbt",
+      "hksyu-postgraduate-mphil-in-chinese",
+      "hksyu-postgraduate-mphil-in-economics",
+      "hksyu-postgraduate-mphil-in-english",
+      "hksyu-postgraduate-mphil-in-history",
+      "hksyu-postgraduate-mphil-in-psychology",
+      "hksyu-postgraduate-mphil-in-sociology",
+      "cmu-postgraduate-master-of-artificial-intelligence",
+      "cmu-postgraduate-master-of-chinese-cultural-studies",
+      "cmu-postgraduate-master-of-international-relations-and-governance",
+      "cmu-postgraduate-master-of-management-analytics",
+      "cmu-postgraduate-master-of-smart-ageing-and-health-management",
+      "utm-postgraduate-msc-in-innovative-hospitality-management",
+      "must-postgraduate-master-of-artificial-intelligence-law",
+      "must-postgraduate-master-of-clinical-medicine",
+      "must-postgraduate-master-of-fine-arts-in-game-art-design",
+      "must-postgraduate-master-of-intelligent-supply-chain-management",
+      "must-postgraduate-master-of-science-in-artificial-intelligence",
+      "must-postgraduate-master-of-science-in-low-altitude-economy-and-technology",
+      "mpu-postgraduate-mba-in-gaming-management",
+      "um-postgraduate-ma-in-portuguese",
+      "um-postgraduate-master-of-fine-arts",
+      "um-postgraduate-master-of-law-in-juridical-political-sciences",
+      "um-postgraduate-master-of-law-in-juridical-sciences",
+      "um-postgraduate-master-of-law-in-law-and-technology",
+      "um-postgraduate-mdes-in-industrial-design",
+      "um-postgraduate-mphil-in-medicinal-food-and-nutrition-sciences",
+      "um-postgraduate-mphil-in-microelectronics",
+      "hsuhk-postgraduate-master-of-science-in-global-finance-and-fintech",
+      "hsuhk-postgraduate-master-of-science-in-global-strategic-management-in-chinese",
+      "hsuhk-postgraduate-master-of-science-in-international-corporate-governance-with-sustainability",
+      "hkbu-postgraduate-executive-master-of-business-administration-business-communication-in-the-ai-age",
+      "hkbu-postgraduate-master-of-arts-in-ai-for-media-entrepreneurship",
+      "hkbu-postgraduate-master-of-business-administration",
+      "hkbu-postgraduate-master-of-social-sciences-in-digital-humanities-and-social-sciences",
+      "twc-postgraduate-master-of-smart-health-services-management",
+      "lingnanu-postgraduate-ma-in-digital-english-studies",
+      "lingnanu-postgraduate-ma-in-digital-history-in-global-asia",
+      "lingnanu-postgraduate-master-of-cultural-studies",
+      "lingnanu-postgraduate-master-of-liberal-sciences",
+      "lingnanu-postgraduate-master-of-research-in-advanced-data-science",
+      "lingnanu-postgraduate-msc-in-agentic-ai-systems",
+      "lingnanu-postgraduate-msc-in-cross-disciplinary-technologies-plus",
+      "lingnanu-postgraduate-msc-in-innovative-design-and-artificial-intelligence",
+      "lingnanu-postgraduate-msc-in-sustainability-and-environmental-analytics",
+      "eduhk-postgraduate-master-of-arts-in-beauty-and-lifestyle-organisational-operations-and-management",
+      "eduhk-postgraduate-master-of-arts-in-chinas-global-diplomacy-and-international-relations",
+      "eduhk-postgraduate-master-of-arts-in-chinese-art-business-and-cultural-heritage-management",
+      "eduhk-postgraduate-master-of-arts-in-healthy-ageing-and-silver-economy",
+      "eduhk-postgraduate-master-of-arts-in-higher-education-management",
+      "eduhk-postgraduate-master-of-arts-in-tourism-and-hospitality-management",
+      "eduhk-postgraduate-master-of-arts-in-womens-studies-and-sustainable-development-in-the-chinese-context",
+      "eduhk-postgraduate-master-of-global-management",
+      "eduhk-postgraduate-master-of-management",
+      "eduhk-postgraduate-master-of-science-in-digital-economy",
+      "eduhk-postgraduate-master-of-science-in-low-altitude-economy-and-management"
     ],
     "undergraduate": [
       "adelaide-undergraduate-bachelor-of-agricultural-sciences",
@@ -24743,7 +24857,9 @@
       "hkust-undergraduate-bsc-in-data-science-and-technology",
       "hkust-undergraduate-bsc-in-mathematics-and-economics",
       "hkust-undergraduate-bsc-in-risk-management-and-business-intelligence",
-      "hkust-undergraduate-bsc-in-sustainable-and-green-finance"
+      "hkust-undergraduate-bsc-in-sustainable-and-green-finance",
+      "hkust-postgraduate-meng-di",
+      "hkust-postgraduate-msc-elbt"
     ],
     "CUHK": [
       "cuhk-postgraduate-ma-chinese-art-history",
@@ -25275,7 +25391,11 @@
       "hkbu-undergraduate-bachelor-of-arts-hons-in-business-administration-global-entertainment",
       "hkbu-undergraduate-bachelor-of-science-hons",
       "hkbu-undergraduate-bachelor-of-science-hons-in-business-computing-and-data-analytics",
-      "hkbu-undergraduate-bachelor-of-arts-science-and-technology-hons-in-individualised-major"
+      "hkbu-undergraduate-bachelor-of-arts-science-and-technology-hons-in-individualised-major",
+      "hkbu-postgraduate-executive-master-of-business-administration-business-communication-in-the-ai-age",
+      "hkbu-postgraduate-master-of-arts-in-ai-for-media-entrepreneurship",
+      "hkbu-postgraduate-master-of-business-administration",
+      "hkbu-postgraduate-master-of-social-sciences-in-digital-humanities-and-social-sciences"
     ],
     "LingnanU": [
       "lingnanu-postgraduate-master-of-accountancy",
@@ -25347,7 +25467,16 @@
       "lingnanu-undergraduate-bachelor-of-social-sciences-honours-in-global-economics-and-banking",
       "lingnanu-undergraduate-bachelor-of-social-sciences-honours-in-psychology-with-counselling-psychology-concentration",
       "lingnanu-undergraduate-bachelor-of-social-sciences-honours-in-public-management-and-smart-governance",
-      "lingnanu-undergraduate-bachelor-of-social-sciences-honours-in-sports-coaching-and-event-management"
+      "lingnanu-undergraduate-bachelor-of-social-sciences-honours-in-sports-coaching-and-event-management",
+      "lingnanu-postgraduate-ma-in-digital-english-studies",
+      "lingnanu-postgraduate-ma-in-digital-history-in-global-asia",
+      "lingnanu-postgraduate-master-of-cultural-studies",
+      "lingnanu-postgraduate-master-of-liberal-sciences",
+      "lingnanu-postgraduate-master-of-research-in-advanced-data-science",
+      "lingnanu-postgraduate-msc-in-agentic-ai-systems",
+      "lingnanu-postgraduate-msc-in-cross-disciplinary-technologies-plus",
+      "lingnanu-postgraduate-msc-in-innovative-design-and-artificial-intelligence",
+      "lingnanu-postgraduate-msc-in-sustainability-and-environmental-analytics"
     ],
     "EdUHK": [
       "eduhk-postgraduate-executive-master-of-public-administration-and-leadership-empal",
@@ -25423,7 +25552,18 @@
       "eduhk-undergraduate-bachelor-of-science-honours-in-integrated-environmental-management",
       "eduhk-undergraduate-bachelor-of-science-honours-in-speech-pathology-and-rehabilitation",
       "eduhk-undergraduate-bachelor-of-science-honours-in-sports-science-and-coaching",
-      "eduhk-undergraduate-bachelor-of-social-sciences-honours-in-psychology"
+      "eduhk-undergraduate-bachelor-of-social-sciences-honours-in-psychology",
+      "eduhk-postgraduate-master-of-arts-in-beauty-and-lifestyle-organisational-operations-and-management",
+      "eduhk-postgraduate-master-of-arts-in-chinas-global-diplomacy-and-international-relations",
+      "eduhk-postgraduate-master-of-arts-in-chinese-art-business-and-cultural-heritage-management",
+      "eduhk-postgraduate-master-of-arts-in-healthy-ageing-and-silver-economy",
+      "eduhk-postgraduate-master-of-arts-in-higher-education-management",
+      "eduhk-postgraduate-master-of-arts-in-tourism-and-hospitality-management",
+      "eduhk-postgraduate-master-of-arts-in-womens-studies-and-sustainable-development-in-the-chinese-context",
+      "eduhk-postgraduate-master-of-global-management",
+      "eduhk-postgraduate-master-of-management",
+      "eduhk-postgraduate-master-of-science-in-digital-economy",
+      "eduhk-postgraduate-master-of-science-in-low-altitude-economy-and-management"
     ],
     "HKMU": [
       "hkmu-postgraduate-master-of-accounting",
@@ -25540,7 +25680,13 @@
       "hksyu-undergraduate-bachelor-of-social-sciences-honours-in-sociology",
       "hksyu-undergraduate-bachelor-of-social-sciences-honours-in-arts-culture-and-technology",
       "hksyu-undergraduate-bachelor-of-science-honours-in-applied-data-science",
-      "hksyu-undergraduate-bachelor-of-science-honours-in-digital-solutions-for-entertainment-and-game-applications"
+      "hksyu-undergraduate-bachelor-of-science-honours-in-digital-solutions-for-entertainment-and-game-applications",
+      "hksyu-postgraduate-mphil-in-chinese",
+      "hksyu-postgraduate-mphil-in-economics",
+      "hksyu-postgraduate-mphil-in-english",
+      "hksyu-postgraduate-mphil-in-history",
+      "hksyu-postgraduate-mphil-in-psychology",
+      "hksyu-postgraduate-mphil-in-sociology"
     ],
     "CHC": [
       "chc-postgraduate-master-of-arts-in-applied-buddhism",
@@ -25624,7 +25770,10 @@
       "hsuhk-undergraduate-bachelor-of-arts-hons-in-psychology",
       "hsuhk-undergraduate-bachelor-of-social-sciences-hons-in-asian-studies",
       "hsuhk-undergraduate-bachelor-of-social-sciences-hons-in-philosophy-politics-and-economics",
-      "hsuhk-undergraduate-bachelor-of-translation-with-business-hons"
+      "hsuhk-undergraduate-bachelor-of-translation-with-business-hons",
+      "hsuhk-postgraduate-master-of-science-in-global-finance-and-fintech",
+      "hsuhk-postgraduate-master-of-science-in-global-strategic-management-in-chinese",
+      "hsuhk-postgraduate-master-of-science-in-international-corporate-governance-with-sustainability"
     ],
     "TWC": [
       "twc-postgraduate-master-of-science-in-health-services-management",
@@ -25639,7 +25788,8 @@
       "twc-undergraduate-bachelor-of-business-administration-hons-in-social-and-business-sustainability",
       "twc-undergraduate-bachelor-hons-in-health-information-and-services-management",
       "twc-undergraduate-bachelor-of-science-hons-in-biomedical-science",
-      "twc-undergraduate-bachelor-of-science-hons-in-forensic-biomedical-science"
+      "twc-undergraduate-bachelor-of-science-hons-in-forensic-biomedical-science",
+      "twc-postgraduate-master-of-smart-health-services-management"
     ],
     "UM": [
       "um-postgraduate-ma-in-english-studies",
@@ -25727,7 +25877,15 @@
       "um-undergraduate-bachelor-of-social-sciences-in-economics",
       "um-undergraduate-bachelor-of-social-sciences-in-government-and-public-administration",
       "um-undergraduate-bachelor-of-social-sciences-in-psychology",
-      "um-undergraduate-bachelor-of-social-sciences-in-sociology"
+      "um-undergraduate-bachelor-of-social-sciences-in-sociology",
+      "um-postgraduate-ma-in-portuguese",
+      "um-postgraduate-master-of-fine-arts",
+      "um-postgraduate-master-of-law-in-juridical-political-sciences",
+      "um-postgraduate-master-of-law-in-juridical-sciences",
+      "um-postgraduate-master-of-law-in-law-and-technology",
+      "um-postgraduate-mdes-in-industrial-design",
+      "um-postgraduate-mphil-in-medicinal-food-and-nutrition-sciences",
+      "um-postgraduate-mphil-in-microelectronics"
     ],
     "MUST": [
       "must-postgraduate-msc-in-international-tourism-management",
@@ -25797,7 +25955,13 @@
       "must-undergraduate-bachelor-of-arts-in-foreign-languages-english-portuguese-spanish",
       "must-undergraduate-bachelor-of-business-administration-in-commerce",
       "must-undergraduate-bachelor-of-leisure-management",
-      "must-undergraduate-bachelor-of-global-operations-management-global-enterprise-operations-management-global-food-and-beverage-operations-management-global-chain-operations-management"
+      "must-undergraduate-bachelor-of-global-operations-management-global-enterprise-operations-management-global-food-and-beverage-operations-management-global-chain-operations-management",
+      "must-postgraduate-master-of-artificial-intelligence-law",
+      "must-postgraduate-master-of-clinical-medicine",
+      "must-postgraduate-master-of-fine-arts-in-game-art-design",
+      "must-postgraduate-master-of-intelligent-supply-chain-management",
+      "must-postgraduate-master-of-science-in-artificial-intelligence",
+      "must-postgraduate-master-of-science-in-low-altitude-economy-and-technology"
     ],
     "CMU": [
       "cmu-postgraduate-master-of-business-administration-mba",
@@ -25829,7 +25993,12 @@
       "cmu-undergraduate-bachelor-of-social-work",
       "cmu-undergraduate-bachelor-of-arts-in-design",
       "cmu-undergraduate-bachelor-of-international-tourism-and-hotel-management",
-      "cmu-undergraduate-bachelor-of-international-tourism-and-hotel-management-english"
+      "cmu-undergraduate-bachelor-of-international-tourism-and-hotel-management-english",
+      "cmu-postgraduate-master-of-artificial-intelligence",
+      "cmu-postgraduate-master-of-chinese-cultural-studies",
+      "cmu-postgraduate-master-of-international-relations-and-governance",
+      "cmu-postgraduate-master-of-management-analytics",
+      "cmu-postgraduate-master-of-smart-ageing-and-health-management"
     ],
     "MPU": [
       "mpu-postgraduate-msc-in-big-data-and-internet-of-things",
@@ -25860,7 +26029,8 @@
       "mpu-undergraduate-bachelor-in-visual-arts-fine-arts-art-education",
       "mpu-undergraduate-bachelor-in-music-education-performance",
       "mpu-undergraduate-bachelor-in-media-arts",
-      "mpu-undergraduate-bachelor-in-physical-education"
+      "mpu-undergraduate-bachelor-in-physical-education",
+      "mpu-postgraduate-mba-in-gaming-management"
     ],
     "UTM": [
       "utm-postgraduate-master-of-business-administration-mba",
@@ -25883,7 +26053,8 @@
       "utm-undergraduate-bachelor-of-science-in-tourism-business-management",
       "utm-undergraduate-bachelor-of-science-in-marketing-and-brand-management",
       "utm-undergraduate-bachelor-of-science-in-international-business-and-innovative-communication",
-      "utm-undergraduate-bachelor-of-science-in-management-and-data-science"
+      "utm-undergraduate-bachelor-of-science-in-management-and-data-science",
+      "utm-postgraduate-msc-in-innovative-hospitality-management"
     ]
   },
   "region_cn__education_level": {
@@ -32437,7 +32608,43 @@
       "twc-postgraduate-master-of-science-in-medical-laboratory-science",
       "twc-postgraduate-master-of-social-sciences-in-psychology",
       "twc-postgraduate-master-of-social-work",
-      "twc-postgraduate-master-of-business-administration"
+      "twc-postgraduate-master-of-business-administration",
+      "hkust-postgraduate-meng-di",
+      "hkust-postgraduate-msc-elbt",
+      "hksyu-postgraduate-mphil-in-chinese",
+      "hksyu-postgraduate-mphil-in-economics",
+      "hksyu-postgraduate-mphil-in-english",
+      "hksyu-postgraduate-mphil-in-history",
+      "hksyu-postgraduate-mphil-in-psychology",
+      "hksyu-postgraduate-mphil-in-sociology",
+      "hsuhk-postgraduate-master-of-science-in-global-finance-and-fintech",
+      "hsuhk-postgraduate-master-of-science-in-global-strategic-management-in-chinese",
+      "hsuhk-postgraduate-master-of-science-in-international-corporate-governance-with-sustainability",
+      "hkbu-postgraduate-executive-master-of-business-administration-business-communication-in-the-ai-age",
+      "hkbu-postgraduate-master-of-arts-in-ai-for-media-entrepreneurship",
+      "hkbu-postgraduate-master-of-business-administration",
+      "hkbu-postgraduate-master-of-social-sciences-in-digital-humanities-and-social-sciences",
+      "twc-postgraduate-master-of-smart-health-services-management",
+      "lingnanu-postgraduate-ma-in-digital-english-studies",
+      "lingnanu-postgraduate-ma-in-digital-history-in-global-asia",
+      "lingnanu-postgraduate-master-of-cultural-studies",
+      "lingnanu-postgraduate-master-of-liberal-sciences",
+      "lingnanu-postgraduate-master-of-research-in-advanced-data-science",
+      "lingnanu-postgraduate-msc-in-agentic-ai-systems",
+      "lingnanu-postgraduate-msc-in-cross-disciplinary-technologies-plus",
+      "lingnanu-postgraduate-msc-in-innovative-design-and-artificial-intelligence",
+      "lingnanu-postgraduate-msc-in-sustainability-and-environmental-analytics",
+      "eduhk-postgraduate-master-of-arts-in-beauty-and-lifestyle-organisational-operations-and-management",
+      "eduhk-postgraduate-master-of-arts-in-chinas-global-diplomacy-and-international-relations",
+      "eduhk-postgraduate-master-of-arts-in-chinese-art-business-and-cultural-heritage-management",
+      "eduhk-postgraduate-master-of-arts-in-healthy-ageing-and-silver-economy",
+      "eduhk-postgraduate-master-of-arts-in-higher-education-management",
+      "eduhk-postgraduate-master-of-arts-in-tourism-and-hospitality-management",
+      "eduhk-postgraduate-master-of-arts-in-womens-studies-and-sustainable-development-in-the-chinese-context",
+      "eduhk-postgraduate-master-of-global-management",
+      "eduhk-postgraduate-master-of-management",
+      "eduhk-postgraduate-master-of-science-in-digital-economy",
+      "eduhk-postgraduate-master-of-science-in-low-altitude-economy-and-management"
     ],
     "中国澳门||postgraduate": [
       "um-postgraduate-ma-in-english-studies",
@@ -32579,7 +32786,28 @@
       "utm-postgraduate-msc-in-cultural-and-creative-industries-management",
       "utm-postgraduate-msc-in-international-tourism-management",
       "utm-postgraduate-msc-in-hospitality-and-tourism-smart-technology",
-      "utm-postgraduate-msc-in-digital-marketing-and-analytics"
+      "utm-postgraduate-msc-in-digital-marketing-and-analytics",
+      "cmu-postgraduate-master-of-artificial-intelligence",
+      "cmu-postgraduate-master-of-chinese-cultural-studies",
+      "cmu-postgraduate-master-of-international-relations-and-governance",
+      "cmu-postgraduate-master-of-management-analytics",
+      "cmu-postgraduate-master-of-smart-ageing-and-health-management",
+      "utm-postgraduate-msc-in-innovative-hospitality-management",
+      "must-postgraduate-master-of-artificial-intelligence-law",
+      "must-postgraduate-master-of-clinical-medicine",
+      "must-postgraduate-master-of-fine-arts-in-game-art-design",
+      "must-postgraduate-master-of-intelligent-supply-chain-management",
+      "must-postgraduate-master-of-science-in-artificial-intelligence",
+      "must-postgraduate-master-of-science-in-low-altitude-economy-and-technology",
+      "mpu-postgraduate-mba-in-gaming-management",
+      "um-postgraduate-ma-in-portuguese",
+      "um-postgraduate-master-of-fine-arts",
+      "um-postgraduate-master-of-law-in-juridical-political-sciences",
+      "um-postgraduate-master-of-law-in-juridical-sciences",
+      "um-postgraduate-master-of-law-in-law-and-technology",
+      "um-postgraduate-mdes-in-industrial-design",
+      "um-postgraduate-mphil-in-medicinal-food-and-nutrition-sciences",
+      "um-postgraduate-mphil-in-microelectronics"
     ],
     "澳大利亚||undergraduate": [
       "adelaide-undergraduate-bachelor-of-agricultural-sciences",
@@ -40644,7 +40872,9 @@
       "hkust-postgraduate-msc-in-environmental-science-management-and-sustainability",
       "hkust-postgraduate-msc-in-technology-leadership-and-entrepreneurship",
       "hkust-postgraduate-master-of-public-management",
-      "hkust-postgraduate-master-of-public-policy"
+      "hkust-postgraduate-master-of-public-policy",
+      "hkust-postgraduate-meng-di",
+      "hkust-postgraduate-msc-elbt"
     ],
     "CUHK||postgraduate": [
       "cuhk-postgraduate-ma-chinese-art-history",
@@ -40967,7 +41197,11 @@
       "hkbu-postgraduate-master-of-arts-in-communication",
       "hkbu-postgraduate-master-of-arts-in-international-journalism-studies",
       "hkbu-postgraduate-master-of-science-in-ai-and-digital-media-2",
-      "hkbu-postgraduate-master-of-social-sciences-in-media-management"
+      "hkbu-postgraduate-master-of-social-sciences-in-media-management",
+      "hkbu-postgraduate-executive-master-of-business-administration-business-communication-in-the-ai-age",
+      "hkbu-postgraduate-master-of-arts-in-ai-for-media-entrepreneurship",
+      "hkbu-postgraduate-master-of-business-administration",
+      "hkbu-postgraduate-master-of-social-sciences-in-digital-humanities-and-social-sciences"
     ],
     "LingnanU||postgraduate": [
       "lingnanu-postgraduate-master-of-accountancy",
@@ -41006,7 +41240,16 @@
       "lingnanu-postgraduate-msc-in-data-science",
       "lingnanu-postgraduate-msc-in-artificial-intelligence-and-business-analytics",
       "lingnanu-postgraduate-msc-in-industrial-data-analytics",
-      "lingnanu-postgraduate-msc-in-smart-city-technologies-and-applications"
+      "lingnanu-postgraduate-msc-in-smart-city-technologies-and-applications",
+      "lingnanu-postgraduate-ma-in-digital-english-studies",
+      "lingnanu-postgraduate-ma-in-digital-history-in-global-asia",
+      "lingnanu-postgraduate-master-of-cultural-studies",
+      "lingnanu-postgraduate-master-of-liberal-sciences",
+      "lingnanu-postgraduate-master-of-research-in-advanced-data-science",
+      "lingnanu-postgraduate-msc-in-agentic-ai-systems",
+      "lingnanu-postgraduate-msc-in-cross-disciplinary-technologies-plus",
+      "lingnanu-postgraduate-msc-in-innovative-design-and-artificial-intelligence",
+      "lingnanu-postgraduate-msc-in-sustainability-and-environmental-analytics"
     ],
     "EdUHK||postgraduate": [
       "eduhk-postgraduate-executive-master-of-public-administration-and-leadership-empal",
@@ -41057,7 +41300,18 @@
       "eduhk-postgraduate-master-of-social-sciences-in-psychology-schools-and-community-settings-msocscp-scs",
       "eduhk-postgraduate-master-of-social-sciences-in-sports-coaching-and-management-msocsc-scm",
       "eduhk-postgraduate-master-of-social-sciences-in-therapeutic-play-and-well-being-msocsc-tpwb",
-      "eduhk-postgraduate-master-of-teaching-mteach"
+      "eduhk-postgraduate-master-of-teaching-mteach",
+      "eduhk-postgraduate-master-of-arts-in-beauty-and-lifestyle-organisational-operations-and-management",
+      "eduhk-postgraduate-master-of-arts-in-chinas-global-diplomacy-and-international-relations",
+      "eduhk-postgraduate-master-of-arts-in-chinese-art-business-and-cultural-heritage-management",
+      "eduhk-postgraduate-master-of-arts-in-healthy-ageing-and-silver-economy",
+      "eduhk-postgraduate-master-of-arts-in-higher-education-management",
+      "eduhk-postgraduate-master-of-arts-in-tourism-and-hospitality-management",
+      "eduhk-postgraduate-master-of-arts-in-womens-studies-and-sustainable-development-in-the-chinese-context",
+      "eduhk-postgraduate-master-of-global-management",
+      "eduhk-postgraduate-master-of-management",
+      "eduhk-postgraduate-master-of-science-in-digital-economy",
+      "eduhk-postgraduate-master-of-science-in-low-altitude-economy-and-management"
     ],
     "HKMU||postgraduate": [
       "hkmu-postgraduate-master-of-accounting",
@@ -41113,7 +41367,13 @@
       "hksyu-postgraduate-master-of-social-sciences-in-counselling-psychology",
       "hksyu-postgraduate-master-of-social-sciences-in-play-therapy",
       "hksyu-postgraduate-master-of-social-sciences-in-adversity-and-trauma-psychology",
-      "hksyu-postgraduate-master-of-social-work"
+      "hksyu-postgraduate-master-of-social-work",
+      "hksyu-postgraduate-mphil-in-chinese",
+      "hksyu-postgraduate-mphil-in-economics",
+      "hksyu-postgraduate-mphil-in-english",
+      "hksyu-postgraduate-mphil-in-history",
+      "hksyu-postgraduate-mphil-in-psychology",
+      "hksyu-postgraduate-mphil-in-sociology"
     ],
     "CHC||postgraduate": [
       "chc-postgraduate-master-of-arts-in-applied-buddhism",
@@ -41158,7 +41418,10 @@
       "hsuhk-postgraduate-master-of-social-sciences-in-public-policy-and-risk-governance",
       "hsuhk-postgraduate-master-of-social-sciences-in-social-sustainability",
       "hsuhk-postgraduate-master-of-arts-in-translation-business-and-legal",
-      "hsuhk-postgraduate-master-of-arts-in-translation-computer-aided-translation"
+      "hsuhk-postgraduate-master-of-arts-in-translation-computer-aided-translation",
+      "hsuhk-postgraduate-master-of-science-in-global-finance-and-fintech",
+      "hsuhk-postgraduate-master-of-science-in-global-strategic-management-in-chinese",
+      "hsuhk-postgraduate-master-of-science-in-international-corporate-governance-with-sustainability"
     ],
     "TWC||postgraduate": [
       "twc-postgraduate-master-of-science-in-health-services-management",
@@ -41166,7 +41429,8 @@
       "twc-postgraduate-master-of-science-in-medical-laboratory-science",
       "twc-postgraduate-master-of-social-sciences-in-psychology",
       "twc-postgraduate-master-of-social-work",
-      "twc-postgraduate-master-of-business-administration"
+      "twc-postgraduate-master-of-business-administration",
+      "twc-postgraduate-master-of-smart-health-services-management"
     ],
     "UM||postgraduate": [
       "um-postgraduate-ma-in-english-studies",
@@ -41222,7 +41486,15 @@
       "um-postgraduate-mphil-in-medical-administration",
       "um-postgraduate-mphil-in-pharmaceutical-sciences",
       "um-postgraduate-msc-in-medical-administration",
-      "um-postgraduate-msc-in-microelectronics"
+      "um-postgraduate-msc-in-microelectronics",
+      "um-postgraduate-ma-in-portuguese",
+      "um-postgraduate-master-of-fine-arts",
+      "um-postgraduate-master-of-law-in-juridical-political-sciences",
+      "um-postgraduate-master-of-law-in-juridical-sciences",
+      "um-postgraduate-master-of-law-in-law-and-technology",
+      "um-postgraduate-mdes-in-industrial-design",
+      "um-postgraduate-mphil-in-medicinal-food-and-nutrition-sciences",
+      "um-postgraduate-mphil-in-microelectronics"
     ],
     "MUST||postgraduate": [
       "must-postgraduate-msc-in-international-tourism-management",
@@ -41268,7 +41540,13 @@
       "must-postgraduate-msc-in-pharmaceutical-sciences",
       "must-postgraduate-msc-in-food-and-nutritional-sciences",
       "must-postgraduate-msc-in-earth-and-planetary-sciences",
-      "must-postgraduate-msc-in-spatial-big-data-analytics"
+      "must-postgraduate-msc-in-spatial-big-data-analytics",
+      "must-postgraduate-master-of-artificial-intelligence-law",
+      "must-postgraduate-master-of-clinical-medicine",
+      "must-postgraduate-master-of-fine-arts-in-game-art-design",
+      "must-postgraduate-master-of-intelligent-supply-chain-management",
+      "must-postgraduate-master-of-science-in-artificial-intelligence",
+      "must-postgraduate-master-of-science-in-low-altitude-economy-and-technology"
     ],
     "CMU||postgraduate": [
       "cmu-postgraduate-master-of-business-administration-mba",
@@ -41288,7 +41566,12 @@
       "cmu-postgraduate-master-of-law-llm",
       "cmu-postgraduate-ma-in-portuguese-speaking-countries-studies",
       "cmu-postgraduate-master-of-social-work-msw",
-      "cmu-postgraduate-msc-in-applied-psychology"
+      "cmu-postgraduate-msc-in-applied-psychology",
+      "cmu-postgraduate-master-of-artificial-intelligence",
+      "cmu-postgraduate-master-of-chinese-cultural-studies",
+      "cmu-postgraduate-master-of-international-relations-and-governance",
+      "cmu-postgraduate-master-of-management-analytics",
+      "cmu-postgraduate-master-of-smart-ageing-and-health-management"
     ],
     "MPU||postgraduate": [
       "mpu-postgraduate-msc-in-big-data-and-internet-of-things",
@@ -41301,7 +41584,8 @@
       "mpu-postgraduate-med-in-cultural-communication-and-education",
       "mpu-postgraduate-master-of-public-administration-mpa",
       "mpu-postgraduate-master-of-business-administration-mba",
-      "mpu-postgraduate-msc-in-finance-and-data-analytics"
+      "mpu-postgraduate-msc-in-finance-and-data-analytics",
+      "mpu-postgraduate-mba-in-gaming-management"
     ],
     "UTM||postgraduate": [
       "utm-postgraduate-master-of-business-administration-mba",
@@ -41316,7 +41600,8 @@
       "utm-postgraduate-msc-in-cultural-and-creative-industries-management",
       "utm-postgraduate-msc-in-international-tourism-management",
       "utm-postgraduate-msc-in-hospitality-and-tourism-smart-technology",
-      "utm-postgraduate-msc-in-digital-marketing-and-analytics"
+      "utm-postgraduate-msc-in-digital-marketing-and-analytics",
+      "utm-postgraduate-msc-in-innovative-hospitality-management"
     ],
     "ADELAIDE||undergraduate": [
       "adelaide-undergraduate-bachelor-of-agricultural-sciences",

@@ -1,5 +1,8 @@
 "use client";
 
+import { getQSRank } from "@/lib/qs-ranking";
+
+
 import Link from "next/link";
 import { Program } from "@/types";
 import Card from "@/components/ui/Card";
@@ -386,7 +389,7 @@ interface AIAdmissionAnalysisProps {
 
 export default function AIAdmissionAnalysis({ program }: AIAdmissionAnalysisProps) {
   const region = program.region_cn || '';
-  const qsRanking = program.qs_ranking_2026 || 0;
+  const qsRanking = getQSRank(program) || 0;
   
   if (!isAIAnalysisEnabled(region, qsRanking)) {
     return null;

@@ -9,18 +9,9 @@ export interface AuthUser {
 
 export const AUTH_USER_STORAGE_KEY = "liuxuehub_auth_user";
 export const AUTH_UPDATED_EVENT = "liuxuehub-auth-updated";
-export const DEMO_SMS_CODE = "123456";
 
-export function getStoredUser(): AuthUser | null {
-  if (typeof window === "undefined") return null;
-
-  try {
-    const raw = window.localStorage.getItem(AUTH_USER_STORAGE_KEY);
-    return raw ? (JSON.parse(raw) as AuthUser) : null;
-  } catch {
-    return null;
-  }
-}
+// Historical browser-only demo identities are not authenticated sessions.
+export function getStoredUser(): AuthUser | null { return null; }
 
 export function storeUser(user: AuthUser) {
   if (typeof window === "undefined") return;

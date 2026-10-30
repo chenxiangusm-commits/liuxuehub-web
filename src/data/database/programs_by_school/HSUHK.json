@@ -13,18 +13,18 @@
     "major_en": "Master of Business Administration (in Chinese)",
     "degree": "MBA",
     "duration": "1年（全日制）/ 2年（兼读制）",
-    "intake": "9月",
-    "fee": "HKD 300,000（约RMB 276,000）",
-    "deadline": "2026年6月30日（非本地）/ 2026年8月22日（本地）",
-    "ielts": "无（中文授课）",
-    "toefl": "无（中文授课）",
+    "intake": "2027年9月",
+    "fee": "2027年9月入学（2027/28）：30学分；本地每学分HKD9,600，按标准学分合计HKD288,000；非本地每学分HKD12,000，合计HKD360,000。",
+    "deadline": "2027年9月入学：非本地申请截止2027-06-22；本地申请截止2027-08-15。",
+    "ielts": "5.5（并须满足中文要求；可用其他证明）",
+    "toefl": "iBT79／纸笔525（并须满足中文要求）",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "中文能力满足以下之一：中文授课认可学位；HKDSE中国语文≥3；高考／JEE中文≥100；HSK≥5；或校方认可的同等中文资格。 同时须满足英语要求：英语授课认可学位；HKDSE英文≥3；高考／JEE英文≥100；TOEFL纸笔≥525／iBT≥79；IELTS Academic≥5.5；或CET-4≥425。 具有至少1年专业工作经验者优先，并须通过面试。 IELTS／TOEFL成绩自考试日起有效两年。学校通则接受TOEFL iBT Special Home Edition及IELTS Academic考场／Online；2024年9月起不再接受Duolingo。个别项目要求以项目说明为准。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学学士学位；需具备CET-4（425分）或以上成绩；优先考虑具一年以上工作经验者；中文授课，无需雅思成绩。",
+    "req_detail": "持有认可大学学士学位；优先考虑具一年以上工作经验者。语言条件以本页“招生信息与来源”的项目要求为准。",
     "official_url": "https://sbus.hsu.edu.hk/programmes/postgraduate-programmes/master-of-business-administration-in-chinese/",
-    "study_mode": "全日制/兼读制",
+    "study_mode": "Full Time / Part Time；授课语言：Putonghua",
     "curriculum": [
       "财务会计与报告",
       "管理经济学与金融",
@@ -47,7 +47,60 @@
       "创业企业家/初创企业创始人"
     ],
     "source_file": "hsuhk_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "98ee5500aabb5b9d8fcd",
+          "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+          "label": "研究生院：2027春季及秋季课程与申请日期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "3384f2ac32c33433e863",
+              "url": "https://gs.hsu.edu.hk/en/tuition-fees-2/",
+              "label": "研究生院：分入学学期收费及学分表"
+            }
+          ],
+          "cycle": "2027/28 秋季入学",
+          "status": "verified",
+          "note": "合计按官网每学分价格乘标准毕业学分计算；额外课程费用另计。"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "98ee5500aabb5b9d8fcd",
+              "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+              "label": "研究生院：2027春季及秋季课程与申请日期"
+            }
+          ],
+          "cycle": "2027/28 秋季入学",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "1dd1b5d3015622875d45",
+              "url": "https://sbus.hsu.edu.hk/wp-content/uploads/2026/10/MBA-TC-online.pdf",
+              "label": "项目官网入学要求／最新招生册"
+            },
+            {
+              "key": "972a2ad596a9b36bdf75",
+              "url": "https://gs.hsu.edu.hk/en/general-entrance-requirements/",
+              "label": "研究生院一般语言要求与有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "hsuhk-postgraduate-master-of-business-management",
@@ -63,18 +116,18 @@
     "major_en": "Master of Business Management",
     "degree": "MBM",
     "duration": "1年（全日制）",
-    "intake": "9月",
-    "fee": "HKD 229,500（约RMB 211,140）",
-    "deadline": "2026年6月30日（非本地）/ 2026年8月22日（本地）",
-    "ielts": "6.0",
-    "toefl": "79",
+    "intake": "2027年9月",
+    "fee": "2027年9月入学（2027/28）：27学分；本地每学分HKD8,100，按标准学分合计HKD218,700；非本地每学分HKD8,500，合计HKD229,500。",
+    "deadline": "2027年9月入学：非本地申请截止2027-06-22；本地申请截止2027-08-15。",
+    "ielts": "6.0（另可用其他认可证明）",
+    "toefl": "iBT79／纸笔550（另可用其他认可证明）",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "非英语授课学士须满足以下之一：TOEFL纸笔≥550／iBT≥79；IELTS Academic≥6.0；CET-6≥430；或校方认可的同等资格。英语授课学位可作英语能力证明。 获录取者若TOEFL iBT<93、IELTS<6.5或CET-6<500，须自费修读学术英文写作提升课程；这些分数是额外课程触发线，不是最低录取分数。 IELTS／TOEFL成绩自考试日起有效两年。学校通则接受TOEFL iBT Special Home Edition及IELTS Academic考场／Online；2024年9月起不再接受Duolingo。个别项目要求以项目说明为准。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学学士学位；如学位非英语授课，需提供雅思6.0或托福79分或同等英语水平证明；择优录取。",
+    "req_detail": "持有认可大学学士学位；择优录取。语言条件以本页“招生信息与来源”的项目要求为准。",
     "official_url": "https://sbus.hsu.edu.hk/programmes/postgraduate-programmes/master-of-business-management/",
-    "study_mode": "全日制",
+    "study_mode": "Full Time / Part Time；授课语言：English",
     "curriculum": [
       "会计与商业规划",
       "公司金融",
@@ -97,7 +150,60 @@
       "管理咨询顾问"
     ],
     "source_file": "hsuhk_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "98ee5500aabb5b9d8fcd",
+          "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+          "label": "研究生院：2027春季及秋季课程与申请日期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "3384f2ac32c33433e863",
+              "url": "https://gs.hsu.edu.hk/en/tuition-fees-2/",
+              "label": "研究生院：分入学学期收费及学分表"
+            }
+          ],
+          "cycle": "2027/28 秋季入学",
+          "status": "verified",
+          "note": "合计按官网每学分价格乘标准毕业学分计算；额外课程费用另计。"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "98ee5500aabb5b9d8fcd",
+              "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+              "label": "研究生院：2027春季及秋季课程与申请日期"
+            }
+          ],
+          "cycle": "2027/28 秋季入学",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "8f2242e62cfa4d399600",
+              "url": "https://sbus.hsu.edu.hk/wp-content/uploads/2026/10/MBM-TC-online.pdf",
+              "label": "项目官网入学要求／最新招生册"
+            },
+            {
+              "key": "972a2ad596a9b36bdf75",
+              "url": "https://gs.hsu.edu.hk/en/general-entrance-requirements/",
+              "label": "研究生院一般语言要求与有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "hsuhk-postgraduate-master-of-science-in-entrepreneurial-management",
@@ -112,19 +218,19 @@
     "major_cn": "创业管理理学硕士",
     "major_en": "Master of Science in Entrepreneurial Management",
     "degree": "MSc",
-    "duration": "1年（全日制）/ 2年（兼读制）",
-    "intake": "9月",
-    "fee": "HKD 210,000（约RMB 193,200）",
-    "deadline": "2026年6月30日（非本地）/ 2026年8月22日（本地）",
-    "ielts": "6.0",
-    "toefl": "79",
+    "duration": "秋季全日制1年／兼读制2年；1月入学全日制20个月／兼读制32个月",
+    "intake": "2027年1月／9月",
+    "fee": "2027年1月入学（2026/27）：30学分；本地每学分HKD5,400，按标准学分合计HKD162,000；非本地每学分HKD7,000，合计HKD210,000。\n2027年9月入学（2027/28）：30学分；本地每学分HKD5,400，按标准学分合计HKD162,000；非本地每学分HKD7,000，合计HKD210,000。",
+    "deadline": "2027年1月入学（2026/27第二学期）：非本地截止2026-10-31；本地截止2026-12-26。\n2027年9月入学：非本地申请截止2027-06-22；本地申请截止2027-08-15。",
+    "ielts": "6.0（另可用其他认可证明）",
+    "toefl": "iBT79／纸笔550（另可用其他认可证明）",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "非英语授课学士须满足以下之一：TOEFL纸笔≥550／iBT≥79；IELTS Academic≥6.0；CET-6≥430；或校方认可的同等资格。英语授课学位可作英语能力证明。 获录取者若TOEFL iBT<93、IELTS<6.5或CET-6<500，须自费修读学术英文写作提升课程；这些分数是额外课程触发线，不是最低录取分数。 IELTS／TOEFL成绩自考试日起有效两年。学校通则接受TOEFL iBT Special Home Edition及IELTS Academic考场／Online；2024年9月起不再接受Duolingo。个别项目要求以项目说明为准。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学学士学位；如学位非英语授课，需提供雅思6.0或托福79分或同等英语水平证明；优先考虑对创业管理有浓厚兴趣者。",
+    "req_detail": "持有认可大学学士学位；优先考虑对创业管理有浓厚兴趣者。语言条件以本页“招生信息与来源”的项目要求为准。",
     "official_url": "https://sbus.hsu.edu.hk/programmes/postgraduate-programmes/master-of-science-in-entrepreneurial-management/",
-    "study_mode": "全日制/兼读制",
+    "study_mode": "Full Time / Part Time；授课语言：English",
     "curriculum": [
       "创业者商业规划与专业伦理",
       "创意与创业精神",
@@ -147,7 +253,60 @@
       "数字创业营销专员"
     ],
     "source_file": "hsuhk_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "98ee5500aabb5b9d8fcd",
+          "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+          "label": "研究生院：2027春季及秋季课程与申请日期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "3384f2ac32c33433e863",
+              "url": "https://gs.hsu.edu.hk/en/tuition-fees-2/",
+              "label": "研究生院：分入学学期收费及学分表"
+            }
+          ],
+          "cycle": "2027春季与秋季",
+          "status": "verified",
+          "note": "合计按官网每学分价格乘标准毕业学分计算；额外课程费用另计。"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "98ee5500aabb5b9d8fcd",
+              "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+              "label": "研究生院：2027春季及秋季课程与申请日期"
+            }
+          ],
+          "cycle": "2027春季与秋季",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "76539c70f8309300945b",
+              "url": "https://sbus.hsu.edu.hk/wp-content/uploads/2026/10/MSc-EM-TC-online.pdf",
+              "label": "项目官网入学要求／最新招生册"
+            },
+            {
+              "key": "972a2ad596a9b36bdf75",
+              "url": "https://gs.hsu.edu.hk/en/general-entrance-requirements/",
+              "label": "研究生院一般语言要求与有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "hsuhk-postgraduate-master-of-arts-in-digital-media-for-online-communication",
@@ -163,18 +322,18 @@
     "major_en": "Master of Arts in Digital Media for Online Communication",
     "degree": "MA",
     "duration": "1年（全日制）/ 2年（兼读制）",
-    "intake": "9月",
-    "fee": "HKD 146,400（约RMB 134,688）",
-    "deadline": "2026年6月30日（非本地）/ 2026年8月22日（本地）",
-    "ielts": "6.0",
-    "toefl": "79",
+    "intake": "2027年9月",
+    "fee": "2027年9月入学（2027/28）：24学分；本地每学分HKD7,000，按标准学分合计HKD168,000；非本地每学分HKD7,000，合计HKD168,000。",
+    "deadline": "2027年9月入学：非本地申请截止2027-06-22；本地申请截止2027-08-15。",
+    "ielts": "6.0（另可用其他认可证明）",
+    "toefl": "iBT79／纸笔550（另可用其他认可证明）",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "非英语授课学士须满足以下之一：TOEFL纸笔≥550／iBT≥79；IELTS Academic≥6.0；CET-6≥430；或校方认可的同等资格。英语授课学位可作英语能力证明。 此项目亦接受TEM-4≥70。 IELTS／TOEFL成绩自考试日起有效两年。学校通则接受TOEFL iBT Special Home Edition及IELTS Academic考场／Online；2024年9月起不再接受Duolingo。个别项目要求以项目说明为准。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学学士学位（传播、商业或科技相关背景者优先）；如学位非英语授课，需提供雅思6.0、托福79分、CET-6 430分或TEM-4 70分的英语水平证明。",
+    "req_detail": "持有认可大学学士学位（传播、商业或科技相关背景者优先）。语言条件以本页“招生信息与来源”的项目要求为准。",
     "official_url": "https://scom.hsu.edu.hk/en/master-of-arts-in-digital-media-for-online-communication/",
-    "study_mode": "全日制/兼读制",
+    "study_mode": "Full Time / Part Time；授课语言：English",
     "curriculum": [
       "数码媒体内容创作",
       "视觉传达设计",
@@ -197,7 +356,60 @@
       "数码传播主任"
     ],
     "source_file": "hsuhk_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "98ee5500aabb5b9d8fcd",
+          "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+          "label": "研究生院：2027春季及秋季课程与申请日期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "3384f2ac32c33433e863",
+              "url": "https://gs.hsu.edu.hk/en/tuition-fees-2/",
+              "label": "研究生院：分入学学期收费及学分表"
+            }
+          ],
+          "cycle": "2027/28 秋季入学",
+          "status": "verified",
+          "note": "合计按官网每学分价格乘标准毕业学分计算；额外课程费用另计。"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "98ee5500aabb5b9d8fcd",
+              "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+              "label": "研究生院：2027春季及秋季课程与申请日期"
+            }
+          ],
+          "cycle": "2027/28 秋季入学",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "250e9fb296e78d49f7e6",
+              "url": "https://scom.hsu.edu.hk/en/master-of-arts-in-digital-media-for-online-communication/",
+              "label": "项目官网入学要求／最新招生册"
+            },
+            {
+              "key": "972a2ad596a9b36bdf75",
+              "url": "https://gs.hsu.edu.hk/en/general-entrance-requirements/",
+              "label": "研究生院一般语言要求与有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "hsuhk-postgraduate-master-of-arts-in-entertainment-media-management-and-communication",
@@ -213,18 +425,18 @@
     "major_en": "Master of Arts in Entertainment Media Management and Communication",
     "degree": "MA",
     "duration": "1年（全日制）/ 2年（兼读制）",
-    "intake": "9月",
-    "fee": "HKD 146,400（约RMB 134,688）",
-    "deadline": "2026年6月30日（非本地）/ 2026年8月22日（本地）",
-    "ielts": "无（中文授课）",
-    "toefl": "无（中文授课）",
+    "intake": "2027年9月",
+    "fee": "2027年9月入学（2027/28）：24学分；本地每学分HKD7,500，按标准学分合计HKD180,000；非本地每学分HKD7,500，合计HKD180,000。",
+    "deadline": "2027年9月入学：非本地申请截止2027-06-22；本地申请截止2027-08-15。",
+    "ielts": "项目以中文能力要求为准，未列英语最低分",
+    "toefl": "项目以中文能力要求为准，未列英语最低分",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "中文能力满足以下之一：中文授课认可学位；HKDSE中国语文≥3；高考／JEE中文≥100；HSK≥5；或校方认可的同等中文资格。 项目列明中文能力门槛，未另列IELTS／TOEFL最低分。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学学士学位；需具备中文语言能力证明（以中文授课之学位、HKDSE中文3级、HSK5级或其他同等学历）；优先考虑有工作经验者。",
+    "req_detail": "持有认可大学学士学位；需具备中文语言能力证明（以中文授课之学位、HKDSE中文3级、HSK5级或其他同等学历）；优先考虑有工作经验者。语言条件以本页“招生信息与来源”的项目要求为准。",
     "official_url": "https://scom.hsu.edu.hk/en/master-of-arts-in-entertainment-media-management-and-communication/",
-    "study_mode": "全日制/兼读制",
+    "study_mode": "Full Time / Part Time；授课语言：Chinese",
     "curriculum": [
       "传播与娱乐媒体管理",
       "媒体研究与受众分析",
@@ -247,7 +459,60 @@
       "娱乐公关专员"
     ],
     "source_file": "hsuhk_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "98ee5500aabb5b9d8fcd",
+          "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+          "label": "研究生院：2027春季及秋季课程与申请日期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "3384f2ac32c33433e863",
+              "url": "https://gs.hsu.edu.hk/en/tuition-fees-2/",
+              "label": "研究生院：分入学学期收费及学分表"
+            }
+          ],
+          "cycle": "2027/28 秋季入学",
+          "status": "verified",
+          "note": "合计按官网每学分价格乘标准毕业学分计算；额外课程费用另计。"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "98ee5500aabb5b9d8fcd",
+              "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+              "label": "研究生院：2027春季及秋季课程与申请日期"
+            }
+          ],
+          "cycle": "2027/28 秋季入学",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "59c0447c321ca9c5505d",
+              "url": "https://scom.hsu.edu.hk/en/master-of-arts-in-entertainment-media-management-and-communication/",
+              "label": "项目官网入学要求／最新招生册"
+            },
+            {
+              "key": "972a2ad596a9b36bdf75",
+              "url": "https://gs.hsu.edu.hk/en/general-entrance-requirements/",
+              "label": "研究生院一般语言要求与有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "hsuhk-postgraduate-master-of-arts-in-strategic-communication",
@@ -263,18 +528,18 @@
     "major_en": "Master of Arts in Strategic Communication",
     "degree": "MA",
     "duration": "1年（全日制）/ 2年（兼读制）",
-    "intake": "9月",
-    "fee": "HKD 146,400（约RMB 134,688）",
-    "deadline": "2026年6月30日（非本地）/ 2026年8月22日（本地）",
-    "ielts": "6.5",
-    "toefl": "79",
+    "intake": "2027年9月",
+    "fee": "2027年9月入学（2027/28）：24学分；本地每学分HKD7,000，按标准学分合计HKD168,000；非本地每学分HKD7,000，合计HKD168,000。",
+    "deadline": "2027年9月入学：非本地申请截止2027-06-22；本地申请截止2027-08-15。",
+    "ielts": "6.5（另可用其他认可证明）",
+    "toefl": "iBT79／纸笔550（另可用其他认可证明）",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "非英语授课学士须满足以下之一：TOEFL纸笔≥550／iBT≥79；IELTS Academic≥6.5；CET-6≥430；或校方认可的同等资格。英语授课学位可作英语能力证明。 此项目亦接受TEM-4≥70。 项目另列TOEFL机考≥213。 IELTS／TOEFL成绩自考试日起有效两年。学校通则接受TOEFL iBT Special Home Edition及IELTS Academic考场／Online；2024年9月起不再接受Duolingo。个别项目要求以项目说明为准。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学学士学位；如学位非英语授课，需提供雅思6.5（单项不低于6.0）、托福79分、CET-6 430分或TEM-4 70分的英语水平证明。",
+    "req_detail": "持有认可大学学士学位。语言条件以本页“招生信息与来源”的项目要求为准。",
     "official_url": "https://scom.hsu.edu.hk/en/master-of-arts-strategic-communication/",
-    "study_mode": "全日制/兼读制",
+    "study_mode": "Full Time / Part Time；授课语言：English",
     "curriculum": [
       "策略传播理论",
       "研究与数据分析",
@@ -297,7 +562,60 @@
       "非政府组织传播项目经理"
     ],
     "source_file": "hsuhk_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "98ee5500aabb5b9d8fcd",
+          "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+          "label": "研究生院：2027春季及秋季课程与申请日期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "3384f2ac32c33433e863",
+              "url": "https://gs.hsu.edu.hk/en/tuition-fees-2/",
+              "label": "研究生院：分入学学期收费及学分表"
+            }
+          ],
+          "cycle": "2027/28 秋季入学",
+          "status": "verified",
+          "note": "合计按官网每学分价格乘标准毕业学分计算；额外课程费用另计。"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "98ee5500aabb5b9d8fcd",
+              "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+              "label": "研究生院：2027春季及秋季课程与申请日期"
+            }
+          ],
+          "cycle": "2027/28 秋季入学",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "0f2f50d9f182ab634215",
+              "url": "https://scom.hsu.edu.hk/en/master-of-arts-strategic-communication/",
+              "label": "项目官网入学要求／最新招生册"
+            },
+            {
+              "key": "972a2ad596a9b36bdf75",
+              "url": "https://gs.hsu.edu.hk/en/general-entrance-requirements/",
+              "label": "研究生院一般语言要求与有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "hsuhk-postgraduate-master-of-science-in-insurance",
@@ -313,18 +631,18 @@
     "major_en": "Master of Science in Insurance",
     "degree": "MSc",
     "duration": "1年（全日制）/ 2年（兼读制）",
-    "intake": "9月",
-    "fee": "HKD 199,920（约RMB 183,926）",
-    "deadline": "2026年6月30日（非本地）/ 2026年8月22日（本地）",
-    "ielts": "6.0",
-    "toefl": "79",
+    "intake": "2027年9月",
+    "fee": "2027年9月入学（2027/28）：24学分；本地每学分HKD8,330，按标准学分合计HKD199,920；非本地每学分HKD8,330，合计HKD199,920。",
+    "deadline": "2027年9月入学：非本地申请截止2027-06-22；本地申请截止2027-08-15。",
+    "ielts": "6.0（另可用其他认可证明）",
+    "toefl": "iBT79／纸笔550（另可用其他认可证明）",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "非英语授课学士须满足以下之一：TOEFL纸笔≥550／iBT≥79；IELTS Academic≥6.0；CET-6≥430；或校方认可的同等资格。英语授课学位可作英语能力证明。 IELTS／TOEFL成绩自考试日起有效两年。学校通则接受TOEFL iBT Special Home Edition及IELTS Academic考场／Online；2024年9月起不再接受Duolingo。个别项目要求以项目说明为准。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学学士学位；如学位非英语授课，需提供雅思6.0、托福79分、CET-6 430分或TEM-4 70分的英语水平证明；具保险行业工作经验者优先考虑。",
-    "official_url": "https://msi.hsu.edu.hk/ins/",
-    "study_mode": "全日制/兼读制",
+    "req_detail": "持有认可大学学士学位；具保险行业工作经验者优先考虑。语言条件以本页“招生信息与来源”的项目要求为准。",
+    "official_url": "https://msi.hsu.edu.hk/en/ins/programme-information/overview-2/",
+    "study_mode": "Full Time / Part Time；授课语言：English",
     "curriculum": [
       "风险管理与保险原理",
       "保险统计学与定量方法",
@@ -347,7 +665,60 @@
       "保险监管合规专员"
     ],
     "source_file": "hsuhk_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "98ee5500aabb5b9d8fcd",
+          "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+          "label": "研究生院：2027春季及秋季课程与申请日期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "3384f2ac32c33433e863",
+              "url": "https://gs.hsu.edu.hk/en/tuition-fees-2/",
+              "label": "研究生院：分入学学期收费及学分表"
+            }
+          ],
+          "cycle": "2027/28 秋季入学",
+          "status": "verified",
+          "note": "合计按官网每学分价格乘标准毕业学分计算；额外课程费用另计。"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "98ee5500aabb5b9d8fcd",
+              "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+              "label": "研究生院：2027春季及秋季课程与申请日期"
+            }
+          ],
+          "cycle": "2027/28 秋季入学",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "eeadbc7b0213baa82eae",
+              "url": "https://msi.hsu.edu.hk/zh/ins/admission-information/",
+              "label": "项目官网入学要求／最新招生册"
+            },
+            {
+              "key": "972a2ad596a9b36bdf75",
+              "url": "https://gs.hsu.edu.hk/en/general-entrance-requirements/",
+              "label": "研究生院一般语言要求与有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "hsuhk-postgraduate-master-of-science-in-data-science-and-artificial-intelligence",
@@ -363,18 +734,18 @@
     "major_en": "Master of Science in Data Science and Artificial Intelligence",
     "degree": "MSc",
     "duration": "1年（全日制）/ 2年（兼读制）",
-    "intake": "9月",
-    "fee": "HKD 240,000（约RMB 220,800）",
-    "deadline": "2026年6月30日（非本地）/ 2026年8月22日（本地）",
-    "ielts": "6.0",
-    "toefl": "79",
+    "intake": "2027年9月",
+    "fee": "2027年9月入学（2027/28）：24学分；本地每学分HKD8,000，按标准学分合计HKD192,000；非本地每学分HKD10,000，合计HKD240,000。",
+    "deadline": "项目主页列2027-03-31为第一轮截止，项目申请页仅写2027-03-31；研究生院秋季目录另列非本地2027-06-22、本地2027-08-15。后续批次安排应向项目确认，优先按3月31日准备。",
+    "ielts": "6.0（另可用其他认可证明）",
+    "toefl": "iBT79／纸笔550（另可用其他认可证明）",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "非英语授课学士须满足以下之一：TOEFL纸笔≥550／iBT≥79；IELTS Academic≥6.0；CET-6≥430；或校方认可的同等资格。英语授课学位可作英语能力证明。 此项目亦接受TEM-4≥70。 IELTS／TOEFL成绩自考试日起有效两年。学校通则接受TOEFL iBT Special Home Edition及IELTS Academic考场／Online；2024年9月起不再接受Duolingo。个别项目要求以项目说明为准。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学学士学位（具有信息技术、统计学、工程或相关背景者优先）；如学位非英语授课，需提供雅思6.0、托福79分、CET-6 430分或TEM-4 70分的英语水平证明。",
+    "req_detail": "持有认可大学学士学位（具有信息技术、统计学、工程或相关背景者优先）。语言条件以本页“招生信息与来源”的项目要求为准。",
     "official_url": "https://dsai.hsu.edu.hk/en/master-degree/",
-    "study_mode": "全日制/兼读制",
+    "study_mode": "Full Time / Part Time；授课语言：English",
     "curriculum": [
       "大数据计算技术",
       "大数据管理",
@@ -397,7 +768,71 @@
       "数据产品经理"
     ],
     "source_file": "hsuhk_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "98ee5500aabb5b9d8fcd",
+          "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+          "label": "研究生院：2027春季及秋季课程与申请日期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "3384f2ac32c33433e863",
+              "url": "https://gs.hsu.edu.hk/en/tuition-fees-2/",
+              "label": "研究生院：分入学学期收费及学分表"
+            }
+          ],
+          "cycle": "2027/28 秋季入学",
+          "status": "verified",
+          "note": "合计按官网每学分价格乘标准毕业学分计算；额外课程费用另计。"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "98ee5500aabb5b9d8fcd",
+              "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+              "label": "研究生院：2027春季及秋季课程与申请日期"
+            },
+            {
+              "key": "ef6814ace48dd1821cce",
+              "url": "https://dsai.hsu.edu.hk/en/application/",
+              "label": "项目官网入学要求／最新招生册"
+            },
+            {
+              "key": "c748c47d36cf293e2775",
+              "url": "https://dsai.hsu.edu.hk/en/home/",
+              "label": "项目首页：第一轮截止日期"
+            }
+          ],
+          "cycle": "2027/28 秋季入学",
+          "status": "conflict",
+          "note": "各页对轮次的标注不同，未自行认定3月31日之后一定继续接收。"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "ef6814ace48dd1821cce",
+              "url": "https://dsai.hsu.edu.hk/en/application/",
+              "label": "项目官网入学要求／最新招生册"
+            },
+            {
+              "key": "972a2ad596a9b36bdf75",
+              "url": "https://gs.hsu.edu.hk/en/general-entrance-requirements/",
+              "label": "研究生院一般语言要求与有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "hsuhk-postgraduate-master-of-science-in-digital-innovation-and-technology-management",
@@ -413,18 +848,18 @@
     "major_en": "Master of Science in Digital Innovation and Technology Management",
     "degree": "MSc",
     "duration": "1年（全日制）/ 2年（兼读制）",
-    "intake": "9月",
-    "fee": "HKD 196,800（约RMB 181,056）",
-    "deadline": "2026年6月30日（非本地）/ 2026年8月22日（本地）",
-    "ielts": "6.0",
-    "toefl": "79",
+    "intake": "2027年9月",
+    "fee": "2027年9月入学（2027/28）：24学分；本地每学分HKD6,500，按标准学分合计HKD156,000；非本地每学分HKD8,200，合计HKD196,800。",
+    "deadline": "2027年入学：非本地第一轮2027-01-31、第二轮2027-04-30、末轮2027-06-22；本地截止2027-08-15。滚动录取，建议尽早申请。",
+    "ielts": "6.0（另可用其他认可证明）",
+    "toefl": "iBT79／纸笔550（另可用其他认可证明）",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "非英语授课学士须满足以下之一：TOEFL纸笔≥550／iBT≥79；IELTS Academic≥6.0；CET-6≥430；或校方认可的同等资格。英语授课学位可作英语能力证明。 此项目亦接受TEM-4≥70。 IELTS／TOEFL成绩自考试日起有效两年。学校通则接受TOEFL iBT Special Home Edition及IELTS Academic考场／Online；2024年9月起不再接受Duolingo。个别项目要求以项目说明为准。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学学士学位；如学位非英语授课，需提供雅思6.0、托福79分、CET-6 430分或TEM-4 70分的英语水平证明；对数码转型及科技创新有浓厚兴趣。",
+    "req_detail": "持有认可大学学士学位；对数码转型及科技创新有浓厚兴趣。语言条件以本页“招生信息与来源”的项目要求为准。",
     "official_url": "https://scm.hsu.edu.hk/mscditm/",
-    "study_mode": "全日制/兼读制",
+    "study_mode": "Full Time / Part Time；授课语言：English",
     "curriculum": [
       "创新及科技管理",
       "环球营运管理",
@@ -447,7 +882,65 @@
       "科技项目管理经理"
     ],
     "source_file": "hsuhk_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "98ee5500aabb5b9d8fcd",
+          "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+          "label": "研究生院：2027春季及秋季课程与申请日期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "3384f2ac32c33433e863",
+              "url": "https://gs.hsu.edu.hk/en/tuition-fees-2/",
+              "label": "研究生院：分入学学期收费及学分表"
+            }
+          ],
+          "cycle": "2027/28 秋季入学",
+          "status": "verified",
+          "note": "合计按官网每学分价格乘标准毕业学分计算；额外课程费用另计。"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "98ee5500aabb5b9d8fcd",
+              "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+              "label": "研究生院：2027春季及秋季课程与申请日期"
+            },
+            {
+              "key": "ab5c2043b63ac802c9e6",
+              "url": "https://scm.hsu.edu.hk/mscditm-admission/",
+              "label": "项目官网入学要求／最新招生册"
+            }
+          ],
+          "cycle": "2027/28 秋季入学",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "ab5c2043b63ac802c9e6",
+              "url": "https://scm.hsu.edu.hk/mscditm-admission/",
+              "label": "项目官网入学要求／最新招生册"
+            },
+            {
+              "key": "972a2ad596a9b36bdf75",
+              "url": "https://gs.hsu.edu.hk/en/general-entrance-requirements/",
+              "label": "研究生院一般语言要求与有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "hsuhk-postgraduate-master-of-science-in-global-supply-chain-management",
@@ -463,18 +956,18 @@
     "major_en": "Master of Science in Global Supply Chain Management",
     "degree": "MSc",
     "duration": "1年（全日制）/ 2年（兼读制）",
-    "intake": "9月",
-    "fee": "HKD 216,000（约RMB 198,720）",
-    "deadline": "2026年6月30日（非本地）/ 2026年8月22日（本地）",
-    "ielts": "6.0",
-    "toefl": "79",
+    "intake": "2027年9月",
+    "fee": "2027年9月入学（2027/28）：24学分；本地每学分HKD6,500，按标准学分合计HKD156,000；非本地每学分HKD9,000，合计HKD216,000。",
+    "deadline": "2027年入学：非本地第一轮2027-04-30、末轮2027-06-22；本地截止2027-08-15。滚动录取，建议尽早申请。",
+    "ielts": "6.0（另可用其他认可证明）",
+    "toefl": "iBT79／纸笔550（另可用其他认可证明）",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "非英语授课学士须满足以下之一：TOEFL纸笔≥550／iBT≥79；IELTS Academic≥6.0；CET-6≥430；或校方认可的同等资格。英语授课学位可作英语能力证明。 此项目亦接受TEM-4≥70。 IELTS／TOEFL成绩自考试日起有效两年。学校通则接受TOEFL iBT Special Home Edition及IELTS Academic考场／Online；2024年9月起不再接受Duolingo。个别项目要求以项目说明为准。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学学士学位；如学位非英语授课，需提供雅思6.0、托福79分、CET-6 430分或TEM-4 70分的英语水平证明；对供应链管理及物流行业有浓厚兴趣。",
+    "req_detail": "持有认可大学学士学位；对供应链管理及物流行业有浓厚兴趣。语言条件以本页“招生信息与来源”的项目要求为准。",
     "official_url": "https://gscm.hsu.edu.hk/en/home/",
-    "study_mode": "全日制/兼读制",
+    "study_mode": "Full Time / Part Time；授课语言：English",
     "curriculum": [
       "当代运营管理",
       "环球供应链管理",
@@ -497,7 +990,65 @@
       "跨境电商供应链专员"
     ],
     "source_file": "hsuhk_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "98ee5500aabb5b9d8fcd",
+          "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+          "label": "研究生院：2027春季及秋季课程与申请日期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "3384f2ac32c33433e863",
+              "url": "https://gs.hsu.edu.hk/en/tuition-fees-2/",
+              "label": "研究生院：分入学学期收费及学分表"
+            }
+          ],
+          "cycle": "2027/28 秋季入学",
+          "status": "verified",
+          "note": "合计按官网每学分价格乘标准毕业学分计算；额外课程费用另计。"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "98ee5500aabb5b9d8fcd",
+              "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+              "label": "研究生院：2027春季及秋季课程与申请日期"
+            },
+            {
+              "key": "1ebbc9cd01a92ec95d41",
+              "url": "https://scm.hsu.edu.hk/mscgscm-admission/",
+              "label": "项目官网入学要求／最新招生册"
+            }
+          ],
+          "cycle": "2027/28 秋季入学",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "1ebbc9cd01a92ec95d41",
+              "url": "https://scm.hsu.edu.hk/mscgscm-admission/",
+              "label": "项目官网入学要求／最新招生册"
+            },
+            {
+              "key": "972a2ad596a9b36bdf75",
+              "url": "https://gs.hsu.edu.hk/en/general-entrance-requirements/",
+              "label": "研究生院一般语言要求与有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "hsuhk-postgraduate-master-of-science-in-risk-analytics",
@@ -513,18 +1064,18 @@
     "major_en": "Master of Science in Risk Analytics",
     "degree": "MSc",
     "duration": "1年（全日制）/ 2年（兼读制）",
-    "intake": "9月",
-    "fee": "HKD 187,200（约RMB 172,224）",
-    "deadline": "2026年6月30日（非本地）/ 2026年8月22日（本地）",
-    "ielts": "6.0",
-    "toefl": "79",
+    "intake": "2027年9月",
+    "fee": "2027年9月入学（2027/28）：24学分；本地每学分HKD7,800，按标准学分合计HKD187,200；非本地每学分HKD7,800，合计HKD187,200。",
+    "deadline": "2027年9月入学：非本地申请截止2027-06-22；本地申请截止2027-08-15。",
+    "ielts": "6.0（另可用其他认可证明）",
+    "toefl": "iBT79／纸笔550（另可用其他认可证明）",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "非英语授课学士须满足以下之一：TOEFL纸笔≥550／iBT≥79；IELTS Academic≥6.0；CET-6≥430；或校方认可的同等资格。英语授课学位可作英语能力证明。 此项目亦接受TEM-4≥70。 IELTS／TOEFL成绩自考试日起有效两年。学校通则接受TOEFL iBT Special Home Edition及IELTS Academic考场／Online；2024年9月起不再接受Duolingo。个别项目要求以项目说明为准。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学学士学位（具有统计学、数学、金融或相关背景者优先）；如学位非英语授课，需提供雅思6.0、托福79分、CET-6 430分或TEM-4 70分的英语水平证明；具有量化分析基础者优先。",
+    "req_detail": "持有认可大学学士学位（具有统计学、数学、金融或相关背景者优先）；具有量化分析基础者优先。语言条件以本页“招生信息与来源”的项目要求为准。",
     "official_url": "https://ra.hsu.edu.hk/en/",
-    "study_mode": "全日制/兼读制",
+    "study_mode": "全日制；兼读制仅限本地学生；英语授课",
     "curriculum": [
       "风险管理定量方法",
       "风险分析与管理体系",
@@ -547,7 +1098,60 @@
       "精算咨询顾问"
     ],
     "source_file": "hsuhk_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "98ee5500aabb5b9d8fcd",
+          "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+          "label": "研究生院：2027春季及秋季课程与申请日期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "3384f2ac32c33433e863",
+              "url": "https://gs.hsu.edu.hk/en/tuition-fees-2/",
+              "label": "研究生院：分入学学期收费及学分表"
+            }
+          ],
+          "cycle": "2027/28 秋季入学",
+          "status": "verified",
+          "note": "合计按官网每学分价格乘标准毕业学分计算；额外课程费用另计。"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "98ee5500aabb5b9d8fcd",
+              "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+              "label": "研究生院：2027春季及秋季课程与申请日期"
+            }
+          ],
+          "cycle": "2027/28 秋季入学",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "4ada3f05b992520e5687",
+              "url": "https://ra.hsu.edu.hk/en/admission-details/",
+              "label": "项目官网入学要求／最新招生册"
+            },
+            {
+              "key": "972a2ad596a9b36bdf75",
+              "url": "https://gs.hsu.edu.hk/en/general-entrance-requirements/",
+              "label": "研究生院一般语言要求与有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "hsuhk-postgraduate-master-of-arts-in-art-business",
@@ -563,18 +1167,18 @@
     "major_en": "Master of Arts in Art Business",
     "degree": "MA",
     "duration": "1年（全日制）/ 2年（兼读制）",
-    "intake": "9月",
-    "fee": "HKD 148,800（约RMB 136,896）",
-    "deadline": "2026年6月30日（非本地）/ 2026年8月22日（本地）",
-    "ielts": "无（中文授课）",
-    "toefl": "无（中文授课）",
+    "intake": "2027年9月",
+    "fee": "2027年9月入学（2027/28）：24学分；本地每学分HKD4,820，按标准学分合计HKD115,680；非本地每学分HKD6,200，合计HKD148,800。",
+    "deadline": "2027年9月入学：非本地申请截止2027-06-22；本地申请截止2027-08-15。",
+    "ielts": "项目以中文能力要求为准，未列英语最低分",
+    "toefl": "项目以中文能力要求为准，未列英语最低分",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "中文授课学士，或HKDSE中文≥3、HSK≥5、PSC普通话二级乙等、或高考／JEE中文≥100。项目未另列英语最低分。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学学士学位；如学位非中文授课，需提供中文语言能力证明（HKDSE中文3级、HSK5级、PSC二级乙或高考中文100分以上）；无需艺术背景。",
+    "req_detail": "持有认可大学学士学位；如学位非中文授课，需提供中文语言能力证明（HKDSE中文3级、HSK5级、PSC二级乙或高考中文100分以上）；无需艺术背景。语言条件以本页“招生信息与来源”的项目要求为准。",
     "official_url": "https://aad.hsu.edu.hk/en/home/study-with-us-degree-programme/master-of-arts-in-art-business-ma-ab/",
-    "study_mode": "全日制/兼读制",
+    "study_mode": "Full Time / Part Time；授课语言：Putonghua",
     "curriculum": [
       "艺术法规",
       "艺术展览与推广",
@@ -597,7 +1201,60 @@
       "文化创意产业运营专员"
     ],
     "source_file": "hsuhk_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "98ee5500aabb5b9d8fcd",
+          "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+          "label": "研究生院：2027春季及秋季课程与申请日期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "3384f2ac32c33433e863",
+              "url": "https://gs.hsu.edu.hk/en/tuition-fees-2/",
+              "label": "研究生院：分入学学期收费及学分表"
+            }
+          ],
+          "cycle": "2027/28 秋季入学",
+          "status": "verified",
+          "note": "合计按官网每学分价格乘标准毕业学分计算；额外课程费用另计。"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "98ee5500aabb5b9d8fcd",
+              "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+              "label": "研究生院：2027春季及秋季课程与申请日期"
+            }
+          ],
+          "cycle": "2027/28 秋季入学",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "a460dacaad592c39a586",
+              "url": "https://aad.hsu.edu.hk/en/home/study-with-us-degree-programme/master-of-arts-in-art-business-ma-ab/",
+              "label": "项目官网入学要求／最新招生册"
+            },
+            {
+              "key": "972a2ad596a9b36bdf75",
+              "url": "https://gs.hsu.edu.hk/en/general-entrance-requirements/",
+              "label": "研究生院一般语言要求与有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "hsuhk-postgraduate-master-of-arts-in-creative-humanities",
@@ -613,18 +1270,18 @@
     "major_en": "Master of Arts in Creative Humanities",
     "degree": "MA",
     "duration": "1年（全日制）/ 2年（兼读制）",
-    "intake": "9月/1月",
-    "fee": "HKD 144,000（约RMB 132,480）",
-    "deadline": "2026年6月30日（非本地）/ 2026年8月22日（本地）",
-    "ielts": "无（中文授课）",
-    "toefl": "无（中文授课）",
+    "intake": "2027年9月",
+    "fee": "2027年9月入学（2027/28）：24学分；本地每学分HKD5,775，按标准学分合计HKD138,600；非本地每学分HKD6,300，合计HKD151,200。",
+    "deadline": "2027年9月入学：非本地申请截止2027-06-22；本地申请截止2027-08-15。",
+    "ielts": "项目以中文能力要求为准，未列英语最低分",
+    "toefl": "项目以中文能力要求为准，未列英语最低分",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "中文能力满足以下之一：中文授课认可学位；HKDSE中国语文≥3；高考／JEE中文≥100；HSK≥5；或校方认可的同等中文资格。 项目列明中文能力门槛，未另列IELTS／TOEFL最低分。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学学士学位；需具备中文语言能力证明（以中文授课之学位、HKDSE中文3级、高考中文100分以上、HSK5级或其他同等学历）；优先考虑人文、艺术或创意产业背景的申请者。",
+    "req_detail": "持有认可大学学士学位；需具备中文语言能力证明（以中文授课之学位、HKDSE中文3级、高考中文100分以上、HSK5级或其他同等学历）；优先考虑人文、艺术或创意产业背景的申请者。语言条件以本页“招生信息与来源”的项目要求为准。",
     "official_url": "https://programme.hsu.edu.hk/hk/mach/",
-    "study_mode": "全日制/兼读制",
+    "study_mode": "Full Time / Part Time；授课语言：Putonghua",
     "curriculum": [
       "创意人文导论",
       "古今文艺故事分析",
@@ -647,7 +1304,65 @@
       "电影及多媒体制作策划"
     ],
     "source_file": "hsuhk_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "98ee5500aabb5b9d8fcd",
+          "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+          "label": "研究生院：2027春季及秋季课程与申请日期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "3384f2ac32c33433e863",
+              "url": "https://gs.hsu.edu.hk/en/tuition-fees-2/",
+              "label": "研究生院：分入学学期收费及学分表"
+            },
+            {
+              "key": "dc337f07608d34b255b3",
+              "url": "https://programme.hsu.edu.hk/hk/mach/",
+              "label": "项目官网入学要求／最新招生册"
+            }
+          ],
+          "cycle": "2027/28 秋季入学",
+          "status": "conflict",
+          "note": "合计按官网每学分价格乘标准毕业学分计算；额外课程费用另计。 项目页仍显示非本地总额144,000，研究生院明确2027/28为每学分6,300×24=151,200；此处采用后者并保留差异。"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "98ee5500aabb5b9d8fcd",
+              "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+              "label": "研究生院：2027春季及秋季课程与申请日期"
+            }
+          ],
+          "cycle": "2027/28 秋季入学",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "dc337f07608d34b255b3",
+              "url": "https://programme.hsu.edu.hk/hk/mach/",
+              "label": "项目官网入学要求／最新招生册"
+            },
+            {
+              "key": "972a2ad596a9b36bdf75",
+              "url": "https://gs.hsu.edu.hk/en/general-entrance-requirements/",
+              "label": "研究生院一般语言要求与有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "hsuhk-postgraduate-master-of-arts-in-chinese",
@@ -663,18 +1378,18 @@
     "major_en": "Master of Arts in Chinese",
     "degree": "MA",
     "duration": "1年（全日制）",
-    "intake": "9月",
-    "fee": "HKD 139,200（约RMB 128,064）",
-    "deadline": "2026年6月30日（非本地）/ 2026年8月22日（本地）",
-    "ielts": "无（中文授课）",
-    "toefl": "无（中文授课）",
+    "intake": "2027年1月／9月",
+    "fee": "2027年1月入学（2026/27）：24学分；本地每学分HKD5,800，按标准学分合计HKD139,200；非本地每学分HKD5,800，合计HKD139,200。\n2027年9月入学（2027/28）：24学分；本地每学分HKD6,200，按标准学分合计HKD148,800；非本地每学分HKD6,200，合计HKD148,800。",
+    "deadline": "2027年1月入学（2026/27第二学期）：非本地截止2026-10-31；本地截止2026-12-26。\n2027年9月入学：非本地申请截止2027-06-22；本地申请截止2027-08-15。",
+    "ielts": "项目以中文能力要求为准，未列英语最低分",
+    "toefl": "项目以中文能力要求为准，未列英语最低分",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "非中文授课大学毕业者须有HKDSE中文≥3、HSK≥5、PSC普通话二级乙等或其他同等中文测试证明。项目未列英语最低分；入围者须面试。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学学士学位；需具备中文语言能力证明（以中文授课之学位、HKDSE中文3级、HSK5级或其他同等学历）；对中文语言文学研究有浓厚兴趣。",
+    "req_detail": "持有认可大学学士学位；需具备中文语言能力证明（以中文授课之学位、HKDSE中文3级、HSK5级或其他同等学历）；对中文语言文学研究有浓厚兴趣。语言条件以本页“招生信息与来源”的项目要求为准。",
     "official_url": "https://machi.hsu.edu.hk/cn/",
-    "study_mode": "全日制",
+    "study_mode": "Full Time；授课语言：Putonghua",
     "curriculum": [
       "礼学与中国文化",
       "中国古代经典的伦理与文化",
@@ -697,7 +1412,65 @@
       "文化产业项目策划专员"
     ],
     "source_file": "hsuhk_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "98ee5500aabb5b9d8fcd",
+          "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+          "label": "研究生院：2027春季及秋季课程与申请日期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "3384f2ac32c33433e863",
+              "url": "https://gs.hsu.edu.hk/en/tuition-fees-2/",
+              "label": "研究生院：分入学学期收费及学分表"
+            },
+            {
+              "key": "7d4237f243518422beb2",
+              "url": "https://machi.hsu.edu.hk/cn/%e5%85%a5%e5%ad%a6%e9%a1%bb%e7%9f%a5-2/",
+              "label": "项目官网入学要求／最新招生册"
+            }
+          ],
+          "cycle": "2027春季与秋季",
+          "status": "conflict",
+          "note": "合计按官网每学分价格乘标准毕业学分计算；额外课程费用另计。 项目页2027/28同时写每学分6,200与总额148,200，二者和24学分不符；按研究生院学分价计算为148,800，最终账单须向校方确认。"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "98ee5500aabb5b9d8fcd",
+              "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+              "label": "研究生院：2027春季及秋季课程与申请日期"
+            }
+          ],
+          "cycle": "2027春季与秋季",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "7d4237f243518422beb2",
+              "url": "https://machi.hsu.edu.hk/cn/%e5%85%a5%e5%ad%a6%e9%a1%bb%e7%9f%a5-2/",
+              "label": "项目官网入学要求／最新招生册"
+            },
+            {
+              "key": "972a2ad596a9b36bdf75",
+              "url": "https://gs.hsu.edu.hk/en/general-entrance-requirements/",
+              "label": "研究生院一般语言要求与有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "hsuhk-postgraduate-master-of-arts-in-cultural-heritage-management",
@@ -713,18 +1486,18 @@
     "major_en": "Master of Arts in Cultural Heritage Management",
     "degree": "MA",
     "duration": "1年（全日制）/ 2年（兼读制）",
-    "intake": "9月",
-    "fee": "HKD 148,800（约RMB 136,896）",
-    "deadline": "2026年6月30日（非本地）/ 2026年8月22日（本地）",
-    "ielts": "6.0",
-    "toefl": "79",
+    "intake": "2027年1月／9月",
+    "fee": "2027年1月入学（2026/27）：24学分；本地每学分HKD4,820，按标准学分合计HKD115,680；非本地每学分HKD6,200，合计HKD148,800。\n2027年9月入学（2027/28）：24学分；本地每学分HKD4,820，按标准学分合计HKD115,680；非本地每学分HKD6,200，合计HKD148,800。",
+    "deadline": "2027年1月入学（2026/27第二学期）：非本地截止2026-10-31；本地截止2026-12-26。\n2027年9月入学：非本地申请截止2027-06-22；本地申请截止2027-08-15。",
+    "ielts": "6.0（另可用其他认可证明）",
+    "toefl": "iBT79／纸笔550（另可用其他认可证明）",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "非英语授课学士须满足以下之一：TOEFL纸笔≥550／iBT≥79；IELTS Academic≥6.0；CET-6≥430；或校方认可的同等资格。英语授课学位可作英语能力证明。 此项目亦接受TEM-4≥70。 IELTS／TOEFL成绩自考试日起有效两年。学校通则接受TOEFL iBT Special Home Edition及IELTS Academic考场／Online；2024年9月起不再接受Duolingo。个别项目要求以项目说明为准。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学学士学位（艺术、设计、商业、社会科学等相关背景者优先）；如学位非英语授课，需提供雅思6.0、托福79分、CET-6 430分或TEM-4 70分的英语水平证明。",
+    "req_detail": "持有认可大学学士学位（艺术、设计、商业、社会科学等相关背景者优先）。语言条件以本页“招生信息与来源”的项目要求为准。",
     "official_url": "https://aad.hsu.edu.hk/en/home/study-with-us-degree-programme/master-of-arts-in-cultural-heritage-management-ma-chm/",
-    "study_mode": "全日制/兼读制",
+    "study_mode": "Full Time / Part Time；授课语言：English",
     "curriculum": [
       "文化遗产解读与价值创造",
       "全球及亚洲视角下的文化遗产管理",
@@ -747,7 +1520,60 @@
       "非营利文化机构运营经理"
     ],
     "source_file": "hsuhk_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "98ee5500aabb5b9d8fcd",
+          "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+          "label": "研究生院：2027春季及秋季课程与申请日期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "3384f2ac32c33433e863",
+              "url": "https://gs.hsu.edu.hk/en/tuition-fees-2/",
+              "label": "研究生院：分入学学期收费及学分表"
+            }
+          ],
+          "cycle": "2027春季与秋季",
+          "status": "verified",
+          "note": "合计按官网每学分价格乘标准毕业学分计算；额外课程费用另计。"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "98ee5500aabb5b9d8fcd",
+              "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+              "label": "研究生院：2027春季及秋季课程与申请日期"
+            }
+          ],
+          "cycle": "2027春季与秋季",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "82453194846374e725f0",
+              "url": "https://aad.hsu.edu.hk/en/home/study-with-us-degree-programme/master-of-arts-in-cultural-heritage-management-ma-chm/",
+              "label": "项目官网入学要求／最新招生册"
+            },
+            {
+              "key": "972a2ad596a9b36bdf75",
+              "url": "https://gs.hsu.edu.hk/en/general-entrance-requirements/",
+              "label": "研究生院一般语言要求与有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "hsuhk-postgraduate-master-of-arts-in-english-language-teaching-and-assessment",
@@ -763,18 +1589,18 @@
     "major_en": "Master of Arts in English Language Teaching and Assessment",
     "degree": "MA",
     "duration": "1年（全日制）/ 2年（兼读制）",
-    "intake": "9月",
-    "fee": "HKD 119,520（约RMB 109,958）",
-    "deadline": "2026年6月30日（非本地）/ 2026年8月22日（本地）",
-    "ielts": "6.5",
-    "toefl": "79",
+    "intake": "2027年1月／9月",
+    "fee": "2027年1月入学（2026/27）：24学分；本地每学分HKD4,980，按标准学分合计HKD119,520；非本地每学分HKD4,980，合计HKD119,520。\n2027年9月入学（2027/28）：24学分；本地每学分HKD5,200，按标准学分合计HKD124,800；非本地每学分HKD5,200，合计HKD124,800。",
+    "deadline": "2027年1月入学（2026/27第二学期）：非本地截止2026-10-31；本地截止2026-12-26。\n2027年9月入学：非本地申请截止2027-06-22；本地申请截止2027-08-15。",
+    "ielts": "6.5（或CET-6≥500等替代证明）",
+    "toefl": "iBT79／纸笔550（另可用其他认可证明）",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "可用英语授课学位，或以下之一：TOEFL纸笔≥550／iBT≥79（含Home Edition）；IELTS Academic／Online／Indicator≥6.5；CET-6≥500；或同等资格，如TEM-4良好、TEM-8合格。入围者可能须面试及笔试。 IELTS／TOEFL成绩自考试日起有效两年。学校通则接受TOEFL iBT Special Home Edition及IELTS Academic考场／Online；2024年9月起不再接受Duolingo。个别项目要求以项目说明为准。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学学士学位（人文或博雅学科相关背景者优先）；需提供雅思6.5（单项不低于6.0）、托福79分、CET-6 500分或TEM-4良好/TEM-8及格的英语水平证明；入围者需参加面试及笔试。",
+    "req_detail": "持有认可大学学士学位（人文或博雅学科相关背景者优先）；入围者需参加面试及笔试。语言条件以本页“招生信息与来源”的项目要求为准。",
     "official_url": "https://elta.hsu.edu.hk/en/home/",
-    "study_mode": "全日制/兼读制",
+    "study_mode": "Full Time / Part Time；授课语言：English",
     "curriculum": [
       "语言学及应用语言学",
       "第二语言教学：理论与实践",
@@ -797,7 +1623,60 @@
       "政府教育部门英语教育顾问"
     ],
     "source_file": "hsuhk_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "98ee5500aabb5b9d8fcd",
+          "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+          "label": "研究生院：2027春季及秋季课程与申请日期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "3384f2ac32c33433e863",
+              "url": "https://gs.hsu.edu.hk/en/tuition-fees-2/",
+              "label": "研究生院：分入学学期收费及学分表"
+            }
+          ],
+          "cycle": "2027春季与秋季",
+          "status": "verified",
+          "note": "合计按官网每学分价格乘标准毕业学分计算；额外课程费用另计。"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "98ee5500aabb5b9d8fcd",
+              "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+              "label": "研究生院：2027春季及秋季课程与申请日期"
+            }
+          ],
+          "cycle": "2027春季与秋季",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "bb46f3575eb6866ab936",
+              "url": "https://elta.hsu.edu.hk/en/admission/",
+              "label": "项目官网入学要求／最新招生册"
+            },
+            {
+              "key": "972a2ad596a9b36bdf75",
+              "url": "https://gs.hsu.edu.hk/en/general-entrance-requirements/",
+              "label": "研究生院一般语言要求与有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "hsuhk-postgraduate-master-of-arts-in-global-english-literary-and-cultural-studies",
@@ -813,18 +1692,18 @@
     "major_en": "Master of Arts in Global English Literary and Cultural Studies",
     "degree": "MA",
     "duration": "1年（全日制）/ 2年（兼读制）",
-    "intake": "9月",
-    "fee": "HKD 119,520（约RMB 109,958）",
-    "deadline": "2026年6月30日（非本地）/ 2026年8月22日（本地）",
-    "ielts": "6.5",
-    "toefl": "79",
+    "intake": "2027年1月／9月",
+    "fee": "2027年1月入学（2026/27）：24学分；本地每学分HKD4,980，按标准学分合计HKD119,520；非本地每学分HKD4,980，合计HKD119,520。\n2027年9月入学（2027/28）：24学分；本地每学分HKD5,200，按标准学分合计HKD124,800；非本地每学分HKD5,200，合计HKD124,800。",
+    "deadline": "2027年1月入学（2026/27第二学期）：非本地截止2026-10-31；本地截止2026-12-26。\n2027年9月入学：非本地申请截止2027-06-22；本地申请截止2027-08-15。",
+    "ielts": "6.5（或CET-6≥500等替代证明）",
+    "toefl": "iBT79／纸笔550（另可用其他认可证明）",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "可用英语授课学位，或以下之一：TOEFL纸笔≥550／iBT≥79（含Home Edition）；IELTS Academic／Online／Indicator≥6.5；CET-6≥500；或同等资格，如TEM-4良好、TEM-8合格。入围者可能须面试及笔试。 IELTS／TOEFL成绩自考试日起有效两年。学校通则接受TOEFL iBT Special Home Edition及IELTS Academic考场／Online；2024年9月起不再接受Duolingo。个别项目要求以项目说明为准。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学学士学位（具有博雅或人文学科背景者优先）；需提供雅思6.5、托福79分、CET-6 500分或TEM-4良好/TEM-8及格的英语水平证明；入围者需参加面试及笔试。",
+    "req_detail": "持有认可大学学士学位（具有博雅或人文学科背景者优先）；入围者需参加面试及笔试。语言条件以本页“招生信息与来源”的项目要求为准。",
     "official_url": "https://gelcs.hsu.edu.hk/en/home/",
-    "study_mode": "全日制/兼读制",
+    "study_mode": "Full Time / Part Time；授课语言：English",
     "curriculum": [
       "环球英语文学与文化研究理论",
       "世界英语与跨文化传播",
@@ -847,7 +1726,60 @@
       "广告创意与品牌文案策划"
     ],
     "source_file": "hsuhk_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "98ee5500aabb5b9d8fcd",
+          "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+          "label": "研究生院：2027春季及秋季课程与申请日期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "3384f2ac32c33433e863",
+              "url": "https://gs.hsu.edu.hk/en/tuition-fees-2/",
+              "label": "研究生院：分入学学期收费及学分表"
+            }
+          ],
+          "cycle": "2027春季与秋季",
+          "status": "verified",
+          "note": "合计按官网每学分价格乘标准毕业学分计算；额外课程费用另计。"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "98ee5500aabb5b9d8fcd",
+              "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+              "label": "研究生院：2027春季及秋季课程与申请日期"
+            }
+          ],
+          "cycle": "2027春季与秋季",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "8f0a44dbd86d8e874dfe",
+              "url": "https://gelcs.hsu.edu.hk/en/admission/",
+              "label": "项目官网入学要求／最新招生册"
+            },
+            {
+              "key": "972a2ad596a9b36bdf75",
+              "url": "https://gs.hsu.edu.hk/en/general-entrance-requirements/",
+              "label": "研究生院一般语言要求与有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "hsuhk-postgraduate-master-of-arts-in-theatre-studies",
@@ -863,18 +1795,18 @@
     "major_en": "Master of Arts in Theatre Studies",
     "degree": "MA",
     "duration": "1年（全日制）/ 2年（兼读制）",
-    "intake": "9月/1月",
-    "fee": "HKD 112,320（约RMB 103,334）",
-    "deadline": "2026年6月30日（非本地）/ 2026年8月22日（本地）",
-    "ielts": "6.5",
-    "toefl": "79",
+    "intake": "2027年1月／9月",
+    "fee": "2027年1月入学（2026/27）：24学分；本地每学分HKD4,980，按标准学分合计HKD119,520；非本地每学分HKD4,980，合计HKD119,520。\n2027年9月入学（2027/28）：24学分；本地每学分HKD4,980，按标准学分合计HKD119,520；非本地每学分HKD5,200，合计HKD124,800。",
+    "deadline": "2027年1月入学（2026/27第二学期）：非本地截止2026-10-31；本地截止2026-12-26。\n2027年9月入学：非本地申请截止2027-06-22；本地申请截止2027-08-15。",
+    "ielts": "6.5（另可用其他认可证明）",
+    "toefl": "旧制iBT79／新制4.0；纸笔550",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "非英语授课学士须满足以下之一：TOEFL纸笔≥550／iBT≥79；IELTS Academic≥6.5；CET-6≥430；或校方认可的同等资格。英语授课学位可作英语能力证明。 项目另列新版TOEFL iBT≥4.0、TEM-4≥70或TEM-8≥65；须具戏剧知识。 IELTS／TOEFL成绩自考试日起有效两年。学校通则接受TOEFL iBT Special Home Edition及IELTS Academic考场／Online；2024年9月起不再接受Duolingo。个别项目要求以项目说明为准。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学学士学位；如学位非英语授课，需提供雅思6.5、托福79分、CET-6 430分或TEM-4 70分的英语水平证明；需具备一定的戏剧知识基础；论文须以英文撰写。",
+    "req_detail": "持有认可大学学士学位；需具备一定的戏剧知识基础；论文须以英文撰写。语言条件以本页“招生信息与来源”的项目要求为准。",
     "official_url": "https://mats.hsu.edu.hk/en/home/",
-    "study_mode": "全日制/兼读制",
+    "study_mode": "Full Time / Part Time；授课语言：English",
     "curriculum": [
       "文学与文化研究的批判方法",
       "戏剧与表演研究的比较方法",
@@ -897,7 +1829,60 @@
       "戏剧治疗与社区戏剧引导员"
     ],
     "source_file": "hsuhk_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "98ee5500aabb5b9d8fcd",
+          "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+          "label": "研究生院：2027春季及秋季课程与申请日期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "3384f2ac32c33433e863",
+              "url": "https://gs.hsu.edu.hk/en/tuition-fees-2/",
+              "label": "研究生院：分入学学期收费及学分表"
+            }
+          ],
+          "cycle": "2027春季与秋季",
+          "status": "verified",
+          "note": "合计按官网每学分价格乘标准毕业学分计算；额外课程费用另计。"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "98ee5500aabb5b9d8fcd",
+              "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+              "label": "研究生院：2027春季及秋季课程与申请日期"
+            }
+          ],
+          "cycle": "2027春季与秋季",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "a244538e74f64803a1c7",
+              "url": "https://mats.hsu.edu.hk/en/admission/",
+              "label": "项目官网入学要求／最新招生册"
+            },
+            {
+              "key": "972a2ad596a9b36bdf75",
+              "url": "https://gs.hsu.edu.hk/en/general-entrance-requirements/",
+              "label": "研究生院一般语言要求与有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "hsuhk-postgraduate-master-of-social-sciences-in-public-policy-and-risk-governance",
@@ -913,18 +1898,18 @@
     "major_en": "Master of Social Sciences in Public Policy and Risk Governance",
     "degree": "MSocSc",
     "duration": "1年（全日制）/ 2年（兼读制）",
-    "intake": "9月",
-    "fee": "HKD 144,000（约RMB 132,480）",
-    "deadline": "2026年6月30日（非本地）/ 2026年8月22日（本地）",
-    "ielts": "6.0",
-    "toefl": "79",
+    "intake": "2027年1月／9月",
+    "fee": "2027年1月入学（2026/27）：24学分；本地每学分HKD6,000，按标准学分合计HKD144,000；非本地每学分HKD6,000，合计HKD144,000。\n2027年9月入学（2027/28）：24学分；本地每学分HKD6,500，按标准学分合计HKD156,000；非本地每学分HKD6,500，合计HKD156,000。",
+    "deadline": "2027年1月入学（2026/27第二学期）：非本地截止2026-10-31；本地截止2026-12-26。\n2027年9月入学：非本地申请截止2027-06-22；本地申请截止2027-08-15。",
+    "ielts": "6.0（另可用其他认可证明）",
+    "toefl": "iBT79／纸笔550（另可用其他认可证明）",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "非英语授课学士须满足以下之一：TOEFL纸笔≥550／iBT≥79；IELTS Academic≥6.0；CET-6≥430；或校方认可的同等资格。英语授课学位可作英语能力证明。 IELTS／TOEFL成绩自考试日起有效两年。学校通则接受TOEFL iBT Special Home Edition及IELTS Academic考场／Online；2024年9月起不再接受Duolingo。个别项目要求以项目说明为准。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学学士学位；如学位非英语授课，需提供雅思6.0、托福79分、CET-6 430分的英语水平证明；具备公共政策或风险相关工作经验者优先。",
+    "req_detail": "持有认可大学学士学位；具备公共政策或风险相关工作经验者优先。语言条件以本页“招生信息与来源”的项目要求为准。",
     "official_url": "https://ssc-pprg.hsu.edu.hk/",
-    "study_mode": "全日制/兼读制",
+    "study_mode": "Full Time / Part Time；授课语言：English",
     "curriculum": [
       "公共政策分析",
       "公共政策研究方法",
@@ -947,7 +1932,60 @@
       "非营利组织项目管理者"
     ],
     "source_file": "hsuhk_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "98ee5500aabb5b9d8fcd",
+          "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+          "label": "研究生院：2027春季及秋季课程与申请日期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "3384f2ac32c33433e863",
+              "url": "https://gs.hsu.edu.hk/en/tuition-fees-2/",
+              "label": "研究生院：分入学学期收费及学分表"
+            }
+          ],
+          "cycle": "2027春季与秋季",
+          "status": "verified",
+          "note": "合计按官网每学分价格乘标准毕业学分计算；额外课程费用另计。"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "98ee5500aabb5b9d8fcd",
+              "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+              "label": "研究生院：2027春季及秋季课程与申请日期"
+            }
+          ],
+          "cycle": "2027春季与秋季",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "c74394eb22e87302b23b",
+              "url": "https://ssc-pprg.hsu.edu.hk/admission/",
+              "label": "项目官网入学要求／最新招生册"
+            },
+            {
+              "key": "972a2ad596a9b36bdf75",
+              "url": "https://gs.hsu.edu.hk/en/general-entrance-requirements/",
+              "label": "研究生院一般语言要求与有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "hsuhk-postgraduate-master-of-social-sciences-in-social-sustainability",
@@ -963,18 +2001,18 @@
     "major_en": "Master of Social Sciences in Social Sustainability",
     "degree": "MSocSc",
     "duration": "1年（全日制）/ 2年（兼读制）",
-    "intake": "9月",
-    "fee": "HKD 144,000（约RMB 132,480）",
-    "deadline": "2026年6月30日（非本地）/ 2026年8月22日（本地）",
-    "ielts": "6.0",
-    "toefl": "79",
+    "intake": "2027年1月／9月",
+    "fee": "2027年1月入学（2026/27）：24学分；本地每学分HKD6,000，按标准学分合计HKD144,000；非本地每学分HKD6,000，合计HKD144,000。\n2027年9月入学（2027/28）：24学分；本地每学分HKD6,000，按标准学分合计HKD144,000；非本地每学分HKD6,000，合计HKD144,000。",
+    "deadline": "2027年1月入学（2026/27第二学期）：非本地截止2026-10-31；本地截止2026-12-26。\n2027年9月入学：非本地申请截止2027-06-22；本地申请截止2027-08-15。",
+    "ielts": "6.0（另可用其他认可证明）",
+    "toefl": "iBT79／纸笔550（另可用其他认可证明）",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "非英语授课学士须满足以下之一：TOEFL纸笔≥550／iBT≥79；IELTS Academic≥6.0；CET-6≥430；或校方认可的同等资格。英语授课学位可作英语能力证明。 此项目亦接受TEM-4≥70。 IELTS／TOEFL成绩自考试日起有效两年。学校通则接受TOEFL iBT Special Home Edition及IELTS Academic考场／Online；2024年9月起不再接受Duolingo。个别项目要求以项目说明为准。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学学士学位；如学位非英语授课，需提供雅思6.0、托福79分、CET-6 430分或TEM-4 70分的英语水平证明；对社会可持续发展议题有浓厚兴趣。",
+    "req_detail": "持有认可大学学士学位；对社会可持续发展议题有浓厚兴趣。语言条件以本页“招生信息与来源”的项目要求为准。",
     "official_url": "https://programme.hsu.edu.hk/en/ss/",
-    "study_mode": "全日制/兼读制",
+    "study_mode": "Full Time / Part Time；授课语言：English",
     "curriculum": [
       "社会变迁与可持续发展",
       "社会政策与可持续发展研究方法",
@@ -997,7 +2035,60 @@
       "可持续发展传播专员"
     ],
     "source_file": "hsuhk_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "98ee5500aabb5b9d8fcd",
+          "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+          "label": "研究生院：2027春季及秋季课程与申请日期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "3384f2ac32c33433e863",
+              "url": "https://gs.hsu.edu.hk/en/tuition-fees-2/",
+              "label": "研究生院：分入学学期收费及学分表"
+            }
+          ],
+          "cycle": "2027春季与秋季",
+          "status": "verified",
+          "note": "合计按官网每学分价格乘标准毕业学分计算；额外课程费用另计。"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "98ee5500aabb5b9d8fcd",
+              "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+              "label": "研究生院：2027春季及秋季课程与申请日期"
+            }
+          ],
+          "cycle": "2027春季与秋季",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "bb43feb13f54b35afe60",
+              "url": "https://programme.hsu.edu.hk/en/ss/",
+              "label": "项目官网入学要求／最新招生册"
+            },
+            {
+              "key": "972a2ad596a9b36bdf75",
+              "url": "https://gs.hsu.edu.hk/en/general-entrance-requirements/",
+              "label": "研究生院一般语言要求与有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "hsuhk-postgraduate-master-of-arts-in-translation-business-and-legal",
@@ -1013,18 +2104,18 @@
     "major_en": "Master of Arts in Translation (Business and Legal)",
     "degree": "MA",
     "duration": "1年（全日制）/ 2年（兼读制）",
-    "intake": "9月/1月",
-    "fee": "HKD 142,020（约RMB 130,658）",
-    "deadline": "2025年10月28日（非本地，1月入学）/ 2025年12月31日（本地，1月入学）；2026年6月30日（非本地，9月入学）/ 2026年8月22日（本地，9月入学）",
-    "ielts": "6.5",
-    "toefl": "79",
+    "intake": "2027年1月／9月",
+    "fee": "2027年1月入学（2026/27）：27学分；本地每学分HKD4,320，按标准学分合计HKD116,640；非本地每学分HKD5,400，合计HKD145,800。\n2027年9月入学（2027/28）：27学分；本地每学分HKD4,320，按标准学分合计HKD116,640；非本地每学分HKD5,400，合计HKD145,800。",
+    "deadline": "2027年1月入学（2026/27第二学期）：非本地截止2026-10-31；本地截止2026-12-26。\n2027年9月入学：非本地申请截止2027-06-22；本地申请截止2027-08-15。",
+    "ielts": "6.5（或其他项目列明的证明）",
+    "toefl": "iBT79／纸笔550（另可用其他认可证明）",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "项目要求提交英语能力证明，列有HKDSE英文≥4；TOEFL纸笔≥550／机考≥213／iBT≥79；IELTS≥6.5；CET-6≥430；TEM-4≥70；或同等资格。项目页未单列英语授课学位豁免，不能将通则的豁免直接认定为该项目已获豁免。可能需入学测试及面试。 IELTS／TOEFL成绩自考试日起有效两年。学校通则接受TOEFL iBT Special Home Edition及IELTS Academic考场／Online；2024年9月起不再接受Duolingo。个别项目要求以项目说明为准。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学学士学位；需提供雅思6.5、HKDSE英文4级、托福79分、CET-6 430分或TEM-4 70分的英语水平证明；有翻译、商业或法律背景者优先；入围者需参加入学测试及面试。",
+    "req_detail": "持有认可大学学士学位；有翻译、商业或法律背景者优先；入围者需参加入学测试及面试。语言条件以本页“招生信息与来源”的项目要求为准。",
     "official_url": "https://stfl.hsu.edu.hk/en/programmes/master-of-arts-in-translation-business-and-legal-ma-tbl/programme-objectives/",
-    "study_mode": "全日制/兼读制",
+    "study_mode": "Full Time / Part Time；授课语言：English, Cantonese and/or Putonghua#",
     "curriculum": [
       "商务与法律术语及概念",
       "商务与法律语言分析",
@@ -1047,7 +2138,60 @@
       "专业语言服务经理"
     ],
     "source_file": "hsuhk_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "98ee5500aabb5b9d8fcd",
+          "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+          "label": "研究生院：2027春季及秋季课程与申请日期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "3384f2ac32c33433e863",
+              "url": "https://gs.hsu.edu.hk/en/tuition-fees-2/",
+              "label": "研究生院：分入学学期收费及学分表"
+            }
+          ],
+          "cycle": "2027春季与秋季",
+          "status": "verified",
+          "note": "合计按官网每学分价格乘标准毕业学分计算；额外课程费用另计。"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "98ee5500aabb5b9d8fcd",
+              "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+              "label": "研究生院：2027春季及秋季课程与申请日期"
+            }
+          ],
+          "cycle": "2027春季与秋季",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "cf62545807ddce781a3f",
+              "url": "https://stfl.hsu.edu.hk/en/programmes/master-of-arts-in-translation-business-and-legal-ma-tbl/programme-overview/",
+              "label": "项目官网入学要求／最新招生册"
+            },
+            {
+              "key": "972a2ad596a9b36bdf75",
+              "url": "https://gs.hsu.edu.hk/en/general-entrance-requirements/",
+              "label": "研究生院一般语言要求与有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "hsuhk-postgraduate-master-of-arts-in-translation-computer-aided-translation",
@@ -1063,18 +2207,18 @@
     "major_en": "Master of Arts in Translation (Computer-Aided Translation)",
     "degree": "MA",
     "duration": "1年（全日制）/ 2年（兼读制）",
-    "intake": "9月/1月",
-    "fee": "HKD 142,080（约RMB 130,714）",
-    "deadline": "2025年10月28日（非本地，1月入学）/ 2025年12月31日（本地，1月入学）；2026年6月30日（非本地，9月入学）/ 2026年8月22日（本地，9月入学）",
-    "ielts": "6.5",
-    "toefl": "79",
+    "intake": "2027年1月／9月",
+    "fee": "2027年1月入学（2026/27）：24学分；本地每学分HKD4,850，按标准学分合计HKD116,400；非本地每学分HKD6,070，合计HKD145,680。\n2027年9月入学（2027/28）：24学分；本地每学分HKD4,850，按标准学分合计HKD116,400；非本地每学分HKD6,070，合计HKD145,680。",
+    "deadline": "2027年1月入学（2026/27第二学期）：非本地截止2026-10-31；本地截止2026-12-26。\n2027年9月入学：非本地申请截止2027-06-22；本地申请截止2027-08-15。",
+    "ielts": "6.5（另可用其他认可证明）",
+    "toefl": "iBT79／纸笔550（另可用其他认可证明）",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "非英语授课学士须满足以下之一：TOEFL纸笔≥550／iBT≥79；IELTS Academic≥6.5；CET-6≥430；或校方认可的同等资格。英语授课学位可作英语能力证明。 此项目亦接受TEM-4≥70。 项目另列TOEFL机考≥213。 IELTS／TOEFL成绩自考试日起有效两年。学校通则接受TOEFL iBT Special Home Edition及IELTS Academic考场／Online；2024年9月起不再接受Duolingo。个别项目要求以项目说明为准。",
     "subject_requirement": null,
     "admission_route": null,
-    "req_detail": "持有认可大学学士学位；需提供雅思6.5、HKDSE英文4级、托福79分、CET-6 430分或TEM-4 70分的英语水平证明；入围者需参加入学测试及面试，评估翻译能力、中英文沟通能力及电脑基础知识。",
+    "req_detail": "持有认可大学学士学位；入围者需参加入学测试及面试，评估翻译能力、中英文沟通能力及电脑基础知识。语言条件以本页“招生信息与来源”的项目要求为准。",
     "official_url": "https://stfl.hsu.edu.hk/en/programmes/master-of-arts-in-translation-computer-aided-translation-ma-tcat/programme-objectives/",
-    "study_mode": "全日制/兼读制",
+    "study_mode": "Full Time / Part Time；授课语言：English, Cantonese and/or Putonghua##",
     "curriculum": [
       "翻译技术：知识与技能",
       "专业语言服务：技能与策略",
@@ -1097,7 +2241,60 @@
       "语言服务质量管理顾问"
     ],
     "source_file": "hsuhk_data.json",
-    "last_updated": "2026-05-15"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "98ee5500aabb5b9d8fcd",
+          "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+          "label": "研究生院：2027春季及秋季课程与申请日期"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "3384f2ac32c33433e863",
+              "url": "https://gs.hsu.edu.hk/en/tuition-fees-2/",
+              "label": "研究生院：分入学学期收费及学分表"
+            }
+          ],
+          "cycle": "2027春季与秋季",
+          "status": "verified",
+          "note": "合计按官网每学分价格乘标准毕业学分计算；额外课程费用另计。"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "98ee5500aabb5b9d8fcd",
+              "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+              "label": "研究生院：2027春季及秋季课程与申请日期"
+            }
+          ],
+          "cycle": "2027春季与秋季",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "19500e0bb76db70e8e21",
+              "url": "https://stfl.hsu.edu.hk/en/programmes/master-of-arts-in-translation-computer-aided-translation-ma-tcat/programme-overview/",
+              "label": "项目官网入学要求／最新招生册"
+            },
+            {
+              "key": "972a2ad596a9b36bdf75",
+              "url": "https://gs.hsu.edu.hk/en/general-entrance-requirements/",
+              "label": "研究生院一般语言要求与有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及通则",
+          "status": "verified"
+        }
+      }
+    }
   },
   {
     "id": "hsuhk-undergraduate-bachelor-of-business-administration-hons-in-corporate-governance-and-compliance",
@@ -2398,5 +3595,260 @@
     ],
     "source_file": "schools_undergraduate/hsuhk_undergraduate_data.json",
     "last_updated": "2026-05-21"
+  },
+  {
+    "school_code": "HSUHK",
+    "school_name": "香港恒生大学",
+    "school_name_en": "The Hang Seng University of Hong Kong",
+    "region_cn": "中国香港",
+    "region_en": "Hong Kong SAR",
+    "qs_ranking_2026": null,
+    "id": "hsuhk-postgraduate-master-of-science-in-global-finance-and-fintech",
+    "education_level": "postgraduate",
+    "major_cn": "环球金融与金融科技理学硕士",
+    "major_en": "Master of Science in Global Finance and FinTech",
+    "college": "商学院",
+    "degree": "MSc",
+    "duration": "详见项目官网修读安排",
+    "curriculum": [],
+    "careers": [],
+    "objectives": "",
+    "req_detail": "优先考虑工商管理、金融、数学或计算机背景；其他背景但具有金融或资讯科技经验／专业资格亦可考虑。入围者需面试；缺少金融或量化基础者可能须参加不计学分的预备课程。",
+    "source_file": "official-hsuhk-2027-28-catalogue",
+    "gaokao_requirement": null,
+    "subject_requirement": null,
+    "admission_route": null,
+    "fee": "2027年9月入学（2027/28）：30学分；本地每学分HKD10,000，按标准学分合计HKD300,000；非本地每学分HKD10,000，合计HKD300,000。",
+    "deadline": "2027年9月入学：非本地申请截止2027-06-22；本地申请截止2027-08-15。",
+    "ielts": "6.0（另可用其他认可证明）",
+    "toefl": "iBT79／纸笔550（另可用其他认可证明）",
+    "language_requirement": "非英语授课学士须满足以下之一：TOEFL纸笔≥550／iBT≥79；IELTS Academic≥6.0；CET-6≥430；或校方认可的同等资格。英语授课学位可作英语能力证明。 此项目亦接受TEM-4≥70。 IELTS／TOEFL成绩自考试日起有效两年。学校通则接受TOEFL iBT Special Home Edition及IELTS Academic考场／Online；2024年9月起不再接受Duolingo。个别项目要求以项目说明为准。",
+    "intake": "2027年9月",
+    "official_url": "https://sbus.hsu.edu.hk/programmes/postgraduate-programmes/master-of-science-in-global-finance-and-fintech/",
+    "study_mode": "Full Time / Part Time；授课语言：English",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "98ee5500aabb5b9d8fcd",
+          "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+          "label": "研究生院：2027春季及秋季课程与申请日期"
+        }
+      ],
+      "newness": "newly_offered",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "3384f2ac32c33433e863",
+              "url": "https://gs.hsu.edu.hk/en/tuition-fees-2/",
+              "label": "研究生院：分入学学期收费及学分表"
+            }
+          ],
+          "cycle": "2027/28 秋季入学",
+          "status": "verified",
+          "note": "合计按官网每学分价格乘标准毕业学分计算；额外课程费用另计。"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "98ee5500aabb5b9d8fcd",
+              "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+              "label": "研究生院：2027春季及秋季课程与申请日期"
+            }
+          ],
+          "cycle": "2027/28 秋季入学",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "51ae03f395e394a1028d",
+              "url": "https://sbus.hsu.edu.hk/wp-content/uploads/2026/09/Programme-Specific-Requirement-MSc-GFFT-EN.pdf",
+              "label": "项目官网入学要求／最新招生册"
+            },
+            {
+              "key": "972a2ad596a9b36bdf75",
+              "url": "https://gs.hsu.edu.hk/en/general-entrance-requirements/",
+              "label": "研究生院一般语言要求与有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及通则",
+          "status": "verified"
+        }
+      }
+    },
+    "last_updated": "2026-10-22"
+  },
+  {
+    "school_code": "HSUHK",
+    "school_name": "香港恒生大学",
+    "school_name_en": "The Hang Seng University of Hong Kong",
+    "region_cn": "中国香港",
+    "region_en": "Hong Kong SAR",
+    "qs_ranking_2026": null,
+    "id": "hsuhk-postgraduate-master-of-science-in-global-strategic-management-in-chinese",
+    "education_level": "postgraduate",
+    "major_cn": "环球策略管理理学硕士（中文授课）",
+    "major_en": "Master of Science in Global Strategic Management (in Chinese)",
+    "college": "商学院",
+    "degree": "MSc",
+    "duration": "详见项目官网修读安排",
+    "curriculum": [],
+    "careers": [],
+    "objectives": "",
+    "req_detail": "认可学士学位或同等资格，至少3年商业管理经验，并通过面试及／或其他评估；中英文能力须分别符合项目要求。",
+    "source_file": "official-hsuhk-2027-28-catalogue",
+    "gaokao_requirement": null,
+    "subject_requirement": null,
+    "admission_route": null,
+    "fee": "2027年9月入学（2027/28）：30学分；本地每学分HKD9,000，按标准学分合计HKD270,000；非本地每学分HKD9,000，合计HKD270,000。",
+    "deadline": "2027年9月入学：非本地申请截止2027-06-22；本地申请截止2027-08-15。",
+    "ielts": "5.5（并须满足中文要求；可用其他证明）",
+    "toefl": "iBT79／纸笔525（并须满足中文要求）",
+    "language_requirement": "中文能力满足以下之一：中文授课认可学位；HKDSE中国语文≥3且PSC普通话三级乙等或以上；高考／JEE中文≥100；HSK≥5；或校方认可的同等中文资格。 同时须满足英语要求：英语授课认可学位；HKDSE英文≥3；高考／JEE英文≥100；TOEFL纸笔≥525／iBT≥79；IELTS Academic≥5.5；或CET-4≥425。 此项目须至少3年商业管理经验，并通过面试及／或其他评估。 IELTS／TOEFL成绩自考试日起有效两年。学校通则接受TOEFL iBT Special Home Edition及IELTS Academic考场／Online；2024年9月起不再接受Duolingo。个别项目要求以项目说明为准。",
+    "intake": "2027年9月",
+    "official_url": "https://sbus.hsu.edu.hk/programmes/postgraduate-programmes/master-of-science-in-global-strategic-management-in-chinese/",
+    "study_mode": "Full Time / Part Time；授课语言：Putonghua",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "98ee5500aabb5b9d8fcd",
+          "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+          "label": "研究生院：2027春季及秋季课程与申请日期"
+        }
+      ],
+      "newness": "newly_offered",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "3384f2ac32c33433e863",
+              "url": "https://gs.hsu.edu.hk/en/tuition-fees-2/",
+              "label": "研究生院：分入学学期收费及学分表"
+            }
+          ],
+          "cycle": "2027/28 秋季入学",
+          "status": "verified",
+          "note": "合计按官网每学分价格乘标准毕业学分计算；额外课程费用另计。"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "98ee5500aabb5b9d8fcd",
+              "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+              "label": "研究生院：2027春季及秋季课程与申请日期"
+            }
+          ],
+          "cycle": "2027/28 秋季入学",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "dcddfcf3b1784dfa3257",
+              "url": "https://sbus.hsu.edu.hk/wp-content/uploads/2026/09/Programme-Specific-Requirement-MSc-GSM-In-Chinese-EN-1.pdf",
+              "label": "项目官网入学要求／最新招生册"
+            },
+            {
+              "key": "972a2ad596a9b36bdf75",
+              "url": "https://gs.hsu.edu.hk/en/general-entrance-requirements/",
+              "label": "研究生院一般语言要求与有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及通则",
+          "status": "verified"
+        }
+      }
+    },
+    "last_updated": "2026-10-22"
+  },
+  {
+    "school_code": "HSUHK",
+    "school_name": "香港恒生大学",
+    "school_name_en": "The Hang Seng University of Hong Kong",
+    "region_cn": "中国香港",
+    "region_en": "Hong Kong SAR",
+    "qs_ranking_2026": null,
+    "id": "hsuhk-postgraduate-master-of-science-in-international-corporate-governance-with-sustainability",
+    "education_level": "postgraduate",
+    "major_cn": "国际企业管治与可持续发展理学硕士",
+    "major_en": "Master of Science in International Corporate Governance with Sustainability",
+    "college": "商学院",
+    "degree": "MSc",
+    "duration": "详见项目官网修读安排",
+    "curriculum": [],
+    "careers": [],
+    "objectives": "",
+    "req_detail": "商业或法律相关学士；或非商科学士加至少3年工作经验；或指定认可专业资格。非商科且不足3年经验者亦可循特别途径申请，录取后须于开学前完成英语授课、90小时、不计学分的商业衔接课程。所有申请者须接受面试。",
+    "source_file": "official-hsuhk-2027-28-catalogue",
+    "gaokao_requirement": null,
+    "subject_requirement": null,
+    "admission_route": null,
+    "fee": "2027年9月入学（2027/28）：30学分；本地每学分HKD8,000，按标准学分合计HKD240,000；非本地每学分HKD8,000，合计HKD240,000。",
+    "deadline": "2027年9月入学：非本地申请截止2027-06-22；本地申请截止2027-08-15。",
+    "ielts": "6.0（另可用其他认可证明）",
+    "toefl": "iBT79／纸笔550（另可用其他认可证明）",
+    "language_requirement": "非英语授课学士须满足以下之一：TOEFL纸笔≥550／iBT≥79；IELTS Academic≥6.0；CET-6≥430；或校方认可的同等资格。英语授课学位可作英语能力证明。 此项目亦接受TEM-4≥70。 IELTS／TOEFL成绩自考试日起有效两年。学校通则接受TOEFL iBT Special Home Edition及IELTS Academic考场／Online；2024年9月起不再接受Duolingo。个别项目要求以项目说明为准。",
+    "intake": "2027年9月",
+    "official_url": "https://sbus.hsu.edu.hk/programmes/postgraduate-programmes/master-of-science-in-international-corporate-governance-with-sustainability/",
+    "study_mode": "Full Time / Part Time；授课语言：English",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "98ee5500aabb5b9d8fcd",
+          "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+          "label": "研究生院：2027春季及秋季课程与申请日期"
+        }
+      ],
+      "newness": "newly_offered",
+      "fields": {
+        "fee": {
+          "sources": [
+            {
+              "key": "3384f2ac32c33433e863",
+              "url": "https://gs.hsu.edu.hk/en/tuition-fees-2/",
+              "label": "研究生院：分入学学期收费及学分表"
+            }
+          ],
+          "cycle": "2027/28 秋季入学",
+          "status": "verified",
+          "note": "合计按官网每学分价格乘标准毕业学分计算；额外课程费用另计。"
+        },
+        "deadline": {
+          "sources": [
+            {
+              "key": "98ee5500aabb5b9d8fcd",
+              "url": "https://gs.hsu.edu.hk/en/postgraduate-programmes-on-offer/",
+              "label": "研究生院：2027春季及秋季课程与申请日期"
+            }
+          ],
+          "cycle": "2027/28 秋季入学",
+          "status": "verified"
+        },
+        "language": {
+          "sources": [
+            {
+              "key": "9ec24f76b1bb5287bc77",
+              "url": "https://sbus.hsu.edu.hk/wp-content/uploads/2026/09/Programme-Specific-Requirement-MSc-ICGS_EN-4.pdf",
+              "label": "项目官网入学要求／最新招生册"
+            },
+            {
+              "key": "972a2ad596a9b36bdf75",
+              "url": "https://gs.hsu.edu.hk/en/general-entrance-requirements/",
+              "label": "研究生院一般语言要求与有效期"
+            }
+          ],
+          "cycle": "官网现行项目要求及通则",
+          "status": "verified"
+        }
+      }
+    },
+    "last_updated": "2026-10-22"
   }
 ]

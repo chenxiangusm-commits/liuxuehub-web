@@ -1,3 +1,4 @@
+import { getQSRank } from "@/lib/qs-ranking";
 import type { Program, School } from "@/types";
 
 export const QS_RANKING_OPTIONS = [
@@ -67,7 +68,7 @@ export function filterPrograms(programs: Program[], filters: ProgramFilters): Pr
     if (!matchesRegion(program.region_cn, filters.region)) return false;
     if (filters.educationLevel && program.education_level !== filters.educationLevel) return false;
     if (filters.schoolName && program.school_name !== filters.schoolName) return false;
-    if (!matchesQsRanking(program.qs_ranking_2026, filters.qsRanking)) return false;
+    if (!matchesQsRanking(getQSRank(program), filters.qsRanking)) return false;
     if (feeKeyword && !program.fee?.toLowerCase().includes(feeKeyword)) return false;
     if (ieltsKeyword && !program.ielts?.toLowerCase().includes(ieltsKeyword)) return false;
 
@@ -83,8 +84,8 @@ export function filterPrograms(programs: Program[], filters: ProgramFilters): Pr
 
 export function sortSchoolsByRanking(schools: School[]): School[] {
   return [...schools].sort((a, b) => {
-    const rankA = a.qs_ranking_2026;
-    const rankB = b.qs_ranking_2026;
+    const rankA = getQSRank(a);
+    const rankB = getQSRank(b);
     const hasRankA = typeof rankA === "number" && rankA > 0;
     const hasRankB = typeof rankB === "number" && rankB > 0;
 
@@ -109,7 +110,7 @@ export function filterSchools(schools: School[], filters: SchoolFilters): School
     }
 
     if (!matchesRegion(school.region_cn, filters.region)) return false;
-    if (!matchesQsRanking(school.qs_ranking_2026, filters.qsRanking)) return false;
+    if (!matchesQsRanking(getQSRank(school), filters.qsRanking)) return false;
 
     if (filters.educationLevel && filters.educationLevel !== "all") {
       const hasLevel = school.program_counts

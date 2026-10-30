@@ -39,6 +39,8 @@ export interface SelectedProgramContext {
   schoolNameEn: string;
   region: string;
   qsRanking: number | null;
+  qsRankingYear?: number;
+  qsRankingLabel?: string;
   majorCn: string;
   majorEn: string;
   degree: string;
@@ -127,7 +129,7 @@ export function buildResumePrompt(input: ResumeInput): string {
     prompt += `专业：${prog.majorCn}（${prog.majorEn}）\n`;
     prompt += `地区：${prog.region}\n`;
     prompt += `学位：${prog.degree}\n`;
-    if (prog.qsRanking) prompt += `QS排名：${prog.qsRanking}\n`;
+    if (prog.qsRanking) prompt += `QS ${prog.qsRankingYear || 2026} 世界排名：${prog.qsRankingLabel || prog.qsRanking}\n`;
     if (prog.ielts) prompt += `IELTS要求：${prog.ielts}\n`;
     if (prog.toefl) prompt += `TOEFL要求：${prog.toefl}\n`;
     if (prog.languageRequirement) prompt += `语言要求：${prog.languageRequirement}\n`;

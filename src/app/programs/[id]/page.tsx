@@ -2,6 +2,10 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getProgramById } from "@/lib/data.server";
 import ProgramDetailClient from "./ProgramDetailClient";
+import { getAuProgramProfile } from "@/lib/au-applicant-profile.server";
+import { getHkProgramProfile } from "@/lib/hk-applicant-profile.server";
+import { getSgProgramProfile } from "@/lib/sg-applicant-profile.server";
+import { getUkProgramProfile } from "@/lib/uk-applicant-profile.server";
 
 export const dynamic = "force-dynamic";
 
@@ -20,6 +24,7 @@ export async function generateMetadata({ params }: PageProps) {
   }
 
   return {
+    alternates: {canonical: `/programs/${program.id}`},
     title: `${program.major_cn || program.major_en} 申请条件｜${program.school_name || "学校"}｜留学Hub`,
     description: `查看${program.school_name || ""}${program.major_cn || program.major_en}的国际生学费、语言要求、申请时间线和AI申请参考。`,
   };
@@ -34,10 +39,10 @@ export default async function ProgramDetailPage({ params }: PageProps) {
   }
 
   return (
-    <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div className="design-container pt-6">
       {/* 面包屑 */}
-      <div className="mb-6">
-        <nav className="flex items-center space-x-2 text-sm">
+      <div className="mb-0">
+        <nav className="flex flex-wrap items-center gap-2 text-xs">
           <Link href="/" className="text-blue-600 hover:text-blue-800">首页</Link>
           <span className="text-gray-400">/</span>
           <Link href="/programs" className="text-blue-600 hover:text-blue-800">专业库</Link>
@@ -46,7 +51,7 @@ export default async function ProgramDetailPage({ params }: PageProps) {
         </nav>
       </div>
 
-      <ProgramDetailClient program={program} />
+      <ProgramDetailClient program={program} auProfile={program.region_cn === "澳大利亚" && program.education_level === "postgraduate" ? getAuProgramProfile(program.id) : undefined} hkProfile={program.region_cn === "中国香港" && program.education_level === "postgraduate" ? getHkProgramProfile(program.id) : undefined} sgProfile={program.region_cn === "新加坡" && program.education_level === "postgraduate" ? getSgProgramProfile(program.id) : undefined} ukProfile={program.region_cn === "英国" && program.education_level === "postgraduate" ? getUkProgramProfile(program.id) : undefined} />
     </div>
   );
 }

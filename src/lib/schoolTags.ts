@@ -27,7 +27,7 @@ export function getSchoolTags(schoolCode?: string): string[] {
   }
 
   // 环太平洋大学联盟
-  const apru = ['HKU', 'HKUST', 'CUHK', 'NTU', 'NUS', 'SYDNEY', 'MELBOURNE', 'AUCKLAND'];
+  const apru = ['HKU', 'HKUST', 'CUHK', 'NTU', 'NUS', 'USYD', 'UNIMELB', 'AUCKLAND'];
   if (apru.includes(code)) {
     tags.push('环太平洋大学联盟');
   }
@@ -51,7 +51,7 @@ export function getSchoolTags(schoolCode?: string): string[] {
 
   // 澳洲八大
   const australianGroupOfEight = [
-    'ANU', 'SYDNEY', 'MELBOURNE', 'UNSW', 'UQ', 'MONASH', 'WESTERN_AUSTRALIA', 'ADELAIDE'
+    'ANU', 'USYD', 'UNIMELB', 'UNSW', 'UQ', 'MONASH', 'UWA', 'ADELAIDE'
   ];
   if (australianGroupOfEight.includes(code)) {
     tags.push('澳洲八大');

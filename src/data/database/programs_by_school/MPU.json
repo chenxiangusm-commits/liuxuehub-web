@@ -10,20 +10,20 @@
     "qs_ranking_2026": "1001-1200",
     "college": "应用科学学院",
     "major_cn": "大数据与物联网硕士",
-    "major_en": "MSc in Big Data and Internet of Things",
+    "major_en": "Master of Science in Big Data and Internet of Things",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "8月",
-    "fee": "MOP 170,000（约RMB 151,300）",
-    "deadline": "2025年10月15日-2026年5月15日",
-    "ielts": "无需提交（全英文授课，参考语言能力）",
-    "toefl": "无需提交（全英文授课，参考语言能力）",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "fee": "官网现行标准（适用于2024/25或以后入学）：澳门学生全课程 MOP94,000；内地、香港、台湾学生全课程 MOP170,000；其他国家学生全课程 MOP190,000。正常两学年分两期缴交，每期分别MOP47,000／85,000／95,000。提前完成仍须缴全额；延期、重修及考察费用另计。",
+    "deadline": "2027/28 硕士入学：官网已开放报名，申请截止2027-05-15。须通过官方报名系统提交申请及所需材料。",
+    "ielts": "未列统一最低分；详见语言要求及来源",
+    "toefl": "未列统一最低分；详见语言要求及来源",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "官网课程目录授课语言：英语。所查项目入学要求页面未列IELTS、TOEFL统一最低分；应具备相应授课语言能力，并满足面试（如有）及课程额外入学条件。 指南者亦称未要求提交英语能力证明；申请仍以校方当季材料清单及补件要求为准。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "具电脑学或相关领域学士学位或同等学历；往届毕业生须提交考研成绩；推荐函两封；面试择优。",
-    "official_url": "https://www.mpu.edu.mo/admission_mainland/zh/postgraduate_mainland.php",
+    "official_url": "https://www.mpu.edu.mo/zh-hant/fca/study/master-degree-programmes/master-of-science-in-big-data-and-internet-of-things-applicable-to-20232024-intake-and-onwards/entry-requirements",
     "study_mode": "全日制",
     "curriculum": [
       "大数据技术",
@@ -47,7 +47,75 @@
       "AI/IoT产品研发工程师"
     ],
     "source_file": "schools/mpu_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "8215bb138593b87d11b7",
+          "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+          "label": "新官网研究生课程及授课语言目录"
+        },
+        {
+          "key": "b467eb5f543724aaf227",
+          "url": "https://www.mpu.edu.mo/zh-hant/news/efe6dd7e-65b4-4bba-a7d8-eda64c46fca7",
+          "label": "官方2027/28研究生招生公告"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "b467eb5f543724aaf227",
+              "url": "https://www.mpu.edu.mo/zh-hant/news/efe6dd7e-65b4-4bba-a7d8-eda64c46fca7",
+              "label": "官方2027/28研究生招生公告"
+            },
+            {
+              "key": "8215bb138593b87d11b7",
+              "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+              "label": "新官网研究生课程及授课语言目录"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2024/25或以后入学适用的官网现行标准",
+          "sources": [
+            {
+              "key": "18eb5bde02b54cd7b3d8",
+              "url": "https://www.mpu.edu.mo/zh-hant/gf/for-students/fees/pg_tuitionfees/academic-year-2024-2025-intake-or-after",
+              "label": "财务处：2024/25或以后入学适用收费表"
+            }
+          ],
+          "status": "verified"
+        },
+        "language": {
+          "cycle": "官网现行要求；指南者仅作补充参考",
+          "sources": [
+            {
+              "key": "8215bb138593b87d11b7",
+              "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+              "label": "新官网研究生课程及授课语言目录"
+            },
+            {
+              "key": "3be689ebf7323cc46d34",
+              "url": "https://www.mpu.edu.mo/zh-hant/fca/study/master-degree-programmes/master-of-science-in-big-data-and-internet-of-things-applicable-to-20232024-intake-and-onwards/entry-requirements",
+              "label": "项目官网入学要求"
+            },
+            {
+              "key": "f34026108a29f794fd4a",
+              "url": "https://m.compassedu.hk/majr/63025",
+              "label": "指南者：本项目语言要求（官网未列数值时参考）"
+            }
+          ],
+          "status": "not_published",
+          "note": "不把“官网未列分数”解释为无需语言能力。"
+        }
+      }
+    }
   },
   {
     "id": "mpu-postgraduate-msc-in-environmental-intelligence",
@@ -60,20 +128,20 @@
     "qs_ranking_2026": "1001-1200",
     "college": "应用科学学院",
     "major_cn": "环境智能硕士",
-    "major_en": "MSc in Environmental Intelligence",
+    "major_en": "Master of Science in Environmental Intelligence",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "8月",
-    "fee": "MOP 170,000（约RMB 151,300）",
-    "deadline": "2025年10月15日-2026年5月15日",
-    "ielts": "无需提交（全英文授课，参考语言能力）",
-    "toefl": "无需提交（全英文授课，参考语言能力）",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "fee": "官网现行标准（适用于2024/25或以后入学）：澳门学生全课程 MOP94,000；内地、香港、台湾学生全课程 MOP170,000；其他国家学生全课程 MOP190,000。正常两学年分两期缴交，每期分别MOP47,000／85,000／95,000。提前完成仍须缴全额；延期、重修及考察费用另计。",
+    "deadline": "2027/28 硕士入学：官网已开放报名，申请截止2027-05-15。须通过官方报名系统提交申请及所需材料。",
+    "ielts": "未列统一最低分；详见语言要求及来源",
+    "toefl": "未列统一最低分；详见语言要求及来源",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "官网课程目录授课语言：英语。所查项目入学要求页面未列IELTS、TOEFL统一最低分；应具备相应授课语言能力，并满足面试（如有）及课程额外入学条件。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "具电脑学、人工智能、环境科学、城市规划或相关领域学士学位或同等学历；往届毕业生须提交考研成绩；推荐函两封；面试择优。",
-    "official_url": "https://www.mpu.edu.mo/admission_mainland/zh/postgraduate_mainland.php",
+    "official_url": "https://www.mpu.edu.mo/zh-hant/fca/study/master-degree-programmes/master-of-science-in-environmental-intelligence/entry-requirements",
     "study_mode": "全日制",
     "curriculum": [
       "环境智能导论",
@@ -97,7 +165,70 @@
       "环保科技企业研发人员"
     ],
     "source_file": "schools/mpu_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "8215bb138593b87d11b7",
+          "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+          "label": "新官网研究生课程及授课语言目录"
+        },
+        {
+          "key": "b467eb5f543724aaf227",
+          "url": "https://www.mpu.edu.mo/zh-hant/news/efe6dd7e-65b4-4bba-a7d8-eda64c46fca7",
+          "label": "官方2027/28研究生招生公告"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "b467eb5f543724aaf227",
+              "url": "https://www.mpu.edu.mo/zh-hant/news/efe6dd7e-65b4-4bba-a7d8-eda64c46fca7",
+              "label": "官方2027/28研究生招生公告"
+            },
+            {
+              "key": "8215bb138593b87d11b7",
+              "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+              "label": "新官网研究生课程及授课语言目录"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2024/25或以后入学适用的官网现行标准",
+          "sources": [
+            {
+              "key": "18eb5bde02b54cd7b3d8",
+              "url": "https://www.mpu.edu.mo/zh-hant/gf/for-students/fees/pg_tuitionfees/academic-year-2024-2025-intake-or-after",
+              "label": "财务处：2024/25或以后入学适用收费表"
+            }
+          ],
+          "status": "verified"
+        },
+        "language": {
+          "cycle": "官网现行要求",
+          "sources": [
+            {
+              "key": "8215bb138593b87d11b7",
+              "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+              "label": "新官网研究生课程及授课语言目录"
+            },
+            {
+              "key": "d321b04305e4564dda68",
+              "url": "https://www.mpu.edu.mo/zh-hant/fca/study/master-degree-programmes/master-of-science-in-environmental-intelligence/entry-requirements",
+              "label": "项目官网入学要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "不把“官网未列分数”解释为无需语言能力。"
+        }
+      }
+    }
   },
   {
     "id": "mpu-postgraduate-ma-in-chinese-portuguese-translation-and-interpretation",
@@ -110,20 +241,20 @@
     "qs_ranking_2026": "1001-1200",
     "college": "语言及翻译学院",
     "major_cn": "中葡笔译暨传译硕士",
-    "major_en": "MA in Chinese-Portuguese Translation and Interpretation",
+    "major_en": "Master of Chinese-Portuguese Translation and Interpreting",
     "degree": "MA",
-    "duration": "2年",
-    "intake": "8月",
-    "fee": "MOP 170,000（约RMB 151,300）",
-    "deadline": "2025年10月15日-2026年5月15日",
-    "ielts": "无需提交（中葡双语授课）",
-    "toefl": "无需提交（中葡双语授课）",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "fee": "官网现行标准（适用于2024/25或以后入学）：澳门学生全课程 MOP94,000；内地、香港、台湾学生全课程 MOP170,000；其他国家学生全课程 MOP190,000。正常两学年分两期缴交，每期分别MOP47,000／85,000／95,000。提前完成仍须缴全额；延期、重修及考察费用另计。",
+    "deadline": "2027/28 硕士入学：官网已开放报名，申请截止2027-05-15。须通过官方报名系统提交申请及所需材料。",
+    "ielts": "未列统一最低分；详见语言要求及来源",
+    "toefl": "未列统一最低分；详见语言要求及来源",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "官网要求：中文、葡文须精通其中一种、熟练掌握另一种，并具良好英语阅读能力。未列统一IELTS／TOEFL分数。指南者将语言测试证明及CATTI证书列为“如有”，可供申请准备参考；不将示例CAPLE／CELPE-BRAS等级改为全部申请者硬性门槛。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "具学士学位或同等学历；精通中文或葡文之一，并熟练另一种语言，具备良好英语阅读能力；往届毕业生须提交考研成绩；推荐函两封；面试择优。",
-    "official_url": "https://www.mpu.edu.mo/admission_mainland/zh/postgraduate_mainland.php",
+    "official_url": "https://www.mpu.edu.mo/zh-hant/flt/study/master-degree-programmes/master-of-chinese-portuguese-translation-and-interpreting/entry-requirements",
     "study_mode": "全日制",
     "curriculum": [
       "笔译理论与技巧",
@@ -147,7 +278,75 @@
       "国际组织语言服务"
     ],
     "source_file": "schools/mpu_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "8215bb138593b87d11b7",
+          "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+          "label": "新官网研究生课程及授课语言目录"
+        },
+        {
+          "key": "b467eb5f543724aaf227",
+          "url": "https://www.mpu.edu.mo/zh-hant/news/efe6dd7e-65b4-4bba-a7d8-eda64c46fca7",
+          "label": "官方2027/28研究生招生公告"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "b467eb5f543724aaf227",
+              "url": "https://www.mpu.edu.mo/zh-hant/news/efe6dd7e-65b4-4bba-a7d8-eda64c46fca7",
+              "label": "官方2027/28研究生招生公告"
+            },
+            {
+              "key": "8215bb138593b87d11b7",
+              "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+              "label": "新官网研究生课程及授课语言目录"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2024/25或以后入学适用的官网现行标准",
+          "sources": [
+            {
+              "key": "18eb5bde02b54cd7b3d8",
+              "url": "https://www.mpu.edu.mo/zh-hant/gf/for-students/fees/pg_tuitionfees/academic-year-2024-2025-intake-or-after",
+              "label": "财务处：2024/25或以后入学适用收费表"
+            }
+          ],
+          "status": "verified"
+        },
+        "language": {
+          "cycle": "官网现行要求；指南者仅作补充参考",
+          "sources": [
+            {
+              "key": "8215bb138593b87d11b7",
+              "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+              "label": "新官网研究生课程及授课语言目录"
+            },
+            {
+              "key": "c3599a4f335368d9a782",
+              "url": "https://www.mpu.edu.mo/zh-hant/flt/study/master-degree-programmes/master-of-chinese-portuguese-translation-and-interpreting/entry-requirements",
+              "label": "项目官网入学要求"
+            },
+            {
+              "key": "eb97a2a5fbc4749e97e2",
+              "url": "https://m.compassedu.hk/majr/63022",
+              "label": "指南者：本项目语言要求（官网未列数值时参考）"
+            }
+          ],
+          "status": "verified",
+          "note": "不把“官网未列分数”解释为无需语言能力。"
+        }
+      }
+    }
   },
   {
     "id": "mpu-postgraduate-ma-in-interdisciplinary-arts",
@@ -160,20 +359,20 @@
     "qs_ranking_2026": "1001-1200",
     "college": "艺术及设计学院",
     "major_cn": "跨领域艺术硕士",
-    "major_en": "MA in Interdisciplinary Arts",
+    "major_en": "Master of Interdisciplinary Arts",
     "degree": "MA",
-    "duration": "2年",
-    "intake": "8月",
-    "fee": "MOP 170,000（约RMB 151,300）",
-    "deadline": "2025年10月15日-2026年5月15日",
-    "ielts": "无需提交（中文授课）",
-    "toefl": "无需提交（中文授课）",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "fee": "官网现行标准（适用于2024/25或以后入学）：澳门学生全课程 MOP94,000；内地、香港、台湾学生全课程 MOP170,000；其他国家学生全课程 MOP190,000。正常两学年分两期缴交，每期分别MOP47,000／85,000／95,000。提前完成仍须缴全额；延期、重修及考察费用另计。",
+    "deadline": "2027/28 硕士入学：官网已开放报名，申请截止2027-05-15。须通过官方报名系统提交申请及所需材料。",
+    "ielts": "未列统一最低分；详见语言要求及来源",
+    "toefl": "未列统一最低分；详见语言要求及来源",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "官网课程目录授课语言：中文。所查项目入学要求页面未列IELTS、TOEFL统一最低分；应具备相应授课语言能力，并满足面试（如有）及课程额外入学条件。 指南者亦称未要求提交英语能力证明；申请仍以校方当季材料清单及补件要求为准。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "具学士学位或同等学历；往届毕业生须提交考研成绩；推荐函两封；面试择优；建议提交作品集。",
-    "official_url": "https://www.mpu.edu.mo/admission_mainland/zh/postgraduate_mainland.php",
+    "official_url": "https://www.mpu.edu.mo/zh-hant/fad/study/master-degree-programmes/master-of-interdisciplinary-arts/entry-requirements",
     "study_mode": "全日制",
     "curriculum": [
       "跨领域艺术理论",
@@ -197,7 +396,75 @@
       "文化艺术机构管理"
     ],
     "source_file": "schools/mpu_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "8215bb138593b87d11b7",
+          "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+          "label": "新官网研究生课程及授课语言目录"
+        },
+        {
+          "key": "b467eb5f543724aaf227",
+          "url": "https://www.mpu.edu.mo/zh-hant/news/efe6dd7e-65b4-4bba-a7d8-eda64c46fca7",
+          "label": "官方2027/28研究生招生公告"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "b467eb5f543724aaf227",
+              "url": "https://www.mpu.edu.mo/zh-hant/news/efe6dd7e-65b4-4bba-a7d8-eda64c46fca7",
+              "label": "官方2027/28研究生招生公告"
+            },
+            {
+              "key": "8215bb138593b87d11b7",
+              "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+              "label": "新官网研究生课程及授课语言目录"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2024/25或以后入学适用的官网现行标准",
+          "sources": [
+            {
+              "key": "18eb5bde02b54cd7b3d8",
+              "url": "https://www.mpu.edu.mo/zh-hant/gf/for-students/fees/pg_tuitionfees/academic-year-2024-2025-intake-or-after",
+              "label": "财务处：2024/25或以后入学适用收费表"
+            }
+          ],
+          "status": "verified"
+        },
+        "language": {
+          "cycle": "官网现行要求；指南者仅作补充参考",
+          "sources": [
+            {
+              "key": "8215bb138593b87d11b7",
+              "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+              "label": "新官网研究生课程及授课语言目录"
+            },
+            {
+              "key": "cfa2c9993a5659270a1c",
+              "url": "https://www.mpu.edu.mo/zh-hant/fad/study/master-degree-programmes/master-of-interdisciplinary-arts/entry-requirements",
+              "label": "项目官网入学要求"
+            },
+            {
+              "key": "3f91083801662691aec0",
+              "url": "https://m.compassedu.hk/majr/63032",
+              "label": "指南者：本项目语言要求（官网未列数值时参考）"
+            }
+          ],
+          "status": "not_published",
+          "note": "不把“官网未列分数”解释为无需语言能力。"
+        }
+      }
+    }
   },
   {
     "id": "mpu-postgraduate-msc-in-sports-and-physical-education",
@@ -210,20 +477,20 @@
     "qs_ranking_2026": "1001-1200",
     "college": "健康科学及体育学院",
     "major_cn": "运动及体育硕士",
-    "major_en": "MSc in Sports and Physical Education",
+    "major_en": "Master of Science in Sports and Physical Education",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "8月",
-    "fee": "MOP 170,000（约RMB 151,300）",
-    "deadline": "2025年10月15日-2026年5月15日",
-    "ielts": "无需提交（中文授课）",
-    "toefl": "无需提交（中文授课）",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "fee": "官网现行标准（适用于2024/25或以后入学）：澳门学生全课程 MOP94,000；内地、香港、台湾学生全课程 MOP170,000；其他国家学生全课程 MOP190,000。正常两学年分两期缴交，每期分别MOP47,000／85,000／95,000。提前完成仍须缴全额；延期、重修及考察费用另计。",
+    "deadline": "2027/28 硕士入学：官网已开放报名，申请截止2027-05-15。须通过官方报名系统提交申请及所需材料。",
+    "ielts": "未列统一最低分；详见语言要求及来源",
+    "toefl": "未列统一最低分；详见语言要求及来源",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "官网课程目录授课语言：中文。所查项目入学要求页面未列IELTS、TOEFL统一最低分；应具备相应授课语言能力，并满足面试（如有）及课程额外入学条件。 指南者亦称未要求提交英语能力证明；申请仍以校方当季材料清单及补件要求为准。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "具学士学位或同等学历；往届毕业生须提交考研成绩；推荐函两封；面试择优。注：非专业资格认证课程。",
-    "official_url": "https://www.mpu.edu.mo/admission_mainland/zh/postgraduate_mainland.php",
+    "official_url": "https://www.mpu.edu.mo/zh-hant/fcsd/study/master-degree-programmes/master-of-science-in-sports-and-physical-education-applicable-to-20232024-intake-and-onwards/entry-requirements",
     "study_mode": "全日制",
     "curriculum": [
       "运动科学原理",
@@ -247,7 +514,75 @@
       "运动科学研究员"
     ],
     "source_file": "schools/mpu_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "8215bb138593b87d11b7",
+          "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+          "label": "新官网研究生课程及授课语言目录"
+        },
+        {
+          "key": "b467eb5f543724aaf227",
+          "url": "https://www.mpu.edu.mo/zh-hant/news/efe6dd7e-65b4-4bba-a7d8-eda64c46fca7",
+          "label": "官方2027/28研究生招生公告"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "b467eb5f543724aaf227",
+              "url": "https://www.mpu.edu.mo/zh-hant/news/efe6dd7e-65b4-4bba-a7d8-eda64c46fca7",
+              "label": "官方2027/28研究生招生公告"
+            },
+            {
+              "key": "8215bb138593b87d11b7",
+              "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+              "label": "新官网研究生课程及授课语言目录"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2024/25或以后入学适用的官网现行标准",
+          "sources": [
+            {
+              "key": "18eb5bde02b54cd7b3d8",
+              "url": "https://www.mpu.edu.mo/zh-hant/gf/for-students/fees/pg_tuitionfees/academic-year-2024-2025-intake-or-after",
+              "label": "财务处：2024/25或以后入学适用收费表"
+            }
+          ],
+          "status": "verified"
+        },
+        "language": {
+          "cycle": "官网现行要求；指南者仅作补充参考",
+          "sources": [
+            {
+              "key": "8215bb138593b87d11b7",
+              "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+              "label": "新官网研究生课程及授课语言目录"
+            },
+            {
+              "key": "c5d382f83ecba863208f",
+              "url": "https://www.mpu.edu.mo/zh-hant/fcsd/study/master-degree-programmes/master-of-science-in-sports-and-physical-education-applicable-to-20232024-intake-and-onwards/entry-requirements",
+              "label": "项目官网入学要求"
+            },
+            {
+              "key": "32d2451b243a03795008",
+              "url": "https://m.compassedu.hk/majr/63035",
+              "label": "指南者：本项目语言要求（官网未列数值时参考）"
+            }
+          ],
+          "status": "not_published",
+          "note": "不把“官网未列分数”解释为无需语言能力。"
+        }
+      }
+    }
   },
   {
     "id": "mpu-postgraduate-msc-in-sports-technology-and-innovation",
@@ -260,20 +595,20 @@
     "qs_ranking_2026": "1001-1200",
     "college": "健康科学及体育学院",
     "major_cn": "运动科技与创新硕士",
-    "major_en": "MSc in Sports Technology and Innovation",
+    "major_en": "Master of Science in Sports Technology and Innovation",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "8月",
-    "fee": "MOP 170,000（约RMB 151,300）",
-    "deadline": "2025年10月15日-2026年5月15日",
-    "ielts": "无需提交（全英文授课，参考语言能力）",
-    "toefl": "无需提交（全英文授课，参考语言能力）",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "fee": "官网现行标准（适用于2024/25或以后入学）：澳门学生全课程 MOP94,000；内地、香港、台湾学生全课程 MOP170,000；其他国家学生全课程 MOP190,000。正常两学年分两期缴交，每期分别MOP47,000／85,000／95,000。提前完成仍须缴全额；延期、重修及考察费用另计。",
+    "deadline": "2027/28 硕士入学：官网已开放报名，申请截止2027-05-15。须通过官方报名系统提交申请及所需材料。",
+    "ielts": "未列统一最低分；详见语言要求及来源",
+    "toefl": "未列统一最低分；详见语言要求及来源",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "官网课程目录授课语言：英语。所查项目入学要求页面未列IELTS、TOEFL统一最低分；应具备相应授课语言能力，并满足面试（如有）及课程额外入学条件。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "具电脑学、运动科技、体育学或相关领域学士学位或同等学历；往届毕业生须提交考研成绩；推荐函两封；面试择优。2026/2027学年在澳门及横琴校区上课。",
-    "official_url": "https://www.mpu.edu.mo/admission_mainland/zh/postgraduate_mainland.php",
+    "official_url": "https://www.mpu.edu.mo/zh-hant/fca/study/master-degree-programmes/master-of-science-in-sports-technology-and-innovation/entry-requirements",
     "study_mode": "全日制",
     "curriculum": [
       "运动科技导论",
@@ -297,7 +632,70 @@
       "电竞产业技术专家"
     ],
     "source_file": "schools/mpu_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "8215bb138593b87d11b7",
+          "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+          "label": "新官网研究生课程及授课语言目录"
+        },
+        {
+          "key": "b467eb5f543724aaf227",
+          "url": "https://www.mpu.edu.mo/zh-hant/news/efe6dd7e-65b4-4bba-a7d8-eda64c46fca7",
+          "label": "官方2027/28研究生招生公告"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "b467eb5f543724aaf227",
+              "url": "https://www.mpu.edu.mo/zh-hant/news/efe6dd7e-65b4-4bba-a7d8-eda64c46fca7",
+              "label": "官方2027/28研究生招生公告"
+            },
+            {
+              "key": "8215bb138593b87d11b7",
+              "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+              "label": "新官网研究生课程及授课语言目录"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2024/25或以后入学适用的官网现行标准",
+          "sources": [
+            {
+              "key": "18eb5bde02b54cd7b3d8",
+              "url": "https://www.mpu.edu.mo/zh-hant/gf/for-students/fees/pg_tuitionfees/academic-year-2024-2025-intake-or-after",
+              "label": "财务处：2024/25或以后入学适用收费表"
+            }
+          ],
+          "status": "verified"
+        },
+        "language": {
+          "cycle": "官网现行要求",
+          "sources": [
+            {
+              "key": "8215bb138593b87d11b7",
+              "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+              "label": "新官网研究生课程及授课语言目录"
+            },
+            {
+              "key": "401e1ecc400d2476756a",
+              "url": "https://www.mpu.edu.mo/zh-hant/fca/study/master-degree-programmes/master-of-science-in-sports-technology-and-innovation/entry-requirements",
+              "label": "项目官网入学要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "不把“官网未列分数”解释为无需语言能力。"
+        }
+      }
+    }
   },
   {
     "id": "mpu-postgraduate-msc-in-nursing",
@@ -310,20 +708,20 @@
     "qs_ranking_2026": "1001-1200",
     "college": "健康科学及体育学院",
     "major_cn": "护理学硕士",
-    "major_en": "MSc in Nursing",
+    "major_en": "Master of Science in Nursing",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "8月",
-    "fee": "MOP 170,000（约RMB 151,300）",
-    "deadline": "2025年10月15日-2026年5月15日",
-    "ielts": "无需提交（中/英文授课）",
-    "toefl": "无需提交（中/英文授课）",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "fee": "官网现行标准（适用于2024/25或以后入学）：澳门学生全课程 MOP94,000；内地、香港、台湾学生全课程 MOP170,000；其他国家学生全课程 MOP190,000。正常两学年分两期缴交，每期分别MOP47,000／85,000／95,000。提前完成仍须缴全额；延期、重修及考察费用另计。",
+    "deadline": "2027/28 硕士入学：官网已开放报名，申请截止2027-05-15。须通过官方报名系统提交申请及所需材料。",
+    "ielts": "未列统一最低分；详见语言要求及来源",
+    "toefl": "未列统一最低分；详见语言要求及来源",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "官网课程目录授课语言：中文／英文。所查项目入学要求页面未列IELTS、TOEFL统一最低分；应具备相应授课语言能力，并满足面试（如有）及课程额外入学条件。 指南者亦称未要求提交英语能力证明；申请仍以校方当季材料清单及补件要求为准。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "具护理学或相关专业学士学位或同等学历；往届毕业生须提交考研成绩；推荐函两封；面试择优。注：非专业资格认证课程。",
-    "official_url": "https://www.mpu.edu.mo/admission_mainland/zh/postgraduate_mainland.php",
+    "official_url": "https://www.mpu.edu.mo/zh-hant/fcsd/study/master-degree-programmes/master-of-science-in-nursing-applicable-to-20232024-intake-and-onwards/entry-requirements",
     "study_mode": "全日制",
     "curriculum": [
       "高级护理理论",
@@ -347,7 +745,75 @@
       "医院质量管理"
     ],
     "source_file": "schools/mpu_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "8215bb138593b87d11b7",
+          "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+          "label": "新官网研究生课程及授课语言目录"
+        },
+        {
+          "key": "b467eb5f543724aaf227",
+          "url": "https://www.mpu.edu.mo/zh-hant/news/efe6dd7e-65b4-4bba-a7d8-eda64c46fca7",
+          "label": "官方2027/28研究生招生公告"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "b467eb5f543724aaf227",
+              "url": "https://www.mpu.edu.mo/zh-hant/news/efe6dd7e-65b4-4bba-a7d8-eda64c46fca7",
+              "label": "官方2027/28研究生招生公告"
+            },
+            {
+              "key": "8215bb138593b87d11b7",
+              "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+              "label": "新官网研究生课程及授课语言目录"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2024/25或以后入学适用的官网现行标准",
+          "sources": [
+            {
+              "key": "18eb5bde02b54cd7b3d8",
+              "url": "https://www.mpu.edu.mo/zh-hant/gf/for-students/fees/pg_tuitionfees/academic-year-2024-2025-intake-or-after",
+              "label": "财务处：2024/25或以后入学适用收费表"
+            }
+          ],
+          "status": "verified"
+        },
+        "language": {
+          "cycle": "官网现行要求；指南者仅作补充参考",
+          "sources": [
+            {
+              "key": "8215bb138593b87d11b7",
+              "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+              "label": "新官网研究生课程及授课语言目录"
+            },
+            {
+              "key": "b3b25e23f13c8fa64305",
+              "url": "https://www.mpu.edu.mo/zh-hant/fcsd/study/master-degree-programmes/master-of-science-in-nursing-applicable-to-20232024-intake-and-onwards/entry-requirements",
+              "label": "项目官网入学要求"
+            },
+            {
+              "key": "4027dd62ea6657a976fd",
+              "url": "https://m.compassedu.hk/majr/72461",
+              "label": "指南者：本项目语言要求（官网未列数值时参考）"
+            }
+          ],
+          "status": "not_published",
+          "note": "不把“官网未列分数”解释为无需语言能力。"
+        }
+      }
+    }
   },
   {
     "id": "mpu-postgraduate-med-in-cultural-communication-and-education",
@@ -360,20 +826,20 @@
     "qs_ranking_2026": "1001-1200",
     "college": "人文及社会科学学院",
     "major_cn": "教育硕士（文化传播与教育）",
-    "major_en": "MEd in Cultural Communication and Education",
+    "major_en": "Master of Education (Cultural Communication and Education)",
     "degree": "MEd",
-    "duration": "2年",
-    "intake": "8月",
-    "fee": "MOP 170,000（约RMB 151,300）",
-    "deadline": "2025年10月15日-2026年5月15日",
-    "ielts": "无需提交（中/英文授课）",
-    "toefl": "无需提交（中/英文授课）",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "fee": "官网现行标准（适用于2024/25或以后入学）：澳门学生全课程 MOP94,000；内地、香港、台湾学生全课程 MOP170,000；其他国家学生全课程 MOP190,000。正常两学年分两期缴交，每期分别MOP47,000／85,000／95,000。提前完成仍须缴全额；延期、重修及考察费用另计。",
+    "deadline": "2027/28 硕士入学：官网已开放报名，申请截止2027-05-15。须通过官方报名系统提交申请及所需材料。",
+    "ielts": "未列统一最低分；详见语言要求及来源",
+    "toefl": "未列统一最低分；详见语言要求及来源",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "官网课程目录授课语言：中文／英文。所查项目入学要求页面未列IELTS、TOEFL统一最低分；应具备相应授课语言能力，并满足面试（如有）及课程额外入学条件。 指南者将语言证明列为“如有”，未给出最低分；可按已有成绩提交，不据此设置强制IELTS／TOEFL分数。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "具学士学位或同等学历；往届毕业生须提交考研成绩；推荐函两封；面试择优。",
-    "official_url": "https://www.mpu.edu.mo/admission_mainland/zh/postgraduate_mainland.php",
+    "official_url": "https://www.mpu.edu.mo/zh-hant/fchs/study/master-degree-programmes/master-of-education-cultural-communication-and-education/entry-requirements",
     "study_mode": "全日制",
     "curriculum": [
       "教育哲学与文化研究",
@@ -397,7 +863,75 @@
       "教育政策研究员"
     ],
     "source_file": "schools/mpu_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "8215bb138593b87d11b7",
+          "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+          "label": "新官网研究生课程及授课语言目录"
+        },
+        {
+          "key": "b467eb5f543724aaf227",
+          "url": "https://www.mpu.edu.mo/zh-hant/news/efe6dd7e-65b4-4bba-a7d8-eda64c46fca7",
+          "label": "官方2027/28研究生招生公告"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "b467eb5f543724aaf227",
+              "url": "https://www.mpu.edu.mo/zh-hant/news/efe6dd7e-65b4-4bba-a7d8-eda64c46fca7",
+              "label": "官方2027/28研究生招生公告"
+            },
+            {
+              "key": "8215bb138593b87d11b7",
+              "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+              "label": "新官网研究生课程及授课语言目录"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2024/25或以后入学适用的官网现行标准",
+          "sources": [
+            {
+              "key": "18eb5bde02b54cd7b3d8",
+              "url": "https://www.mpu.edu.mo/zh-hant/gf/for-students/fees/pg_tuitionfees/academic-year-2024-2025-intake-or-after",
+              "label": "财务处：2024/25或以后入学适用收费表"
+            }
+          ],
+          "status": "verified"
+        },
+        "language": {
+          "cycle": "官网现行要求；指南者仅作补充参考",
+          "sources": [
+            {
+              "key": "8215bb138593b87d11b7",
+              "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+              "label": "新官网研究生课程及授课语言目录"
+            },
+            {
+              "key": "2bcb2290f1dd8cbc0c2e",
+              "url": "https://www.mpu.edu.mo/zh-hant/fchs/study/master-degree-programmes/master-of-education-cultural-communication-and-education/entry-requirements",
+              "label": "项目官网入学要求"
+            },
+            {
+              "key": "e8b693cb084e0d1743b6",
+              "url": "https://m.compassedu.hk/majr/72460",
+              "label": "指南者：本项目语言要求（官网未列数值时参考）"
+            }
+          ],
+          "status": "not_published",
+          "note": "不把“官网未列分数”解释为无需语言能力。"
+        }
+      }
+    }
   },
   {
     "id": "mpu-postgraduate-master-of-public-administration-mpa",
@@ -410,20 +944,20 @@
     "qs_ranking_2026": "1001-1200",
     "college": "人文及社会科学学院",
     "major_cn": "公共管理硕士",
-    "major_en": "Master of Public Administration (MPA)",
+    "major_en": "Master of Public Administration",
     "degree": "MPA",
-    "duration": "2年",
-    "intake": "8月",
-    "fee": "MOP 170,000（约RMB 151,300）",
-    "deadline": "2025年10月15日-2026年5月15日",
-    "ielts": "无需提交（中/英文授课）",
-    "toefl": "无需提交（中/英文授课）",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "fee": "官网现行标准（适用于2024/25或以后入学）：澳门学生全课程 MOP94,000；内地、香港、台湾学生全课程 MOP170,000；其他国家学生全课程 MOP190,000。正常两学年分两期缴交，每期分别MOP47,000／85,000／95,000。提前完成仍须缴全额；延期、重修及考察费用另计。",
+    "deadline": "2027/28 硕士入学：官网已开放报名，申请截止2027-05-15。须通过官方报名系统提交申请及所需材料。",
+    "ielts": "未列统一最低分；详见语言要求及来源",
+    "toefl": "未列统一最低分；详见语言要求及来源",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "官网课程目录授课语言：中文／英文。所查项目入学要求页面未列IELTS、TOEFL统一最低分；应具备相应授课语言能力，并满足面试（如有）及课程额外入学条件。 指南者将语言证明列为“如有”，未给出最低分；可按已有成绩提交，不据此设置强制IELTS／TOEFL分数。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "具学士学位或同等学历；往届毕业生申请MPA无需提交考研成绩；推荐函两封；面试择优。",
-    "official_url": "https://www.mpu.edu.mo/admission_mainland/zh/postgraduate_mainland.php",
+    "official_url": "https://www.mpu.edu.mo/zh-hant/fchs/study/master-degree-programmes/master-of-public-administration/entry-requirements",
     "study_mode": "全日制",
     "curriculum": [
       "公共管理理论",
@@ -447,7 +981,75 @@
       "公共事务咨询顾问"
     ],
     "source_file": "schools/mpu_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "8215bb138593b87d11b7",
+          "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+          "label": "新官网研究生课程及授课语言目录"
+        },
+        {
+          "key": "b467eb5f543724aaf227",
+          "url": "https://www.mpu.edu.mo/zh-hant/news/efe6dd7e-65b4-4bba-a7d8-eda64c46fca7",
+          "label": "官方2027/28研究生招生公告"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "b467eb5f543724aaf227",
+              "url": "https://www.mpu.edu.mo/zh-hant/news/efe6dd7e-65b4-4bba-a7d8-eda64c46fca7",
+              "label": "官方2027/28研究生招生公告"
+            },
+            {
+              "key": "8215bb138593b87d11b7",
+              "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+              "label": "新官网研究生课程及授课语言目录"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2024/25或以后入学适用的官网现行标准",
+          "sources": [
+            {
+              "key": "18eb5bde02b54cd7b3d8",
+              "url": "https://www.mpu.edu.mo/zh-hant/gf/for-students/fees/pg_tuitionfees/academic-year-2024-2025-intake-or-after",
+              "label": "财务处：2024/25或以后入学适用收费表"
+            }
+          ],
+          "status": "verified"
+        },
+        "language": {
+          "cycle": "官网现行要求；指南者仅作补充参考",
+          "sources": [
+            {
+              "key": "8215bb138593b87d11b7",
+              "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+              "label": "新官网研究生课程及授课语言目录"
+            },
+            {
+              "key": "90c9bf638d0b11b3e145",
+              "url": "https://www.mpu.edu.mo/zh-hant/fchs/study/master-degree-programmes/master-of-public-administration/entry-requirements",
+              "label": "项目官网入学要求"
+            },
+            {
+              "key": "92248108d9fe961b9d9a",
+              "url": "https://m.compassedu.hk/majr/72459",
+              "label": "指南者：本项目语言要求（官网未列数值时参考）"
+            }
+          ],
+          "status": "not_published",
+          "note": "不把“官网未列分数”解释为无需语言能力。"
+        }
+      }
+    }
   },
   {
     "id": "mpu-postgraduate-master-of-business-administration-mba",
@@ -460,20 +1062,20 @@
     "qs_ranking_2026": "1001-1200",
     "college": "管理科学学院",
     "major_cn": "工商管理硕士",
-    "major_en": "Master of Business Administration (MBA)",
+    "major_en": "Master of Business Administration",
     "degree": "MBA",
-    "duration": "2年",
-    "intake": "8月",
-    "fee": "MOP 170,000（约RMB 151,300）",
-    "deadline": "2025年10月15日-2026年5月15日",
-    "ielts": "无需提交（中/英文授课）",
-    "toefl": "无需提交（中/英文授课）",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "fee": "官网现行标准（适用于2024/25或以后入学）：澳门学生全课程 MOP94,000；内地、香港、台湾学生全课程 MOP170,000；其他国家学生全课程 MOP190,000。正常两学年分两期缴交，每期分别MOP47,000／85,000／95,000。提前完成仍须缴全额；延期、重修及考察费用另计。",
+    "deadline": "2027/28 硕士入学：官网已开放报名，申请截止2027-05-15。须通过官方报名系统提交申请及所需材料。",
+    "ielts": "未列统一最低分；详见语言要求及来源",
+    "toefl": "未列统一最低分；详见语言要求及来源",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "官网课程目录授课语言：中文／英文。所查项目入学要求页面未列IELTS、TOEFL统一最低分；应具备相应授课语言能力，并满足面试（如有）及课程额外入学条件。 指南者将语言证明列为“如有”，未给出最低分；可按已有成绩提交，不据此设置强制IELTS／TOEFL分数。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "具学士学位或同等学历；报名期结束前具2年或以上全职工作经验（实习和兼职不计）；往届毕业生申请MBA无需提交考研成绩；推荐函两封；面试择优。",
-    "official_url": "https://www.mpu.edu.mo/admission_mainland/zh/postgraduate_mainland.php",
+    "official_url": "https://www.mpu.edu.mo/zh-hant/fcg/study/master-degree-programmes/master-of-business-administration/entry-requirements",
     "study_mode": "全日制",
     "curriculum": [
       "管理经济学",
@@ -497,7 +1099,75 @@
       "企业部门总监"
     ],
     "source_file": "schools/mpu_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "8215bb138593b87d11b7",
+          "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+          "label": "新官网研究生课程及授课语言目录"
+        },
+        {
+          "key": "b467eb5f543724aaf227",
+          "url": "https://www.mpu.edu.mo/zh-hant/news/efe6dd7e-65b4-4bba-a7d8-eda64c46fca7",
+          "label": "官方2027/28研究生招生公告"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "b467eb5f543724aaf227",
+              "url": "https://www.mpu.edu.mo/zh-hant/news/efe6dd7e-65b4-4bba-a7d8-eda64c46fca7",
+              "label": "官方2027/28研究生招生公告"
+            },
+            {
+              "key": "8215bb138593b87d11b7",
+              "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+              "label": "新官网研究生课程及授课语言目录"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2024/25或以后入学适用的官网现行标准",
+          "sources": [
+            {
+              "key": "18eb5bde02b54cd7b3d8",
+              "url": "https://www.mpu.edu.mo/zh-hant/gf/for-students/fees/pg_tuitionfees/academic-year-2024-2025-intake-or-after",
+              "label": "财务处：2024/25或以后入学适用收费表"
+            }
+          ],
+          "status": "verified"
+        },
+        "language": {
+          "cycle": "官网现行要求；指南者仅作补充参考",
+          "sources": [
+            {
+              "key": "8215bb138593b87d11b7",
+              "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+              "label": "新官网研究生课程及授课语言目录"
+            },
+            {
+              "key": "ccb9906c181920884cc0",
+              "url": "https://www.mpu.edu.mo/zh-hant/fcg/study/master-degree-programmes/master-of-business-administration/entry-requirements",
+              "label": "项目官网入学要求"
+            },
+            {
+              "key": "b322fb4d04b69874abdc",
+              "url": "https://m.compassedu.hk/majr/63031",
+              "label": "指南者：本项目语言要求（官网未列数值时参考）"
+            }
+          ],
+          "status": "not_published",
+          "note": "不把“官网未列分数”解释为无需语言能力。"
+        }
+      }
+    }
   },
   {
     "id": "mpu-postgraduate-msc-in-finance-and-data-analytics",
@@ -510,20 +1180,20 @@
     "qs_ranking_2026": "1001-1200",
     "college": "管理科学学院",
     "major_cn": "金融与数据分析硕士",
-    "major_en": "MSc in Finance and Data Analytics",
+    "major_en": "Master of Science in Finance with Data Analytics",
     "degree": "MSc",
-    "duration": "2年",
-    "intake": "8月",
-    "fee": "MOP 170,000（约RMB 151,300）",
-    "deadline": "2025年10月15日-2026年5月15日",
-    "ielts": "无需提交（全英文授课，参考语言能力）",
-    "toefl": "无需提交（全英文授课，参考语言能力）",
+    "duration": "正常修读期2年",
+    "intake": "2027/28 学年",
+    "fee": "官网现行标准（适用于2024/25或以后入学）：澳门学生全课程 MOP94,000；内地、香港、台湾学生全课程 MOP170,000；其他国家学生全课程 MOP190,000。正常两学年分两期缴交，每期分别MOP47,000／85,000／95,000。提前完成仍须缴全额；延期、重修及考察费用另计。",
+    "deadline": "2027/28 硕士入学：官网已开放报名，申请截止2027-05-15。须通过官方报名系统提交申请及所需材料。",
+    "ielts": "未列统一最低分；详见语言要求及来源",
+    "toefl": "未列统一最低分；详见语言要求及来源",
     "gaokao_requirement": null,
-    "language_requirement": null,
+    "language_requirement": "官网课程目录授课语言：英语。所查项目入学要求页面未列IELTS、TOEFL统一最低分；应具备相应授课语言能力，并满足面试（如有）及课程额外入学条件。 指南者称未要求提交英语证明，但其授课语言栏与招生目录有差别；此处采用官网目录的英语授课信息。",
     "subject_requirement": null,
     "admission_route": null,
     "req_detail": "具学士学位或同等学历；往届毕业生须提交考研成绩；推荐函两封；面试择优。",
-    "official_url": "https://www.mpu.edu.mo/admission_mainland/zh/postgraduate_mainland.php",
+    "official_url": "https://www.mpu.edu.mo/zh-hant/fcg/study/master-degree-programmes/master-of-science-in-finance-with-data-analytics/entry-requirements",
     "study_mode": "全日制",
     "curriculum": [
       "金融理论",
@@ -547,7 +1217,75 @@
       "银行/证券业数据部门"
     ],
     "source_file": "schools/mpu_data.json",
-    "last_updated": "2026-05-21"
+    "last_updated": "2026-10-22",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "8215bb138593b87d11b7",
+          "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+          "label": "新官网研究生课程及授课语言目录"
+        },
+        {
+          "key": "b467eb5f543724aaf227",
+          "url": "https://www.mpu.edu.mo/zh-hant/news/efe6dd7e-65b4-4bba-a7d8-eda64c46fca7",
+          "label": "官方2027/28研究生招生公告"
+        }
+      ],
+      "newness": "existing",
+      "fields": {
+        "deadline": {
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "b467eb5f543724aaf227",
+              "url": "https://www.mpu.edu.mo/zh-hant/news/efe6dd7e-65b4-4bba-a7d8-eda64c46fca7",
+              "label": "官方2027/28研究生招生公告"
+            },
+            {
+              "key": "8215bb138593b87d11b7",
+              "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+              "label": "新官网研究生课程及授课语言目录"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2024/25或以后入学适用的官网现行标准",
+          "sources": [
+            {
+              "key": "18eb5bde02b54cd7b3d8",
+              "url": "https://www.mpu.edu.mo/zh-hant/gf/for-students/fees/pg_tuitionfees/academic-year-2024-2025-intake-or-after",
+              "label": "财务处：2024/25或以后入学适用收费表"
+            }
+          ],
+          "status": "verified"
+        },
+        "language": {
+          "cycle": "官网现行要求；指南者仅作补充参考",
+          "sources": [
+            {
+              "key": "8215bb138593b87d11b7",
+              "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+              "label": "新官网研究生课程及授课语言目录"
+            },
+            {
+              "key": "975dcde0f821ff208f57",
+              "url": "https://www.mpu.edu.mo/zh-hant/fcg/study/master-degree-programmes/master-of-science-in-finance-with-data-analytics/entry-requirements",
+              "label": "项目官网入学要求"
+            },
+            {
+              "key": "e953711a05046584c980",
+              "url": "https://m.compassedu.hk/majr/72458",
+              "label": "指南者：本项目语言要求（官网未列数值时参考）"
+            }
+          ],
+          "status": "not_published",
+          "note": "不把“官网未列分数”解释为无需语言能力。"
+        }
+      }
+    }
   },
   {
     "id": "mpu-undergraduate-bachelor-of-science-in-computing",
@@ -1448,5 +2186,100 @@
     ],
     "source_file": "schools_undergraduate/mpu_undergraduate_data.json",
     "last_updated": "2026-05-22"
+  },
+  {
+    "school_code": "MPU",
+    "school_name": "澳门理工大学",
+    "school_name_en": "Macao Polytechnic University",
+    "region_cn": "中国澳门",
+    "region_en": "Macao SAR",
+    "qs_ranking_2026": "1001-1200",
+    "id": "mpu-postgraduate-mba-in-gaming-management",
+    "education_level": "postgraduate",
+    "major_cn": "工商管理硕士（博彩管理专业）",
+    "college": "管理科学学院",
+    "degree": "MBA",
+    "study_mode": "中文／英文授课",
+    "curriculum": [],
+    "careers": [],
+    "objectives": "",
+    "req_detail": "须具学士学位或同等学历；报名截止前至少2年全职工作经验，实习及兼职不计。符合工作年限的本科最后一年学生亦可申请。",
+    "source_file": "official-mpu-current-catalogue",
+    "gaokao_requirement": null,
+    "subject_requirement": null,
+    "admission_route": null,
+    "major_en": "Master of Business Administration in Gaming Management",
+    "fee": "官网现行标准（适用于2024/25或以后入学）：澳门学生全课程 MOP94,000；内地、香港、台湾学生全课程 MOP170,000；其他国家学生全课程 MOP190,000。正常两学年分两期缴交，每期分别MOP47,000／85,000／95,000。提前完成仍须缴全额；延期、重修及考察费用另计。",
+    "deadline": "2027/28 硕士入学：官网已开放报名，申请截止2027-05-15。须通过官方报名系统提交申请及所需材料。",
+    "intake": "2027/28 学年",
+    "duration": "正常修读期2年",
+    "ielts": "未列统一最低分；详见语言要求及来源",
+    "toefl": "未列统一最低分；详见语言要求及来源",
+    "language_requirement": "官网课程目录授课语言：中文／英文。所查项目入学要求页面未列IELTS、TOEFL统一最低分；应具备相应授课语言能力，并满足面试（如有）及课程额外入学条件。",
+    "official_url": "https://www.mpu.edu.mo/zh-hant/fcg/study/master-degree-programmes/master-of-business-administration-in-gaming-management-applicable-to-20232024-intake-and-onwards/entry-requirements",
+    "admissions_review": {
+      "checked_on": "2026-10-22",
+      "catalogue_status": "confirmed",
+      "catalogue_sources": [
+        {
+          "key": "8215bb138593b87d11b7",
+          "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+          "label": "新官网研究生课程及授课语言目录"
+        },
+        {
+          "key": "b467eb5f543724aaf227",
+          "url": "https://www.mpu.edu.mo/zh-hant/news/efe6dd7e-65b4-4bba-a7d8-eda64c46fca7",
+          "label": "官方2027/28研究生招生公告"
+        }
+      ],
+      "newness": "added_to_database",
+      "fields": {
+        "deadline": {
+          "cycle": "2027/28 入学",
+          "sources": [
+            {
+              "key": "b467eb5f543724aaf227",
+              "url": "https://www.mpu.edu.mo/zh-hant/news/efe6dd7e-65b4-4bba-a7d8-eda64c46fca7",
+              "label": "官方2027/28研究生招生公告"
+            },
+            {
+              "key": "8215bb138593b87d11b7",
+              "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+              "label": "新官网研究生课程及授课语言目录"
+            }
+          ],
+          "status": "verified"
+        },
+        "fee": {
+          "cycle": "2024/25或以后入学适用的官网现行标准",
+          "sources": [
+            {
+              "key": "18eb5bde02b54cd7b3d8",
+              "url": "https://www.mpu.edu.mo/zh-hant/gf/for-students/fees/pg_tuitionfees/academic-year-2024-2025-intake-or-after",
+              "label": "财务处：2024/25或以后入学适用收费表"
+            }
+          ],
+          "status": "verified"
+        },
+        "language": {
+          "cycle": "官网现行要求",
+          "sources": [
+            {
+              "key": "8215bb138593b87d11b7",
+              "url": "https://www.mpu.edu.mo/zh-hant/admission-main/admission-postgraduate",
+              "label": "新官网研究生课程及授课语言目录"
+            },
+            {
+              "key": "dd8dc15fc9f94cbc460e",
+              "url": "https://www.mpu.edu.mo/zh-hant/fcg/study/master-degree-programmes/master-of-business-administration-in-gaming-management-applicable-to-20232024-intake-and-onwards/entry-requirements",
+              "label": "项目官网入学要求"
+            }
+          ],
+          "status": "not_published",
+          "note": "不把“官网未列分数”解释为无需语言能力。"
+        }
+      }
+    },
+    "last_updated": "2026-10-22"
   }
 ]
