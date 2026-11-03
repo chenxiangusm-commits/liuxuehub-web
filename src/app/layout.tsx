@@ -7,9 +7,9 @@ import { AppProvider } from "@/context/AppContext";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl()),
-  title: "留学Hub | 九万里AI 全球留学选校与AI申请平台",
-  description: "全球院校数据库、AI选校、AI文书、AI面试训练平台",
-  keywords: "留学 AI选校 QS大学 AI文书 AI面试",
+  title: "九万里留学库｜全球院校与硕士选校方案",
+  description: "面向中国学生与留学顾问，查询招生批次、官网要求、申请参考与选校方案",
+  keywords: "留学 院校库 硕士申请 QS排名 选校方案",
 };
 
 export default function RootLayout({
@@ -24,7 +24,7 @@ export default function RootLayout({
           <Navbar />
           {children}
           <CompareTray />
-          <footer className="mx-auto max-w-7xl px-4 py-6 text-xs text-gray-500"><a href="/privacy" className="underline">数据使用说明</a> · <a href="/terms" className="underline">使用条款</a></footer>
+          <footer className="design-container py-6 text-xs text-gray-500"><div className="mb-3 flex flex-wrap gap-4"><a href="/about">九万里留学库</a><a href="/references">行业申请参考</a><a href="/favorites">我的清单</a><a href="/contact">联系顾问</a><span>www.liuxueku.cn</span></div><a href="/privacy" className="underline">数据使用说明</a> · <a href="/terms" className="underline">使用条款</a></footer>
         </AppProvider>
       </body>
     </html>

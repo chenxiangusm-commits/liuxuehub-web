@@ -480,7 +480,7 @@ export async function generateMetadata({ params }: PageProps) {
 
   if (!school) {
     return {
-      title: "学校详情 - 留学Hub",
+      title: "学校详情 - 九万里留学库",
     };
   }
 
@@ -489,7 +489,7 @@ export async function generateMetadata({ params }: PageProps) {
 
   return {
     alternates: {canonical: `/schools/${school.school_code}`},
-    title: `${chineseName} 硕士/本科申请条件｜留学Hub`,
+    title: `${chineseName} 硕士/本科申请条件｜九万里留学库`,
     description: `查看${chineseName}的院校排名、专业设置、国际生学费、语言要求和申请参考。`,
   };
 }

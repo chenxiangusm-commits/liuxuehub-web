@@ -26,12 +26,12 @@ export default function HkApplicantProfile({ profile, compact = false }: { profi
       </label>}
     </div>
     {bands.length > 0 ? <>
-      <p className="text-xs text-blue-700">{compact ? "申请成绩参考" : `${direction || "全校硕士"} · 申请成绩参考`}</p>
+      <p className="text-xs text-blue-700">{compact ? "申请成绩参考" : `${direction || "全校硕士"} · 申请成绩参考`} · {current?.period||'年份未标明'} 年发布样本</p>
       <div className={compact ? "grid grid-cols-1 gap-2" : "grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3"}>
         {bands.map(b => <div key={b.group} className="rounded-xl border border-blue-50 bg-white px-4 py-3">
           <div className="text-xs text-gray-500">{b.group}</div>
           <div className="mt-1 text-lg font-semibold text-gray-900">{formatHkBand(b)}</div>
-          <div className="mt-1 text-xs leading-5 text-gray-500">{b.basisLabel}{b.limited ? " · 样本较少" : ""}</div>
+          <div className="mt-1 text-xs leading-5 text-gray-500">{b.basisLabel} · {b.count}条{b.limited ? " · 样本较少" : ""}</div>
         </div>)}
       </div>
       <p className="text-xs leading-5 text-gray-500">{profile?.directions ? "先看大致区间，再进入具体专业查看要求。" : "结合专业背景与材料一起判断，详细官网要求见下方。"}</p>

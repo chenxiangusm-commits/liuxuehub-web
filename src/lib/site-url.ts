@@ -1,1 +1,1 @@
-export function siteUrl(){const raw=process.env.LIUXUEHUB_SITE_URL||'https://liuxueku.cn';const url=new URL(raw);if(!['https:','http:'].includes(url.protocol))throw Error('Invalid site origin');return url.origin;}
+export function siteUrl(){const raw=process.env.LIUXUEHUB_SITE_URL||'https://www.liuxueku.cn';const url=new URL(raw);if(!['https:','http:'].includes(url.protocol))throw Error('Invalid site origin');return url.origin;}

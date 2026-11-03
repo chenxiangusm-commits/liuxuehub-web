@@ -1,10 +1,3 @@
-import PersonalStatementClient from './PersonalStatementClient';
-
-export const metadata = {
-  title: "AI个人陈述PS - 留学Hub",
-  description: "生成个性化、有说服力的 Personal Statement 完整英文成稿",
-};
-
-export default function PersonalStatementPage() {
-  return <PersonalStatementClient />;
-}
+import ToolUnavailable from '@/components/ToolUnavailable';
+export const metadata={title:'个人陈述 PS｜九万里留学库'};
+export default function Page(){return <ToolUnavailable title="个人陈述 PS"/>;}

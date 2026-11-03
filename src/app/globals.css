@@ -427,3 +427,7 @@ img {
 .home-school-card { display:flex; align-items:center; gap:14px; padding:20px; background:white; border:1px solid #e2e8f0; border-radius:14px; }.home-school-card:hover { border-color:#93c5fd; }
 @media(max-width:1023px) { .home-hero-inner { gap:32px; }.home-hero h1 { font-size:40px; }.home-counts { gap:24px; }.home-counts p { display:none; } }
 @media(max-width:767px) { .home-hero-inner { grid-template-columns:1fr; padding-block:32px; gap:24px; }.home-hero h1 { font-size:34px; }.home-paths { padding:20px; }.home-search { gap:8px; padding-left:12px; }.home-search button { padding-inline:12px; }.home-search button svg { display:none; }.home-counts { justify-content:space-between; gap:12px; }.home-counts>div { flex-direction:column; gap:2px; }.home-counts strong { font-size:22px; } }
+
+/* Portable advisor plans: private notes never enter share URLs. */
+button:disabled{cursor:not-allowed;opacity:.5}
+@media print { .no-print,body>footer{display:none!important}.plan-project{break-inside:avoid;box-shadow:none!important}.design-container{max-width:100%;padding-inline:0}body{background:white!important}a{color:inherit!important} }

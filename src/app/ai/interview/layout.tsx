@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "AI留学面试官体验版 - 留学Hub",
+  title: "AI留学面试官体验版 - 九万里留学库",
   description: "体验院校申请面试流程与 AI 分析报告预览",
 };
 

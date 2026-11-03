@@ -19,13 +19,13 @@ export async function generateMetadata({ params }: PageProps) {
   
   if (!program) {
     return {
-      title: "专业详情 - 留学Hub",
+      title: "专业详情 - 九万里留学库",
     };
   }
 
   return {
     alternates: {canonical: `/programs/${program.id}`},
-    title: `${program.major_cn || program.major_en} 申请条件｜${program.school_name || "学校"}｜留学Hub`,
+    title: `${program.major_cn || program.major_en} 申请条件｜${program.school_name || "学校"}｜九万里留学库`,
     description: `查看${program.school_name || ""}${program.major_cn || program.major_en}的国际生学费、语言要求、申请时间线和AI申请参考。`,
   };
 }

@@ -2,7 +2,7 @@ import LoginClient from "./LoginClient";
 
 export const metadata = {
   robots: {index:false,follow:false},
-  title: "访客使用 | 留学Hub 九万里AI",
+  title: "访客使用｜九万里留学库",
   description: "浏览院校、比较专业，使用本机清单。",
 };
 

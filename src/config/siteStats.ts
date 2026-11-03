@@ -1,6 +1,2 @@
-export const siteStats = {
-  schools: 1000,
-  programs: 30000,
-  aiAnalysis: 100000,
-  interviews: 50000,
-};
+import type {School,ProgramIndexItem} from '@/types';
+export function getSiteStats(schools:School[],programs:ProgramIndexItem[]){return {schools:schools.length,programs:programs.length,postgraduate:programs.filter(p=>p.education_level==='postgraduate').length};}

@@ -1,10 +1,3 @@
-import EssayClient from './EssayClient';
-
-export const metadata = {
-  title: "AI Essay/小文书 - 留学Hub",
-  description: "根据学校题目生成 Essay 成稿和思路",
-};
-
-export default function EssayPage() {
-  return <EssayClient />;
-}
+import ToolUnavailable from '@/components/ToolUnavailable';
+export const metadata={title:'Essay / 小文书｜九万里留学库'};
+export default function Page(){return <ToolUnavailable title="Essay / 小文书"/>;}

@@ -52,7 +52,7 @@ export default function AIProductIntro({ product }: AIProductIntroProps) {
       <section className="rounded-xl border border-blue-100 bg-gradient-to-br from-white to-blue-50 p-5 shadow-sm">
         <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
           <div>
-            <p className="text-xs font-semibold text-blue-600 mb-2">留学Hub 文书助手</p>
+            <p className="text-xs font-semibold text-blue-600 mb-2">九万里留学库 文书助手</p>
             <h1 className="text-2xl font-bold text-gray-900">{copy.title}</h1>
             <p className="mt-2 text-gray-600">{copy.subtitle}</p>
             <p className="mt-3 text-sm leading-6 text-gray-600">
