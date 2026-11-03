@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function NotFound(){return <main className="design-container py-16"><p className="eyebrow">九万里留学库 · 页面未找到</p><h1 className="mt-3 text-3xl font-bold">暂时没有找到这个页面</h1><p className="mt-4 max-w-xl text-sm leading-7 text-slate-600">链接可能已变更，或专业编号不完整。可以返回专业库搜索学校与专业；原有收藏和清单继续保留。</p><div className="mt-7 flex flex-wrap gap-3"><Link className="ui-primary" href="/programs">搜索专业</Link><Link className="ui-secondary" href="/schools">浏览院校</Link><Link className="ui-secondary" href="/favorites">查看我的清单</Link></div></main>;}
