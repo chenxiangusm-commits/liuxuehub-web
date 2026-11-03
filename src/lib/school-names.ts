@@ -3,7 +3,7 @@ export const schoolChineseNames: Record<string, string> = {
   // 澳大利亚
   "ADELAIDE": "阿德莱德大学",
   "ANU": "澳大利亚国立大学",
-  "MONASH": "莫纳什大学",
+  "MONASH": "蒙纳士大学",
   "UNSW": "新南威尔士大学",
   "USYD": "悉尼大学",
   "UQ": "昆士兰大学",
@@ -49,7 +49,7 @@ export const schoolChineseNames: Record<string, string> = {
   "MANCHESTER": "曼彻斯特大学",
   "EDINBURGH": "爱丁堡大学",
   "KCL": "伦敦国王学院",
-  "BRISTOL": "布里斯托尔大学",
+  "BRISTOL": "布里斯托大学",
   "GLASGOW": "格拉斯哥大学",
   "BIRMINGHAM": "伯明翰大学",
   "LEEDS": "利兹大学",
