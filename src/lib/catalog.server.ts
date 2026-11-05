@@ -33,7 +33,7 @@ export async function catalogPage(params:URLSearchParams) {
   if(level!=='all'&&p.education_level!==level)return false;
   if(region&&p.region_cn!==region)return false;
   if(school&&![p.school_code,p.school_name,p.school_name_en].includes(school))return false;
-  if(q&&![p.major_cn,p.major_en,p.degree,p.school_name,p.school_name_en].join(' ').toLowerCase().includes(q))return false;
+  if(q && p.school_code.toLowerCase()!==q && ![p.major_cn,p.major_en,p.degree,p.school_name,p.school_name_en].join(' ').toLowerCase().includes(q))return false;
   if(!matchesSubject(p,subject))return false;
   if(rankMax>0&&(!getQSRank(p)||getQSRank(p)>rankMax))return false;
   if(ieltsMax>0){const score=publishedIelts(p);if(score===null||score>ieltsMax)return false;}
