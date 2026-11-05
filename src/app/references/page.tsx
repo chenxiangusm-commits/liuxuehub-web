@@ -1,10 +1,12 @@
+import { publicMetadata } from '@/lib/public-metadata';
+export const metadata = publicMetadata('/references', '行业申请参考｜九万里留学库', '按本科背景和成绩制查看行业公开案例的聚合参考。');
 import Link from 'next/link';
 import {referenceSchools} from '@/lib/reference.server';
 import {getProgramIndex} from '@/lib/data.server';
 import {programProfile} from '@/lib/catalog.server';
 import HkApplicantProfile from '@/components/HkApplicantProfile';
 import ReferenceFilters from '@/components/ReferenceFilters';
-export const metadata={title:'行业申请参考｜九万里留学库',description:'按本科背景和原成绩制查看行业公开录取案例的聚合参考，区分学校、专业方向和专业样本。'};
+
 export const dynamic='force-dynamic';
 export default async function Page({searchParams}:{searchParams:Promise<Record<string,string|string[]|undefined>>}){
  const params=await searchParams;const schools=await referenceSchools();const region=typeof params.region==='string'?params.region:'';
@@ -12,7 +14,7 @@ export default async function Page({searchParams}:{searchParams:Promise<Record<s
  const id=typeof params.program==='string'?params.program:'';
  const program=id?(await getProgramIndex()).find(p=>p.id===id):undefined;
  const requested=Boolean(id||code);
- const selected=program?schools.find(s=>s.code===program.school_code):code?visible.find(s=>s.code===code):id?undefined:visible[0];
+ const selected=program?schools.find(s=>s.code===program.school_code):code?visible.find(s=>s.code===code):id?undefined:(visible.find(s=>s.profile.bands.length>0)||visible[0]);
  const profile=program?programProfile(program):selected?.profile;
  return <main className="design-container py-10"><p className="eyebrow">九万里留学库 · 选校定位</p><h1 className="mt-2 text-3xl font-bold">行业申请参考</h1><p className="mt-4 max-w-3xl text-sm leading-7 text-slate-600">查看与你相近本科背景的成绩分布，再进入具体项目核对学历、先修课、语言和招生安排。</p><div className="mt-5 rounded-xl border border-blue-100 bg-blue-50 p-4 text-sm leading-7 text-slate-600">来源为行业公开录取背景的聚合统计，{schools.length}所院校有已整理的参考资料。这里不是九万里自有成功案例库，也不展示个人学生经历或录取概率。</div>
  <ReferenceFilters key={`${region}:${selected?.code||''}`} schools={schools.map(({code,name,region})=>({code,name,region}))} initialRegion={program?.region_cn||region} initialSchool={selected?.code||''}/>

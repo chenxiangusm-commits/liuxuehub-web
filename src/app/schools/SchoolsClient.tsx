@@ -5,7 +5,7 @@ import { getQSRank, getQSYear, getQSLabel } from "@/lib/qs-ranking";
 
 import { MouseEvent, useEffect, useMemo, useState } from "react";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
+import Link from "next/link";
 import { useApp } from "@/context/AppContext";
 import { filterSchools, sortSchoolsByRanking } from "@/lib/filters";
 import { getRegionDisplayCn, getSchoolNameCn, getSchoolNameEn } from "@/lib/schoolDisplay";
@@ -19,6 +19,7 @@ import SectionTitle from "@/components/ui/SectionTitle";
 
 interface SchoolsClientProps {
   schools: School[];
+  initialRegion?: string;
 }
 
 const ALL_REGIONS = "全部";
@@ -100,7 +101,6 @@ function SchoolListCard({
   isFavorite: boolean;
   onToggleFavorite: (schoolCode: string) => void;
 }) {
-  const router = useRouter();
   const [logoSrc, setLogoSrc] = useState(getSchoolLogo(school.school_code));
   const href = `/schools/${school.school_code}`;
   const schoolTags = getSchoolTags(school.school_code).slice(0, 2);
@@ -117,23 +117,9 @@ function SchoolListCard({
     onToggleFavorite(school.school_code || "");
   };
 
-  const handleViewClick = (event: MouseEvent<HTMLButtonElement>) => {
-    event.preventDefault();
-    event.stopPropagation();
-    router.push(href);
-  };
 
   return (
     <article
-      role="link"
-      tabIndex={0}
-      onClick={() => router.push(href)}
-      onKeyDown={(event) => {
-        if (event.key === "Enter" || event.key === " ") {
-          event.preventDefault();
-          router.push(href);
-        }
-      }}
       className="group relative flex min-h-[236px] cursor-pointer flex-col overflow-hidden rounded-[22px] border border-slate-200 bg-white p-5 shadow-sm outline-none transition-all duration-200 hover:-translate-y-1 hover:border-blue-200 hover:shadow-xl hover:shadow-blue-100/70 focus-visible:ring-2 focus-visible:ring-blue-500"
     >
       <div className="pointer-events-none absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-blue-600 via-sky-400 to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
@@ -153,7 +139,7 @@ function SchoolListCard({
 
         <div className="min-w-0 flex-1">
           <h3 className="mb-1 truncate text-xl font-black tracking-tight text-slate-950 transition-colors group-hover:text-blue-700">
-            {getSchoolNameCn(school)}
+            <Link href={href} className="school-card-link">{getSchoolNameCn(school)}</Link>
           </h3>
           <p className="line-clamp-1 text-sm font-medium text-slate-500" title={getSchoolNameEn(school)}>
             {getSchoolNameEn(school)}
@@ -172,7 +158,7 @@ function SchoolListCard({
         type="button"
         aria-label={isFavorite ? "取消收藏" : "收藏学校"}
         onClick={handleFavoriteClick}
-        className={`absolute right-5 top-[88px] rounded-full border p-2 transition-colors ${
+        className={`absolute z-10 right-5 top-[88px] min-h-11 min-w-11 grid place-items-center rounded-full border p-2 transition-colors ${
           isFavorite
             ? "border-red-100 bg-red-50 text-red-500 hover:bg-red-100"
             : "border-gray-100 bg-white text-gray-400 hover:border-red-100 hover:bg-red-50 hover:text-red-500"
@@ -205,26 +191,16 @@ function SchoolListCard({
           <p className="text-xs font-semibold text-slate-400">{getProgramCountLabel(educationLevel)}</p>
           <p className="mt-1 text-2xl font-black text-slate-950">{programCount}</p>
         </div>
-        <button
-          type="button"
-          onClick={handleViewClick}
-          className="inline-flex w-full items-center justify-center rounded-2xl bg-blue-600 px-5 py-3 text-sm font-black text-white shadow-lg shadow-blue-600/20 transition-colors hover:bg-blue-700 sm:w-auto"
-        >
-          查看学校
-          <svg className="ml-1.5 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-          </svg>
-        </button>
+        <span aria-hidden="true" className="text-sm font-semibold text-slate-700">查看学校 →</span>
       </div>
     </article>
   );
 }
 
-export default function SchoolsClient({ schools }: SchoolsClientProps) {
+export default function SchoolsClient({ schools, initialRegion }: SchoolsClientProps) {
   const { educationLevel } = useApp();
-  const [clientReady, setClientReady] = useState(false);
   const [keyword, setKeyword] = useState("");
-  const [region, setRegion] = useState(ALL_REGIONS);
+  const [region, setRegion] = useState(normalizeRegionFilter(initialRegion));
   const [qsRanking, setQsRanking] = useState("");
   const [eduLevelFilter, setEduLevelFilter] = useState<"all" | "undergraduate" | "postgraduate">("all");
   const [sortBy, setSortBy] = useState("ranking");
@@ -232,11 +208,8 @@ export default function SchoolsClient({ schools }: SchoolsClientProps) {
   const [favorites, setFavorites] = useState<string[]>([]);
 
   useEffect(() => {
-    setClientReady(true);
     setFavorites(getFavorites());
 
-    const params = new URLSearchParams(window.location.search);
-    setRegion(normalizeRegionFilter(params.get("region")));
 
     const handleUpdate = () => {
       setFavorites(getFavorites());
@@ -297,13 +270,6 @@ export default function SchoolsClient({ schools }: SchoolsClientProps) {
     page * SCHOOLS_PER_PAGE,
   );
 
-  if (!clientReady) {
-    return (
-      <div className="flex h-64 items-center justify-center">
-        <div className="h-12 w-12 animate-spin rounded-full border-b-2 border-blue-600" />
-      </div>
-    );
-  }
 
   return (
     <Container className="py-8">

@@ -1,3 +1,5 @@
+import { publicMetadata } from '@/lib/public-metadata';
+import { PublicSchema } from '@/components/PublicSchema';
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getProgramById } from "@/lib/data.server";
@@ -23,11 +25,7 @@ export async function generateMetadata({ params }: PageProps) {
     };
   }
 
-  return {
-    alternates: {canonical: `/programs/${program.id}`},
-    title: `${program.major_cn || program.major_en} 申请条件｜${program.school_name || "学校"}｜九万里留学库`,
-    description: `查看${program.school_name || ""}${program.major_cn || program.major_en}的国际生学费、语言要求、申请时间线和AI申请参考。`,
-  };
+  return publicMetadata(`/programs/${program.id}`, `${program.major_cn || program.major_en} 申请条件｜${program.school_name || "学校"}｜九万里留学库`, `查看${program.school_name || ""}${program.major_cn || program.major_en}的国际生学费、语言要求、申请时间线和AI申请参考。`);
 }
 
 export default async function ProgramDetailPage({ params }: PageProps) {
@@ -40,7 +38,7 @@ export default async function ProgramDetailPage({ params }: PageProps) {
 
   return (
     <div className="design-container pt-6">
-      {/* 面包屑 */}
+      <PublicSchema entries={[{'@type':'Course',name:program.major_cn||program.major_en,provider:{'@type':'CollegeOrUniversity',name:program.school_name}}]} trail={[{name:'专业库',path:'/programs'},{name:program.major_cn||program.major_en,path:'/programs/'+program.id}]}/>
       <div className="mb-0">
         <nav className="flex flex-wrap items-center gap-2 text-xs">
           <Link href="/" className="text-blue-600 hover:text-blue-800">首页</Link>

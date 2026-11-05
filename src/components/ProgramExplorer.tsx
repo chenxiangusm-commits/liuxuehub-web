@@ -6,19 +6,28 @@ import {compareHkBackground,type HkMatchInput} from '@/lib/hk-applicant-profile'
 import CatalogCard from './CatalogCard';
 import Icon from './ui/Icon';
 import {SUBJECTS} from '@/lib/catalog-policy';
+import {explorerQuery,explorerFilters} from '@/lib/explorer-filters';
 import {budgetIssue} from '@/lib/budget-policy';
 type Results={items:CatalogItem[];total:number;page:number;pages:number;regions:string[];counts?:{published:number;pending:number;history:number}};
-const defaults={q:'',region:'',school:'',level:'postgraduate',year:'',status:'current',duration:'',currency:'',basis:'total',maxFee:'',rmbMax:'',fxRate:'',subject:'',rankMax:'',ieltsMax:'',background:'',sort:'ready',page:'1'};
-export default function ProgramExplorer({matching=false,initial={}}:{matching?:boolean;initial?:Record<string,string|undefined>}){
- const [filters,setFilters]=useState({...defaults,...Object.fromEntries(Object.entries(initial).filter(([k,v])=>k in defaults&&typeof v==='string'))});const [result,setResult]=useState<Results|null>(null);const [loading,setLoading]=useState(true);const [error,setError]=useState('');
+export default function ProgramExplorer({matching=false,initial={},seed}:{matching?:boolean;initial?:Record<string,unknown>;seed?:Results}){
+ const defaults=explorerFilters({},matching);
+ const [filters,setFilters]=useState(()=>explorerFilters(initial,matching));
+ const [result,setResult]=useState<Results|null>(seed??null);
+ const [loading,setLoading]=useState(!seed);
+ const [error,setError]=useState('');
+ const initialKey=useRef(seed?explorerQuery(explorerFilters(initial,matching)).toString():null);
  const [background,setBackground]=useState<HkMatchInput>({group:'双非本科',scale:100,grade:'',academic:'',language:'',intake:''});
  const [compare,setCompare]=useState(false);
  const filterDialog=useRef<HTMLDialogElement>(null);
  const resultHeading=useRef<HTMLDivElement>(null);
  const budgetError=budgetIssue(new URLSearchParams(filters));
- useEffect(()=>{const onBack=()=>setFilters({...defaults,...Object.fromEntries(new URLSearchParams(location.search))});window.addEventListener('popstate',onBack);return()=>window.removeEventListener('popstate',onBack);},[]);
- useEffect(()=>{const controller=new AbortController();const timer=setTimeout(async()=>{
-  setLoading(true);setError('');const query=new URLSearchParams(Object.entries(filters).filter(([,v])=>Boolean(v)) as [string,string][]);
+ useEffect(()=>{const onBack=()=>setFilters(explorerFilters(Object.fromEntries(new URLSearchParams(location.search)),matching));window.addEventListener('popstate',onBack);return()=>window.removeEventListener('popstate',onBack);},[matching]);
+ useEffect(()=>{
+  const query=explorerQuery(filters);
+  if(initialKey.current===query.toString()){setLoading(false);return;}
+  initialKey.current=null;
+  const controller=new AbortController();const timer=setTimeout(async()=>{
+  setLoading(true);setError('');
   history.replaceState(null,'',location.pathname+'?'+query.toString());if(matching)query.set('match','1');
   const issue=budgetIssue(query);if(issue){setResult(null);setError(issue);setLoading(false);return;}
   try{const response=await fetch('/api/catalog?'+query,{signal:controller.signal});const data=await response.json();if(!response.ok)throw new Error(data.error||'暂时无法读取专业，请重试。');if(!controller.signal.aborted)setResult(data);}
@@ -56,7 +65,7 @@ export default function ProgramExplorer({matching=false,initial={}}:{matching?:b
  <div className="mt-4 flex flex-wrap gap-2" aria-label="快速选择招生资料范围">{[{value:'current',name:'全部当前与待公布'},{value:'published',name:'当前批次已公布'},{value:'pending',name:'批次待确认'},{value:'history',name:'历史资料'}].map(s=><button key={s.value} className={filters.status===s.value?'ui-primary':'ui-secondary'} aria-pressed={filters.status===s.value} onClick={()=>change('status',s.value)}>{s.name}</button>)}</div>
  <div ref={resultHeading} className="results-toolbar"><div role="status" aria-live="polite"><p className="text-sm text-slate-700">{loading?'正在查询…':error||<>找到 <strong className="text-lg tabular-nums text-slate-950">{result?.total??0}</strong> 个项目</>}</p><p className="mt-1 text-xs text-slate-500">{result?.counts&&['current','all'].includes(filters.status)?`当前批次已公布 ${result.counts.published} 项 · 批次待确认 ${result.counts.pending} 项 · `:''}按具体招生年份、身份与官网要求判断</p></div><label className="shrink-0"><span className="sr-only">排序</span><select className="sort-select" value={filters.sort} onChange={e=>change('sort',e.target.value)}><option value="ready">批次信息优先</option><option value="rank">QS排名优先</option><option value="name">学校名称</option><option value="deadline">截止日期优先</option></select></label></div>{error&&<button className="mb-4 text-blue-700" onClick={()=>setFilters(x=>({...x}))}>重新加载</button>}
  <div className="catalog-grid" aria-busy={loading}>{!loading&&!error&&result?.items.map(item=><CatalogCard key={item.id} item={item}>{matching&&compare&&<div className="mt-4 rounded-xl bg-blue-50 p-3 text-sm"><p className="font-semibold">{compareHkBackground(item.profile,{...background,academic:'yes',language:'yes',intake:'yes'},['closed','archived'].includes(item.state.code)).title}</p><p className="mt-1 text-xs">仅比较成绩位置；学历、专业背景、语言和批次条件请进入项目逐项确认。</p></div>}</CatalogCard>)}</div>
- {!loading&&!error&&result?.total===0&&<p className="rounded-xl bg-white p-8 text-center text-gray-600">没有符合条件的项目，试试放宽年份、预算或状态筛选。</p>}
+ {!loading&&!error&&result?.total===0&&<p className="rounded-xl bg-white p-8 text-center text-gray-600">没有符合条件的项目，试试放宽年份或预算。{filters.status==='published'&&<button className="ml-2 underline" onClick={()=>change('status','current')}>同时查看批次待确认的项目</button>}</p>}
  {result&&result.pages>1&&<div className="mt-6 flex items-center justify-center gap-4"><button disabled={result.page<=1||loading} className="rounded-lg border px-4 py-2 disabled:opacity-40" onClick={()=>{setFilters(x=>({...x,page:String(result.page-1)}));resultHeading.current?.scrollIntoView({block:'start'});}}>上一页</button><span>{result.page} / {result.pages}</span><button disabled={result.page>=result.pages||loading} className="rounded-lg border px-4 py-2 disabled:opacity-40" onClick={()=>{setFilters(x=>({...x,page:String(result.page+1)}));resultHeading.current?.scrollIntoView({block:'start'});}}>下一页</button></div>}
  </main>;
 }

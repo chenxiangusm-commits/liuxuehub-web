@@ -1,3 +1,5 @@
+import { publicMetadata } from '@/lib/public-metadata';
+import { PublicSchema } from '@/components/PublicSchema';
 import { getQSRank, getQSYear, getQSLabel, getQSSource } from "@/lib/qs-ranking";
 import { notFound, permanentRedirect } from "next/navigation";
 import Image from "next/image";
@@ -487,11 +489,7 @@ export async function generateMetadata({ params }: PageProps) {
   if (schoolCode !== school.school_code) permanentRedirect(`/schools/${school.school_code}`);
   const chineseName = getSchoolChineseName(school.school_code, school.school_name);
 
-  return {
-    alternates: {canonical: `/schools/${school.school_code}`},
-    title: `${chineseName} 硕士/本科申请条件｜九万里留学库`,
-    description: `查看${chineseName}的院校排名、专业设置、国际生学费、语言要求和申请参考。`,
-  };
+  return publicMetadata(`/schools/${school.school_code}`, `${chineseName} 硕士/本科申请条件｜九万里留学库`, `查看${chineseName}的院校排名、专业设置、国际生学费、语言要求和申请参考。`);
 }
 
 export default async function SchoolDetailPage({ params }: PageProps) {
@@ -527,6 +525,7 @@ export default async function SchoolDetailPage({ params }: PageProps) {
   const undergraduateCount=schoolPrograms.filter(p=>p.education_level==='undergraduate').length;
   const intro=school.intro||generateSchoolIntro(chineseName,school.school_code);
   return <main className="design-container school-detail py-6">
+    <PublicSchema entries={[{'@type':'CollegeOrUniversity',name:chineseName,alternateName:school.school_name_en}]} trail={[{name:'院校库',path:'/schools'},{name:chineseName,path:'/schools/'+school.school_code}]}/>
     <nav aria-label="面包屑" className="mb-5 flex flex-wrap items-center gap-2 text-xs text-slate-500"><Link href="/schools">院校库</Link><span>/</span><span>{chineseName}</span></nav>
     <section className="school-hero"><div className="flex items-center gap-4"><div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-2xl border border-slate-100 bg-white p-3"><Image src={logoPath} alt={getSchoolLogoAlt(chineseName)} width={64} height={64} className="max-h-14 object-contain" priority/></div><div className="min-w-0"><h1>{chineseName}</h1><p className="mt-1 text-sm text-slate-500">{school.school_name_en||school.school_name}</p><div className="mt-3 flex flex-wrap gap-2"><span className="meta-chip">{fixRegion(school.region_cn)}</span>{getQSRank(school)>0&&<a href={getQSSource(school)} target="_blank" rel="noopener noreferrer" className="meta-chip">QS {getQSYear(school)} · {getQSLabel(school)}</a>}{getSchoolTags(school.school_code).map(tag=><span key={tag} className="meta-chip">{tag}</span>)}</div></div></div><div className="school-hero-actions"><p className="mb-3 text-sm text-slate-500">收录 <strong className="text-2xl font-semibold text-slate-900">{programCount}</strong> 个项目</p><a href={`#${programsAnchor}`} className="ui-primary">查看硕士项目 <span className="font-normal opacity-80">{postgraduateCount}</span> ↓</a></div></section>
     <div className="school-intro"><p>{intro}</p><details><summary>展开学校简介</summary><div className="mt-2">{intro}</div></details></div>

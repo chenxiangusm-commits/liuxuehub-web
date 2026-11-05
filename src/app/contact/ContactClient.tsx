@@ -1,15 +1,42 @@
 'use client';
-import {useEffect,useState} from 'react';
-import {useSearchParams} from 'next/navigation';
 import Link from 'next/link';
-import {SITE} from '@/config/site';
-import {consultationText,parseSharedIds} from '@/lib/plan';
-import type {CatalogItem} from '@/lib/catalog-types';
-export default function ContactClient(){
- const params=useSearchParams();const raw=params.get('ids');const [items,setItems]=useState<CatalogItem[]>([]),[message,setMessage]=useState('');
- useEffect(()=>{const ids=parseSharedIds(raw);setItems([]);if(!ids.length)return;const c=new AbortController();fetch('/api/catalog',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({ids}),signal:c.signal}).then(async r=>{if(!r.ok)throw Error('清单暂时读取失败，可在邮件中补充项目链接。');return r.json();}).then(d=>setItems(d.items)).catch(e=>{if(!c.signal.aborted)setMessage(e.message);});return()=>c.abort();},[raw]);
- const text=consultationText(items);
- // The mail client remains responsible for reviewing and sending; no contact is submitted here.
- const body=encodeURIComponent(text).length<1500?text:`您好，我想咨询一份${items.length}个专业的选校清单。\n请回复我以进一步沟通申请条件、选校组合和材料准备。\n\n我会附上从九万里留学库复制的咨询摘要。`;
- return <main className="design-container py-10"><div className="mx-auto max-w-3xl"><p className="eyebrow">九万里留学库 · 咨询与方案沟通</p><h1 className="mt-2 text-3xl font-bold">让顾问看看我的选校方向</h1><p className="mt-4 leading-7 text-slate-600">带上目标学校和专业、预算与入学年份，沟通申请条件、选校组合和待准备材料。</p><section className="mt-7 rounded-2xl border bg-white p-6"><h2 className="text-lg font-semibold">联系邮箱</h2><a className="mt-3 block break-all text-xl font-semibold text-blue-700" href={'mailto:'+SITE.email}>{SITE.email}</a><p className="mt-3 text-sm leading-7 text-slate-500">点击下方按钮将打开你的邮件应用。内容由你检查、编辑并发送，本页不会自动发送或提交咨询。较长清单请先复制下方完整摘要，再粘贴到邮件。</p><div className="mt-5 flex flex-wrap gap-3"><a className="ui-primary" href={'mailto:'+SITE.email+'?subject='+encodeURIComponent('选校方案咨询｜九万里留学库')+'&body='+encodeURIComponent(body)}>打开咨询邮件草稿</a><button className="ui-secondary" onClick={async()=>{try{await navigator.clipboard.writeText(text);setMessage('咨询摘要已复制，可粘贴到你的邮件中。');}catch{setMessage('未能复制，可手动选择下方摘要。');}}}>复制咨询摘要</button></div><p role="status" className="mt-3 text-sm text-blue-700">{message}</p></section><section className="mt-6 rounded-2xl border bg-white p-6"><h2 className="text-lg font-semibold">本次咨询摘要{items.length>0&&` · ${items.length} 个专业`}</h2><pre className="mt-4 whitespace-pre-wrap break-words font-sans text-sm leading-7 text-slate-600">{text}</pre><p className="mt-4 text-xs leading-6 text-slate-500">摘要只包含公开项目资料，不自动读取本机学生备注。请勿在邮件中附上不必要的证件信息。</p></section><div className="mt-6 flex flex-wrap gap-3"><Link className="ui-secondary" href="/favorites">整理选校清单</Link><Link className="ui-secondary" href="/programs">继续查询专业</Link><Link className="ui-secondary" href="/about">了解九万里留学库</Link></div></div></main>;
+import { useState } from 'react';
+import { SITE } from '@/config/site';
+import { consultationText } from '@/lib/plan';
+import type { CatalogItem } from '@/lib/catalog-types';
+
+export default function ContactClient({items}: {items: CatalogItem[]}) {
+  const [goal, setGoal] = useState('');
+  const [year, setYear] = useState('');
+  const [question, setQuestion] = useState('');
+  const [message, setMessage] = useState('');
+  const text = [consultationText(items), goal.trim() && '目标地区或专业：'+goal.trim(),
+    year.trim() && '计划入学：'+year.trim(), question.trim() && '我想了解：'+question.trim()].filter(Boolean).join('\n\n');
+  const long = encodeURIComponent(text).length > 1500;
+  const body = long ? '您好，我想咨询留学申请。完整咨询摘要将粘贴在此邮件中。' : text;
+  async function copy(value: string, label: string) {
+    try { await navigator.clipboard.writeText(value); setMessage(label+'已复制。'); }
+    catch { setMessage('浏览器未能复制，请长按或选中页面中的文字手动复制。'); }
+  }
+  return <>
+    <section className="mt-5 rounded-2xl border bg-white p-6">
+      <h2 className="text-lg font-semibold">整理咨询摘要</h2>
+      <p className="mt-2 text-sm text-slate-600">以下内容均可选，仅在当前页面生成邮件草稿。</p>
+      <div className="mt-4 grid gap-4 sm:grid-cols-2">
+        <label>目标地区或专业<input className="ui-input mt-1" maxLength={120} value={goal} onChange={e=>setGoal(e.target.value)} placeholder="例如 香港 · 数据科学"/></label>
+        <label>计划入学时间<input className="ui-input mt-1" maxLength={50} value={year} onChange={e=>setYear(e.target.value)} placeholder="例如 2027年秋季"/></label>
+        <label className="sm:col-span-2">想请顾问帮你看什么<textarea className="ui-input mt-1" maxLength={500} value={question} onChange={e=>setQuestion(e.target.value)} placeholder="例如 我的本科专业是否满足先修课要求？"/></label>
+      </div>
+      <h3 className="mt-5 font-semibold">本次咨询摘要{items.length>0 && ' · '+items.length+' 个专业'}</h3>
+      <p className="mt-2 whitespace-pre-wrap break-words rounded-lg bg-slate-50 p-4 text-sm leading-7">{text}</p>
+      <p className="mt-4 text-sm leading-7 text-slate-600">{long && '摘要较长，请先复制完整摘要，再粘贴到邮件。'}由你在邮件应用里确认发送。也可以复制邮箱和摘要，在常用邮箱中发送。</p>
+      <div className="mt-4 flex flex-wrap gap-2">
+        <a className="ui-primary" href={'mailto:'+SITE.email+'?subject='+encodeURIComponent('选校方案咨询｜九万里留学库')+'&body='+encodeURIComponent(body)}>打开咨询邮件草稿</a>
+        <button className="ui-secondary" onClick={()=>copy(SITE.email,'邮箱')}>复制邮箱</button>
+        <button className="ui-secondary" onClick={()=>copy(text,'咨询摘要')}>复制咨询摘要</button>
+      </div>
+      <p role="status" className="mt-2 text-sm text-blue-700">{message}</p>
+    </section>
+    <div className="mt-5 flex flex-wrap gap-4"><Link className="ui-secondary" href="/favorites">整理我的清单</Link><Link className="ui-secondary" href="/programs">继续查专业</Link></div>
+  </>;
 }
