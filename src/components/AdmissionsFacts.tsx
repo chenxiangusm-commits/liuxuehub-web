@@ -38,8 +38,11 @@ export default function AdmissionsFacts({ program }: { program: Program }) {
     <dl className="divide-y divide-gray-100 text-sm leading-7 text-gray-700">
       <div className="pb-4">
         <dt className="mb-2 font-semibold text-gray-900">申请截止时间</dt>
-        <dd>{info.rounds.length ? <ul className="space-y-2">{info.rounds.map((r, n) => <li key={`${r.date}-${n}`} className={roundIsClosed(r, program.region_cn) ? "text-gray-500" : "text-gray-800"}>
-          <span className="font-medium">{r.label}：</span>{r.display}{roundIsClosed(r, program.region_cn) && <span className="ml-2 text-xs">已截止</span>}
+        {info.deadlineCheckedOn && <p className="mb-2 text-xs text-gray-500">
+          {info.deadlineCheckStatus === "confirmed" ? "申请时间已按本批次官网核对" : "已检查官网，课程专属日期仍需确认"} · {info.deadlineCheckedOn}
+        </p>}
+        <dd>{info.rounds.length ? <ul className="space-y-2">{info.rounds.map((r, n) => <li key={`${r.date}-${n}`} className={roundIsClosed(r, program.region_cn, undefined, program.school_code) ? "text-gray-500" : "text-gray-800"}>
+          <span className="font-medium">{r.label}：</span>{r.display}{roundIsClosed(r, program.region_cn, undefined, program.school_code) && <span className="ml-2 text-xs">已截止</span>}
         </li>)}</ul> : info.deadlineSummary}
           <HKUSources sources={info.sources.deadline} />
         </dd>

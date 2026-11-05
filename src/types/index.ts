@@ -53,6 +53,8 @@ export interface AdmissionsPreview {
   applicantScope: string;
   mode: string;
   updatedOn: string;
+  deadlineCheckedOn?: string;
+  deadlineCheckStatus?: "confirmed" | "needs_confirmation";
   intakeLabel: string;
   feeShort: string;
   feeNote: string;
